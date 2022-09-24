@@ -1,0 +1,163 @@
+---
+title: "People"
+---
+
+### Jeffrey R. Stevens
+
+![](jeff.png){fig-alt="Jeff Stevens" width="200" fig-align="left"}
+
+#### E-mail: [jeffreyrstevens@protonmail.com](mailto:jeffreyrstevens@protonmail.com)
+
+#### Phone: +1 402 472 3721
+
+Dr. Stevens is the director of the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu). He received his Ph.D. in Ecology, Evolution, and Behavior from the University of Minnesota in 2002. He then spent four years as a Ruth L Kirschstein postdoctoral fellow in the Department of Psychology at Harvard University. From 2006-2011, he held a research scientist position in the Center for Adaptive Behavior and Cognition at the Max Planck Institute for Human Development.  
+  
+Dr. Stevens is a Susan J. Rosowski Associate Professor in the Department of Psychology and is a resident faculty member in the Center for Brain, Biology & Behavior. He was founding editor-in-chief of [Frontiers in Comparative Psychology](http://www.frontiersin.org/comparative%20psychology) from 2010-2017. Dr. Stevens is interested in the evolution of decision making in humans and other animals. At the moment, his research focuses on intertemporal choice, risky choice, cooperation, and human-animal interaction. He teaches courses on Evolution, Behavior and Society; Controversial Issues in Psychology; the Psychology of Decision Making; and Data Science and Visualization in R.
+
+[Curriculum vitae (HTML)](https://jeffreyrstevens.github.io/cv/)
+
+[Curriculum vitae (PDF)](https://jeffreyrstevens.github.io/cv/cv.pdf)
+
+  
+
+Graduate Students
+-----------------
+
+### Francine Goh
+
+![](images/francine_goh.jpg){fig-alt="Francine Goh" width="200" fig-align="left"}
+
+Francine graduated with a B.S. in Psychology from Fontbonne University in 2015. As an undergraduate, she explored the effects of stress on decision making in social dilemmas for her senior thesis. Francine is interested in decision making behavior in social contexts, particularly in when individuals decide to engage in prosocial behavior and cooperate with others.
+
+### London Wolff
+
+![](images/london_wolff.jpg){fig-alt="London Wolff" width="200" fig-align="left"}
+
+London graduated with honors in Biology and Animal Behavior, Ecology and Conservation from Canisius College in 2016. She completed her senior thesis on the affects of the domestication process on dogs’ social cognitive skills. Subsequently she researched decision making with orangutans and dolphins as well as long-tailed macaque social structure at the Indianapolis Zoo. London is interested in exploring how social structure and developmental differences of individuals across and within species impact their decision making processes, specifically looking at impulsivity and risk taking.
+
+  
+
+Undergraduate Students
+----------------------
+
+### Jessica Barela
+
+![](images/jessica_barela.jpg){fig-alt="Jessica Barela" width="200" fig-align="left"}
+
+### Hunter DeBoer
+
+![](images/hunter_deboer.jpg){fig-alt="Hunter DeBoer" width="200" fig-align="left"}
+
+### Miranda Dresen
+
+![](images/miranda_dresen.png){fig-alt="Miranda Dresen" width="200" fig-align="left"}
+
+### Hannah Fitzpatrick
+
+![](images/hannah_fitzpatrick.jpg){fig-alt="Hannah Fitzpatrick" width="200" fig-align="left"}
+
+### Joelle Sanger
+
+![](images/joelle_sanger.jpg){fig-alt="Joelle Sanger" width="200" fig-align="left"}
+
+### Tate Trumler
+
+![](images/tate_trumler.jpg){fig-alt="Tate Trumler" width="200" fig-align="left"}
+
+### Bailey Wilson
+
+![](images/bailey_wilson.jpg){fig-alt="Bailey Wilson" width="200" fig-align="left"}
+
+### Yasmin Worth
+
+![](images/yasmin_worth.png){fig-alt="Yasmin Worth" width="200" fig-align="left"}
+
+  
+
+Former Lab Members
+------------------
+
+* Holly Ahmann
+* Meredith Batten
+* Jesse Baumann-Berg
+* Toria Biancalana
+* Kenanile Bigba
+* Brandon Bogus
+* Megan Bosworth
+* Rachel Bruner
+* Katie Carey
+* Denise Chin
+* Allie Cruikshank
+* Victoria Contreras
+* Tyler Cully
+* Yesenia Delgadillo-Orozco
+* Chandler Dulin
+* [Juan Duque (Arcadia University)](https://www.arcadia.edu/profile/juan-duque)
+* Wren Dwinell
+* Jasmine Emerick
+* Alex Enerson
+* Rose Felice
+* Krysten Fries
+* Aiswary Ganapathy
+* Cherylynn Gibson
+* Patrick Griffin
+* Shannon Guy
+* Kris Hans
+* Haley Hayes
+* Treavor Heeney
+* Madi Hemenway
+* Megan Herridge
+* Marisa Howell
+* Kylie Hughes
+* Teresa Jarrett
+* Camryn Kelly
+* Kendall Kelly
+* Maggie Kempf
+* Haley Kizer
+* Emma Klein
+* Laura Klein
+* Kristina Lech
+* Nik Leger
+* Whitney Leichner
+* Billy Lim
+* Alexis Lindner
+* Gretchen Lusso
+* Athena Manning
+* Stephanie Marsh
+* Isaac Martinez
+* Maddie Mathias
+* Trevor Mattox
+* Sama Mehta
+* Carly Moran
+* Brianna Moser
+* Duy Nguyen
+* Dina Morales
+* Vitor Hugo Oliveira
+* Christa Ostdiek
+* Alexandria PytlikZillig
+* Nina Radulovic
+* Tanner Rasmussen
+* McKenna Rezny
+* Anna Rodriguez
+* Sanjaya Roy
+* Alex Ruhlman
+* Kayla Ruterbories
+* Alexis Saltzman
+* Taylor Schendt
+* Matt Schmitt
+* Molly Shane
+* Kole Smith
+* Tyler Stading
+* Emily Stockwell
+* Noah Svec
+* [Elise Thayer (Farm Credit Services of America)](https://www.linkedin.com/in/elisethayer)
+* Adam Thurley
+* Destiny Vail
+* Audrey Vist
+* Liza Welles
+* Sam Wenzel
+* Haley Wilson
+* Aotian Yang
+* Chelsea Yang
+* McKenna Yohe
+* Molly Zuercher

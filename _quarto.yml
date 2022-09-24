@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "Jeffrey R. Stevens"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - text: Research
+        menu:
+        - href: cv.qmd
+          text: CV
+        - href: publications.qmd
+          text: Publications
+        - href: people.qmd
+          text: People
+      - href: software.qmd
+        text: Software
+      - href: blog.qmd
+        text: Blog
+
+  page-footer:
+    background: light
+    left: "&copy; 2022 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
+    right:
+      - icon: github
+        href: https://github.com/JeffreyRStevens
+      - icon: twitter
+        href: https://twitter.com/JeffStevensADML
+      - icon: linkedin
+        href: https://www.linkedin.com/in/JeffreyRStevens/
+      - icon: envelope
+        href: jeffrey.r.stevens@protonmail.com
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+
+
