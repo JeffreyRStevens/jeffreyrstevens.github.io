@@ -5,7 +5,7 @@ author:
 date: '2022-08-09'
 categories:
   - coding
-  - R packages
+  - R package
 description: "Use the excluder package to exclude survey data."
 image: excluder_hex.png
 image-alt: "Excluder package hex logo with rows of data exed out."
