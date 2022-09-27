@@ -14,9 +14,9 @@ Dr. Stevens is the director of the [Canine Cognition and Human Interaction Lab](
   
 Dr. Stevens is a Susan J. Rosowski Associate Professor in the Department of Psychology and is a resident faculty member in the Center for Brain, Biology & Behavior. He was founding editor-in-chief of [Frontiers in Comparative Psychology](http://www.frontiersin.org/comparative%20psychology) from 2010-2017. Dr. Stevens is interested in the evolution of decision making in humans and other animals. At the moment, his research focuses on intertemporal choice, risky choice, cooperation, and human-animal interaction. He teaches courses on Evolution, Behavior and Society; Controversial Issues in Psychology; the Psychology of Decision Making; and Data Science and Visualization in R.
 
-[Curriculum vitae (HTML)](https://jeffreyrstevens.github.io/cv/)
+[Curriculum vitae (HTML)](cv.html)
 
-[Curriculum vitae (PDF)](https://jeffreyrstevens.github.io/cv/cv.pdf)
+[Curriculum vitae (PDF)](cv.pdf)
 
   
 
