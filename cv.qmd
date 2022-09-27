@@ -1,13 +1,16 @@
 ---
 title: "Jeffrey R. Stevens - Curriculum vitae"
 geometry:
-  - right=1.5in
+  - right=1in
 format:
   pdf: default
   html:
+    css: flipmargin.css
     toc: true
     toc-location: left
 ---
+\reversemarginpar
+
 Department of Psychology • Center for Brain, Biology & Behavior • University of Nebraska-Lincoln
 
 [PDF Version](cv.pdf)

@@ -1,0 +1,14 @@
+/* redefine the margin position in the grid to the left side */
+.column-margin {
+  grid-column: body-start-outset/body-start !important;
+}
+
+/* redefine the margin bar position in the grid to the left side */
+#quarto-margin-sidebar {
+ grid-column: body-start-outset/body-start;
+}
+
+/* redefine the sidebar portion in the grid to the right side */
+#quarto-sidebar {
+ grid-column: body-end/page-end;
+}

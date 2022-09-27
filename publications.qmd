@@ -2,6 +2,7 @@
 title: "Publications"
 format:
   html:
+    css: flipmargin.css
     toc: true
     toc-location: left
 ---
