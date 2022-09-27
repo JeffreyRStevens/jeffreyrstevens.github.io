@@ -19,6 +19,7 @@ website:
         text: Software
       - href: blog.qmd
         text: Blog
+  google-analytics: "G-1P6FW90MJL"
 
   page-footer:
     background: light
