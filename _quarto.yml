@@ -19,7 +19,11 @@ website:
         text: Software
       - href: blog.qmd
         text: Blog
-  google-analytics: "G-1P6FW90MJL"
+  google-analytics:
+    tracking-id: "G-1P6FW90MJL"
+    anonymize-ip: true
+  cookie-consent: true
+
 
   page-footer:
     background: light
