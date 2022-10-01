@@ -60,10 +60,6 @@ Undergraduate Students
 
 ![](images/joelle_sanger.jpg){fig-alt="Joelle Sanger" width="200" fig-align="left"}
 
-### Tate Trumler
-
-![](images/tate_trumler.jpg){fig-alt="Tate Trumler" width="200" fig-align="left"}
-
 ### Bailey Wilson
 
 ![](images/bailey_wilson.jpg){fig-alt="Bailey Wilson" width="200" fig-align="left"}
