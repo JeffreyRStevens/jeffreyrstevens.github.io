@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "!cv_old.qmd"
+    - "!pubs.qmd"
+    - "!test.qmd"
 
 website:
   title: "Jeffrey R. Stevens"
