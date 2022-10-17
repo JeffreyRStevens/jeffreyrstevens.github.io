@@ -1,6 +1,7 @@
 project:
   type: website
   render:
+    - "*.qmd"
     - "!cv_old.qmd"
     - "!pubs.qmd"
     - "!test.qmd"
