@@ -318,8 +318,20 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  ManyDogs Project, Espinosa, J., Bray, E., Buchsbaum, D., Byosiere, S.-E., Byrne, M., Freeman, M. S., Gnanadesikan, G., Guran, C.-N. A., Horschler, D., Huber, L., Johnston, A., MacLean, E., Pelgrim, M. H., Santos, L., Silver, Z. A., **Stevens, J. R.**, Völter, C., & Zipperling, L. (2021). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. Stage 1 registered report at *Animal Behavior & Cognition*. [preprint at _PsyArXiv_](https://doi.org/10.31234/osf.io/f86jq) [[PDF](https://decisionslab.unl.edu/pubs/manydogs_2021_preprint.pdf)]
 
- **Stevens, J.R.**, \*Cully, T., & \*Goh, F.W. (2021). Framing attributes in similarity judgments and intertemporal choices. [preprint at _PsyArXiv_](https://doi.org/10.31234/osf.io/csnqv) 
+ **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. [preprint at _OSF Preprints_](https://osf.io/w7dks).
  
+ **Stevens, J.R.**, \*Cully, T., & \*Goh, F.W. (2021). Framing attributes in similarity judgments and intertemporal choices. [preprint at _PsyArXiv_](https://doi.org/10.31234/osf.io/csnqv) 
+
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- <a href="https://decisionslab.unl.edu/pubs/stevens_etal_2021.pdf" title="PDF" class="cv-pub-links">PDF</a> -->
+<!-- <a href="https://decisionslab.unl.edu/pubs/stevens_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a> -->
+<!-- <a href="https://osf.io/qv542/" title="Data" class="cv-pub-links">Data</a> -->
+<!-- <a href="https://osf.io/gdhf8/" title="R code" class="cv-pub-links">R Code</a> -->
+<!-- <a href="data/stevens_etal_2021_rr.zip" title="Reproducible materials" class="cv-pub-links">Reproducible materials</a> -->
+<!-- <a href="https://osf.io/xnwra/" title="OSF" class="cv-pub-links">OSF</a> -->
+<!-- <a href="https://psyarxiv.com/csnqv" title="PsyArXiv" class="cv-pub-links">PsyArXiv</a> -->
+<!-- :::  -->
+
 
 ## Presentations
 
@@ -731,6 +743,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  Great Plains IDeA-CTR Vouchers for Core Facilities, "Exercise and temporal food choices" PI with Karsten Koehler (\$4,400)
 
+[2019-2022]{.aside} 
+
+ Great Plains IDeA-CTR Pilot Program, "Age-related differences in food choices and appetite regulation in the context of exercise\", co-PI with Julie Boron (PI), Karsten Koehler, and Cary Savage (\$73,250)
+
 [2020-2021]{.aside} 
 
  University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship, "Assessing numerical discrimination in dogs", PI with Mike Dodd (\$10,000)
@@ -740,10 +756,6 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 [2017-]{.aside} 
 
  National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
-
-[2019-]{.aside} 
-
- Great Plains IDeA-CTR Pilot Program, "Age-related differences in food choices and appetite regulation in the context of exercise\", co-PI with Julie Boron (PI), Karsten Koehler, and Cary Savage (\$73,250)
 
 [2021-]{.aside} 
 
