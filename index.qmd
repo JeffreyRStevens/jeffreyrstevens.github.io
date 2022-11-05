@@ -7,6 +7,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/JeffStevensADML
+    - icon: mastodon
+      text: Mastodon
+      href: https://fediscience.org/@JeffreyRStevens
     - icon: github
       text: Github
       href: https://github.com/JeffreyRStevens
@@ -26,3 +29,4 @@ I train the next generation of data scientists. As a professor, I have trained h
 
 <p align="center"><a href="/images/resume.pdf" class="btn btn-primary">Resume</a></p>
 
+<a rel="me" href="https://fediscience.org/@JeffreyRStevens"></a>
