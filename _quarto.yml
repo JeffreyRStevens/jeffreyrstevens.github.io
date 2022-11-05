@@ -1,5 +1,10 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!cv_old.qmd"
+    - "!pubs.qmd"
+    - "!test.qmd"
 
 website:
   title: "Jeffrey R. Stevens"
@@ -19,15 +24,22 @@ website:
         text: Software
       - href: blog.qmd
         text: Blog
+  google-analytics:
+    tracking-id: "G-1P6FW90MJL"
+    anonymize-ip: true
+  cookie-consent: true
+
 
   page-footer:
     background: light
     left: "&copy; 2022 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
     right:
-      - icon: github
-        href: https://github.com/JeffreyRStevens
       - icon: twitter
         href: https://twitter.com/JeffStevensADML
+      - icon: mastodon
+        href: https://fediscience.org/@JeffreyRStevens
+      - icon: github
+        href: https://github.com/JeffreyRStevens
       - icon: linkedin
         href: https://www.linkedin.com/in/JeffreyRStevens/
       - icon: envelope
