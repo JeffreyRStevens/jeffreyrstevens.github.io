@@ -34,10 +34,12 @@ website:
     background: light
     left: "&copy; 2022 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
     right:
-      - icon: github
-        href: https://github.com/JeffreyRStevens
       - icon: twitter
         href: https://twitter.com/JeffStevensADML
+      - icon: mastodon
+        href: https://fediscience.org/@JeffreyRStevens
+      - icon: github
+        href: https://github.com/JeffreyRStevens
       - icon: linkedin
         href: https://www.linkedin.com/in/JeffreyRStevens/
       - icon: envelope

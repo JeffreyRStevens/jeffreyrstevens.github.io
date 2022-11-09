@@ -7,6 +7,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/JeffStevensADML
+    - icon: mastodon
+      text: Mastodon
+      href: https://fediscience.org/@JeffreyRStevens
     - icon: github
       text: Github
       href: https://github.com/JeffreyRStevens
@@ -18,11 +21,12 @@ about:
       href: jeffrey.r.stevens@gmail.com
 ---
 
-I am a Susan J. Rosowski Associate Professor in the Department of Psychology and the Center for Brain, Biology & Behavior at the University of Nebraska-Lincoln, where I direct the <a target='_blank' href='https://dogcog.unl.edu'>Canine Cognition and Human Interaction Lab</a>. I am also a Data Science Mentor at <a target='_blank' href='https://www.rstudio.com/academy'>RStudio Academy</a>.
+I am a Susan J. Rosowski Associate Professor in the Department of Psychology and the Center for Brain, Biology & Behavior at the University of Nebraska-Lincoln, where I direct the <a target='_blank' href='https://dogcog.unl.edu'>Canine Cognition and Human Interaction Lab</a>. I am also a Data Science Mentor at <a target='_blank' href='https://posit.co/academy'>Posit Academy</a> (formerly RStudio).
 
 My research program uses data science to understand decision making in humans and other animals. My research integrates perspectives from biology, psychology, computer science, neuroscience, and economics. I employ open science practices to ensure that my work is transparent, accessible, and reproducible.
     
-I train the next generation of data scientists. As a professor, I have trained hundreds of undergraduates, graduate students, and even faculty in how to think about, analyze, visualize, and report their data. As a data science mentor at RStudio, I do the same for corporate employees
+I train the next generation of data scientists. As a professor, I have trained hundreds of undergraduates, graduate students, and even faculty in how to think about, analyze, visualize, and report their data. As a data science mentor at Posit, I do the same for corporate employees.
 
 <p align="center"><a href="/images/resume.pdf" class="btn btn-primary">Resume</a></p>
 
+<p style="font-size:1px; "><a rel="me" href="https://fediscience.org/@JeffreyRStevens">.</a></p>
