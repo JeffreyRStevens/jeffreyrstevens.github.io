@@ -56,13 +56,17 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  Associate professor, Department of Psychology, University of Nebraska-Lincoln
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2020-]{.aside}
  
  Susan J. Rosowski associate professor, Department of Psychology, University of Nebraska-Lincoln
 
 [2022-]{.aside}
 
- Data science mentor, [RStudio Academy](https://www.rstudio.com/academy)
+ Data science mentor, [Posit Academy](https://posit.co/academy) (formerly RStudio)
 
 
 ## Education
@@ -195,6 +199,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  \#**Stevens, J.R.** & \*Mühlhoff, N. (2012). Intertemporal choice in lemurs. *Behavioural Processes*, *89*, 121-127. [doi:10.1016/j.beproc.2011.10.002](http://doi.org/10.1016/j.beproc.2011.10.002)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2013]{.aside}
 
  \#Kaighobadi, F. & **Stevens, J.R.** (2013). Does fertility status influence impulsivity and risk taking in human females? Adaptive influences on intertemporal choice and risky decision making. *Evolutionary Psychology*, *11*, 700-717. [doi:10.1177/147470491301100314](http://doi.org/10.1177/147470491301100314)
@@ -256,6 +264,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  **Stevens, J.R.**, Woike, J., Schooler, L.J., \*Lindner, S., and Pachur, T. (2018) Social contact patterns can buffer costs of forgetting in the evolution of cooperation. *Proceedings of the Royal Society of London, Series B*, 285(1880), 20180407. [doi:10.1098/rspb.2018.0407](https://doi.org/10.1098/rspb.2018.0407)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2019]{.aside}
 
  Koehler, K., Boron, J.B., Garvin, T.M., Bice, M.R., & **Stevens, J.R.** (2019). Differential relationship between physical activity and intake of added sugar and nutrient-dense foods: A cross-sectional analysis. *Appetite*, 120, 91-97. [doi:10.1016/j.appet.2019.05.010](https://doi.org/10.1016/j.appet.2019.05.010)
@@ -289,8 +301,6 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
  **Stevens, J.R.**, \*Saltzman, A., \*Rasumussen, T., & Soh, L.-K. (2021). Improving measurements of similarity judgments with machine-learning algorithms. *Journal of Computational Social Science*, 4(2), 613-629. [doi:10.1007/s42001-020-00098-1](https://doi.org/10.1007/s42001-020-00098-1) 
 
  **Stevens, J.R.**, \*Wolff, L.M., \*Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict obedience and impulsivity. *Animal Cognition*, 24(2) 219-230. [doi:10.1007/s10071-020-01458-0](https://doi.org/10.1007/s10071-020-01458-0)
-
- \*Thayer, E.R. & **Stevens, J.R.** (2021). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [preprint at *PsyArXiv*](https://doi.org/10.31234/osf.io/7v5nq)
 
 [2022]{.aside}
 
@@ -352,6 +362,46 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 <a href="https://psyarxiv.com/hyvdq" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+ \*Goh, F., \*Jungck, A.C., & **Stevens, J.R.** (2022). Pro tip: Screen-based payment methods increase negative feelings in consumers but do not increase tip sizes. [doi:10.33422/ejbs.v4i4.678](https://doi.org/10.33422/ejbs.v4i4.678) 
+
+::: {.content-visible when-format="html"}
+<a href="https://decisionslab.unl.edu/pubs/goh_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://decisionslab.unl.edu/pubs/goh_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="https://osf.io/bqf52/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/yfne8" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+ Miller, R., Lambert, M. L., Frohnwieser, A., Brecht, K. F., Bugnyar, T., Crampton, I., Garcia-Pelegrin, E., Gould, K., Greggor, A. L., Izawa, E.-I., Kelly, D. M., Li, Z., Luo, Y., Luong, L. B., Massen, J. J. M., Neider, A., Reber, S. A., Schiestl, M., Seguchi, A., **Stevens, J.R.**, Taylor, A.H., Wang, L.,  Wolff, L.M.,  Zhang, Y., Clayton, N. S. (2022). Socio-ecological correlates of neophobia in corvids. *Current Biology*, 32(1), 74-85.e4.  [doi:10.1016/j.cub.2021.10.045](https://doi.org/10.1016/j.cub.2021.10.045) 
+
+::: {.content-visible when-format="html"}
+<a href="https://decisionslab.unl.edu/pubs/miller_etal_2021_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://decisionslab.unl.edu/pubs/miller_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="https://decisionslab.unl.edu/data/miller_etal_2021_data.csv" title="Data" class="cv-pub-links">Data</a>
+<a href="https://decisionslab.unl.edu/data/miller_etal_2021_rcode.R" title="Code" class="cv-pub-links">Code</a>
+<a href="https://www.youtube.com/watch?v=Lhzyk3srmdg" title="Video" class="cv-pub-links">Video</a>
+<a href="https://news.unl.edu/newsrooms/today/article/boo-birds-worldwide-study-finds-differences-in-avian-fear-of-the-unknown/" title="Press" class="cv-pub-links">Press</a>
+<a href="https://doi.org/10.1101/2021.07.27.453788" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+ \*Marvin, S., \*Sorenson, K., & **Stevens, J. R.** (2022). Bringing human-animal interaction to sport: Potential impacts on athletic performance. *European Journal of Sport Science*, 22(7), 955-963. [doi:10.1080/17461391.2021.1916084](https://doi.org/10.1080/17461391.2021.1916084) 
+
+::: {.content-visible when-format="html"}
+<a href="https://decisionslab.unl.edu/pubs/marvin_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://psyarxiv.com/w4p7b" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+ **Stevens, J.R.**, \*Mathias, M., \*Herridge, M., \*Hughes-Duvall, K., \*Wolff, L. M., & \*Yohe, M. (2022). Do owners know how impulsive their dogs are? *Animal Behavior & Cognition*,   9(3), 261-286. [doi:10.26451/abc.09.03.02.2022](https://doi.org/10.26451/abc.09.03.02.2022)
+ <!-- [[PDF](https://decisionslab.unl.edu/pubs/stevens_etal_2022.pdf)] -->
+
+::: {.content-visible when-format="html"}
+<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="https://osf.io/eb5m3/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/hyvdq" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+\*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
 
 <!-- Forthcoming -->
 [Preprints]{.aside}
@@ -567,6 +617,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  "The value of time and space in two New World monkeys", **Stevens, J.R.**, Rosati, A.G., and Hauser, M.D., Comparative Cognition Conference, Melbourne, FL.
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2007]{.aside}
 
  "Evolutionary origins of patience", Rosati, A.G, **Stevens, J.R.**, Hare, B., and Hauser, M.D., 6. Göttinger Freilandtage: Primate Behavior and Human Universals, Göttingen, Germany.
@@ -740,6 +794,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 [2000]{.aside} 
 
  Animal Behavior Society Student Research Grant, "Manipulative mutualism: the effects of harassment on food sharing\" (\$500)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2000-2001]{.aside} 
 
@@ -995,6 +1053,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Tyler Stading---"Naturally stressed: The effect of nature exposure on stress physiology and decision making", (honor's thesis in Psychology, University of Nebraska-Lincoln)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2020]{.aside}
 
  Hannah Eggert---"General and veterinary care of service dogs and how service dogs benefit their handlers", (honor's thesis in Veterinary Sciences, University of Nebraska-Lincoln)
@@ -1047,6 +1109,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
  Co-Leader "Science Literacy: Applied STEM Reasoning for the 21st Century and Beyond\" project
 
  Volunteer judge for Morley Elementary Science Fair
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2016]{.aside} 
 
@@ -1176,6 +1242,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 [2020-]{.aside} 
 
  Editorial board of [*Animal Behavior and Cognition*](https://animalbehaviorandcognition.org/)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2022]{.aside} 
 
