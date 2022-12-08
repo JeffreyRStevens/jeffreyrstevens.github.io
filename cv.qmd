@@ -333,44 +333,12 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 :::
 
 
- Miller, R., Lambert, M. L., Frohnwieser, A., Brecht, K. F., Bugnyar, T., Crampton, I., Garcia-Pelegrin, E., Gould, K., Greggor, A. L., Izawa, E.-I., Kelly, D. M., Li, Z., Luo, Y., Luong, L. B., Massen, J. J. M., Neider, A., Reber, S. A., Schiestl, M., Seguchi, A., **Stevens, J.R.**, Taylor, A.H., Wang, L.,  Wolff, L.M.,  Zhang, Y., Clayton, N. S. (2022). Socio-ecological correlates of neophobia in corvids. *Current Biology*, 32(1), 74-85.e4.  [doi:10.1016/j.cub.2021.10.045](https://doi.org/10.1016/j.cub.2021.10.045) 
-
-::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/miller_etal_2021_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/miller_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
-<a href="https://decisionslab.unl.edu/data/miller_etal_2021_data.csv" title="Data" class="cv-pub-links">Data</a>
-<a href="https://decisionslab.unl.edu/data/miller_etal_2021_rcode.R" title="Code" class="cv-pub-links">Code</a>
-<a href="https://www.youtube.com/watch?v=Lhzyk3srmdg" title="Video" class="cv-pub-links">Video</a>
-<a href="https://news.unl.edu/newsrooms/today/article/boo-birds-worldwide-study-finds-differences-in-avian-fear-of-the-unknown/" title="Press" class="cv-pub-links">Press</a>
-<a href="https://doi.org/10.1101/2021.07.27.453788" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
  \*Marvin, S., \*Sorenson, K., & **Stevens, J. R.** (2022). Bringing human-animal interaction to sport: Potential impacts on athletic performance. *European Journal of Sport Science*, 22(7), 955-963. [doi:10.1080/17461391.2021.1916084](https://doi.org/10.1080/17461391.2021.1916084) 
 
 ::: {.content-visible when-format="html"}
 <a href="https://decisionslab.unl.edu/pubs/marvin_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://psyarxiv.com/w4p7b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
-
- **Stevens, J.R.**, \*Mathias, M., \*Herridge, M., \*Hughes-Duvall, K., \*Wolff, L. M., & \*Yohe, M. (2022). Do owners know how impulsive their dogs are? *Animal Behavior & Cognition*,   9(3), 261-286. [doi:10.26451/abc.09.03.02.2022](https://doi.org/10.26451/abc.09.03.02.2022)
- <!-- [[PDF](https://decisionslab.unl.edu/pubs/stevens_etal_2022.pdf)] -->
-
-::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
-<a href="https://osf.io/eb5m3/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://psyarxiv.com/hyvdq" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
- \*Goh, F., \*Jungck, A.C., & **Stevens, J.R.** (2022). Pro tip: Screen-based payment methods increase negative feelings in consumers but do not increase tip sizes. [doi:10.33422/ejbs.v4i4.678](https://doi.org/10.33422/ejbs.v4i4.678) 
-
-::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/goh_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/goh_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
-<a href="https://osf.io/bqf52/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://psyarxiv.com/yfne8" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
 
  Miller, R., Lambert, M. L., Frohnwieser, A., Brecht, K. F., Bugnyar, T., Crampton, I., Garcia-Pelegrin, E., Gould, K., Greggor, A. L., Izawa, E.-I., Kelly, D. M., Li, Z., Luo, Y., Luong, L. B., Massen, J. J. M., Neider, A., Reber, S. A., Schiestl, M., Seguchi, A., **Stevens, J.R.**, Taylor, A.H., Wang, L.,  Wolff, L.M.,  Zhang, Y., Clayton, N. S. (2022). Socio-ecological correlates of neophobia in corvids. *Current Biology*, 32(1), 74-85.e4.  [doi:10.1016/j.cub.2021.10.045](https://doi.org/10.1016/j.cub.2021.10.045) 
 
@@ -382,13 +350,6 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 <a href="https://www.youtube.com/watch?v=Lhzyk3srmdg" title="Video" class="cv-pub-links">Video</a>
 <a href="https://news.unl.edu/newsrooms/today/article/boo-birds-worldwide-study-finds-differences-in-avian-fear-of-the-unknown/" title="Press" class="cv-pub-links">Press</a>
 <a href="https://doi.org/10.1101/2021.07.27.453788" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
- \*Marvin, S., \*Sorenson, K., & **Stevens, J. R.** (2022). Bringing human-animal interaction to sport: Potential impacts on athletic performance. *European Journal of Sport Science*, 22(7), 955-963. [doi:10.1080/17461391.2021.1916084](https://doi.org/10.1080/17461391.2021.1916084) 
-
-::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/marvin_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://psyarxiv.com/w4p7b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
  **Stevens, J.R.**, \*Mathias, M., \*Herridge, M., \*Hughes-Duvall, K., \*Wolff, L. M., & \*Yohe, M. (2022). Do owners know how impulsive their dogs are? *Animal Behavior & Cognition*,   9(3), 261-286. [doi:10.26451/abc.09.03.02.2022](https://doi.org/10.26451/abc.09.03.02.2022)
