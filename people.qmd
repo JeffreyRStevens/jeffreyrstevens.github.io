@@ -56,10 +56,6 @@ Undergraduate Students
 
 ![](images/hannah_fitzpatrick.jpg){fig-alt="Hannah Fitzpatrick" width="200" fig-align="left"}
 
-### Joelle Sanger
-
-![](images/joelle_sanger.jpg){fig-alt="Joelle Sanger" width="200" fig-align="left"}
-
 ### Bailey Wilson
 
 ![](images/bailey_wilson.jpg){fig-alt="Bailey Wilson" width="200" fig-align="left"}
@@ -139,6 +135,7 @@ Former Lab Members
 * Alex Ruhlman
 * Kayla Ruterbories
 * Alexis Saltzman
+* Joelle Sanger
 * Taylor Schendt
 * Matt Schmitt
 * Molly Shane
