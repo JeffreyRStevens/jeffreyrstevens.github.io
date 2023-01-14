@@ -1,6 +1,7 @@
 ---
 title: "Jeffrey R. Stevens - Curriculum vitae"
 date: "`r Sys.Date()`"
+date-format: iso
 geometry:
   - right=1in
 format:
@@ -367,6 +368,15 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 <!-- Forthcoming -->
 [Preprints]{.aside}
 
+\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2023). Impulsivity as a trait in domestic dogs (Canis familiaris): A systematic review and meta-analysis. _PsyArXiv_. [doi:10.31234/osf.io/ctfns](https://doi.org/10.31234/osf.io/ctfns)
+
+::: {.content-visible when-format="html"}
+<!-- <a href="https://decisionslab.unl.edu/pubs/barela_etal_2023.pdf" title="PDF" class="cv-pub-links">PDF</a> -->
+<!-- <a href="https://decisionslab.unl.edu/pubs/barela_etal_2023_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a> -->
+<a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
  \*Goh, F. & **Stevens, J.R.** (2022). 	Social influences on similarity judgments and intertemporal choice. _PsyArXiv_. [doi:10.31234/osf.io/xz68b](https://doi.org/10.31234/osf.io/xz68b) 
 
 ::: {.content-visible when-format="html"}
@@ -577,10 +587,6 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 [2005]{.aside}
 
  "The value of time and space in two New World monkeys", **Stevens, J.R.**, Rosati, A.G., and Hauser, M.D., Comparative Cognition Conference, Melbourne, FL.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2007]{.aside}
 
@@ -866,6 +872,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  University of Nebraska Collaboration Initiative Grant, "Enhancing well-being and animal bonds in rural populations", PI with Lisa Karr, Michelle Howell Smith, and Rosemary Strasser (\$7,500)
  
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2023]{.aside} 
 
  University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
