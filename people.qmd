@@ -4,7 +4,7 @@ title: "People"
 
 ### Jeffrey R. Stevens
 
-![](jeff.png){fig-alt="Jeff Stevens" width="200" fig-align="left"}
+![](images/jeff.png){fig-alt="Jeff Stevens" width="200" fig-align="left"}
 
 #### E-mail: [jeffreyrstevens@protonmail.com](mailto:jeffreyrstevens@protonmail.com)
 
@@ -55,6 +55,18 @@ Undergraduate Students
 ### Hannah Fitzpatrick
 
 ![](images/hannah_fitzpatrick.jpg){fig-alt="Hannah Fitzpatrick" width="200" fig-align="left"}
+
+### Maya Lashley
+
+![](images/maya_lashley.jpeg){fig-alt="Maya Lashley" width="200" fig-align="left"}
+
+### Ashley Llewellyn
+
+![](images/ashley_llewellyn.jpg){fig-alt="Ashley Llewellyn" width="200" fig-align="left"}
+
+### Lauren Rivale
+
+![](images/lauren_rivale.jpeg){fig-alt="Lauren Rivale" width="200" fig-align="left"}
 
 ### Bailey Wilson
 
