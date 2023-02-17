@@ -20,9 +20,11 @@ format:
  | 
 -- | --
 {{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) |  [Open Science Framework](https://osf.io/4nx8b/">Open Science Framework)
-{{< fa brands twitter title="Twitter logo" >}} [JeffStevensADML](http://twitter.com/JeffStevensADML) | [ORCiD](https://orcid.org/0000-0003-2375-1360)
-{{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
+{{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens](https://fediscience.org/@JeffreyRStevens) | [ORCiD](https://orcid.org/0000-0003-2375-1360)
+{{< fa brands twitter title="Twitter logo" >}} [JeffStevensADML](http://twitter.com/JeffStevensADML) | [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
+{{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
+
 
 
 I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl.edu) and a resident member of the [Center for Brain, Biology & Behavior](https://cb3.unl.edu/) at the [University of Nebraska-Lincoln](http://www.unl.edu/). I study decision making, cognition, and well-being in humans and other animals at the [Adaptive Decision Making Lab](https://decisionslab.unl.edu) and the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu). I am also a Data Science Mentor at [RStudio Academy](https://www.rstudio.com/academy) where I teach data science to teams of learners.
