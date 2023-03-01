@@ -1,11 +1,12 @@
 ---
-title: "Publications"
 format:
   html:
     css: flipmargin.css
     toc: true
     toc-location: left
 ---
+
+## Publications
 
 \*undergraduate or graduate student author; \#invited journal article; PDFs and open, reproducible materials available [here](https://decisionslab.unl.edu/publications.html)
 
@@ -290,6 +291,22 @@ format:
 \*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
 
 <!-- Forthcoming -->
+[In press]{.aside}
+
+Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2022). Biological and behavioral predictors of relative energy intake after acute exercise. _Appetite_. 
+
+::: {.content-visible when-format="html"}
+<a href="https://decisionslab.unl.edu/pubs/hochsmann_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://doi.org/10.21203/rs.3.rs-1414640/v1" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (2022). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _Comparative Cognition and Behavior Reviews_.
+
+::: {.content-visible when-format="html"}
+<a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+<!-- Preprints -->
 [Preprints]{.aside}
 
 \*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2023). Impulsivity as a trait in domestic dogs (Canis familiaris): A systematic review and meta-analysis. _PsyArXiv_. [doi:10.31234/osf.io/ctfns](https://doi.org/10.31234/osf.io/ctfns)
@@ -310,19 +327,7 @@ format:
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
- Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2022). Biological and behavioral predictors of compensatory energy intake after exercise. *Research Square* [doi:10.21203/rs.3.rs-1414640/v1](https://doi.org/10.21203/rs.3.rs-1414640/v1) 
-
-::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/hochsmann_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-:::
-
- ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (2022). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _PsyArXiv_. [doi:10.31234/osf.io/j82uc](https://doi.org/10.31234/osf.io/j82uc).
-
-::: {.content-visible when-format="html"}
-<a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
- ManyDogs Project, Espinosa, J., Bray, E., Buchsbaum, D., Byosiere, S.-E., Byrne, M., Freeman, M. S., Gnanadesikan, G., Guran, C.-N. A., Horschler, D., Huber, L., Johnston, A., MacLean, E., Pelgrim, M. H., Santos, L., Silver, Z. A., **Stevens, J. R.**, Völter, C., & Zipperling, L. (2021). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. Stage 1 registered report at *Animal Behavior & Cognition*. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
+  ManyDogs Project, Espinosa, J., Bray, E., Buchsbaum, D., Byosiere, S.-E., Byrne, M., Freeman, M. S., Gnanadesikan, G., Guran, C.-N. A., Horschler, D., Huber, L., Johnston, A., MacLean, E., Pelgrim, M. H., Santos, L., Silver, Z. A., **Stevens, J. R.**, Völter, C., & Zipperling, L. (2021). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. Stage 1 registered report at *Animal Behavior & Cognition*. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
  
 ::: {.content-visible when-format="html"}
 <a href="https://decisionslab.unl.edu/pubs/manydogs_2021_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
