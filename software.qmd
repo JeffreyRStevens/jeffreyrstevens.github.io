@@ -24,7 +24,7 @@ The [excluder](https://docs.ropensci.org/excluder/) package facilitates checking
 The [flashr](https://jeffreyrstevens.github.io/flashr/) package creates flashcards for learning terms and descriptions to help learns remember R functions. The flashcard decks are built using [reveal.js](https://revealjs.com/) and are customizable by the user. I've created built-in decks for the chapters from _R for Data Science_, but users can create their own decks that draw from an extensive glossary of over 300 R functions](https://jeffreyrstevens.github.io/flashr_decks/functions.html).
 
 ::: {.column-margin}
-![](images/flashr_r4ds.gif)
+![](images/flashr_hex.png)
 :::
 
 * [Getting started with flashr vignette](https://jeffreyrstevens.github.io/flashr/articles/flashr.html)
