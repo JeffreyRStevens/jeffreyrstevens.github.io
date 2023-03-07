@@ -293,7 +293,7 @@ format:
 <!-- Forthcoming -->
 [In press]{.aside}
 
-Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2022). Biological and behavioral predictors of relative energy intake after acute exercise. _Appetite_. 
+Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2022). Biological and behavioral predictors of relative energy intake after acute exercise. _Appetite_, 184, 106520. [doi:10.1016/j.appet.2023.106520](https://doi.org/10.1016/j.appet.2023.106520)
 
 ::: {.content-visible when-format="html"}
 <a href="https://decisionslab.unl.edu/pubs/hochsmann_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
