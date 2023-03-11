@@ -1,37 +1,53 @@
 ---
-title: "Software"
+title: "R Resources"
+toc: false
 ---
+
+## Education
+
+### Data Processing and Visualization in R
+
+::: {.column-margin}
+[![](images/dpavir_hex.png)](http://dpavir.org){target="_blank"}
+:::
+
+I teach a course at University of Nebraska-Lincoln on [Data Processing and Visualization in R](http://dpavir.org){target="_blank"} that introduces students to the fundamental concepts and methods used in the R statistical software package to process, visualize, and disseminate data. Most course materials are available on the course website.
+
+### Posit Academy
+
+I am also a Data Science Mentor for [Posit Academy](https://posit.co/academy){target="_blank"}. Posit (formerly RStudio) is the premiere open-source data science company developing software and tools to learn and use R. Posit Academy is a cohort-based, mentor-led data science apprenticeship for professional teams.
+
+## Software development
 
 I'm fairly new to the R development world, but I have developed two packages, one for data analysis, one for learning R.
 
-## excluder
-
-
-The [excluder](https://docs.ropensci.org/excluder/) package facilitates checking for, marking, and excluding rows of data frames for common exclusion criteria found in online data surveys. If you use online surveys and want to quickly exclude participants who log in from the wrong country, don't complete the survey, complete the survey too quickly, use the wrong device type, etc., the excluder package makes this easier to do. This package was [peer reviewed by rOpenSci](https://github.com/ropensci/software-review/issues/455).
+### excluder
 
 ::: {.column-margin}
-![](images/excluder_hex.png)
+[![](images/excluder_hex.png)](https://docs.ropensci.org/excluder/){target="_blank"}
 :::
 
-* [Getting started with excluder vignette](https://docs.ropensci.org/excluder/articles/excluder.html)
-* [rOpenSci tutorial blog post](https://ropensci.org/blog/2022/08/09/working-with-qualtrics-data-excluding/)
-* [GitHub repo](https://github.com/ropensci/excluder/)
-* [_Journal of Open Source Software_ paper](https://doi.org/10.21105/joss.03893)
+The [excluder](https://docs.ropensci.org/excluder/){target="_blank"} package facilitates checking for, marking, and excluding rows of data frames for common exclusion criteria found in online data surveys. If you use online surveys and want to quickly exclude participants who log in from the wrong country, don't complete the survey, complete the survey too quickly, use the wrong device type, etc., the excluder package makes this easier to do. This package was [peer reviewed by rOpenSci](https://github.com/ropensci/software-review/issues/455){target="_blank"}.
+
+* [Getting started with excluder vignette](https://docs.ropensci.org/excluder/articles/excluder.html){target="_blank"}
+* [rOpenSci tutorial blog post](https://ropensci.org/blog/2022/08/09/working-with-qualtrics-data-excluding/){target="_blank"}
+* [GitHub repo](https://github.com/ropensci/excluder/){target="_blank"}
+* [_Journal of Open Source Software_ paper](https://doi.org/10.21105/joss.03893){target="_blank"}
 
 
-## flashr
+### flashr
 
-The [flashr](https://jeffreyrstevens.github.io/flashr/) package creates flashcards for learning terms and descriptions to help learns remember R functions. The flashcard decks are built using [reveal.js](https://revealjs.com/) and are customizable by the user. I've created built-in decks for the chapters from _R for Data Science_, but users can create their own decks that draw from an extensive glossary of over 300 R functions](https://jeffreyrstevens.github.io/flashr_decks/functions.html).
+The [flashr](https://jeffreyrstevens.github.io/flashr/){target="_blank"} package creates flashcards for learning terms and descriptions to help learns remember R functions. The flashcard decks are built using [reveal.js](https://revealjs.com/){target="_blank"} and are customizable by the user. I've created built-in decks for the chapters from _R for Data Science_, but users can create their own decks that draw from an extensive [glossary of over 300 R functions](https://jeffreyrstevens.github.io/flashr_decks/functions.html){target="_blank"}.
 
 ::: {.column-margin}
-![](images/flashr_hex.png)
+[![](images/flashr_hex.png)](https://jeffreyrstevens.github.io/flashr/){target="_blank"}
 :::
 
-* [Getting started with flashr vignette](https://jeffreyrstevens.github.io/flashr/articles/flashr.html)
-* [Built-in flashr decks](https://jeffreyrstevens.github.io/flashr_decks/)
-* [GitHub repo](https://github.com/JeffreyRStevens/flashr_decks)
+* [Getting started with flashr vignette](https://jeffreyrstevens.github.io/flashr/articles/flashr.html){target="_blank"}
+* [Built-in flashr decks](https://jeffreyrstevens.github.io/flashr_decks/){target="_blank"}
+* [GitHub repo](https://github.com/JeffreyRStevens/flashr_decks){target="_blank"}
 
 
-## Package development
+### Package development tools
 
-I could not have developed these packages without the tools and resources created and published by many other developers. To get started developing R packages, start off by reading [R Packages](https://r-pkgs.org) by Hadley Wickham and Jenny Bryan. In there, you will learn about invaluable package development tools such as [devtools](https://devtools.r-lib.org/), [usethis](https://usethis.r-lib.org/), and [testthat](https://testthat.r-lib.org/). Also, check out Indrajeet Patil's [resources for R package development](https://indrajeetpatil.github.io/awesome-r-pkgtools/).
+I could not have developed these packages without the tools and resources created and published by many other developers. To get started developing R packages, start off by reading [R Packages](https://r-pkgs.org){target="_blank"} by Hadley Wickham and Jenny Bryan. In there, you will learn about invaluable package development tools such as [devtools](https://devtools.r-lib.org/){target="_blank"}, [usethis](https://usethis.r-lib.org/){target="_blank"}, and [testthat](https://testthat.r-lib.org/){target="_blank"}. Also, check out Indrajeet Patil's [resources for R package development](https://indrajeetpatil.github.io/awesome-r-pkgtools/){target="_blank"}.
