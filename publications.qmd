@@ -10,6 +10,10 @@ format:
 
 \*undergraduate or graduate student author; \#invited journal article; PDFs and open, reproducible materials available [here](https://decisionslab.unl.edu/publications.html)
 
+::: {.content-visible when-format="html"}
+### 1990s
+:::
+
 [1996]{.aside}
 
  Do, L.H., Gooch, R.D., **Stevens, J.R.**, & Holmes, W.C. (1996). New county records of *Botrychium lunarioides* in Texas. *American Fern Journal*, *86*, 28-31. [doi:10.2307/1547608](https://doi.org/10.2307/1547608)
@@ -19,17 +23,33 @@ format:
 
  Morgan, T.L., **Stevens, J.R.**, & Holmes, W.C. (1996). [First report of *Wolffiella lingulata* (Lemnaceae) in western Mexico.](http://www.biodiversitylibrary.org/item/34588) *SIDA*, *17*, 289-290.
 
+::: {.content-visible when-format="html"}
+### 2000s
+:::
+
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2001]{.aside}
+<!-- ::: -->
 
  Stephens, D.W. and **Stevens, J.R.** (2001). A simple spatially-explicit ideal-free distribution: A model and an experiment. *Behavioral Ecology and Sociobiology*, *49*, 220-234. [doi:10.1007/s002650000276](http://dx.doi.org/10.1007/s002650000276)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2002]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2002 -->
+<!-- ::: -->
 
  Stephens, D.W., McLinn, C.M., & **Stevens, J.R.** (2002). Discounting and reciprocity in an Iterated Prisoner's Dilemma. *Science*, *298*, 2216-2218. [doi:10.1126/science.1078498](http://dx.doi.org/10.1126/science.1078498)
 
  **Stevens, J.R.** and Stephens, D.W. (2002). Food sharing: A model of manipulation by harassment. *Behavioral Ecology*, *13*, 393-400. [doi:10.1093/beheco/13.3.393](http://dx.doi.org/10.1093/beheco/13.3.393)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2004]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2004 -->
+<!-- ::: -->
 
  **Stevens, J.R.** (2004). The selfish nature of generosity: Harassment and food sharing. *Proceedings of the Royal Society of London, Series B*, *271*, 451-456. [doi:10.1098/rspb.2003.2625](http://dx.doi.org/10.1098/rspb.2003.2625)
 
@@ -41,7 +61,12 @@ format:
 
  **Stevens, J.R.** and Stephens, D.W. (2004). The economic basis of cooperation: trade-offs between selfishness and generosity. *Behavioral Ecology*, *15*, 255-261. [doi:10.1093/beheco/arh006](http://dx.doi.org/10.1093/beheco/arh006)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2005]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2005 -->
+<!-- ::: -->
 
  **Stevens, J.R.**, \*Cushman, F.A., and Hauser, M.D. (2005). Evolving the psychological mechanisms for cooperation. *Annual Review of Ecology, Evolution, and Systematics*, *36*, 499-518. [doi:10.1146/annurev.ecolsys.36.113004.083814](http://dx.doi.org/10.1146/annurev.ecolsys.36.113004.083814)
 
@@ -52,13 +77,23 @@ format:
 
  **Stevens, J.R.**, \*Rosati, A.G., \*Ross, K.R., and Hauser, M.D. (2005). Will travel for food: Spatial discounting and reward magnitude in two New World monkeys. *Current Biology*, *15*, 1855-1860. [doi:10.1016/j.cub.2005.09.016](http://dx.doi.org/10.1016/j.cub.2005.09.016)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2006]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2006 -->
+<!-- ::: -->
 
  \*Rosati, A.G., **Stevens, J.R.**, and Hauser, M.D. (2006). The effect of handling time on temporal discounting in two New World primates. *Animal Behaviour*, *71*, 1379-1387. [doi:10.1016/j.anbehav.2005.11.012](http://dx.doi.org/10.1016/j.anbehav.2005.11.012)
 
  Stephens, D.W, McLinn, C.M., and **Stevens, J.R.** (2006). Effects of temporal clumping and payoff accumulation on impulsiveness and cooperation. *Behavioural Processes*, *71*, 29-40. [doi:10.1016/j.beproc.2005.09.003](http://dx.doi.org/10.1016/j.beproc.2005.09.003)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2007]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2007 -->
+<!-- ::: -->
 
  \*Barton, A., Mousavi, S., and **Stevens, J.R.** (2007). A statistical taxonomy and another "chance" for natural frequencies. *Behavioral and Brain Sciences*, *30*, 255-256. [doi:10.1017/S0140525X07001665](http://doi.org/10.1017/S0140525X07001665)
 
@@ -66,7 +101,12 @@ format:
 
  **Stevens, J.R.**, \*Wood, J.N., and Hauser, M.D. (2007). Quantity trumps number: Discrimination experiments in cotton-top tamarins (*Saguinus oedipus*) and common marmosets (*Callithrix jacchus*). *Animal Cognition*, *10*, 429-437. [doi:10.1007/s10071-007-0081-8](http://doi.org/10.1007/s10071-007-0081-8)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2008]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2008 -->
+<!-- ::: -->
 
  \*Heilbronner, S.R., \*Rosati, A.G., **Stevens, J.R.**, Hare, B., and Hauser, M.D. (2008). A fruit in the hand or two in the bush? Ecological pressures select for divergent risk preferences in chimpanzees and bonobos. *Biology Letters*, *4*, 246-249. [doi:10.1098/rsbl.2008.0081](http://doi.org/10.1098/rsbl.2008.0081)
 
@@ -76,7 +116,12 @@ format:
 
  **Stevens, J.R.** & Stephens, D.W. (2008). Patience. *Current Biology*, *18*, R11-12. [doi:10.1016/j.cub.2007.11.021](http://doi.org/10.1016/j.cub.2007.11.021)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2009]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2009 -->
+<!-- ::: -->
 
  \*Rosati, A.G. & **Stevens, J.R.** (2009). Rational decisions: The adaptive nature of context-dependence choice. In S. Watanabe, A.P. Blaisdell, L. Huber, & A. Young (Eds.), [*Rational animals, irrational humans*](https://www.keio-up.co.jp/kup/eng/bio/16150.html) (pp. 101-117). Tokyo: Keio University Press.
 
@@ -85,7 +130,13 @@ format:
 
  \*Straubinger, N. Cokely, E.T., and **Stevens, J.R.** (2009). The dynamics of development: Challenges for Bayesian rationality. Commentary in *Behavioral and Brain Sciences*, *32*, 103-104. [doi:10.1017/S0140525X09000491](http://doi.org/10.1017/S0140525X09000491)
 
+::: {.content-visible when-format="html"}
+### 2010s
+:::
+
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2010]{.aside}
+<!-- ::: -->
 
  **Stevens, J.R.** (2010). The challenges of understanding animal minds. *Frontiers in Psychology*, *1*, 203. [doi:10.3389/fpsyg.2010.00203](https://doi.org/10.3389/fpsyg.2010.00203)
 
@@ -97,7 +148,12 @@ format:
 
  **Stevens, J.R.** & Stephens, D.W. (2010). The adaptive nature of impulsivity. In G.J. Madden & W.K. Bickel (Eds.), *Impulsivity: The behavioral and neurological science of discounting* (pp. 361-387). Washington, D.C.: APA Press. [doi:10.1037/12069-013](https://doi.org/10.1037/12069-013)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2011]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2011 -->
+<!-- ::: -->
 
  \*Mühlhoff, N., **Stevens, J.R.** & Reader, S.M. (2011). Spatial discounting of food and social rewards in guppies (*Poecilia reticulata*). *Frontiers in Psychology*, *2*, 68. [doi:10.3389/fpsyg.2011.00068](http://doi.org/10.3389/fpsyg.2011.00068)
 
@@ -111,7 +167,12 @@ format:
 
  \*Volstorf, J., Rieskamp, J. & **Stevens, J.R.** (2011). The good, the bad, and the rare: Memory for partners in social interactions. *PLoS ONE*, *6*, e18945. [doi:10.1371/journal.pone.0018945](http://doi.org/10.1371/journal.pone.0018945)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2012]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2012 -->
+<!-- ::: -->
 
  \*Artinger, F., \*Fleischhut, N., Levanti, V., & **Stevens, J.R.** (2012). [Cooperation in risky environments: decisions from experience in a stochastic social dilemma](https://cogsci.mindmodeling.org/2012/papers/0028/paper0028.pdf). *Proceedings of the 34th Conference of the Cognitive Science Society* (pp. 84-89). Austin, TX: Cognitive Science Society.
 
@@ -129,7 +190,12 @@ format:
 \newpage
 :::
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2013]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2013 -->
+<!-- ::: -->
 
  \#Kaighobadi, F. & **Stevens, J.R.** (2013). Does fertility status influence impulsivity and risk taking in human females? Adaptive influences on intertemporal choice and risky decision making. *Evolutionary Psychology*, *11*, 700-717. [doi:10.1177/147470491301100314](http://doi.org/10.1177/147470491301100314)
 
@@ -141,17 +207,32 @@ format:
 
  \#**Stevens, J.R.**, Pachur, T., & Schooler, L. J. (2013). Rational analysis of the adaptive and predictive nature of memory. *Journal of Applied Research in Memory and Cognition*, *2*, 251-253. [doi:10.1016/j.jarmac.2013.10.006](http://doi.org/10.1016/j.jarmac.2013.10.006)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2014]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2014 -->
+<!-- ::: -->
 
  **Stevens, J.R.** (2014). Evolutionary pressures on primate intertemporal choice. *Proceedings of the Royal Society of London, Series B*, *281*, 20140499. [doi:10.1098/rspb.2014.0499](http://doi.org/10.1098/rspb.2014.0499)
 
  Pachur, T., Schooler, L.J., & **Stevens, J.R.** (2014). We'll meet again: Revealing distributional and temporal patterns of social contact. *PLoS ONE*, *9*, e86081. [doi:10.1371/journal.pone.0086081](http://doi.org/10.1371/journal.pone.0086081)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2015]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2015 -->
+<!-- ::: -->
 
  Barron, A.B., Hebets, E.A., Cleland, T.A., Fitzpatrick, C.L., Hauber, M.E., & **Stevens, J.R.** (2015). Embracing multiple definitions of learning. *Trends in Neurosciences*, *38*, 405-407. [doi:10.1016/j.tins.2015.04.008](http://doi.org/10.1016/j.tins.2015.04.008)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2016]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2016 -->
+<!-- ::: -->
 
  \*Duque, J.F. & **Stevens, J.R.** (2016). Voluntary food sharing in pinyon jays: The role of reciprocity and dominance. *Animal Behaviour*, *122*, 135--144. [doi:10.1016/j.anbehav.2016.09.020](http://doi.org/10.1016/j.anbehav.2016.09.020)
 
@@ -165,7 +246,12 @@ format:
 
  **Stevens, J.R.**, Marewski, J.N., Schooler, L.J., & Gilby, I.C. (2016). Reflections of the social environment in chimpanzee memory: Applying rational analysis beyond humans. *Royal Society Open Science*, *3*, 160293. [doi:10.1098/rsos.160293](http://doi.org/10.1098/rsos.160293)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2017]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2017 -->
+<!-- ::: -->
 
  \*Duque, J.F. & **Stevens, J.R.** (2017). Cylinder task. In: J. Vonk & T.K. Shackelford (Eds.), *Encyclopedia of animal cognition and behavior*. New York: Springer. [doi:10.1007/978-3-319-47829-6_1608-1](http://doi.org/10.1007/978-3-319-47829-6_1608-1)
 
@@ -179,7 +265,12 @@ format:
 
  \*Winke, T. & **Stevens, J.R.** (2017). Is cooperative memory special? The role of costly errors, context, and social network size when remembering cooperative actions. *Frontiers in Robotics and AI*, 4, 52. [doi:10.3389/frobt.2017.00052](http://doi.org/10.3389/frobt.2017.00052)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2018]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2018 -->
+<!-- ::: -->
 
  \*Duque, J.F., \*Leichner, W., \*Ahmann, H. & **Stevens, J.R.** (2018). Mesotocin influences pinyon jay prosociality. *Biology Letters*, 14(4), 20180105. [doi:10.1098/rsbl.2018.0105](http://doi.org/10.1098/rsbl.2018.0105)
 
@@ -194,7 +285,12 @@ format:
 \newpage
 :::
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2019]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2019 -->
+<!-- ::: -->
 
  Koehler, K., Boron, J.B., Garvin, T.M., Bice, M.R., & **Stevens, J.R.** (2019). Differential relationship between physical activity and intake of added sugar and nutrient-dense foods: A cross-sectional analysis. *Appetite*, 120, 91-97. [doi:10.1016/j.appet.2019.05.010](https://doi.org/10.1016/j.appet.2019.05.010)
 
@@ -204,13 +300,24 @@ format:
 
  \*Thayer, E. & **Stevens, J.R.** (2019). Human-animal interaction. In: J. Vonk & T.K. Shackelford (Eds.), *Encyclopedia of animal cognition and behavior*. New York: Springer. [doi:10.1007/978-3-319-47829-6_2058-1](https://doi.org/10.1007/978-3-319-47829-6_2058-1)
 
+::: {.content-visible when-format="html"}
+### 2020s
+:::
+
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2020]{.aside}
+<!-- ::: -->
 
  \#Duque, J.F., \*Rasmussen, T., \*Rodriguez, A., & **Stevens, J.R.** (2020). The role of mesotocin on social bonding in pinyon jays. *Ethology*, 126(2), 165-175. [doi:10.1111/eth.12990](https://doi.org/10.1111/eth.12990)
 
  \*Arce, W. & **Stevens, J.R.** (2020). Developing a computer-controlled treat dispenser for canine operant conditioning. *Journal of Open Hardware*, 4(1), 6. [doi:10.5334/joh.27](https://doi.org/10.5334/joh.27)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2021]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2021 -->
+<!-- ::: -->
 
  \#Addessi, E., \*Tierno, V., \*Focaroli, V., \*Rossi, F., \*Gastaldi, S., \*De Petrillo, F., Paglieri, F., & **Stevens, J.R.** (2021). Are capuchin monkeys (*Sapajus spp.*) sensitive to lost opportunities? The role of opportunity costs in intertemporal choice. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 376(1819), 20190674. [doi:10.1098/rstb.2019.0674](https://doi.org/10.1098/rstb.2019.0674) 
 
@@ -228,7 +335,12 @@ format:
 
  **Stevens, J.R.**, \*Wolff, L.M., \*Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict obedience and impulsivity. *Animal Cognition*, 24(2) 219-230. [doi:10.1007/s10071-020-01458-0](https://doi.org/10.1007/s10071-020-01458-0)
 
+<!-- ::: {.content-visible when-format="pdf"} -->
 [2022]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2022 -->
+<!-- ::: -->
 
  \*Arce, W. & **Stevens, J. R.** (2022). A precise dispenser design for canine cognition research. *Journal of Open Hardware*, 6(1) 2. [doi:10.5334/joh.41](https://doi.org/10.5334/joh.41) 
 
@@ -290,24 +402,41 @@ format:
 
 \*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
 
-<!-- Forthcoming -->
-[In press]{.aside}
+<!-- ::: {.content-visible when-format="pdf"} -->
+[2023]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2023 -->
+<!-- ::: -->
 
-Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2022). Biological and behavioral predictors of relative energy intake after acute exercise. _Appetite_, 184, 106520. [doi:10.1016/j.appet.2023.106520](https://doi.org/10.1016/j.appet.2023.106520)
+Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2023). Biological and behavioral predictors of relative energy intake after acute exercise. _Appetite_, 184, 106520. [doi:10.1016/j.appet.2023.106520](https://doi.org/10.1016/j.appet.2023.106520)
 
 ::: {.content-visible when-format="html"}
 <a href="https://decisionslab.unl.edu/pubs/hochsmann_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://doi.org/10.21203/rs.3.rs-1414640/v1" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
- ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (2022). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _Comparative Cognition and Behavior Reviews_.
+::: {.content-visible when-format="html"}
+### In press
+:::
+
+<!-- ::: {.content-visible when-format="pdf"} -->
+[In press]{.aside}
+<!-- ::: -->
+
+ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (forthcoming). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _Comparative Cognition and Behavior Reviews_.
 
 ::: {.content-visible when-format="html"}
 <a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-<!-- Preprints -->
+::: {.content-visible when-format="html"}
+### Preprints
+:::
+
+<!-- ::: {.content-visible when-format="pdf"} -->
 [Preprints]{.aside}
+<!-- ::: -->
 
 \*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2023). Impulsivity as a trait in domestic dogs (Canis familiaris): A systematic review and meta-analysis. _PsyArXiv_. [doi:10.31234/osf.io/ctfns](https://doi.org/10.31234/osf.io/ctfns)
 
