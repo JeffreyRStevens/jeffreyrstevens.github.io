@@ -7,6 +7,8 @@ categories:
   - coding
   - R package
 description: "Use the qualtRics package to import Qualtrics data."
+execute:
+  freeze: auto
 ---
 
 _Note: Cross-posted with [rOpenSci blog](https://ropensci.org/blog/2022/08/02/working-with-qualtrics-data-importing/)._
