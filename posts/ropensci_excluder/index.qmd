@@ -9,6 +9,8 @@ categories:
 description: "Use the excluder package to exclude survey data."
 image: excluder_hex.png
 image-alt: "Excluder package hex logo with rows of data exed out."
+execute:
+  freeze: auto
 ---
 
 _Note: Cross-posted with [rOpenSci blog](https://ropensci.org/blog/2022/08/09/working-with-qualtrics-data-excluding/)._
