@@ -416,6 +416,13 @@ Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, &
 <a href="https://doi.org/10.21203/rs.3.rs-1414640/v1" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (2023). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _Comparative Cognition and Behavior Reviews_, 18, 59-77. 
+[doi:10.3819/CCBR.2023.180004](https://doi.org/10.3819/CCBR.2023.180004)
+
+::: {.content-visible when-format="html"}
+<a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 ::: {.content-visible when-format="html"}
 ### In press
 :::
@@ -429,12 +436,6 @@ Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, &
 ::: {.content-visible when-format="html"}
 <a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
-ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (forthcoming). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _Comparative Cognition and Behavior Reviews_. [doi:10.31234/osf.io/j82uc](https://doi.org/10.31234/osf.io/j82uc)
-
-::: {.content-visible when-format="html"}
-<a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 ::: {.content-visible when-format="html"}
