@@ -21,7 +21,7 @@ website:
         - href: people.qmd
           text: People
       - href: software.qmd
-        text: Software
+        text: "R Resources"
       - href: blog.qmd
         text: Blog
   google-analytics:
@@ -34,10 +34,10 @@ website:
     background: light
     left: "&copy; 2023 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
     right:
-      - icon: twitter
-        href: https://twitter.com/JeffStevensADML
       - icon: mastodon
         href: https://fediscience.org/@JeffreyRStevens
+      - icon: twitter
+        href: https://twitter.com/JeffStevensADML
       - icon: github
         href: https://github.com/JeffreyRStevens
       - icon: linkedin
