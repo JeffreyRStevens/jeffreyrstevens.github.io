@@ -358,6 +358,12 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
  "Excluding online data in R with the excluder package", **Stevens, J.R.**, Society for the Improvement of Psychological Science (virtual conference talk).
 
  "The ManyDogs Project: A big team science approach to canine cognition", **Stevens, J.R.**, International Society for Anthrozoology (virtual conference talk).
+ 
+ [2023]{.aside}
+ 
+ "Impulsivity as a trait in domestic dogs: A systematic review and meta-analysis", Barela, J., Worth, Y., & **Stevens, J.R.**, Comparative Cognition Conference, Melbourne, FL (poster).
+ 
+ "[ManyX Projects: Joining forces to address challenges in comparative research with big team science](https://jeffreyrstevens.quarto.pub/co3-2023/#/title-slide)", **Stevens, J.R.**, Comparative Cognition Conference, Melbourne, FL.
 
 ### Tutorials
 
