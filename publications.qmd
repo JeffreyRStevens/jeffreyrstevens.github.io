@@ -438,6 +438,14 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 <a href="https://psyarxiv.com/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+ManyDogs Project, Espinosa, J., Stevens, J.R., Alberghina, D., Alway, H.E.E., Barela, J.D., Bogese, M., Bray, E.E., Buchsbaum, D. Byosiere, S.-E., Byrne, M., Cavalli, C. M., Chaudoir, L. M., Collins-Pisano, C., DeBoer, H.J., Douglas L.E.L.C., Dror, S., Dzik, M.V., Ferguson, B., Fisher, L., Fitzpatrick, H.C., Freeman, M.S., Frinton, S.N., Glover, M.K., Gnanadesikan, G.E., Goacher, J.E.P., Golańska, M., Guran, C.-N.A., Hare, E., Hare, B. Hickey, M., Horschler, D.J., Huber, L., Jim, H.-L., Johnston, A.M., Kaminski, J. Kelly, D.M., Kuhlmeier, V.A., Lassiter, L., Lazarowski, L., Leighton-Birch, J., MacLean, E.L., Maliszewska, K., Marra, V., Montgomery, L.I., Murray, M.S., Nelson, E.K., Ostojić, L., Palermo, S.G., Parks Russell, A.E., Pelgrim, M.H., Pellowe, S.D., Reinholz, A., Rial, L.A., Richards, E.M., Ross, M.A., Rothkoff, L.G., Salomons, H., Sanger, J.K., Santos, L., Shirle, A.R., Shearer, S.J., Silver, Z.A., Silverman, J.M., Sommese, A., Srdoc, T., St. John-Mosse, H., Vega, A.C., Vékony, K., Völter, C.J., Walsh C.J., Worth, Y.A., Zipperling, L.M.I., Żołędziewska, B., & Zylberfuden, S.G. (in press). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. _Animal Behavior & Cognition_. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
+ 
+::: {.content-visible when-format="html"}
+<a href="https://doi.org/10.31234/osf.io/f86jq" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/9r5xf/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/f86jq" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 ::: {.content-visible when-format="html"}
 ### Preprints
 :::
@@ -453,13 +461,6 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 <a href="https://decisionslab.unl.edu/pubs/goh_stevens_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/du2xm/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
-  ManyDogs Project, Espinosa, J., Bray, E., Buchsbaum, D., Byosiere, S.-E., Byrne, M., Freeman, M. S., Gnanadesikan, G., Guran, C.-N. A., Horschler, D., Huber, L., Johnston, A., MacLean, E., Pelgrim, M. H., Santos, L., Silver, Z. A., **Stevens, J. R.**, Völter, C., & Zipperling, L. (2021). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. Stage 1 registered report at *Animal Behavior & Cognition*. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
- 
-::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/manydogs_2021_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://psyarxiv.com/f86jq" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
  **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
