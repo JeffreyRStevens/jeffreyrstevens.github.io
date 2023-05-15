@@ -423,6 +423,15 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 <a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+
+**Stevens, J.R.** (Ed.). (2023). _Canine Cognition and the Human Bond_ (Nebraska Symposium on Motivation Series, Vol. 69). Springer. [doi:10.1007/978-3-031-29789-2](https://doi.org/10.1007/978-3-031-29789-2)
+
+
+**Stevens, J.R.** (2023). Of dogs and bonds. In J.R. Stevens (Ed.), _Canine Cognition and the Human Bond_ (pp. 1–10). Springer. [doi:10.1007/978-3-031-29789-2_1](https://doi.org/10.1007/978-3-031-29789-2_1)
+
+
+
+
 ::: {.content-visible when-format="html"}
 ### In press
 :::
@@ -438,7 +447,7 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 <a href="https://psyarxiv.com/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-ManyDogs Project, Espinosa, J., Stevens, J.R., Alberghina, D., Alway, H.E.E., Barela, J.D., Bogese, M., Bray, E.E., Buchsbaum, D. Byosiere, S.-E., Byrne, M., Cavalli, C. M., Chaudoir, L. M., Collins-Pisano, C., DeBoer, H.J., Douglas L.E.L.C., Dror, S., Dzik, M.V., Ferguson, B., Fisher, L., Fitzpatrick, H.C., Freeman, M.S., Frinton, S.N., Glover, M.K., Gnanadesikan, G.E., Goacher, J.E.P., Golańska, M., Guran, C.-N.A., Hare, E., Hare, B. Hickey, M., Horschler, D.J., Huber, L., Jim, H.-L., Johnston, A.M., Kaminski, J. Kelly, D.M., Kuhlmeier, V.A., Lassiter, L., Lazarowski, L., Leighton-Birch, J., MacLean, E.L., Maliszewska, K., Marra, V., Montgomery, L.I., Murray, M.S., Nelson, E.K., Ostojić, L., Palermo, S.G., Parks Russell, A.E., Pelgrim, M.H., Pellowe, S.D., Reinholz, A., Rial, L.A., Richards, E.M., Ross, M.A., Rothkoff, L.G., Salomons, H., Sanger, J.K., Santos, L., Shirle, A.R., Shearer, S.J., Silver, Z.A., Silverman, J.M., Sommese, A., Srdoc, T., St. John-Mosse, H., Vega, A.C., Vékony, K., Völter, C.J., Walsh C.J., Worth, Y.A., Zipperling, L.M.I., Żołędziewska, B., & Zylberfuden, S.G. (in press). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. _Animal Behavior & Cognition_. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
+ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E., Barela, J.D., Bogese, M., Bray, E.E., Buchsbaum, D. Byosiere, S.-E., Byrne, M., Cavalli, C. M., Chaudoir, L. M., Collins-Pisano, C., DeBoer, H.J., Douglas L.E.L.C., Dror, S., Dzik, M.V., Ferguson, B., Fisher, L., Fitzpatrick, H.C., Freeman, M.S., Frinton, S.N., Glover, M.K., Gnanadesikan, G.E., Goacher, J.E.P., Golańska, M., Guran, C.-N.A., Hare, E., Hare, B. Hickey, M., Horschler, D.J., Huber, L., Jim, H.-L., Johnston, A.M., Kaminski, J. Kelly, D.M., Kuhlmeier, V.A., Lassiter, L., Lazarowski, L., Leighton-Birch, J., MacLean, E.L., Maliszewska, K., Marra, V., Montgomery, L.I., Murray, M.S., Nelson, E.K., Ostojić, L., Palermo, S.G., Parks Russell, A.E., Pelgrim, M.H., Pellowe, S.D., Reinholz, A., Rial, L.A., Richards, E.M., Ross, M.A., Rothkoff, L.G., Salomons, H., Sanger, J.K., Santos, L., Shirle, A.R., Shearer, S.J., Silver, Z.A., Silverman, J.M., Sommese, A., Srdoc, T., St. John-Mosse, H., Vega, A.C., Vékony, K., Völter, C.J., Walsh C.J., Worth, Y.A., Zipperling, L.M.I., Żołędziewska, B., & Zylberfuden, S.G. (in press). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. _Animal Behavior & Cognition_. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
  
 ::: {.content-visible when-format="html"}
 <a href="https://doi.org/10.31234/osf.io/f86jq" title="PDF" class="cv-pub-links">PDF</a>
