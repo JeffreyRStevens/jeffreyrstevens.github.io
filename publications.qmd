@@ -450,9 +450,10 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E., Barela, J.D., Bogese, M., Bray, E.E., Buchsbaum, D. Byosiere, S.-E., Byrne, M., Cavalli, C. M., Chaudoir, L. M., Collins-Pisano, C., DeBoer, H.J., Douglas L.E.L.C., Dror, S., Dzik, M.V., Ferguson, B., Fisher, L., Fitzpatrick, H.C., Freeman, M.S., Frinton, S.N., Glover, M.K., Gnanadesikan, G.E., Goacher, J.E.P., Golańska, M., Guran, C.-N.A., Hare, E., Hare, B. Hickey, M., Horschler, D.J., Huber, L., Jim, H.-L., Johnston, A.M., Kaminski, J. Kelly, D.M., Kuhlmeier, V.A., Lassiter, L., Lazarowski, L., Leighton-Birch, J., MacLean, E.L., Maliszewska, K., Marra, V., Montgomery, L.I., Murray, M.S., Nelson, E.K., Ostojić, L., Palermo, S.G., Parks Russell, A.E., Pelgrim, M.H., Pellowe, S.D., Reinholz, A., Rial, L.A., Richards, E.M., Ross, M.A., Rothkoff, L.G., Salomons, H., Sanger, J.K., Santos, L., Shirle, A.R., Shearer, S.J., Silver, Z.A., Silverman, J.M., Sommese, A., Srdoc, T., St. John-Mosse, H., Vega, A.C., Vékony, K., Völter, C.J., Walsh C.J., Worth, Y.A., Zipperling, L.M.I., Żołędziewska, B., & Zylberfuden, S.G. (in press). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. _Animal Behavior & Cognition_. [doi:10.31234/osf.io/f86jq](https://doi.org/10.31234/osf.io/f86jq) 
  
 ::: {.content-visible when-format="html"}
-<a href="https://doi.org/10.31234/osf.io/f86jq" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://doi.org/10.31234/osf.io/4kncr" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/9r5xf/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://psyarxiv.com/f86jq" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.31234/osf.io/4kncr" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://psyarxiv.com/f86jq" title="Stage 1 registered report" class="cv-pub-links">Registered report</a>
 :::
 
 ::: {.content-visible when-format="html"}
