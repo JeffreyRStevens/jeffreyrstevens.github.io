@@ -1,6 +1,6 @@
 ---
 title: "Jeffrey R. Stevens - Curriculum vitae"
-date: "`r Sys.Date()`"
+date: last-modified
 date-format: iso
 geometry:
   - right=1in
@@ -341,6 +341,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
  "Framing patience: how the representation of reward amounts and time delays shapes intertemporal choice", **Stevens, J.R.**, Cully, T., Goh, F., Society for Judgment and Decision Making, New Orleans, LA
 (poster).
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2019]{.aside}
 
  "Social network structure buffers forgetting in cooperative games", **Stevens, J.R.**, Woike, J., Schooler, L.J., Lindner, S., and Pachur, T., Fly Over State Scientists Integrating Evolution (FOSSIL) conference, Stillwater, OK.
@@ -416,9 +420,6 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  Animal Behavior Society Student Research Grant, "Manipulative mutualism: the effects of harassment on food sharing\" (\$500)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2000-2001]{.aside} 
 
@@ -460,6 +461,10 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  National Science Foundation, "A quantitative analysis of heuristics and discounting models of intertemporal choice" Co-PI with Michel Regenwetter (NSF-1062045, \$528,916)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2012-2013]{.aside} 
 
  University of Nebraska-Lincoln, Planning Grant for the Pathway to Interdisciplinary Research Centers program, Co-PI with Leilani Arthurs (\$9,989)
@@ -500,9 +505,17 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  University of Nebraska Food for Health Collaboration Initiative Seed Grant, "Understanding the effect of exercise on future food intake: The role of behavioral, physiological, and neural mechanisms" Co-PI with Karsten Koehler (PI), Matthew Bice, Ronald Bulbulian, Jeffrey French, Christopher Gustafson, Maital Neta, Scott Stoltenberg (\$150,000)
 
+[2017-2023]{.aside} 
+
+ National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
+
 [2018]{.aside} 
 
  University of Nebraska-Lincoln College of Arts & Sciences Partnership Seed Funding Grant, "Predicting dog training success" (\$9,958)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2019]{.aside} 
 
@@ -516,21 +529,18 @@ I'm Susan J. Rosowski Associate Professor of [Psychology](https://psychology.unl
 
  University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship, "Assessing numerical discrimination in dogs", PI with Mike Dodd (\$10,000)
 
-### Ongoing
-
-[2017-]{.aside} 
-
- National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
-
-[2021-]{.aside} 
+[2021-2023]{.aside} 
 
  University of Nebraska Collaboration Initiative Grant, "Enhancing well-being and animal bonds in rural populations", PI with Lisa Karr, Michelle Howell Smith, and Rosemary Strasser (\$7,500)
  
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
+### Ongoing
 
-[2023]{.aside} 
+[2023-]{.aside} 
+
+ APDT Foundation, "Unleashing stress: Pet and therapy dog responses to human stress odors", PI with Tierney Lorenz and London Woff (\$2,500)
+ 
+
+<!-- [2023]{.aside}  -->
 
  University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
 
@@ -664,6 +674,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Alexandra Rosati---"Context-dependent discounting in two New World primates, the cotton-top tamarin (*Saguinus oedipus*) and the common marmoset (*Callithrix jacchus*)", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Hoopes Thesis Award and Psychology Faculty Award*
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2005-2007]{.aside}
 
  Sarah Heilbronner---"The evolution of risk-sensitive preferences in nonhuman primates", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Psychology Faculty Award*
@@ -681,10 +695,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
  Molly Shane---"Nature's effect on stress and decision making", (honor's thesis in Psychology, University of Nebraska-Lincoln)
 
  Tyler Stading---"Naturally stressed: The effect of nature exposure on stress physiology and decision making", (honor's thesis in Psychology, University of Nebraska-Lincoln)
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2020]{.aside}
 
@@ -738,10 +748,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
  Co-Leader "Science Literacy: Applied STEM Reasoning for the 21st Century and Beyond\" project
 
  Volunteer judge for Morley Elementary Science Fair
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2016]{.aside} 
 
@@ -852,6 +858,9 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
  Organizer of Nebraska Symposium on Motivation on [Impulsivity: How Time and Risk Influence Decision Making](https://psychology.unl.edu/symposium/recent-symposia/#sym2016), University of Nebraska-Lincoln
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 [2018-]{.aside}
 
  Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
@@ -872,9 +881,6 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Editorial board of [*Animal Behavior and Cognition*](https://animalbehaviorandcognition.org/)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2022]{.aside} 
 
@@ -882,10 +888,14 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Chair of search committee for applied cognitive psychologist, University of Nebraska-Lincoln
  
- Co-director of [ManyDogs Project](http://manydogs.org)
- 
+[2022-2023]{.aside} 
+
  Participant in [Research Leaders Program](https://research.unl.edu/researchleaders/), University of Nebraska-Lincoln
 
+[2022-]{.aside} 
+
+ Co-director of [ManyDogs Project](http://manydogs.org)
+ 
 
 ## Honors and Awards
 
