@@ -40,17 +40,10 @@ London graduated with honors in Biology and Animal Behavior, Ecology and Conserv
 Undergraduate Students
 ----------------------
 
-### Jessica Barela
-
-![](images/jessica_barela.jpg){fig-alt="Jessica Barela" width="200" fig-align="left"}
 
 ### Hunter DeBoer
 
 ![](images/hunter_deboer.jpg){fig-alt="Hunter DeBoer" width="200" fig-align="left"}
-
-### Miranda Dresen
-
-![](images/miranda_dresen.png){fig-alt="Miranda Dresen" width="200" fig-align="left"}
 
 ### Hannah Fitzpatrick
 
@@ -68,9 +61,6 @@ Undergraduate Students
 
 ![](images/lauren_rivale.jpeg){fig-alt="Lauren Rivale" width="200" fig-align="left"}
 
-### Bailey Wilson
-
-![](images/bailey_wilson.jpg){fig-alt="Bailey Wilson" width="200" fig-align="left"}
 
 ### Yasmin Worth
 
@@ -82,6 +72,7 @@ Former Lab Members
 ------------------
 
 * Holly Ahmann
+* Jessica Barela
 * Meredith Batten
 * Jesse Baumann-Berg
 * Toria Biancalana
@@ -95,6 +86,7 @@ Former Lab Members
 * Victoria Contreras
 * Tyler Cully
 * Yesenia Delgadillo-Orozco
+* Miranda Dresen
 * Chandler Dulin
 * [Juan Duque (Arcadia University)](https://www.arcadia.edu/profile/juan-duque)
 * Wren Dwinell
@@ -161,6 +153,7 @@ Former Lab Members
 * Audrey Vist
 * Liza Welles
 * Sam Wenzel
+* Bailey Wilson
 * Haley Wilson
 * Aotian Yang
 * Chelsea Yang
