@@ -440,18 +440,18 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 [In press]{.aside}
 <!-- ::: -->
 
-\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (forthcoming). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352)
+\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (in press). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352)
 
 ::: {.content-visible when-format="html"}
 <a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://doi.org/10.31234/osf.io/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
- \*Goh, F. & **Stevens, J.R.** (forthcoming). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_. [doi:10.31234/osf.io/xz68b](https://doi.org/10.31234/osf.io/xz68b) 
+ \*Goh, F. & **Stevens, J.R.** (in press). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/goh_stevens_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/goh_stevens_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="https://doi.org/10.31234/osf.io/xz68b" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/6zg84" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/du2xm/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
