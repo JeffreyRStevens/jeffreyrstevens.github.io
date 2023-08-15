@@ -101,6 +101,10 @@ format:
 
  **Stevens, J.R.**, \*Wood, J.N., and Hauser, M.D. (2007). Quantity trumps number: Discrimination experiments in cotton-top tamarins (*Saguinus oedipus*) and common marmosets (*Callithrix jacchus*). *Animal Cognition*, *10*, 429-437. [doi:10.1007/s10071-007-0081-8](http://doi.org/10.1007/s10071-007-0081-8)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2008]{.aside}
 <!-- ::: -->
@@ -148,6 +152,10 @@ format:
 
  **Stevens, J.R.** & Stephens, D.W. (2010). The adaptive nature of impulsivity. In G.J. Madden & W.K. Bickel (Eds.), *Impulsivity: The behavioral and neurological science of discounting* (pp. 361-387). Washington, D.C.: APA Press. [doi:10.1037/12069-013](https://doi.org/10.1037/12069-013)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2011]{.aside}
 <!-- ::: -->
@@ -185,10 +193,6 @@ format:
  Stevens, A.N.P. & **Stevens, J.R.** (2012). [Animal cognition](http://www.nature.com/scitable/knowledge/library/animal-cognition-96639212). *Nature Education Knowledge*, *3*, 1.
 
  \#**Stevens, J.R.** & \*Mühlhoff, N. (2012). Intertemporal choice in lemurs. *Behavioural Processes*, *89*, 121-127. [doi:10.1016/j.beproc.2011.10.002](http://doi.org/10.1016/j.beproc.2011.10.002)
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2013]{.aside}
