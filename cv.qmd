@@ -19,7 +19,7 @@ format:
 
  | 
 -- | --
-{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) |  [Open Science Framework](https://osf.io/4nx8b/">Open Science Framework)
+{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) |  [Open Science Framework](https://osf.io/4nx8b/)
 {{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens](https://fediscience.org/@JeffreyRStevens) | [ORCiD](https://orcid.org/0000-0003-2375-1360)
 {{< fa brands twitter title="Twitter logo" >}} [JeffStevensADML](http://twitter.com/JeffStevensADML) | [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
