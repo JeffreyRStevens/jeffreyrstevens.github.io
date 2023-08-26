@@ -23,6 +23,12 @@ Dr. Stevens is a Susan J. Rosowski Associate Professor in the Department of Psyc
 Graduate Students
 -----------------
 
+### Anwyn Gatesy-Davis
+
+![](images/anwyn_gatesy-davis.jpg){fig-alt="Anwyn Gatesy-Davis" width="200" fig-align="left"}
+
+Anwyn is a Ph.D. student who earned their B.A. in Psychology and Animal Behavior from Hampshire College in 2020. Their senior thesis was a study on dogs' ability to follow human pointing gestures and compared the point-following abilities of herding breeds to that of non-herding breeds. After graduating, Anwyn worked as a lab manager for Dr. Daphna Buchsbaum's Computational Cognitive Development Lab and Brown Dog Lab at Brown University. Anwyn is interested in how our long history of breeding dogs to help us on farms has shaped the behavior and cognition of those dogs.
+
 ### Francine Goh
 
 ![](images/francine_goh.jpg){fig-alt="Francine Goh" width="200" fig-align="left"}
@@ -45,28 +51,37 @@ Undergraduate Students
 
 ![](images/hunter_deboer.jpg){fig-alt="Hunter DeBoer" width="200" fig-align="left"}
 
+Hunter is a junior majoring in Psychology, Mathematics, and Physics. He plans on continuing to graduate school and become a college professor. Hunter loves dogs and is excited to work with them.
+
 ### Hannah Fitzpatrick
 
 ![](images/hannah_fitzpatrick.jpg){fig-alt="Hannah Fitzpatrick" width="200" fig-align="left"}
+
+Hannah is a senior at UNL majoring in Veterinary Biomedical Sciences. She plans on applying to veterinary school in the summer of 2022 to hopefully get accepted into Iowa State’s vet program for the fall of 2023. She is excited to observe and participate in research involving dogs and the psychology behind their behavior—topics she’s passionate about and hopes to include in her future career.
 
 ### Maya Lashley
 
 ![](images/maya_lashley.jpeg){fig-alt="Maya Lashley" width="200" fig-align="left"}
 
+Maya is a junior studying Animal Science in the companion animal area. She is on the pre-vet track and is hoping to attend veterinary school after finishing her undergraduate degree. Maya is an active member in the Alpha Phi sorority on campus and currently serves as the Finance director for her chapter. She loves all animals, especially her two dogs and three cats. She is excited to learn more and participate in this research!
+
 ### Ashley Llewellyn
 
 ![](images/ashley_llewellyn.jpg){fig-alt="Ashley Llewellyn" width="200" fig-align="left"}
+
+Ashley is a freshman Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
 
 ### Lauren Rivale
 
 ![](images/lauren_rivale.jpeg){fig-alt="Lauren Rivale" width="200" fig-align="left"}
 
+Between working in a doggy daycare for two years and studying pre-vet, Lauren has been working with dogs her whole life. She's always been fascinated by canine behavior and their interactions with other dogs and humans and how it affects them. Dogs have always had a big impact on her life and she's interested to see how they affect those around her.
 
 ### Yasmin Worth
 
 ![](images/yasmin_worth.png){fig-alt="Yasmin Worth" width="200" fig-align="left"}
 
-  
+Yasmin is a junior at UNL studying Biochemistry in a Pre-Veterinary focus and minoring in Animal Science. She loves being around animals, especially her cuddly cat. She is excited to participate in this research.
 
 Former Lab Members
 ------------------
