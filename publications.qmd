@@ -477,6 +477,13 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 [Preprints]{.aside}
 <!-- ::: -->
 
+Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., Gjoneska, B., Huber, L., Mazza, V., Miller, R., Nawroth, C., Pronizius, E., Qadri, M. A. J., Šlipogor, V., Soderstrom, M., **Stevens, J. R.**, Visser, I., Williams, M., Zettersten, M., & Prétôt, L. (2023). Comparative cognition needs big team science: How large-scale collaborations will unlock the future of the field. _PsyArXiv_. [doi:10.31234/osf.io/rynvu](https://doi.org/10.31234/osf.io/rynvu)
+
+::: {.content-visible when-format="html"}
+<a href="https://doi.org/10.31234/osf.io/rynvu" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
  **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
  
 ::: {.content-visible when-format="html"}
