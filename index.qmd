@@ -7,11 +7,11 @@ about:
     - icon: mastodon
       text: Mastodon
       href: https://fediscience.org/@JeffreyRStevens
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/JeffStevensADML
+    - icon: "{{< iconify fa6-solid square >}}"
+      text: "{{< iconify fa6-solid square >}} Bluesky" 
+      href: https://bsky.app/profile/jeffreyrstevens.bsky.social
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/JeffreyRStevens
     - icon: linkedin
       text: LinkedIn
