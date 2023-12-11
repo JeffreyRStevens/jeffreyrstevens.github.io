@@ -7,9 +7,6 @@ about:
     - icon: mastodon
       text: Mastodon
       href: https://fediscience.org/@JeffreyRStevens
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/JeffStevensADML
     - icon: github
       text: Github
       href: https://github.com/JeffreyRStevens

@@ -36,8 +36,6 @@ website:
     right:
       - icon: mastodon
         href: https://fediscience.org/@JeffreyRStevens
-      - icon: twitter
-        href: https://twitter.com/JeffStevensADML
       - icon: github
         href: https://github.com/JeffreyRStevens
       - icon: linkedin
