@@ -19,9 +19,9 @@ format:
 
  | 
 -- | --
-{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) |  [Open Science Framework](https://osf.io/4nx8b/)
+{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@gmail.com](mailto:jeffrey.r.stevens@gmail.com) |  [Open Science Framework](https://osf.io/4nx8b/)
 {{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens](https://fediscience.org/@JeffreyRStevens) | [ORCiD](https://orcid.org/0000-0003-2375-1360)
-{{< fa brands twitter title="Twitter logo" >}} [JeffStevensADML](http://twitter.com/JeffStevensADML) | [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
+{{< fa square >}} [JeffreyRStevens](https://bsky.app/profile/jeffreyrstevens.bsky.social) | [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
 
@@ -228,6 +228,10 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 
  "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2004]{.aside}
 
  "The selfish nature of generosity: harassment and food sharing in primates", International Society for Behavioral Ecology, Jyväskylä, Finland.
@@ -345,10 +349,6 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
  "Framing patience: how the representation of reward amounts and time delays shapes intertemporal choice", **Stevens, J.R.**, Cully, T., Goh, F., Society for Judgment and Decision Making, New Orleans, LA
 (poster).
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2019]{.aside}
 
  "Social network structure buffers forgetting in cooperative games", **Stevens, J.R.**, Woike, J., Schooler, L.J., Lindner, S., and Pachur, T., Fly Over State Scientists Integrating Evolution (FOSSIL) conference, Stillwater, OK.
@@ -465,10 +465,6 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 
  National Science Foundation, "A quantitative analysis of heuristics and discounting models of intertemporal choice" Co-PI with Michel Regenwetter (NSF-1062045, \$528,916)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2012-2013]{.aside} 
 
  University of Nebraska-Lincoln, Planning Grant for the Pathway to Interdisciplinary Research Centers program, Co-PI with Leilani Arthurs (\$9,989)
@@ -513,13 +509,13 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 
  National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
 
-[2018]{.aside} 
-
- University of Nebraska-Lincoln College of Arts & Sciences Partnership Seed Funding Grant, "Predicting dog training success" (\$9,958)
-
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
+
+[2018]{.aside} 
+
+ University of Nebraska-Lincoln College of Arts & Sciences Partnership Seed Funding Grant, "Predicting dog training success" (\$9,958)
 
 [2019]{.aside} 
 
@@ -567,7 +563,7 @@ Discussion leader, *Advances in Behavioral Economics*---Harvard University (2005
 
 Lecturer, *Psychology of Economic Decision Making, Psy 1104*---Harvard University (2006)
 
-Instructor, *Evolution, Behavior, and Society, Psyc 270*---University of Nebraska (2011--2016, 2018, 2020)
+Instructor, *Evolution, Behavior, and Society, Psyc 270*---University of Nebraska (2011--2016, 2018, 2020-2023)
 
 Instructor, *Psychology of Decision Making, Psyc 961*---University of Nebraska (2012, 2013, 2015, 2017, 2020, 2022)
 
@@ -579,7 +575,7 @@ Instructor, *Animal Learning & Cognition, Psyc 461/861*---University of Nebraska
 
 Instructor, *Data Science and Visualization in R*, Psyc 492/971*---University of Nebraska (2021)
 
-Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of Nebraska (2022)
+Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of Nebraska (2022-2023)
 
 
 ## Summer Schools and Workshops
@@ -614,6 +610,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 [1999]{.aside} 
 
  "Competition and fighting", University of Minnesota---Introduction to Animal Behavior: EEB 3111
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2000-2001]{.aside} 
 
@@ -678,10 +678,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Alexandra Rosati---"Context-dependent discounting in two New World primates, the cotton-top tamarin (*Saguinus oedipus*) and the common marmoset (*Callithrix jacchus*)", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Hoopes Thesis Award and Psychology Faculty Award*
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2005-2007]{.aside}
 
  Sarah Heilbronner---"The evolution of risk-sensitive preferences in nonhuman primates", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Psychology Faculty Award*
@@ -736,6 +732,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  London Wolff--"Friends or food: comparing social and food-based numerical cognition in captive pinyon jays", (Master's thesis, Dept. of Psychology, University of Nebraska-Lincoln)
 
+[2019-2023]{.aside}
+
+ Francine Goh--"Affective influences on intertemporal choice", (PhD thesis, Dept. of Psychology, University of Nebraska-Lincoln)
+ 
 
 ## Outreach
 
@@ -765,7 +765,7 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Organizer for Husker DogFest at University of Nebraska-Lincoln
 
-[2019]{.aside} Guest speaker at Edgerton Explorit Dog Science Camp
+[2019-2023]{.aside} Guest speaker at Edgerton Explorit Dog Science Camp
 
  Invited speaker for Science Café by University of Nebraska State Museum: \"Pawsitive Psychology: Dog-Human Bonds\"
 
@@ -779,6 +779,9 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
  
  Host for Future Huskers visit
 
+[2023]{.aside} 
+
+ Organizer for Husker DogFest at University of Nebraska-Lincoln
 
 ## Professional Service and Development
 
@@ -822,6 +825,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Faculty for Summer Institute on Bounded Rationality in Psychology and Economics, Berlin, Germany
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2010]{.aside} 
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
@@ -862,12 +869,11 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
  Organizer of Nebraska Symposium on Motivation on [Impulsivity: How Time and Risk Influence Decision Making](https://psychology.unl.edu/symposium/recent-symposia/#sym2016), University of Nebraska-Lincoln
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 [2018-]{.aside}
 
  Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
+
+[2018-2021]{.aside}
 
 Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
@@ -895,6 +901,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 [2022-2023]{.aside} 
 
  Participant in [Research Leaders Program](https://research.unl.edu/researchleaders/), University of Nebraska-Lincoln
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2022-]{.aside} 
 
@@ -946,6 +956,10 @@ Developer of R package [excluder](https://docs.ropensci.org/excluder/), which fa
 
 Developer of R package [flashr](https://jeffreyrstevens.github.io/flashr/), which creates flashcards for learning terms and descriptions.
 
+### formatstats
+
+Developer of R package [formatstats](https://jeffreyrstevens.github.io/formatstats/), which format statistical output in a way that can be inserted into R Markdown documents.
+
 ### prereg
 Minor contributor to R package [prereg](https://github.com/crsh/prereg), which provides R Markdown templates that facilitate authoring preregistrations of scientific studies in PDF format.
 
@@ -955,7 +969,7 @@ Minor contributor to R package [see](https://easystats.github.io/see/), which pr
 
 ## Ad-hoc Referee
 
-*Animal Behavior and Cognition*, *Animal Behaviour*, *Animal Cognition*, *Behavioral and Brain Sciences*, *Behavioral Ecology*, *Behavioral Ecology and Sociobiology*, *Behaviour*, *Behavioural Processes*, *Biology Letters*, *Cognition*, Cognitive Science Society, *Current Biology*, *Current Directions in Psychological Science*, *Ethology*, *Etología*, *Evolutionary Psychology*, *iScience*, *Journal of Behavioral Decision Making*, *Journal of Comparative Psychology*, *Journal of Economic Psychology*,  *Journal of Experimental Psychology: General*, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *Learning & Behavior*, *Nature Reviews Neuroscience*, *Naturwissenschaften*, *Personality and Social Psychology Review*, *PLoS Biology*, *PLoS ONE*, *Proceedings of the National Academy of Sciences USA*, *Proceedings of the Royal Society of London: Series B*, *Psychonomic Bulletin & Review*, *Review of General Psychology*, *Science*, *Science Advances*, *Scientific Reports*, *Trends in Cognitive Sciences*
+*Animal Behavior and Cognition*, *Animal Behaviour*, *Animal Cognition*, *Behavioral and Brain Sciences*, *Behavioral Ecology*, *Behavioral Ecology and Sociobiology*, *Behaviour*, *Behavioural Processes*, *Biology Letters*, *Cognition*, Cognitive Science Society, *Current Biology*, *Current Directions in Psychological Science*, *Ethology*, *Etología*, *Evolutionary Psychology*, *Experimental Psychology*, *iScience*, *Journal of Behavioral Decision Making*, *Journal of Comparative Psychology*, *Journal of Economic Psychology*,  *Journal of Experimental Psychology: General*, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *Learning & Behavior*, *Nature Reviews Neuroscience*, *Naturwissenschaften*, *Personality and Social Psychology Review*, *PLoS Biology*, *PLoS ONE*, *Proceedings of the National Academy of Sciences USA*, *Proceedings of the Royal Society of London: Series B*, *Psychonomic Bulletin & Review*, *Review of General Psychology*, *Royal Society Open Science*, *Science*, *Science Advances*, *Scientific Reports*, *Trends in Cognitive Sciences*
 
 
 ## Grant Reviews

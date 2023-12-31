@@ -71,9 +71,9 @@ Maya is a junior studying Animal Science in the companion animal area. She is on
 
 Ashley is a freshman Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
 
-### Lauren Rivale
+### Lauryn Rivale
 
-![](images/lauren_rivale.jpeg){fig-alt="Lauren Rivale" width="200" fig-align="left"}
+![](images/lauren_rivale.jpeg){fig-alt="Lauryn Rivale" width="200" fig-align="left"}
 
 Between working in a doggy daycare for two years and studying pre-vet, Lauren has been working with dogs her whole life. She's always been fascinated by canine behavior and their interactions with other dogs and humans and how it affects them. Dogs have always had a big impact on her life and she's interested to see how they affect those around her.
 
