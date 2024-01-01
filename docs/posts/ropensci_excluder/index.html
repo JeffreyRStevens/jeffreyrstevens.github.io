@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jeffrey Stevens">
+<meta name="dcterms.date" content="2022-08-09">
+<meta name="description" content="Use the excluder package to exclude survey data.">
+
+<title>Jeffrey R. Stevens - Working with Qualtrics Data - Part 2: Excluding Data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1P6FW90MJL"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1P6FW90MJL', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jeffrey R. Stevens</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../../cv.html" rel="" target="">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../publications.html" rel="" target="">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../people.html" rel="" target="">
+ <span class="dropdown-text">People</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html" rel="" target="">
+ <span class="menu-text">R Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#before-collecting-your-data" id="toc-before-collecting-your-data" class="nav-link active" data-scroll-target="#before-collecting-your-data">Before collecting your data</a>
+  <ul class="collapse">
+  <li><a href="#anonymous-vs.-non-anonymous-data" id="toc-anonymous-vs.-non-anonymous-data" class="nav-link" data-scroll-target="#anonymous-vs.-non-anonymous-data">Anonymous vs.&nbsp;non-anonymous data</a></li>
+  <li><a href="#computer-metadata" id="toc-computer-metadata" class="nav-link" data-scroll-target="#computer-metadata">Computer metadata</a></li>
+  </ul></li>
+  <li><a href="#removing-problematic-data" id="toc-removing-problematic-data" class="nav-link" data-scroll-target="#removing-problematic-data">Removing problematic data</a>
+  <ul class="collapse">
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#marking-rows" id="toc-marking-rows" class="nav-link" data-scroll-target="#marking-rows">Marking rows</a></li>
+  <li><a href="#checking-rows" id="toc-checking-rows" class="nav-link" data-scroll-target="#checking-rows">Checking rows</a></li>
+  <li><a href="#excluding-rows" id="toc-excluding-rows" class="nav-link" data-scroll-target="#excluding-rows">Excluding rows</a></li>
+  </ul></li>
+  <li><a href="#deidentifying-data" id="toc-deidentifying-data" class="nav-link" data-scroll-target="#deidentifying-data">Deidentifying data</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Working with Qualtrics Data - Part 2: Excluding Data</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">coding</div>
+    <div class="quarto-category">R package</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Use the excluder package to exclude survey data.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jeffrey Stevens </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 9, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><em>Note: Cross-posted with <a href="https://ropensci.org/blog/2022/08/09/working-with-qualtrics-data-excluding/">rOpenSci blog</a>.</em></p>
+<p>In the <a href="../../blog/2022/08/02/working-with-qualtrics-data-importing/">last post</a>, we used the <a href="https://docs.ropensci.org/qualtRics/">qualtRics</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> package to import survey data directly from <a href="https://www.qualtrics.com/">Qualtrics</a> accounts. I often use Qualtrics for survey data collected via <a href="https://www.mturk.com/">Amazon’s Mechanical Turk</a>, which is an automated system that connects online respondents to paid surveys. However, sometimes those data are not super useful because the quality of the data is poor. In the anonymous, large-scale market of online survey respondents, the financial incentives for completing surveys attract respondents who blast through the study just to collect the money or, worse, automated bots programmed to act like humans and reap the incentives. 🤖 As a scientist, I’m collecting survey data to understand human nature, so I’m looking for honest responses. But low-quality data can be common in online surveys, and not just on Mechanical Turk<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>There are some cues that data may come from bots, such as entries originating from outside of your specified country or multiple entries coming from the same IP address. Cues of inattentive human participants include not completing the survey, completing it very quickly or slowly, or ignoring your requests to use specific types of devices (e.g., desktop computers not phones or tablets). I call these kinds of cues <em>metadata</em> because they are not direct responses from the respondents but are information about <em>how</em> the respondent took the survey. After repeatedly creating filters to deal with these problematic metadata, I formalized them into my first R package called <a href="https://docs.ropensci.org/excluder/">excluder</a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
+<p>In Part 2 of this series, we’ll use excluder to remove potentially problematic metadata. First, we’ll learn how to set up your Qualtrics survey to collect the relevant information. Then we’ll learn how to mark, check, and exclude observations based on the metadata. Finally, we’ll clean up our data sets by deidentifying them.</p>
+<section id="before-collecting-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="before-collecting-your-data">Before collecting your data</h2>
+<p>As a reminder, excluder focuses on <em>metadata</em> about an entry rather than the actual responses. If you have particular questions from your specific survey that you want to use to exclude data (for example, questions specifically designed to check the attentiveness of respondents), you should use regular subset/filter functions from <a href="https://rdrr.io/r/base/subset.html">base R</a> or <a href="https://dplyr.tidyverse.org/reference/filter.html">dplyr</a>. Here, we’re focusing on metadata collected about your survey respondents.</p>
+<p>But to use this metadata, you must first collect it! Though the excluder package can work with metadata from other survey systems (e.g., SurveyMonkey), we’ll focus on data coming from Qualtrics surveys. There are two options in Qualtrics that allow you to collect the metadata that excluder can work with.</p>
+<section id="anonymous-vs.-non-anonymous-data" class="level3">
+<h3 class="anchored" data-anchor-id="anonymous-vs.-non-anonymous-data">Anonymous vs.&nbsp;non-anonymous data</h3>
+<p>First, Qualtrics can collect either anonymous or non-anonymous data. Non-anonymous data include IP address, geolocation, and contact information provided by you (if you have Qualtrics email your respondents). To collect non-anonymous data, you must toggle the switch <em>Off</em> under <em>Survey</em> &gt; <em>Options</em> &gt; <em>Security</em> &gt; <a href="https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses"><em>Anonymize responses</em></a>. If you collect non-anonymous data, just make sure that respondents know that you’re collecting their IP address and location<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="qualtrics_anonymize.png" class="img-fluid figure-img" alt="A screenshot of Qualtrics Survey > Options > Security tab." width="600"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens</p>
+</section>
+<section id="computer-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="computer-metadata">Computer metadata</h3>
+<p>In addition to IP address and location, Qualtrics can also collect information about the computer environment that respondents use to take your survey, such as operating system, browser type and version, and screen resolution. To collect the <a href="https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/meta-info-question/">computer metadata</a>, you must create a question in your survey in a block that already has another question. Click <em>Add a new question</em> and select the <em>Meta info</em> question type.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="qualtrics_metadata.png" class="img-fluid figure-img" alt="A screenshot of adding a Meta info question to a Qualtrics survey." width="600"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens</p>
+</section>
+</section>
+<section id="removing-problematic-data" class="level2">
+<h2 class="anchored" data-anchor-id="removing-problematic-data">Removing problematic data</h2>
+<p>Now that we’ve collected the proper metadata, we can use it to deal with potentially problematic data.</p>
+<section id="metadata" class="level3">
+<h3 class="anchored" data-anchor-id="metadata">Metadata</h3>
+<p>Here are seven types of metadata that excluder works with, along with their tags that are used in excluder functions.</p>
+<ul>
+<li><strong>Qualtrics preview status</strong> (<code>preview</code>): Qualtrics records data when you <a href="https://www.qualtrics.com/support/survey-platform/survey-module/preview-survey/">preview your survey</a> before deploying it. You probably always want to remove preview data.</li>
+<li><strong>Survey progress</strong> (<code>progress</code>): Qualtrics tracks how much of the survey the respondent completes. excluder can detect surveys which are incomplete.</li>
+<li><strong>Survey completion time</strong> (<code>duration</code>): Qualtrics records the number of seconds that the respondent works on the survey. excluder can detect completion times that are too fast or that take too long.</li>
+<li><strong>IP address country</strong> (<code>ip</code>)<sup>*</sup>: If IP addresses are collected, they can determine the country of origin for the respondent. excluder can detect IP addresses outside of a specified country. Note, however, that VPNs can use IP addresses outside of the country of origin, so you must weigh the possibility of false alarms in detecting IP addresses from other countries.</li>
+<li><strong>Geolocation in US</strong> (<code>location</code>)<sup>*</sup>: Qualtrics determines geolocation (latitude and longitude) through GPS or IP addresses. excluder can detect locations within the United States but cannot detect this for other countries at the moment.</li>
+<li><strong>Duplicate IP address</strong> (<code>duplicates</code>)<sup>*</sup>: Automated bots may spam your survey from the same IP address. excluder detects if the same IP address shows up repeatedly in your data. Note, however, that duplicate IP addresses may be legitimately different respondents using the same computer or recycled dynamic IP address in the same household, dormitory, or business. So you must weigh the costs of losing good data against the benefits of removing bad data.</li>
+<li><strong>Screen resolution</strong> (<code>resolution</code>)<sup>**</sup>: Sometimes, you may request that respondents use a particular kind of device for your survey, such as a desktop computer rather than a phone or tablet. excluder can assess screen resolution to detect respondents who may be using the wrong type of device.</li>
+</ul>
+<p><sup>*</sup> You must have enabled <a href="https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses">non-anonymized data</a> in Qualtrics to collect these metadata.</p>
+<p><sup>**</sup> You must have included the <a href="https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/meta-info-question/">computer metadata question</a> in Qualtrics to collect these metadata.</p>
+</section>
+<section id="marking-rows" class="level3">
+<h3 class="anchored" data-anchor-id="marking-rows">Marking rows</h3>
+<p>OK, now that we know what kind of metadata we can work with, what do we do with them? The excluder package can do three actions on the metadata: mark, check, or exclude. The mark functions are the backbone of the package. Mark functions make new columns with the metadata criteria output appended to the existing data frame. So you pass a data frame to the mark functions to see which rows meet the metadata criteria. Mark function names simple prepend <code>mark_</code> to the metadata tag. So, for example, the function that marks preview metadata (<code>preview</code>) is <code>mark_preview()</code>.</p>
+<p>Before we start marking, let’s look at an example data set that we can work with. The <code>qualtrics_text</code> data set includes both non-anonymous and computer metadata. We’ll just look at the first six rows by piping to <code>head()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(excluder)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>qualtrics_text <span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status    IPAddress Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview         &lt;NA&gt;      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address   73.23.43.0      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address 16.140.105.0      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address 107.57.244.0      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address 15.232.167.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         29.73694         -94.97599           EN  Chrome 88.0.4324.41
+2         39.74107        -121.82490           EN  Chrome 88.0.4324.50
+3         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+4         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+5         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+6         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2        Macintosh  1680x1050
+3  Windows NT 10.0   1366x768
+4  Windows NT 10.0   1536x864
+5  Windows NT 10.0   1536x864
+6  Windows NT 10.0   1366x768</code></pre>
+</div>
+</div>
+<p>By looking at the <code>Status</code> column, we can already see that the first two rows are previews. Let’s see what <code>mark_preview()</code> does by applying it to the <code>qualtrics_text</code> data.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mark_preview</span>(qualtrics_text) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status    IPAddress Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview         &lt;NA&gt;      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address   73.23.43.0      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address 16.140.105.0      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address 107.57.244.0      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address 15.232.167.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         29.73694         -94.97599           EN  Chrome 88.0.4324.41
+2         39.74107        -121.82490           EN  Chrome 88.0.4324.50
+3         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+4         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+5         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+6         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+  Operating System Resolution exclusion_preview
+1  Windows NT 10.0   1366x768           preview
+2        Macintosh  1680x1050           preview
+3  Windows NT 10.0   1366x768                  
+4  Windows NT 10.0   1536x864                  
+5  Windows NT 10.0   1536x864                  
+6  Windows NT 10.0   1366x768                  </code></pre>
+</div>
+</div>
+<p>There are two important outputs. First, we have an informational message telling us that <em>2 rows were collected as previews</em>. Each mark function will output this kind of message letting us know how many rows meet each metadata criterion. Second, we now have a new column called <code>exclusion_preview</code> appended to the data frame. Notice that the first two rows of that column have <code>preview</code> values while the rest of the rows are blank. We have now marked which rows meet this metadata criterion. ☑️</p>
+<p>Of course, you may want to mark your data for multiple metadata criteria. To do this, you simply have to connect multiple mark functions with a pipe (either <a href="https://rdrr.io/r/base/pipeOp.html">base R’s <code>|&gt;</code></a> or <a href="https://magrittr.tidyverse.org/reference/pipe.html">magrittr’s %&gt;%</a>). So if we want to mark preview data and all rows where the completion duration is less than 200 seconds or more than 600 seconds, we just chain these together. In fact, we can also pull the data frame out of functions as well. Note that for clarity, I use the <a href="https://dplyr.tidyverse.org/reference/select.html"><code>select()</code></a> function from <a href="https://dplyr.tidyverse.org/reference/select.html">dplyr</a> to show just a subset of columns and rows.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>qualtrics_text <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mark_preview</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mark_duration</span>(<span class="at">min_duration =</span> <span class="dv">200</span>, <span class="at">max_duration =</span> <span class="dv">600</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(Status, <span class="st">`</span><span class="at">Duration (in seconds)</span><span class="st">`</span>, exclusion_preview, exclusion_duration) <span class="sc">%&gt;%</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 23 out of 100 rows took less time than 200.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 8 out of 100 rows took more time than 600.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          Status Duration (in seconds) exclusion_preview exclusion_duration
+1 Survey Preview                   465           preview                   
+2 Survey Preview                   545           preview                   
+3     IP Address                   651                        duration_slow
+4     IP Address                   409                                     
+5     IP Address                   140                       duration_quick
+6     IP Address                   213                                     </code></pre>
+</div>
+</div>
+<p>Now we have three messages regarding rows that meet the criteria: one for previews, one for short completion times, and one for long completion times. We also now have a new <code>exclusion_duration</code> column added that marks rows that are too quick or too slow.</p>
+<p>You can pipe together as many mark functions as you would like to get a feel for which data rows meet your different criteria. But adding a new column for each criterion can make it difficult to visualize everything together. If you want to combine all of your criteria into a single column, add the <code>unite_exclusions()</code> function at the end of the chain. Rows meeting multiple criteria will separate those criteria with commas.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>qualtrics_text <span class="sc">%&gt;%</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mark_preview</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mark_duration</span>(<span class="at">min_duration =</span> <span class="dv">200</span>, <span class="at">max_duration =</span> <span class="dv">600</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unite_exclusions</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(Status, <span class="st">`</span><span class="at">Duration (in seconds)</span><span class="st">`</span>, exclusions) <span class="sc">%&gt;%</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 23 out of 100 rows took less time than 200.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 8 out of 100 rows took more time than 600.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          Status Duration (in seconds)     exclusions
+1 Survey Preview                   465        preview
+2 Survey Preview                   545        preview
+3     IP Address                   651  duration_slow
+4     IP Address                   409               
+5     IP Address                   140 duration_quick
+6     IP Address                   213               </code></pre>
+</div>
+</div>
+</section>
+<section id="checking-rows" class="level3">
+<h3 class="anchored" data-anchor-id="checking-rows">Checking rows</h3>
+<p>The mark functions are nice to view rows that meet all of your different criteria, but it can be unwieldy to use this if you have large data sets or sparse cases that meet criteria. The <code>check</code> functions help with this by extracting only the rows that meet the criterion. So you can view just the problematic data. Here we use <code>check_progress()</code> to extract the rows with progress percentages less than 100.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>qualtrics_text <span class="sc">%&gt;%</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">check_progress</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 6 out of 100 rows did not complete the study.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate     Status    IPAddress Progress
+1 2020-12-17 15:40:53 2020-12-17 15:43:25 IP Address   22.51.31.0       99
+2 2020-12-17 15:40:56 2020-12-17 15:46:23 IP Address 71.146.112.0        1
+3 2020-12-17 15:41:52 2020-12-17 15:46:37 IP Address   15.223.0.0       13
+4 2020-12-17 15:41:27 2020-12-17 15:46:45 IP Address  19.127.87.0       48
+5 2020-12-17 15:49:42 2020-12-17 15:51:50 IP Address 40.146.247.0        5
+6 2020-12-17 15:49:28 2020-12-17 15:55:06 IP Address   2.246.67.0       44
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   879    FALSE 2020-12-17 15:43:25 R_AkQyJypPyjgribz
+2                   627    FALSE 2020-12-17 15:46:23 R_1cvaTAoXO7XW1vi
+3                    40    FALSE 2020-12-17 15:46:37 R_Dx6w74UfhnGhAmj
+4                    74    FALSE 2020-12-17 15:46:46 R_ewyyOOPADLGo9xZ
+5                   307    FALSE 2020-12-17 15:51:50 R_HFKclPO5wWGNsFs
+6                   355    FALSE 2020-12-17 15:55:06 R_UfSQq1VXYkVcxdJ
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         37.28265        -120.50248           EN  Chrome 87.0.4280.88
+2         34.03605        -117.04066           EN    &lt;NA&gt;         &lt;NA&gt;
+3         34.77804         -84.96198           DE  Chrome 83.0.4103.61
+4         33.66715        -117.82543           EN  Chrome 87.0.4280.88
+5         29.29882         -81.04289           EN Firefox         81.0
+6         37.79058        -121.96737           EN  Chrome 87.0.4280.67
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2             &lt;NA&gt;       &lt;NA&gt;
+3  Windows NT 10.0   1366x768
+4  Windows NT 10.0   1188x668
+5  Windows NT 10.0   1366x768
+6        Macintosh   1280x800</code></pre>
+</div>
+</div>
+<p>The check functions are useful for viewing rows meeting individual criteria. But you probably do not want to pipe multiple check functions together because each function outputs only the subset of the data that meets that criterion. So piping multiple check functions returns the rows that meet all of the criteria at once (the <em>intersection</em> of the criteria in set theory lingo).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="check_venn.png" class="img-fluid figure-img" alt="A Venn diagram of multiple check functions overlapping with an arrow pointing to the intersection." width="600"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens</p>
+</section>
+<section id="excluding-rows" class="level3">
+<h3 class="anchored" data-anchor-id="excluding-rows">Excluding rows</h3>
+<p>After marking and/or checking our data, we may have decided which rows we want to remove. For this, we use the <code>exclude</code> functions. For instance to exclude all rows that come from the same IP address, we use the <code>exclude_duplicates()</code> function.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>qualtrics_text <span class="sc">%&gt;%</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_duplicates</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 10 out of 100 duplicate rows were excluded, leaving 90 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status    IPAddress Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview         &lt;NA&gt;      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address   73.23.43.0      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address 16.140.105.0      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address 107.57.244.0      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address 15.232.167.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         29.73694         -94.97599           EN  Chrome 88.0.4324.41
+2         39.74107        -121.82490           EN  Chrome 88.0.4324.50
+3         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+4         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+5         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+6         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2        Macintosh  1680x1050
+3  Windows NT 10.0   1366x768
+4  Windows NT 10.0   1536x864
+5  Windows NT 10.0   1536x864
+6  Windows NT 10.0   1366x768</code></pre>
+</div>
+</div>
+<p>This leaves all rows except the ones that meet the criterion, in this case, the 10 rows out of 100 that have duplicate IP addresses. The exclude functions are like the opposite of the check functions. Therefore, we can pipe multiple exclude functions together to remove data based on multiple metadata criteria.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>qualtrics_text <span class="sc">%&gt;%</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_preview</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_progress</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_duplicates</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_duration</span>(<span class="at">min_duration =</span> <span class="dv">100</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_resolution</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_ip</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exclude_location</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 out of 100 preview rows were excluded, leaving 98 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 6 out of 98 rows with incomplete progress were excluded, leaving 92 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 9 out of 92 duplicate rows were excluded, leaving 83 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 out of 83 rows of short and/or long duration were excluded, leaving 81 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 3 out of 81 rows with unacceptable screen resolution were excluded, leaving 78 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 out of 78 rows with IP addresses outside of US were excluded, leaving 76 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 4 out of 76 rows outside of the US were excluded, leaving 72 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate     Status    IPAddress Progress
+1 2020-12-11 12:17:22 2020-12-11 12:21:41 IP Address   73.23.43.0      100
+2 2020-12-11 12:17:41 2020-12-11 12:22:07 IP Address 16.140.105.0      100
+3 2020-12-11 12:19:45 2020-12-11 12:23:16 IP Address 107.57.244.0      100
+4 2020-12-11 12:37:51 2020-12-11 12:43:09 IP Address 15.232.167.0      100
+5 2020-12-11 12:37:04 2020-12-11 12:45:50 IP Address  98.75.201.0      100
+6 2020-12-11 13:22:34 2020-12-11 13:35:19 IP Address 17.163.199.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+2                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+3                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+4                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+5                   662     TRUE 2020-12-11 12:45:51 R_6OZ4weICjHVtEkg
+6                   277     TRUE 2020-12-11 13:35:19 R_ed0N9zgbymHSLLd
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+2         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+3         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+4         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+5         29.41433         -98.50342           EN    Edge  84.0.522.52
+6         33.41401        -111.55062           EN Firefox         83.0
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2  Windows NT 10.0   1536x864
+3  Windows NT 10.0   1536x864
+4  Windows NT 10.0   1366x768
+5  Windows NT 10.0  1920x1080
+6  Windows NT 10.0   1440x900</code></pre>
+</div>
+</div>
+<p>As we exclude, the messages tell us how many rows are returned from each functions, so we can see how the data frame gets smaller at each step. While the order of the functions shouldn’t influence the final data frame output, it might make sense to use criteria with many exclusions early to speed processing of subsequent exclusions.</p>
+</section>
+</section>
+<section id="deidentifying-data" class="level2">
+<h2 class="anchored" data-anchor-id="deidentifying-data">Deidentifying data</h2>
+<p>Congratulations—we have now removed all of our problematic data! 🎉 However, those data frames may still have identifying information included in them (e.g., IP addresses and geolocation). Before we pass on the data set to others or post it publicly, we probably want to remove those identifying columns. excluder has a <code>deidentify()</code> function that quickly removes all metadata columns. 🥸</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">deidentify</span>(qualtrics_text) <span class="sc">%&gt;%</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H</code></pre>
+</div>
+</div>
+<p>You can also use the <code>strict = FALSE</code> argument to only remove the non-anonymous columns, leaving the computer metadata.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">deidentify</span>(qualtrics_text, <span class="at">strict =</span> <span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId Browser
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY  Chrome
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o  Chrome
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L  Chrome
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn  Chrome
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle  Chrome
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H  Chrome
+       Version Operating System Resolution
+1 88.0.4324.41  Windows NT 10.0   1366x768
+2 88.0.4324.50        Macintosh  1680x1050
+3 87.0.4280.88  Windows NT 10.0   1366x768
+4 87.0.4280.88  Windows NT 10.0   1536x864
+5 87.0.4280.88  Windows NT 10.0   1536x864
+6 87.0.4280.88  Windows NT 10.0   1366x768</code></pre>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Before the fun part of analyzing data, we often need to perform some more tedious steps. The <a href="https://docs.ropensci.org/qualtRics/">qualtRics</a> package is a huge help in automating the import of data into R. As we learned in <a href="../../blog/2022/08/02/working-with-qualtrics-data-importing/">Part 1</a>, after connecting to the Qualtrics API, we can quickly (and powerfully) import our Qualtrics data with the <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code></a> function. Once those data are imported, we can use the <a href="https://docs.ropensci.org/excluder/">excluder</a> package to deal with potentially problematic online survey data based on respondent metadata, using the mark, check, and exclude functions. Then we can deidentify our data set before continuing to work with it or passing it on to others. Combined, these two packages can improve your data workflow by automating import and early cleaning processes, leaving the fun part of data processing up to you!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="happy_data.jpg" class="img-fluid figure-img" alt="A person sitting on a black couch with a laptop is looking left and smiling." width="600"></p>
+</figure>
+</div>
+<p>Source: Brooke Cagle on <a href="https://unsplash.com/photos/LCcFI_26diA">Unsplash</a>.</p>
+<p>If you have ideas for improvements to the excluder package or if you find bugs, please <a href="https://github.com/ropensci/excluder/issues">submit an issue</a> on the <a href="https://github.com/ropensci/excluder/">excluder GitHub repo</a>.</p>
+</section>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>In developing the excluder package, I thank <a href="https://orcid.org/0000-0002-7364-4398">Francine Goh</a> and Billy Lim for comments on an early version of the package, as well as the insightful feedback during <a href="https://github.com/ropensci/software-review/issues/455">peer review</a> from rOpenSci editor <a href="../../author/mauro-lepore/">Mauro Lepore</a> and reviewers <a href="https://orcid.org/0000-0001-9851-5077">Joseph O’Brien</a> and <a href="../../author/julia-silge/">Julia Silge</a>. This work was funded by US National Science Foundation grant NSF-1658837.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Ginn J, Silge J (2022). qualtRics: Download ‘Qualtrics’ Survey Data. R package version 3.1.6, <a href="https://CRAN.R-project.org/package=qualtRics" class="uri">https://CRAN.R-project.org/package=qualtRics</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Eyal, P., David, R., Andrew, G., Zak, E., &amp; Ekaterina, D. (2021). Data quality of platforms and panels for online behavioral research. Behavior Research Methods. <a href="https://doi.org/10.3758/s13428-021-01694-3" class="uri">https://doi.org/10.3758/s13428-021-01694-3</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Stevens, J. R. (2021). excluder: An R package that checks for exclusion criteria in online data. <em>Journal of Open Source Software</em>, 6(67), 3893. <a href="https://doi.org/10.21105/joss.03893" class="uri">https://doi.org/10.21105/joss.03893</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>In some cases, the default in Qualtrics is to collect non-anonymous data, so always check that this option is set to your desired selection for each survey.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2023 Jeffrey R. Stevens. Powered by <a href="https://www.quarto.org">Quarto</a>.</div>   
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://fediscience.org/@JeffreyRStevens">
+      <i class="bi bi-mastodon" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/jeffreyrstevens.bsky.social"><iconify-icon inline="" icon="fa6-solid:square"></iconify-icon></a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JeffreyRStevens">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/JeffreyRStevens/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jeffrey.r.stevens@protonmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

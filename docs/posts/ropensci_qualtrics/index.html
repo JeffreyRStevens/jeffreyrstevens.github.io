@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jeffrey Stevens">
+<meta name="dcterms.date" content="2022-08-02">
+<meta name="description" content="Use the qualtRics package to import Qualtrics data.">
+
+<title>Jeffrey R. Stevens - Working with Qualtrics Data - Part 1: Importing Data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1P6FW90MJL"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1P6FW90MJL', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jeffrey R. Stevens</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../../cv.html" rel="" target="">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../publications.html" rel="" target="">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../people.html" rel="" target="">
+ <span class="dropdown-text">People</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html" rel="" target="">
+ <span class="menu-text">R Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#importing-qualtrics-data-into-r" id="toc-importing-qualtrics-data-into-r" class="nav-link active" data-scroll-target="#importing-qualtrics-data-into-r">Importing Qualtrics data into R</a>
+  <ul class="collapse">
+  <li><a href="#connecting-to-qualtrics" id="toc-connecting-to-qualtrics" class="nav-link" data-scroll-target="#connecting-to-qualtrics">Connecting to Qualtrics</a></li>
+  <li><a href="#listing-your-surveys" id="toc-listing-your-surveys" class="nav-link" data-scroll-target="#listing-your-surveys">Listing your surveys</a></li>
+  <li><a href="#importing-surveys" id="toc-importing-surveys" class="nav-link" data-scroll-target="#importing-surveys">Importing surveys</a></li>
+  <li><a href="#viewing-survey-info" id="toc-viewing-survey-info" class="nav-link" data-scroll-target="#viewing-survey-info">Viewing survey info</a></li>
+  </ul></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Working with Qualtrics Data - Part 1: Importing Data</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">coding</div>
+    <div class="quarto-category">R package</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Use the qualtRics package to import Qualtrics data.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jeffrey Stevens </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 2, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><em>Note: Cross-posted with <a href="https://ropensci.org/blog/2022/08/02/working-with-qualtrics-data-importing/">rOpenSci blog</a>.</em></p>
+<p>The online survey system <a href="https://www.qualtrics.com/">Qualtrics</a> can be a great way to collect data from research participants, customers, and stakeholders. I use it frequently to conduct research studies with participants or just to poll students and collaborators. However, while Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. Fortunately, two R packages (<a href="https://docs.ropensci.org/qualtRics/">qualtRics</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and <a href="https://docs.ropensci.org/excluder/">excluder</a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>) can make importing data and excluding low-quality data easier.</p>
+<p>Discovering the qualtRics package has saved me a lot of time importing data. It also lets me create data pipelines for sensitive data by reading files directly into R without saving them locally until they’ve been deidentified. This way I don’t accidentally save personally identifiable information in a place that is not authorized for sensitive data.</p>
+<p>After importing data, there is often a lot of clean up that needs to happen, especially for online survey respondents. I developed the excluder package to help with removing data entries based on broad metadata such as response duration, respondent location, screen resolution, etc. Combining the qualtRics and excluder packages can help you deal with the tedious part of survey data and quickly get to the fun part of data analysis!</p>
+<p>Part 1 of this series will show you how to use qualtRics to import your data, and we’ll cover excluding your data with excluder in <a href="../../blog/2022/08/09/working-with-qualtrics-data-excluding/">Part 2</a>.</p>
+<section id="importing-qualtrics-data-into-r" class="level2">
+<h2 class="anchored" data-anchor-id="importing-qualtrics-data-into-r">Importing Qualtrics data into R</h2>
+<p>If you’ve worked with Qualtrics data before, you know you have to log into Qualtrics, navigate to the data section, wait for all of the data to be “re-indexed” for viewing, choose whether to export as numeric or character values, choose what type of file to export, download the data file, find the downloaded data file, change the name of the file to something comprehensible, and delete those first two obnoxious rows of metadata. 😮‍💨 Having to go through this process manually every time that you want to download Qualtrics data can be cumbersome and time consuming.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="mouseclicking.gif" class="img-fluid figure-img" alt="A gif of a hand furiously clicking a computer mouse."></p>
+</figure>
+</div>
+<p>Source: <span class="citation" data-cites="corsairgaming">@corsairgaming</span> at <a href="https://media.giphy.com/media/443u3QvEVYcvcHJVdQ/giphy.gif">Giphy</a></p>
+<p>Enter, the <a href="https://docs.ropensci.org/qualtRics/">qualtRics</a> package from <a href="https://juliasilge.com/">Julia Silge</a> and <a href="https://jasperhg90.github.io/">Jasper Ginn</a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. This package allows you to use the Qualtrics API to directly connect to your survey data. You can download a list of surveys in your account, as well as the actual questions and metadata about those questions. But, most importantly, the qualtRics package allows you to download Qualtrics data into your R session. Therefore, you can write scripts that automatically import your Qualtrics data whenever you run your script. No more time wasted downloading manually!</p>
+<section id="connecting-to-qualtrics" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-to-qualtrics">Connecting to Qualtrics</h3>
+<p>Of course, to get your data, you have to have access to your Qualtrics account. The <a href="https://api.qualtrics.com/">Qualtrics API</a> allows you to connect to your Qualtrics account with your personal API token (or key) and your datacenter ID. You can <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMg-api-key-authentication">find your API token</a> by logging into Qualtrics, going to <em>Account Settings</em>, selecting the <em>Qualtrics IDs</em> tab, finding the <em>API</em> box, clicking <em>Generate Token</em>, and copying the long string of random letters and numbers shown next to <em>Token</em>. Note this key is like your password for accessing your account, so don’t share it with others. 🤫</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="qualtrics_api_token.png" class="img-fluid figure-img" alt="An image of the Qualtrics ID page with an example token in the API box highlighted with a red rectangle." width="800"></p>
+</figure>
+</div>
+<p>Source: <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMg-api-key-authentication">Qualtrics API Documentation</a></p>
+<p>For your datacenter ID, follow the same procedure but look in the <em>User</em> box of the <em>Qualtrics ID</em> page and grab the <em>Datacenter ID</em>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="qualtrics_api_datacenter.png" class="img-fluid figure-img" alt="An image of the User box from the Qualtrics ID page with an example User ID, Organization ID, and Datacenter ID." width="400"></p>
+</figure>
+</div>
+<p>Source: <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMw-base-url-and-datacenter-i-ds">Qualtrics API Documentation</a></p>
+<p>Your datacenter ID can now be appended before <code>qualtrics.com</code> to generate your base URL: <code>yourdatacenterid.qualtrics.com</code> (don’t include <code>https://</code>). You can use the qualtRics function <code>qualtrics_api_credentials()</code> to connect your R session to the Qualtrics API.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qualtRics)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">qualtrics_api_credentials</span>(<span class="at">api_key =</span> <span class="st">"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                          <span class="at">base_url =</span> <span class="st">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Now your R session should have access to your Qualtrics account. But if you start a new R session, you’ll have to rerun this command. And it is not recommended to save this command in an R script because, if you send the script to someone else or post it publicly in a repository, you are granting access to your Qualtrics account to other people. 😬</p>
+<p>To avoid having to rerun the command, you can store your API token and base URL on your local computer by using <code>install = TRUE</code>. Including this argument will save the API token and base URL information in your <code>.Renviron</code> file, which is read when starting every new R session.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">qualtrics_api_credentials</span>(<span class="at">api_key =</span> <span class="st">"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                          <span class="at">base_url =</span> <span class="st">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">install =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Now you’ll either need to restart your R session or reload your environment with <code>readRenviron("~/.Renviron")</code> to make the credentials accessible in the current R session.</p>
+<p>If you use <code>install = TRUE</code>, this means that your credentials are stored in a plain text file on your computer. So this may not be something that you want to do on a shared computer account. You must decide between the security of not storing credentials on your computer and the convenience of not having to enter your credentials for every new R session. ⚖️</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="security_convenience.jpg" class="img-fluid figure-img" alt="Meme with hand hovering over two red buttons, one reading Security and the other reading Convenience." width="400"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens built in <a href="https://imgflip.com/meme/Two-Buttons">Meme Generator</a></p>
+<p>Congrats—you’ve now registered your Qualtrics credentials! 🎉 If you have difficulty with this, check out the qualtRics <a href="https://docs.ropensci.org/qualtRics/articles/qualtRics.html#registering-your-qualtrics-credentials">documentation</a> or <a href="https://github.com/ropensci/qualtRics/issues">GitHub issues</a>, or the <a href="https://api.qualtrics.com/">Qualtrics API documentation</a>. If you have multiple Qualtrics accounts that you want you use, you’ll have to get creative about how you <a href="https://github.com/ropensci/qualtRics/issues/110">set up your API tokens</a>.</p>
+</section>
+<section id="listing-your-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="listing-your-surveys">Listing your surveys</h3>
+<p>Now that you’ve connected to your Qualtrics account, one of the first things you may want to do is list the surveys that you have in your account. While you can do this by hand through the Qualtrics website, you can also download a list of all surveys as a data frame with <a href="https://docs.ropensci.org/qualtRics/reference/all_surveys.html"><code>all_surveys()</code></a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>surveys <span class="ot">&lt;-</span> <span class="fu">all_surveys</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>You can then view data frame to find the survey that you want.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(surveys)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="qualtrics_surveys.png" class="img-fluid figure-img" alt="An image of a data frame that is the output of the all_surveys function with columns id, name, ownerID, lastModified, creationDate, and isActive." width="800"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens”</p>
+<p>The <code>id</code> column lists the survey ID for each survey (starting with <code>SV_</code>). This is a unique identifier that Qualtrics uses to label each survey. You will need the survey ID to download or work with it, so make sure to copy it from the data frame.</p>
+</section>
+<section id="importing-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="importing-surveys">Importing surveys</h3>
+<p>Now that we know which survey we want, we can import it using <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code></a> and the survey ID.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>mysurvey <span class="ot">&lt;-</span> <span class="fu">fetch_survey</span>(<span class="at">surveyID =</span> <span class="st">"SV_XXXXXXXXXX"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This imports the survey as a data frame. The <code>fetch_survey()</code> function has many arguments that are helpful in importing your data. Here are just a few:</p>
+<ul>
+<li><p>Set your time zone with <code>time_zone</code>. This is important because, if you don’t set it in your Account Settings, Qualtrics has a default time zone that may differ from your own.</p></li>
+<li><p>Extract entries during a particular time period with <code>start_date</code> and/or <code>end_date</code>.</p></li>
+<li><p>Import only certain questions with <code>include_questions</code>.</p></li>
+<li><p>Control whether you import choice text or numeric data with <code>label</code>.</p></li>
+<li><p>Let the function try to guess the proper data types for your columns with <code>convert</code> or specify the data types with <code>col_types</code>.</p></li>
+<li><p>Save your data frame locally with the <code>save_dir</code> argument. Note it saves the file as an RDS file, so you’ll need something like <a href="https://rdrr.io/r/base/readRDS.html"><code>readRDS()</code></a> to read it.</p></li>
+</ul>
+<p>Find out more about this function in the <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code> documentation</a>.</p>
+<p><code>fetch_survey()</code> allows you to automatically import your Qualtrics surveys directly—no more messy and time-consuming downloads! But if you’ve already downloaded a file from Qualtrics, you can use qualtRics’ <a href="https://docs.ropensci.org/qualtRics/reference/read_survey.html"><code>read_survey()</code></a> function to import that file and clean up some Qualtrics messiness like removing those first two obnoxious rows and allowing control over the time zone and column data types.</p>
+</section>
+<section id="viewing-survey-info" class="level3">
+<h3 class="anchored" data-anchor-id="viewing-survey-info">Viewing survey info</h3>
+<p>While <code>fetch_survey()</code> provides the core functionality of the qualtRics package, the package also includes some other helper functions that allow you to view information about your survey.</p>
+<p>You can get a data frame that includes all survey questions and their IDs and names with <a href="https://docs.ropensci.org/qualtRics/reference/survey_questions.html"><code>survey_questions()</code></a>. To really drill down into your survey, use the <a href="https://docs.ropensci.org/qualtRics/reference/metadata.html"><code>metadata()</code></a> function. Not only can you access general metadata about your survey (survey name, owner ID, organization ID, creation/modification dates), but you can get more detailed information about your questions (question labels, question type, response option descriptions), block information, and survey flow. You can access information about the survey distribution, mailing lists, etc. with other functions. It’s definitely worth exploring all of the <a href="https://docs.ropensci.org/qualtRics/reference/index.html">helper functions</a>.</p>
+</section>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
+<p>You have learned a quick and easy way to automatically download your Qualtrics data with the qualtRics package. 😎 Now what do you do with it? Well, if you’re collecting online surveys, you may have a lot of problematic data that you want to remove. Check out <a href="../../blog/2022/08/09/working-with-qualtrics-data-excluding/">Part 2: Excluding Data</a> to find out how to exclude data with the <a href="https://docs.ropensci.org/excluder/">excluder</a> package.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Ginn J, Silge J (2022). qualtRics: Download ‘Qualtrics’ Survey Data. R package version 3.1.6, https://CRAN.R-project.org/package=qualtRics<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Stevens, J. R. (2021). excluder: An R package that checks for exclusion criteria in online data. <em>Journal of Open Source Software</em>, 6(67), 3893. <a href="https://doi.org/10.21105/joss.03893" class="uri">https://doi.org/10.21105/joss.03893</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Many thanks to Julia Silge and Jasper Ginn for creating a wonderful package and providing the <a href="https://docs.ropensci.org/qualtRics/">documentation</a> and <a href="https://docs.ropensci.org/qualtRics/articles/qualtRics.html">vignette</a> on which this post was based! Also, check out Julia’s blog post about <a href="../../blog/2019/04/30/qualtrics-relaunch/">relaunching the qualtRics package</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2023 Jeffrey R. Stevens. Powered by <a href="https://www.quarto.org">Quarto</a>.</div>   
+    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://fediscience.org/@JeffreyRStevens">
+      <i class="bi bi-mastodon" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/jeffreyrstevens.bsky.social"><iconify-icon inline="" icon="fa6-solid:square"></iconify-icon></a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JeffreyRStevens">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/JeffreyRStevens/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jeffrey.r.stevens@protonmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
