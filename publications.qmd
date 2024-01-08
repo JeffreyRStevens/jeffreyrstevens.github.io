@@ -349,9 +349,9 @@ format:
  \*Arce, W. & **Stevens, J. R.** (2022). A precise dispenser design for canine cognition research. *Journal of Open Hardware*, 6(1) 2. [doi:10.5334/joh.41](https://doi.org/10.5334/joh.41) 
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/arce_stevens_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/data/arce_stevens_2022_data.csv" title="Data" class="cv-pub-links">Data</a>
-<a href="https://decisionslab.unl.edu/data/arce_stevens_2022_rcode.R" title="Code" class="cv-pub-links">Code</a>
+<a href="pubs/arce_stevens_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/arce_stevens_2022_data.csv" title="Data" class="cv-pub-links">Data</a>
+<a href="data/arce_stevens_2022_rcode.R" title="Code" class="cv-pub-links">Code</a>
 <a href="https://www.youtube.com/watch?v=fIKlNvzwXUY" title="Video" class="cv-pub-links">Video</a>
 <a href="https://hackaday.com/2022/02/06/open-hardware-dog-treat-dispenser-is-a-stepping-stone-for-behavioral-research/" title="Press" class="cv-pub-links">Press</a>
 <a href="https://github.com/unl-cchil/canine_precise_dispenser" title="GitHub" class="cv-pub-links">GitHub</a>
@@ -360,16 +360,16 @@ format:
  Bryer, M. A. H., Koopman, S. E., Cantlon, J. F., Piantadosi, S. T., MacLean, E. L., Baker, J. M., Beran, M. J., Jones, S. M., Jordan, K. E., Mahamane, S., Nieder, A., Perdue, B. M., Range, F., **Stevens, J. R.**, Tomonaga, M., Ujfalussy, D. J., & Vonk, J. (2022). The evolution of quantitative sensitivity. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 377(1844), 20200529. [doi:10.1098/rstb.2020.0529](https://doi.org/10.1098/rstb.2020.0529) 
  
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/bryer_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/bryer_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="pubs/bryer_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/bryer_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/j9sv8/" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
- \*Goh, F., \*Jungck, A.C., & **Stevens, J.R.** (2022). Pro tip: Screen-based payment methods increase negative feelings in consumers but do not increase tip sizes. [doi:10.33422/ejbs.v4i4.678](https://doi.org/10.33422/ejbs.v4i4.678) 
+ \*Goh, F., \*Jungck, A.C., & **Stevens, J.R.** (2022). Pro tip: Screen-based payment methods increase negative feelings in consumers but do not increase tip sizes. _European Journal of Behavioral Sciences_, 4(4), 1–21. [doi:10.33422/ejbs.v4i4.678](https://doi.org/10.33422/ejbs.v4i4.678) 
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/goh_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/goh_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="pubs/goh_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/goh_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/bqf52/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/yfne8" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
@@ -378,33 +378,39 @@ format:
  \*Marvin, S., \*Sorenson, K., & **Stevens, J. R.** (2022). Bringing human-animal interaction to sport: Potential impacts on athletic performance. *European Journal of Sport Science*, 22(7), 955-963. [doi:10.1080/17461391.2021.1916084](https://doi.org/10.1080/17461391.2021.1916084) 
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/marvin_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/marvin_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://psyarxiv.com/w4p7b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
  Miller, R., Lambert, M. L., Frohnwieser, A., Brecht, K. F., Bugnyar, T., Crampton, I., Garcia-Pelegrin, E., Gould, K., Greggor, A. L., Izawa, E.-I., Kelly, D. M., Li, Z., Luo, Y., Luong, L. B., Massen, J. J. M., Neider, A., Reber, S. A., Schiestl, M., Seguchi, A., **Stevens, J.R.**, Taylor, A.H., Wang, L.,  Wolff, L.M.,  Zhang, Y., Clayton, N. S. (2022). Socio-ecological correlates of neophobia in corvids. *Current Biology*, 32(1), 74-85.e4.  [doi:10.1016/j.cub.2021.10.045](https://doi.org/10.1016/j.cub.2021.10.045) 
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/miller_etal_2021_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/miller_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
-<a href="https://decisionslab.unl.edu/data/miller_etal_2021_data.csv" title="Data" class="cv-pub-links">Data</a>
-<a href="https://decisionslab.unl.edu/data/miller_etal_2021_rcode.R" title="Code" class="cv-pub-links">Code</a>
+<a href="pubs/miller_etal_2021_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/miller_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="data/miller_etal_2021_data.csv" title="Data" class="cv-pub-links">Data</a>
+<a href="data/miller_etal_2021_rcode.R" title="Code" class="cv-pub-links">Code</a>
 <a href="https://www.youtube.com/watch?v=Lhzyk3srmdg" title="Video" class="cv-pub-links">Video</a>
 <a href="https://news.unl.edu/newsrooms/today/article/boo-birds-worldwide-study-finds-differences-in-avian-fear-of-the-unknown/" title="Press" class="cv-pub-links">Press</a>
 <a href="https://doi.org/10.1101/2021.07.27.453788" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
  **Stevens, J.R.**, \*Mathias, M., \*Herridge, M., \*Hughes-Duvall, K., \*Wolff, L. M., & \*Yohe, M. (2022). Do owners know how impulsive their dogs are? *Animal Behavior & Cognition*,   9(3), 261-286. [doi:10.26451/abc.09.03.02.2022](https://doi.org/10.26451/abc.09.03.02.2022)
- <!-- [[PDF](https://decisionslab.unl.edu/pubs/stevens_etal_2022.pdf)] -->
+ <!-- [[PDF](pubs/stevens_etal_2022.pdf)] -->
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stevens_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/eb5m3/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/hyvdq" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 \*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/thayer.stevens.2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/v7wxt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/7v5nq" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
 
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2023]{.aside}
@@ -416,7 +422,7 @@ format:
 Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, & Koehler, K. (2023). Biological and behavioral predictors of relative energy intake after acute exercise. _Appetite_, 184, 106520. [doi:10.1016/j.appet.2023.106520](https://doi.org/10.1016/j.appet.2023.106520)
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/hochsmann_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/hochsmann_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://doi.org/10.21203/rs.3.rs-1414640/v1" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
@@ -424,6 +430,7 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 [doi:10.3819/CCBR.2023.180004](https://doi.org/10.3819/CCBR.2023.180004)
 
 ::: {.content-visible when-format="html"}
+<a href="pubs/manydogs.etal.2023a.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
@@ -431,7 +438,7 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E., Barela, J.D., Bogese, M., Bray, E.E., Buchsbaum, D. Byosiere, S.-E., Byrne, M., Cavalli, C. M., Chaudoir, L. M., Collins-Pisano, C., DeBoer, H.J., Douglas L.E.L.C., Dror, S., Dzik, M.V., Ferguson, B., Fisher, L., Fitzpatrick, H.C., Freeman, M.S., Frinton, S.N., Glover, M.K., Gnanadesikan, G.E., Goacher, J.E.P., Golańska, M., Guran, C.-N.A., Hare, E., Hare, B. Hickey, M., Horschler, D.J., Huber, L., Jim, H.-L., Johnston, A.M., Kaminski, J. Kelly, D.M., Kuhlmeier, V.A., Lassiter, L., Lazarowski, L., Leighton-Birch, J., MacLean, E.L., Maliszewska, K., Marra, V., Montgomery, L.I., Murray, M.S., Nelson, E.K., Ostojić, L., Palermo, S.G., Parks Russell, A.E., Pelgrim, M.H., Pellowe, S.D., Reinholz, A., Rial, L.A., Richards, E.M., Ross, M.A., Rothkoff, L.G., Salomons, H., Sanger, J.K., Santos, L., Shirle, A.R., Shearer, S.J., Silver, Z.A., Silverman, J.M., Sommese, A., Srdoc, T., St. John-Mosse, H., Vega, A.C., Vékony, K., Völter, C.J., Walsh C.J., Worth, Y.A., Zipperling, L.M.I., Żołędziewska, B., & Zylberfuden, S.G. (2023). ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension. _Animal Behavior & Cognition_, 10(3), 232-286. [doi:10.26451/abc.10.03.03.2023](https://doi.org/10.26451/abc.10.03.03.2023) 
  
 ::: {.content-visible when-format="html"}
-<a href="https://doi.org/10.31234/osf.io/4kncr" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/manydogs.etal.2023b.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/9r5xf/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://doi.org/10.31234/osf.io/4kncr" title="Preprint" class="cv-pub-links">Preprint</a>
 <a href="https://psyarxiv.com/f86jq" title="Stage 1 registered report" class="cv-pub-links">Registered report</a>
@@ -453,9 +460,17 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 [In press]{.aside}
 <!-- ::: -->
 
+Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., Gjoneska, B., Huber, L., Mazza, V., Miller, R., Nawroth, C., Pronizius, E., Qadri, M. A. J., Šlipogor, V., Soderstrom, M., **Stevens, J. R.**, Visser, I., Williams, M., Zettersten, M., & Prétôt, L. (forthcoming). Comparative cognition needs big team science: How large-scale collaborations will unlock the future of the field. _Comparative Cognition and Behavior Review_. [doi:10.31234/osf.io/rynvu](https://doi.org/10.31234/osf.io/rynvu)
+
+::: {.content-visible when-format="html"}
+<a href="https://doi.org/10.31234/osf.io/rynvu" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
 \*Barela, J., \*Worth, Y., & **Stevens, J.R.** (in press). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352)
 
 ::: {.content-visible when-format="html"}
+<a href="pubs/barela_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://doi.org/10.31234/osf.io/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
@@ -469,6 +484,14 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+\*Wolff, L. M., \*Carey, K., \& **Stevens, J.R.** (forthcoming). Friends aren’t food: pinyon jays show context-dependent numerical cognition. _Animal Behavior & Cognition_. [doi:10.31234/osf.io/kxgwt](https://doi.org/10.31234/osf.io/kxgwt)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/wolff_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/g45nk/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/kxgwt" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 ::: {.content-visible when-format="html"}
 ### Preprints
 :::
@@ -476,13 +499,6 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 <!-- ::: {.content-visible when-format="pdf"} -->
 [Preprints]{.aside}
 <!-- ::: -->
-
-Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., Gjoneska, B., Huber, L., Mazza, V., Miller, R., Nawroth, C., Pronizius, E., Qadri, M. A. J., Šlipogor, V., Soderstrom, M., **Stevens, J. R.**, Visser, I., Williams, M., Zettersten, M., & Prétôt, L. (2023). Comparative cognition needs big team science: How large-scale collaborations will unlock the future of the field. _PsyArXiv_. [doi:10.31234/osf.io/rynvu](https://doi.org/10.31234/osf.io/rynvu)
-
-::: {.content-visible when-format="html"}
-<a href="https://doi.org/10.31234/osf.io/rynvu" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
 
  **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
  
@@ -493,24 +509,15 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 **Stevens, J.R.**, \*Cully, T., & \*Goh, F.W. (2021). Framing attributes in similarity judgments and intertemporal choices. _PsyArXiv_. [doi:10.31234/osf.io/csnqv](https://doi.org/10.31234/osf.io/csnqv) 
 
 ::: {.content-visible when-format="html"}
-<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://decisionslab.unl.edu/pubs/stevens_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stevens_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/xnwra/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/csnqv" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-\*Wolff, L. M., \*Carey, K., \& **Stevens, J.R.** (2022). Friends aren’t food: pinyon jays show context-dependent numerical cognition. _PsyArXiv_. [doi:10.31234/osf.io/kxgwt](https://doi.org/10.31234/osf.io/kxgwt)
-
-::: {.content-visible when-format="html"}
-<!-- <a href="https://decisionslab.unl.edu/pubs/wolff_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a> -->
-<!-- <a href="https://decisionslab.unl.edu/pubs/wolff_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a> -->
-<a href="https://osf.io/g45nk/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://psyarxiv.com/kxgwt" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
 <!-- ::: {.content-visible when-format="html"} -->
-<!-- <a href="https://decisionslab.unl.edu/pubs/stevens_etal_2021.pdf" title="PDF" class="cv-pub-links">PDF</a> -->
-<!-- <a href="https://decisionslab.unl.edu/pubs/stevens_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a> -->
+<!-- <a href="pubs/stevens_etal_2021.pdf" title="PDF" class="cv-pub-links">PDF</a> -->
+<!-- <a href="pubs/stevens_etal_2021_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a> -->
 <!-- <a href="https://osf.io/qv542/" title="Data" class="cv-pub-links">Data</a> -->
 <!-- <a href="https://osf.io/gdhf8/" title="R code" class="cv-pub-links">R Code</a> -->
 <!-- <a href="data/stevens_etal_2021_rr.zip" title="Reproducible materials" class="cv-pub-links">Reproducible materials</a> -->
