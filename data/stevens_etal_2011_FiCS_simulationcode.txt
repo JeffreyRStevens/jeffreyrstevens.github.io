@@ -1,0 +1,1768 @@
+
+This text file includes the code for the Pascal program and the initiation file needed to run the Pascal code.  To run this code, copy the initiation text into a file named "tftsim.ini" (without the quotes). Copy the Pascal text into a file named "tftsim.pas" (without the quotes) and compile (we used Free Pascal for Windows: http://www.freepascal.org/) to create executable file (e.g., tftsim.exe).  Place the initiation file in the same directory as the Pascal executable file.  At the command line, start program by typing "tftsim.exe tftsim.ini".
+
+################################################################
+Initiation file begins.  Below this is the Pascal code.
+################################################################
+
+directory_name
+tft_sim
+blocked_interaction
+on
+number_of_agents
+2
+number_of_interaction_partners
+1
+number_of_interactions_with_partner
+10
+number_of_gtft
+0
+number_of_pavlov
+0
+number_of_random
+0
+number_of_grim
+0
+number_of_contrite_tft
+2
+number_of_tft
+0
+number_of_tf2t
+0
+number_of_allc
+0
+number_of_alld
+0
+dependent_strategy
+1
+mutation
+0.0
+memory_error_mode
+fixed
+memory_error_initial_start
+1.0
+memory_error_initial_end
+0.50
+memory_error_forget_start
+0
+memory_error_forget_end
+0
+runs
+1000
+output_on_screen
+off
+gtft_first_move
+100
+gtft_cc
+100
+gtft_cd
+33
+gtft_dc
+100
+gtft_dd
+33
+pavlov_first_move
+100
+pavlov_cc
+100
+pavlov_cd
+0
+pavlov_dc
+0
+pavlov_dd
+100
+
+
+
+################################################################
+Pascal code begins.
+################################################################
+
+program simulation;
+(*
+
+Simulation Program 11/2009 with 'mutation'
+coded by Sebastian Scholz
+written and compiled with FPC 2.2.4
+
+Parameters can be changed in separate ini-file!
+start from command line:
+"simulation filename.ini"
+
+
+content of the ini-file:
+
+blocked_interaction (on/off)
+number_of_agents (integer (0-65535))
+number_of_interaction_partners (integer (0-65535))
+number_of_interactions_with_partner (integer (0-65535))
+memory_error_mode (fixed/partner-wise)
+memory_error_initial_start (real (0.00-1.00))
+memory_error_initial_end (real (0.00-1.00))
+memory_error_forget_start (real (0.00-1.00))
+memory_error_forget_end (real (0.00-1.00))
+mutation (real (0.000-1.000))
+runs (integer (0-65535))
+output_on_screen (on/off)
+gtft_first_move (integer (0-100))
+gtft_cc (integer (0-100))
+gtft_cd (integer (0-100))
+gtft_dc (integer (0-100))
+gtft_dd (integer (0-100))
+pavlov_first_move (integer (0-100))
+pavlov_cc (integer (0-100))
+pavlov_cd (integer (0-100))
+pavlov_dc (integer (0-100))
+pavlov_dd (integer (0-100))
+
+
+
+*)
+
+uses crt;
+
+// declaration of constants
+const c_number_of_strategies = 9;
+      c_mutationrange = 1001; // mutation 0-1000 (program) resp. 0.000-1.000 (ini-file)
+      payoff_cc = 3; // agent's payoff for cooperate(agent)-cooperate(partner)
+      payoff_cd = 0; // agent's payoff for cooperate(agent)-defect(partner)
+      payoff_dc = 5; // agent's payoff for defect(agent)-cooperate(partner)
+      payoff_dd = 1; // agent's payoff for defect(agent)-defect(partner)
+      strat_yx: array[1..c_number_of_strategies] of byte = (8,9,10,11,12,13,14,15,16); // y-constants if output on screen is enabled
+
+// declaration of types
+type
+     p_agent = ^r_agent; // pointer to agent record
+     p_move = ^r_move; // pointer to move record
+     p_pair = ^r_pair; // pointer to pair record
+     p_order = ^r_order; // pointer to order record
+     p_run = ^r_run; // pointer to run record
+     p_generation = ^r_generation; // pointer to generation record
+
+     r_tempdata = record
+      gen: word; // generation counter
+      run: word; // run counter
+      initial,forget: byte; // initial and forget counter
+      strat: array[1..c_number_of_strategies] of real; // percentage of each strategy
+      strat_agents: array[1..c_number_of_strategies] of word; // number of agents per strategy
+     end;
+
+     r_ini = record // parameters from ini file
+      noft,noft2,mutation: word; // number of agents and corrected number; mutation rate
+      noip: word; // number of interaction partners
+      noiwp: word; // number of interactions with each partner
+      blocked: boolean; // blocked interaction
+      me_mode: byte; // memory error mode; 1=partner-wise, 2=fixed
+      initial, forget: array[1..2] of byte; // for calculation of the memory error
+      runs: word; // number of runs the simulation has to pass
+      prob1_firstmove,prob1_cc,prob1_cd,prob1_dc,prob1_dd: byte; // probability of cooperation after cc,cd,dc,dd and in first move
+      prob2_firstmove,prob2_cc,prob2_cd,prob2_dc,prob2_dd: byte; // probability of cooperation after cc,cd,dc,dd and in first move
+      output: boolean; // output on screen
+     end;
+
+     r_generation = record
+      strat: array[1..c_number_of_strategies] of word; // number of agents per strategy
+      win: ^byte; // winner strategy
+      next,prev: p_generation; // next and previous item in list
+     end;
+
+     r_run = record
+      gen: p_generation; // pointer to generation record
+      ccounter,icounter: longint; // counter of interactions and cooperations
+      cclg: longint; // counter of cooperations in the last generation
+      next,prev: p_run; // next and previous item in list
+     end;
+
+     r_order = record
+      agent: p_agent; // pointer to agent record
+      next,prev: p_order; //next and previous item in list
+     end;
+
+     r_move = record
+      move,pmove: boolean; // agent's move and move of agent's partner
+      partner: p_agent; // pointer to the partner
+      next,prev: p_move; // next and previous item in list
+     end;
+
+     r_agent = record
+      strat: byte; // type of strategy
+      lastmoves: p_move; // pointer to all moves of the agent
+      agent_as_actor: word; // counts how often an agent is selected as part of a pair
+      number: longint; // the number of the agent
+      np: boolean; // "no play"; if number of agents * number of interaction partners cannot be divided by two, one randomly chosen agent is not available for one generation, e.g., 99 agents, 5 interaction partners --> only 98 agents are available for one generation
+      cpayoff: longint; // cumulated payoff
+      next,prev: p_agent; // next and previous item in list
+     end;
+
+     r_pair = record
+      present: word; // counts how often a pair is selected
+      player,partner: p_agent; // pointer to player and partner
+      next,prev: p_pair; // next and previous item in list
+     end;
+
+// declaration of variables
+var temp: r_tempdata;
+    run_data: p_run; // data of every run is collected in this pointer until the end when data is saved on hard disc
+    directory: string; // files are saved in this directory (can be initialized within the ini file)
+    f_run, f_statistics, f_statistics_all: text; // files to save in
+    filename_run, filename_statistics, filename_statistics_all: string; // file names of above files
+    strat_name: array[1..c_number_of_strategies] of string; // strategy names
+    agent, first_agent, temp_agent: p_agent; // agent = list of all created agents; first_agent & temp_agent are marks within that list
+    pair, first_pair: p_pair; // pair = list of all created pairs; first_pair is a mark within that list
+    ini: r_ini; // all initialization data is saved in that type
+    f_ini: text; // ini file to read from
+    player_move, partner_move: boolean; // can be true (cooperate) or false (defect)
+    player_payoff, partner_payoff: byte; // payoff for agent & partner
+    ii,ij,ik,il,number_of_actions: longint; // temp variables
+
+
+
+function str2int(s:string):word;
+// transforms string to word (0..65k)
+// if a string cannot be transformed, the function returns "65432"
+var i,code: word;
+begin
+val(s,i,code);
+if code<>0 then str2int:=65432 else str2int:=i;
+end;
+
+function str2real(s:string):double;
+// transforms string to real
+// if a string cannot be transformed, the function returns "65432"
+var code: word;
+    i:double;
+begin
+val(s,i,code);
+if code<>0 then str2real:=65432 else str2real:=i;
+end;
+
+function int2str(int:longint):string;
+// transforms integer to text
+var s: string;
+begin
+ str(int,s);
+ int2str:=s;
+end;
+
+function real2str(r:double;dp:byte):string;
+// transforms real to text
+var s: string;
+begin
+ str(r:3:dp,s);
+ real2str:=s;
+end;
+
+function square(x,y:double):double;
+// x to the power of y
+begin
+ if y=0 then square:=1 else square:=exp(ln(x)*y);
+end;
+
+function memory_error(x:boolean;distance:word):boolean;
+// checks whether agent remembers correctly
+var t: word;
+    p: longint;
+begin
+  if distance>1 then p:=trunc((temp.initial/100)*(square(distance,((-1)*(temp.forget/100))))*10000) else p:=trunc(temp.initial*100);
+  // forgetting function
+  t:=random(10001);
+  if t>p then memory_error:=not x else memory_error:=x;
+end;
+
+procedure wth_gen(newrun:boolean);
+// writes a complete generation into memory (heap)
+var i: byte;
+begin
+ if run_data=nil then begin
+  new(run_data);
+  run_data^.next:=nil;
+  run_data^.prev:=nil;
+  run_data^.ccounter:=0;
+  run_data^.icounter:=0;
+  run_data^.cclg:=0;
+  new(run_data^.gen);
+  run_data^.gen^.next:=nil;
+  run_data^.gen^.prev:=nil;
+  run_data^.gen^.win:=nil;
+ end else begin
+  while run_data^.next<>nil do run_data:=run_data^.next;
+  if newrun then begin
+   new(run_data^.next);
+   run_data^.next^.prev:=run_data;
+   run_data:=run_data^.next;
+   run_data^.next:=nil;
+   run_data^.ccounter:=0;
+   run_data^.icounter:=0;
+   run_data^.cclg:=0;
+   new(run_data^.gen);
+   run_data^.gen^.next:=nil;
+   run_data^.gen^.prev:=nil;
+   run_data^.gen^.win:=nil;
+  end else begin
+   while run_data^.next<>nil do run_data:=run_data^.next;
+   while run_data^.gen^.next<>nil do run_data^.gen:=run_data^.gen^.next;
+   new(run_data^.gen^.next);
+   run_data^.gen^.next^.prev:=run_data^.gen;
+   run_data^.gen:=run_data^.gen^.next;
+   run_data^.gen^.next:=nil;
+   run_data^.gen^.win:=nil;
+  end;
+ end;
+ for i:=1 to c_number_of_strategies do run_data^.gen^.strat[i]:=temp.strat_agents[i];
+end;
+
+procedure wtd_runs;
+// writes all runs & generations and some statistics on hard disc
+type p_sorted = ^r_sorted;
+     r_sorted = record
+      r: longint;
+      next,prev: p_sorted;
+     end;
+     p_median = ^r_median;
+     r_median = record
+      r: real;
+      next,prev: p_median;
+     end;
+var i,j,l,m: word;
+    r: array [1..c_number_of_strategies] of double;
+    rr: array[1..c_number_of_strategies] of double;
+    k: byte;
+    sorted,first,last: array[1..c_number_of_strategies] of p_sorted;
+    sort_temp: p_sorted;
+    median, first_median: array[1..c_number_of_strategies] of p_median;
+    median_temp: p_median;
+    last_run: p_run;
+    last_gen: p_generation;
+    winner,s_min,s_max,strat_run: array[1..c_number_of_strategies] of longint;
+    strat_all: array[1..c_number_of_strategies] of real;
+    cc,ic: double;
+    cr2: array[1..2] of double;
+
+begin
+ if ini.output then begin
+  writeln;writeln;writeln;writeln('Saving files...');
+ end;
+ for i:=1 to c_number_of_strategies do begin
+  strat_run[i]:=0;
+  strat_all[i]:=0;
+  median[i]:=nil;
+  winner[i]:=0;
+ end;
+ cc:=0.0;
+ ic:=0.0;
+ cr2[1]:=0.0;
+ cr2[2]:=0.0;
+ i:=0;
+ append(f_run);
+ append(f_statistics);
+ append(f_statistics_all);
+ while run_data^.prev<>nil do run_data:=run_data^.prev;
+ repeat
+  inc(i);
+  for k:=1 to c_number_of_strategies do begin
+   s_min[k]:=0;
+   s_max[k]:=0;
+   sorted[k]:=nil;
+  end;
+  last_run:=nil;
+  j:=0;
+  for k:=1 to c_number_of_strategies do strat_run[k]:=0;
+  while run_data^.gen^.prev<>nil do run_data^.gen:=run_data^.gen^.prev;
+  repeat
+   inc(j);
+   last_gen:=nil;
+   writeln(f_run,'run '+int2str(i)+' / generation '+int2str(j));
+   for k:=1 to c_number_of_strategies do begin
+    writeln(f_run,(real2str(((run_data^.gen^.strat[k]/ini.noft2)*100),13)));
+    strat_run[k]:=strat_run[k]+run_data^.gen^.strat[k];
+    if sorted[k]=nil then begin
+     new(sorted[k]);
+     sorted[k]^.next:=nil;
+     sorted[k]^.prev:=nil;
+     first[k]:=sorted[k];
+     last[k]:=sorted[k];
+     sorted[k]^.r:=run_data^.gen^.strat[k];
+     s_max[k]:=run_data^.gen^.strat[k];
+     s_min[k]:=run_data^.gen^.strat[k];
+    end else begin
+     if run_data^.gen^.strat[k]>=s_max[k] then begin
+      sorted[k]:=last[k];
+      new(sorted[k]^.next);
+      sorted[k]^.next^.prev:=sorted[k];
+      sorted[k]:=sorted[k]^.next;
+      sorted[k]^.next:=nil;
+      last[k]:=sorted[k];
+      sorted[k]^.r:=run_data^.gen^.strat[k];
+      s_max[k]:=run_data^.gen^.strat[k];
+     end else begin
+      if run_data^.gen^.strat[k]<=s_min[k] then begin
+       sorted[k]:=first[k];
+       new(sorted[k]^.prev);
+       sorted[k]^.prev^.next:=sorted[k];
+       sorted[k]:=sorted[k]^.prev;
+       sorted[k]^.prev:=nil;
+       first[k]:=sorted[k];
+       sorted[k]^.r:=run_data^.gen^.strat[k];
+       s_min[k]:=run_data^.gen^.strat[k];
+      end else begin
+       sorted[k]:=first[k];
+       repeat
+        sorted[k]:=sorted[k]^.next;
+       until (run_data^.gen^.strat[k]<=sorted[k]^.r) or (sorted[k]=nil);
+       new(sort_temp);
+       sorted[k]^.prev^.next:=sort_temp;
+       sort_temp^.prev:=sorted[k]^.prev;
+       sort_temp^.next:=sorted[k];
+       sorted[k]^.prev:=sort_temp;
+       sorted[k]:=sort_temp;
+       sorted[k]^.r:=run_data^.gen^.strat[k];
+       sort_temp:=first[k]^.prev;
+      end;
+     end;
+    end;
+   end;
+   last_gen:=run_data^.gen;
+   run_data^.gen:=run_data^.gen^.next;
+   if run_data^.gen<>nil then run_data^.gen^.prev:=nil;
+   if last_gen^.win<>nil then begin
+    inc(winner[last_gen^.win^]);
+    dispose(last_gen^.win);
+    last_gen^.win:=nil;
+   end;
+   last_gen^.next:=nil;
+   dispose(last_gen);
+   last_gen:=nil;
+  until run_data^.gen=nil;
+  sorted[k]:=first[k];
+  if sorted[k]^.next<>nil then while sorted[k]^.next<>nil do sorted[k]:=sorted[k]^.next;
+  writeln(f_run,'F I N I S H E D');
+  writeln(f_statistics,'run '+int2str(i)+' / cooperation rate');
+  writeln(f_statistics,int2str(run_data^.icounter*2));
+  writeln(f_statistics,int2str(run_data^.ccounter));
+  writeln(f_statistics,real2str((run_data^.ccounter/(run_data^.icounter*2))*100,13));
+  ic:=ic+run_data^.icounter;
+  cc:=cc+run_data^.ccounter;
+  writeln(f_statistics,'run '+int2str(i)+' / cooperation rate (last generation)');
+  writeln(f_statistics,int2str(number_of_actions));
+  writeln(f_statistics,int2str(run_data^.cclg));
+  writeln(f_statistics,real2str((run_data^.cclg/(number_of_actions))*100,13));
+  cr2[1]:=cr2[1]+(number_of_actions);
+  cr2[2]:=cr2[2]+run_data^.cclg;
+  writeln(f_statistics,'run '+int2str(i)+' / arithmetic mean');
+  for k:=1 to c_number_of_strategies do begin
+   writeln(f_statistics,real2str(((strat_run[k]/j/ini.noft2)*100),13));
+   strat_all[k]:=strat_all[k]+strat_run[k]/j/ini.noft2;
+  end;
+  writeln(f_statistics,'run '+int2str(i)+' / median');
+  if (j div 2)<>0 then m:=(j div 2) else m:=(j div 2)-1;
+  for k:=1 to c_number_of_strategies do begin
+   sorted[k]:=first[k];
+   if m>0 then for l:=1 to m do begin
+    if sorted[k]^.next<>nil then sorted[k]:=sorted[k]^.next;
+   end;
+   new(median_temp);
+   if (j div 2)<>0 then median_temp^.r:=sorted[k]^.r else median_temp^.r:=(sorted[k]^.r+sorted[k]^.next^.r)/2;
+   median_temp^.r:=median_temp^.r/ini.noft2*100;
+   writeln(f_statistics,real2str(median_temp^.r,13));
+   if median[k]<>nil then begin
+    median[k]:=first_median[k];
+    if (median[k]^.next<>nil)and(median_temp^.r>=first_median[k]^.r) then repeat
+     median[k]:=median[k]^.next;
+    until (median_temp^.r<=median[k]^.r)or(median[k]^.next=nil);
+    if median[k]=first_median[k] then begin
+     if median[k]^.r>median_temp^.r then begin
+      median_temp^.next:=first_median[k];
+      median_temp^.next^.prev:=median_temp;
+      median_temp^.prev:=nil;
+      first_median[k]:=median_temp;
+     end else begin
+      median_temp^.prev:=first_median[k];
+      median_temp^.prev^.next:=median_temp;
+      median_temp^.next:=nil;
+     end;
+     median[k]:=median_temp;
+     median_temp:=first_median[k]^.prev;
+    end else
+    if (median[k]^.next=nil)and(median[k]^.r<=median_temp^.r) then begin
+     median[k]^.next:=median_temp;
+     median[k]^.next^.prev:=median[k];
+     median[k]:=median[k]^.next;
+     median[k]^.next:=nil;
+     median_temp:=first_median[k]^.prev;
+    end else begin
+     median[k]^.prev^.next:=median_temp;
+     median_temp^.prev:=median[k]^.prev;
+     median_temp^.next:=median[k];
+     median[k]^.prev:=median_temp;
+     median[k]:=median_temp;
+     median_temp:=first_median[k]^.prev;
+    end;
+   end else begin
+    median[k]:=median_temp;
+    median[k]^.next:=nil;
+    median[k]^.prev:=nil;
+    first_median[k]:=median[k];
+    median_temp:=first_median[k]^.prev;
+   end;
+   sorted[k]:=first[k];
+   repeat
+    sorted[k]:=sorted[k]^.next;
+    dispose(sorted[k]^.prev);
+    sorted[k]^.prev:=nil;
+   until sorted[k]^.next=nil;
+   dispose(sorted[k]);
+   sorted[k]:=nil;
+  end;
+  run_data^.gen:=nil;
+  last_run:=run_data;
+  run_data:=run_data^.next;
+  if run_data<>nil then run_data^.prev:=nil;
+  last_run^.next:=nil;
+  dispose(last_run);
+  last_run:=nil;
+ until run_data=nil;
+ writeln(f_statistics_all,'cooperation rate over '+int2str(ini.runs)+' runs - forget '+real2str(temp.forget/100,2)+' - initial '+real2str(temp.initial/100,2));
+ writeln(f_statistics_all,real2str(ic*2,0));
+ writeln(f_statistics_all,real2str(cc,0));
+ writeln(f_statistics_all,real2str((cc/(ic*2))*100,13));
+ writeln(f_statistics_all,'cooperation rate (last generation) over '+int2str(ini.runs)+' runs - forget '+real2str(temp.forget/100,2)+' - initial '+real2str(temp.initial/100,2));
+ writeln(f_statistics_all,real2str(cr2[1],0));
+ writeln(f_statistics_all,real2str(cr2[2],0));
+ writeln(f_statistics_all,real2str((cr2[2]/cr2[1])*100,13));
+ writeln(f_statistics_all,'arithmetic mean over '+int2str(ini.runs)+' runs (in %) - forget '+real2str(temp.forget/100,2)+' - initial '+real2str(temp.initial/100,2));
+ for k:=1 to c_number_of_strategies do writeln(f_statistics_all,real2str(((strat_all[k]/ini.runs*100)),13));
+ writeln(f_statistics_all,'median over '+int2str(ini.runs)+' runs (in %) - forget '+real2str(temp.forget/100,2)+' - initial '+real2str(temp.initial/100,2));
+ if ini.runs>1 then begin
+  for k:=1 to c_number_of_strategies do begin
+   median[k]:=first_median[k];
+   if (ini.runs div 2)<>0 then begin
+    for i:=1 to trunc(ini.runs/2) do median[k]:=median[k]^.next;
+    writeln(f_statistics_all,real2str(median[k]^.r,13));
+   end else begin
+    for i:=1 to ((ini.runs div 2)-1) do median[k]:=median[k]^.next;
+    writeln(f_statistics_all,real2str((median[k]^.r+median[k]^.next^.r)/2,13));
+   end;
+  end;
+ end;
+ for k:=1 to c_number_of_strategies do begin
+  median[k]:=first_median[k];
+  if median[k]^.next<>nil then while median[k]^.next<>nil do begin
+   median[k]:=median[k]^.next;
+   dispose(median[k]^.prev);
+   median[k]^.prev:=nil;
+  end;
+  dispose(median[k]);
+  median[k]:=nil;
+  first_median[k]:=nil;
+ end;
+ writeln(f_statistics_all,'winner over '+int2str(ini.runs)+' runs (in %) - forget '+real2str(temp.forget/100,2)+' - initial '+real2str(temp.initial/100,2));
+ for k:=1 to c_number_of_strategies do begin
+  r[k]:=winner[k]/ini.runs;
+  writeln(f_statistics_all,real2str(r[k]*100,13));
+  ik:=0;
+  rr[k]:=0;
+  rr[k]:=1.96*(sqrt((winner[k]*(sqr(1-r[k]))+((ini.runs-winner[k])*(sqr(0-r[k]))))/(ini.runs*(ini.runs-1))));
+  winner[k]:=0;
+ end;
+ writeln(f_statistics_all,'confidence interval (winner %) over '+int2str(ini.runs)+' runs - forget '+real2str(temp.forget/100,2)+' - initial '+real2str(temp.initial/100,2));
+ for k:=1 to c_number_of_strategies do begin
+  writeln(f_statistics_all,real2str(rr[k]*100,13));
+ end;
+ run_data:=nil;
+ close(f_run);
+ close(f_statistics);
+ close(f_statistics_all);
+ if not ini.output then gotoxy(1,5);
+ writeln('Done.');
+ writeln;
+ writeln;
+end;
+
+procedure clear_mem_agent(clearall: boolean);
+// deletes memory of the agents; if "clearall"=true the agents are deleted, too
+var ttemp: p_agent;
+    ltemp: p_move;
+begin
+ if (agent<>nil) then begin
+  while agent^.prev<>nil do agent:=agent^.prev;
+  if clearall then begin
+   repeat
+    ttemp:=agent;
+    agent:=agent^.next;
+    if agent<>nil then agent^.prev:=nil;
+    ttemp^.next:=nil;
+    if ttemp^.lastmoves<>nil then begin
+     while ttemp^.lastmoves^.prev<>nil do ttemp^.lastmoves:=ttemp^.lastmoves^.prev;
+     repeat
+      ltemp:=ttemp^.lastmoves;
+      ttemp^.lastmoves:=ttemp^.lastmoves^.next;
+      if ttemp^.lastmoves<>nil then ttemp^.lastmoves^.prev:=nil;
+      ltemp^.next:=nil;
+      ltemp^.partner:=nil;
+      dispose(ltemp);
+      ltemp:=nil;
+     until ttemp^.lastmoves=nil;
+    end;
+    ttemp^.agent_as_actor:=0;
+    ttemp^.cpayoff:=0;
+    ttemp^.np:=false;
+    dispose(ttemp);
+    ttemp:=nil;
+   until agent=nil;
+   first_agent:=nil;
+   temp_agent:=nil;
+   agent:=nil;
+  end else begin
+   repeat
+    agent^.agent_as_actor:=0;
+    agent^.cpayoff:=0;
+    agent^.np:=false;
+    if agent^.lastmoves<>nil then begin
+     while agent^.lastmoves^.prev<>nil do agent^.lastmoves:=agent^.lastmoves^.prev;
+     repeat
+      ltemp:=agent^.lastmoves;
+      agent^.lastmoves:=agent^.lastmoves^.next;
+      if agent^.lastmoves<>nil then agent^.lastmoves^.prev:=nil;
+      ltemp^.next:=nil;
+      ltemp^.partner:=nil;
+      dispose(ltemp);
+      ltemp:=nil;
+     until agent^.lastmoves=nil;
+    end;
+    agent:=agent^.next;
+   until agent=nil;
+   agent:=first_agent;
+  end;
+ end;
+end;
+
+procedure clear_mem_pair;
+// deletes all pairs
+var temp: p_pair;
+begin
+ if (pair<>nil) then begin
+  while pair^.prev<>nil do pair:=pair^.prev;
+  repeat
+   temp:=pair;
+   pair:=pair^.next;
+   if pair<>nil then pair^.prev:=nil;
+   temp^.next:=nil;
+   temp^.present:=0;
+   temp^.player:=nil;
+   temp^.partner:=nil;
+   dispose(temp);
+   temp:=nil;
+  until pair=nil;
+ end;
+ first_pair:=nil;
+end;
+
+procedure clear_mem;
+// deletes pairs and agents
+begin
+ clear_mem_pair;
+ clear_mem_agent(true);
+end;
+
+procedure clear_all_heaps;
+// deletes pairs and agents and all runs
+var r: p_run;
+    g: p_generation;
+begin
+ clear_mem;
+ if run_data<>nil then begin
+  while run_data^.next<>nil do run_data:=run_data^.next;
+  repeat
+   r:=run_data;
+   run_data:=run_data^.next;
+   if run_data<>nil then if run_data^.prev<>nil then run_data^.prev:=nil;
+   if r^.gen<>nil then begin
+    while r^.gen^.next<>nil do r^.gen:=r^.gen^.next;
+    repeat
+     g:=r^.gen;
+     r^.gen:=r^.gen^.next;
+     if r^.gen<>nil then if r^.gen^.prev<>nil then r^.gen^.prev:=nil;
+     g^.prev:=nil;
+     dispose(g);
+     g:=nil;
+    until r^.gen=nil;
+   end;
+   r^.gen:=nil;
+   dispose(r);
+   r:=nil;
+  until run_data=nil;
+ end;
+end;
+
+
+procedure init_pairs;
+// initializes pairs; with random agents and random partners
+var pc:longint;
+    limit,initcounter1,initcounter2: longint;
+    b1,b2: boolean;
+    last_pair,temp_pair: p_pair;
+label 1;
+begin
+ limit:=ini.noft2*100;
+1:
+ clear_mem_pair;
+ clear_mem_agent(false);
+ // if number of agents <> corrected number of agents, then one random agent cannot be used for the pairs
+ // this agent will be marked
+ if ini.noft<>ini.noft2 then begin
+  repeat
+   agent:=first_agent;
+   ik:=random(ini.noft2);
+   if ik>0 then for ij:=1 to ik do agent:=agent^.next;
+  until (agent=nil) or (not agent^.np);
+  agent^.np:=true; // a random agent will not be used
+ end;
+ agent:=first_agent;
+ new(pair);
+ pair^.next:=nil;
+ pair^.prev:=nil;
+ pair^.partner:=nil;
+ pair^.player:=nil;
+ pair^.present:=0;
+ first_pair:=pair;
+ pc:=0; // counter of created pairs
+ initcounter2:=0;
+ while pc < (ini.noft*ini.noip/2) do begin
+  initcounter1:=0;
+  ii:=random(ini.noft2);
+  agent:=first_agent;
+  if (ii>0) then for ij:=1 to ii do agent:=agent^.next;
+  if (agent^.agent_as_actor<ini.noip) and (not agent^.np) then begin
+   while agent^.agent_as_actor<ini.noip do begin
+    b1:=false;
+    while not b1 do begin
+     il:=random(ini.noft2);
+     temp_agent:=first_agent;
+     if il>0 then for ik:=1 to il do temp_agent:=temp_agent^.next;
+     if ((((temp_agent<>agent)and(temp_agent^.agent_as_actor<ini.noip)and(not temp_agent^.np)) or ((pc=0) and (temp_agent<>agent))) and (not temp_agent^.np)) then begin
+      b2:=false;
+      if (pc>0) then begin
+       pair:=first_pair;
+       repeat
+        if ((pair^.player=agent) and (pair^.partner=temp_agent)) or ((pair^.partner=agent) and (pair^.player=temp_agent)) then b2:=true;
+        pair:=pair^.next;
+       until (pair=nil) or (b2);
+       pair:=first_pair;
+      end;
+      b1:=not b2;
+     end;
+     inc(initcounter1);
+     if initcounter1>limit then goto 1;
+    end;
+    pair:=first_pair;
+    while pair^.next<>nil do pair:=pair^.next;
+    if pc>0 then begin
+     new(pair^.next);
+     pair^.next^.prev:=pair;
+     pair:=pair^.next;
+     pair^.next:=nil;
+    end;
+    pair^.player:=agent;
+    pair^.partner:=temp_agent;
+    pair^.present:=0;
+    inc(pc);
+    inc(pair^.player^.agent_as_actor);
+    inc(pair^.partner^.agent_as_actor);
+   end;
+  end;
+  inc(initcounter2);
+  if initcounter2>limit then goto 1;
+ end;
+ // creation of pairs complete
+ // creates a list of all interactions of a generation now
+ agent:=first_agent;
+ pair:=first_pair;
+ while pair^.next<>nil do pair:=pair^.next;
+ last_pair:=pair;
+ if ini.blocked then begin // if blocked interaction
+  for ii:=1 to ini.noiwp do begin
+   for ij:=1 to pc do begin
+    b1:=false;
+    while not b1 do begin
+     ik:=random(pc);
+     pair:=first_pair;
+     if ik>0 then for il:=1 to ik do pair:=pair^.next;
+     if pair^.present<ii then begin
+      b1:=true;
+      temp_pair:=last_pair;
+      new(temp_pair^.next);
+      temp_pair^.next^.prev:=temp_pair;
+      temp_pair:=temp_pair^.next;
+      temp_pair^.next:=nil;
+      temp_pair^.player:=pair^.player;
+      temp_pair^.partner:=pair^.partner;
+      last_pair:=temp_pair;
+      inc(pair^.present);
+     end;
+    end;
+   end;
+  end;
+ end else begin // if non-blocked interaction
+  for ii:=1 to ini.noiwp do begin
+   for ij:=1 to pc do begin
+    b1:=false;
+    while not b1 do begin
+     ik:=random(pc);
+     pair:=first_pair;
+     if ik>0 then for il:=1 to ik do pair:=pair^.next;
+     if pair^.present<ini.noiwp then begin
+      b1:=true;
+      temp_pair:=last_pair;
+      new(temp_pair^.next);
+      temp_pair^.next^.prev:=temp_pair;
+      temp_pair:=temp_pair^.next;
+      temp_pair^.next:=nil;
+      temp_pair^.player:=pair^.player;
+      temp_pair^.partner:=pair^.partner;
+      last_pair:=temp_pair;
+      inc(pair^.present);
+     end;
+    end;
+   end;
+  end;
+ end;
+ pair:=first_pair;
+ ii:=0;
+ repeat
+  inc(ii);
+  pair^.player:=nil;
+  pair^.partner:=nil;
+  pair:=pair^.next;
+  dispose(pair^.prev);
+  pair^.prev:=nil;
+ until ii=pc;
+ first_pair:=pair;
+ number_of_actions:=pc*ini.noiwp*2;
+ last_pair:=nil;
+ temp_pair:=nil;
+ agent:=first_agent;
+end;
+
+procedure init_agents;
+// creates agents
+begin
+ clear_mem_agent(true);
+ agent:=nil;
+ new(agent);
+ agent^.next:=nil;
+ agent^.prev:=nil;
+ first_agent:=agent;
+ // each strategy is assigned its proportion of agents
+ for ii:=1 to c_number_of_strategies do begin
+  if temp.strat_agents[ii]>0 then
+  for ij:=1 to temp.strat_agents[ii] do begin
+   agent^.strat:=ii;
+   agent^.agent_as_actor:=0;
+   agent^.lastmoves:=nil;
+   agent^.np:=false;
+   agent^.cpayoff:=0;
+   new(agent^.next);
+   agent^.next^.prev:=agent;
+   agent:=agent^.next;
+   agent^.next:=nil;
+  end;
+ end;
+ agent:=agent^.prev;
+ dispose(agent^.next);
+ agent^.next:=nil;
+ agent:=first_agent;
+end;
+
+procedure setup(newrun:boolean); // newrun = if a new run is started
+// determines number of agents for each strategy and initializes agents and pairs
+var p: word;
+begin
+ randomize;
+ p:=0;
+ if newrun then begin
+  clear_mem;
+  for ii:=1 to c_number_of_strategies do begin
+   temp.strat[ii]:=1/c_number_of_strategies;
+   temp.strat_agents[ii]:=trunc(temp.strat[ii]*ini.noft2);
+   p:=p+temp.strat_agents[ii];
+  end;
+  if p<ini.noft2 then begin
+   if ((ini.noft2-p) mod c_number_of_strategies)=0 then begin
+    for ii:=1 to c_number_of_strategies do inc(temp.strat_agents[ii]);
+    p:=p+c_number_of_strategies;
+   end else begin
+    writeln('Please change number of actors.');
+    readln;
+    halt(1);
+   end;
+  end;
+ end;
+ init_agents;
+ init_pairs;
+end;
+
+procedure payoffs(pl,pa:boolean); // move of agent (player) and partner; true="cooperate"; false="defect"
+// assigns values corresponding the moves of player and partner to global variables "player_payoff" and "partner_payoff"
+begin
+ case pl of
+  false: case pa of
+          false: begin player_payoff:=payoff_dd;partner_payoff:=payoff_dd;end;
+          true: begin player_payoff:=payoff_dc;partner_payoff:=payoff_cd;end;
+        end;
+  true: case pa of
+          false: begin player_payoff:=payoff_cd;partner_payoff:=payoff_dc;end;
+          true: begin player_payoff:=payoff_cc;partner_payoff:=payoff_cc;end;
+        end;
+ end;
+end;
+
+function check_for_new_run_and_create:boolean;
+// calculates proportions of strategies for next generation
+// true if one strategy reaches 100%, false otherwise
+var agent_order,min_to,max_to,temp_order: p_order;
+    max,min,range,j: longint;
+    complete: boolean;
+begin
+ complete:=false;
+ agent:=first_agent;
+ agent_order:=nil;
+ min_to:=nil;
+ max_to:=nil;
+ ii:=0;
+ // sorts agents regarding their cumulated payoff
+ repeat
+  if not agent^.np then begin
+   if (agent_order=nil) then begin
+    new(agent_order);
+    agent_order^.next:=nil;
+    agent_order^.prev:=nil;
+    agent_order^.agent:=agent;
+    max:=agent_order^.agent^.cpayoff;
+    min:=agent_order^.agent^.cpayoff;
+    max_to:=agent_order;
+    min_to:=agent_order;
+   end else begin
+    if agent^.cpayoff>=max then begin
+     agent_order:=max_to;
+     new(agent_order^.next);
+     agent_order^.next^.prev:=agent_order;
+     agent_order:=agent_order^.next;
+     agent_order^.next:=nil;
+     agent_order^.agent:=agent;
+     max:=agent^.cpayoff;
+     max_to:=agent_order;
+    end else if agent^.cpayoff<=min then begin
+     agent_order:=min_to;
+     new(agent_order^.prev);
+     agent_order^.prev^.next:=agent_order;
+     agent_order:=agent_order^.prev;
+     agent_order^.prev:=nil;
+     agent_order^.agent:=agent;
+     min:=agent^.cpayoff;
+     min_to:=agent_order;
+    end else begin
+     agent_order:=min_to;
+     if agent_order^.next<>nil then repeat
+      agent_order:=agent_order^.next;
+     until (agent_order=nil) or (agent^.cpayoff<agent_order^.agent^.cpayoff);
+     new(temp_order);
+     agent_order^.prev^.next:=temp_order;
+     temp_order^.prev:=agent_order^.prev;
+     agent_order^.prev:=temp_order;
+     temp_order^.next:=agent_order;
+     agent_order:=temp_order;
+     agent_order^.agent:=agent;
+    end;
+   end;
+  end;
+  agent:=agent^.next;
+ until agent=nil;
+// sorting complete
+ agent:=first_agent;
+ agent_order:=min_to;
+ range:=0;
+ repeat // sums cumulated payoffs of all agents
+  if not agent_order^.agent^.np then begin
+   if range=0 then min:=agent_order^.agent^.cpayoff;
+   range:=range+agent_order^.agent^.cpayoff;
+   agent_order^.agent^.number:=range;
+  end;
+  agent_order:=agent_order^.next;
+ until agent_order=nil;
+ for ii:=1 to c_number_of_strategies do temp.strat_agents[ii]:=0;
+ for ii:=1 to ini.noft2 do begin // determines proportion of each strategy for the next generation
+  repeat
+   j:=random(range);
+   agent_order:=min_to;
+   while (agent_order^.agent^.number<=j)and(agent_order<>nil) do agent_order:=agent_order^.next;
+  until agent_order<>nil;
+  if random(c_mutationrange)<ini.mutation then begin
+   repeat
+    ik:=random(c_number_of_strategies)+1;
+   until ik<>agent_order^.agent^.strat;
+  end else ik:=agent_order^.agent^.strat;
+  inc(temp.strat_agents[ik]);
+  if temp.strat_agents[ik]=ini.noft2 then begin // ends run if number of agents from one strategy equals number of all possible agents
+   complete:=true;
+   wth_gen(false);// writes the completed run into memory
+   while run_data^.gen^.next<>nil do run_data^.gen:=run_data^.gen^.next;
+   new(run_data^.gen^.win);
+   run_data^.gen^.win^:=ik;
+  end;
+ end;
+ if ini.output then begin // displays information (e.g., proportion of each strategy) if screen output is enabled in ini file
+  if temp.gen<=2 then begin
+   gotoxy(1,5);write('run #',temp.run,'/',ini.runs);
+   gotoxy(42,2);write('initial:    ',(temp.initial/100):0:2,' (',(ini.initial[1]/100):0:2,' --> ',(ini.initial[2]/100):0:2,')');
+   gotoxy(42,3);write('forget:     ',(temp.forget/100):0:2,' (',(ini.forget[1]/100):0:2,' --> ',(ini.forget[2]/100):0:2,')');
+   gotoxy(42,4);write('error mode: ');if ini.me_mode=1 then write('partner-wise') else write('fixed');
+   gotoxy(1,1);write('actors:              ',ini.noft:3,' /',ini.noft2:3);
+   gotoxy(42,1);write('blocked:    ');if ini.blocked then write('on') else write('off');
+   gotoxy(1,2);write('interaction partners:     ',ini.noip:3);
+   gotoxy(1,3);write('interactions with partner:',ini.noiwp:3);
+   gotoxy(1,18);writeln('For much higher performance (~6x) change output_on_screen to "off".');
+  end;
+  gotoxy(16,5);
+  if complete then write('last generation: ',temp.gen:4)
+   else write('generation:      ',temp.gen:4);
+  for ii:=1 to c_number_of_strategies do begin
+   if temp.strat_agents[ii]=0 then textcolor(red);
+   if temp.strat_agents[ii]=ini.noft2 then textcolor(green);
+   gotoxy(1,strat_yx[ii]);
+   write(strat_name[ii],':   ',((temp.strat_agents[ii]/ini.noft2)*100):5:1,'%   (',temp.strat_agents[ii]:3,')');
+   normvideo;
+  end;
+ end;
+ if (temp.gen<=2)and(not ini.output) then begin // displays short summary if screen output is not activated
+  gotoxy(1,1);write('initial: ',(temp.initial/100):0:2,' (',(ini.initial[1]/100):0:2,' --> ',(ini.initial[2]/100):0:2,')');
+  gotoxy(1,2);write('forget:  ',(temp.forget/100):0:2,' (',(ini.forget[1]/100):0:2,' --> ',(ini.forget[2]/100):0:2,')');
+  gotoxy(1,3);write('run:     ',temp.run,'/',ini.runs);
+ end;
+ clear_mem;
+ if agent_order<>nil then begin
+  while agent_order^.prev<>nil do agent_order:=agent_order^.prev;
+  if agent_order^.next<>nil then repeat
+   agent_order^.agent:=nil;
+   agent_order:=agent_order^.next;
+   dispose(agent_order^.prev);
+   agent_order^.prev:=nil;
+  until agent_order^.next=nil;
+  agent_order^.agent:=nil;
+  dispose(agent_order);
+  agent_order:=nil;
+  min_to:=nil;
+  max_to:=nil;
+ end;
+ check_for_new_run_and_create:=complete;
+end;
+
+function strat_prob(prob12:byte;player,partner:p_agent):boolean;
+// probabilistic strategies
+var i: byte;
+    fm,cc,cd,dc,dd: byte;
+    b1: boolean;
+    d: word; // distance
+    last_move: p_move;
+begin
+ case prob12 of  // assigns values of probabilistic strategies to temporary variables
+  1: begin
+      fm:=ini.prob1_firstmove;
+      cc:=ini.prob1_cc;
+      cd:=ini.prob1_cd;
+      dc:=ini.prob1_dc;
+      dd:=ini.prob1_dd;
+     end;
+  2: begin
+      fm:=ini.prob2_firstmove;
+      cc:=ini.prob2_cc;
+      cd:=ini.prob2_cd;
+      dc:=ini.prob2_dc;
+      dd:=ini.prob2_dd;
+     end;
+ end;
+ if ini.me_mode=1 then d:=0 else d:=1;
+// d = distance to last moves; increments (+1..n) if me_mode=1 (partner-wise memory error); remains 1 with me_mode=2 (fixed memory error)
+ if player^.lastmoves<>nil then begin // if agent has played at least once
+  if player^.lastmoves^.next<>nil then repeat
+   player^.lastmoves:=player^.lastmoves^.next;
+  until player^.lastmoves^.next=nil;
+  last_move:=player^.lastmoves;
+  if player^.lastmoves^.prev<>nil then begin // if agent played more than once
+   b1:=false;
+   repeat
+    if (ini.me_mode=1) then inc(d); // increments distance if me_mode=1 (partner-wise memory error)
+    if player^.lastmoves^.partner=partner then begin // checks whether a partner in the agent's list of past interactions is the current partner
+     i:=random(101); // draws random number between 0-100
+     case player^.lastmoves^.move of // checks last common move and decides about next move
+      true: case memory_error(player^.lastmoves^.pmove,d) of
+             true: if i<=cc then strat_prob:=true else strat_prob:=false; // cooperation after cc (player: cooperate; partner: cooperate)
+             false: if i<=cd then strat_prob:=true else strat_prob:=false; // cooperation after cd (player: cooperate; partner: defect)
+            end;
+      false: case memory_error(player^.lastmoves^.pmove,d) of
+              true: if i<=dc then strat_prob:=true else strat_prob:=false; // cooperation after dc (player: defect; partner: cooperate)
+              false: if i<=dd then strat_prob:=true else strat_prob:=false; // cooperation after cc (player: defect; partner: defect)
+             end;
+     end;
+     b1:=true; // exit criterion for repeat-until loop
+    end;
+    player^.lastmoves:=player^.lastmoves^.prev;
+   until (b1) or (player^.lastmoves=nil);
+   player^.lastmoves:=last_move;
+   if (not b1) then begin // if agent has never played with current partner
+    i:=random(101);
+    if i<=fm then strat_prob:=true else strat_prob:=false;
+   end;
+  end else begin // if agent only played once
+   if player^.lastmoves^.partner=partner then begin // if last partner was current partner (only possible in random interaction pattern)
+    i:=random(101);
+    case player^.lastmoves^.move of
+     true: case memory_error(player^.lastmoves^.pmove,1) of
+            true: if i<=cc then strat_prob:=true else strat_prob:=false;
+            false: if i<=cd then strat_prob:=true else strat_prob:=false;
+           end;
+     false: case memory_error(player^.lastmoves^.pmove,1) of
+             true: if i<=dc then strat_prob:=true else strat_prob:=false;
+             false: if i<=dd then strat_prob:=true else strat_prob:=false;
+            end;
+    end;
+   end else begin // if agent has never played with current partner
+    i:=random(101);
+    if i<=fm then strat_prob:=true else strat_prob:=false;
+   end;
+  end;
+ end else begin // if agent has never played before
+  i:=random(101);
+  if i<=fm then strat_prob:=true else strat_prob:=false;
+ end;
+end;
+
+function strat_random:boolean;
+// random strategy
+var i: byte;
+begin
+ i:=random(2); // (0/1)
+ if i=0 then strat_random:=false else strat_random:=true;
+end;
+
+function strat_grim(player,partner:p_agent):boolean;
+// grim strategy
+var b1,b2: boolean;
+    d: word; // distance
+    last_move: p_move;
+begin
+ if ini.me_mode=1 then d:=0 else d:=1;
+// d = distance to last moves; increments (+1..n) if me_mode=1 (partner-wise memory error); remains 1 with me_mode=2 (fixed memory error)
+ if player^.lastmoves<>nil then begin // if agent has played at least once
+  if player^.lastmoves^.next<>nil then repeat
+   player^.lastmoves:=player^.lastmoves^.next;
+  until player^.lastmoves^.next=nil;
+  last_move:=player^.lastmoves;
+  if player^.lastmoves^.prev<>nil then begin // if agent played more than once
+   b1:=false;b2:=false;
+   repeat
+    if (ini.me_mode=1) then inc(d);
+    if player^.lastmoves^.partner=partner then begin // checks whether a partner in the agent's list of past interactions is the current partner
+     if memory_error(player^.lastmoves^.pmove,d) then begin // if the (incorrectly) remembered partner's move was "cooperate"
+      if not player^.lastmoves^.move then b1:=true else b2:=true; // if own last move was "defect", b1 becomes "true"; otherwise, b2 becomes "true"
+     end else b1:=true; // if the (incorrectly) remembered partner's move was "defect", b1 becomes "true"
+    end;
+    player^.lastmoves:=player^.lastmoves^.prev;
+   until (b1) or (b2) or (player^.lastmoves=nil);
+   strat_grim:=not b1;
+   player^.lastmoves:=last_move;
+  end else begin // if agent only played once
+   if player^.lastmoves^.partner=partner then begin // if last partner was current partner (only possible in random interaction pattern)
+    if not memory_error(player^.lastmoves^.pmove,1) then strat_grim:=false else strat_grim:=true;
+   end else strat_grim:=true; // if agent has never played with partner, then cooperate
+  end;
+ end else strat_grim:=true; // if agent has never played before, then cooperate
+end;
+
+function strat_ctft(player,partner:p_agent):boolean;
+// strategy contrite tit-for-tat
+var b1,b2,b3: boolean;
+    i: byte;
+    d: word; // distance
+    last_move: p_move;
+begin
+ if ini.me_mode=1 then d:=0 else d:=1;
+// d = distance to last moves; increments (+1..n) if me_mode=1 (partner-wise memory error); remains 1 with me_mode=2 (fixed memory error)
+ if player^.lastmoves<>nil then begin // if agent has played at least once
+  if player^.lastmoves^.next<>nil then repeat // if agent played more than once
+   player^.lastmoves:=player^.lastmoves^.next;
+  until player^.lastmoves^.next=nil;
+  last_move:=player^.lastmoves;
+  if player^.lastmoves^.prev<>nil then begin
+   i:=0; b1:=false; b2:=false; b3:=false;
+   repeat
+    if (ini.me_mode=1) then inc(d);
+    if player^.lastmoves^.partner=partner then begin // checks whether a partner in the agent's list of past interactions is the current partner
+     inc(i);
+     case i of
+      1: if memory_error(player^.lastmoves^.pmove,d) then b1:=true; // last interaction between agent and partner
+      2: if player^.lastmoves^.move then b2:=true; // second-to-last interaction
+      3: if ((not b1)and(not b2)) then if memory_error(player^.lastmoves^.pmove,d) then b3:=true; // third-to-last interaction
+     end;
+    end;
+    player^.lastmoves:=player^.lastmoves^.prev;
+   until (i=3) or (b1) or (player^.lastmoves=nil);
+   player^.lastmoves:=last_move;
+   if ((not b1)and(i=2)and(b2))or((i=1)and(not b1))or((i=3)and(not b3)) then strat_ctft:=false else strat_ctft:=true;
+   // with 0 interactions: cooperate
+   // with 1 interaction: if partner defected, then defect; otherwise, cooperate
+   // with 2 interactions: if partner defected in last interaction and agent cooperated in second-to-last interaction, then defect; otherwise, cooperate
+   // with 3 interactions: if partner defected in last interaction, agent defected in second-to-last interaction, and partner cooperated in third-to-last, then cooperate; otherwise, defect
+  end else begin // if agent only played once
+   if player^.lastmoves^.partner=partner then begin // if last partner was current partner (only possible in random interaction pattern)
+    if memory_error(player^.lastmoves^.pmove,1) then strat_ctft:=true else strat_ctft:=false; // if the (incorrectly) remembered partner's move was "cooperate" then cooperate; otherwise, defect
+   end else strat_ctft:=true; // if agent has never played with partner: cooperate
+  end;
+ end else strat_ctft:=true; // if agent has never played before: cooperate
+end;
+
+function strat_tft(player,partner:p_agent):boolean;
+// strategy tit-for-tat
+var b1,b2: boolean;
+    last_move: p_move;
+    d: word; // distance
+begin
+ if ini.me_mode=1 then d:=0 else d:=1;
+// d = distance to last moves; increments (+1..n) if me_mode=1 (partner-wise memory error); remains 1 with me_mode=2 (fixed memory error)
+ if player^.lastmoves<>nil then begin // if agent has played at least once
+  if player^.lastmoves^.next<>nil then repeat
+   player^.lastmoves:=player^.lastmoves^.next;
+  until player^.lastmoves^.next=nil;
+  last_move:=player^.lastmoves;
+  if player^.lastmoves^.prev<>nil then begin // if agent played more than once
+   b1:=false;b2:=false;
+   repeat
+    if (ini.me_mode=1) then inc(d);
+    if player^.lastmoves^.partner=partner then begin // checks whether a partner in the agent's list of past interactions is the current partner
+     if not memory_error(player^.lastmoves^.pmove,d) then b2:=false else b2:=true; // if the (incorrectly) remembered partner's move was "cooperate" then cooperate; otherwise, defect
+     b1:=true; // exit criterion of repeat loop
+    end;
+    player^.lastmoves:=player^.lastmoves^.prev;
+   until (b1) or (player^.lastmoves=nil);
+   player^.lastmoves:=last_move;
+   if (not b1)or(b2) then strat_tft:=true else strat_tft:=false; // if agent has never played with the partner or the partner's last move was "cooperate", then the agent's next move is "cooperate"; otherwise, "defect"
+  end else begin // if agent has played only once
+   if player^.lastmoves^.partner=partner then begin // if last partner was current partner (only possible in random interaction pattern)
+    if not memory_error(player^.lastmoves^.pmove,1) then strat_tft:=false else strat_tft:=true;
+   end else strat_tft:=true; // if agent has never played with partner, then cooperate
+  end;
+ end else strat_tft:=true; // if agent has never played before, then cooperate
+end;
+
+function strat_tf2t(player,partner:p_agent):boolean;
+// strategy tit-for-two-tat
+var b1,b2: boolean;
+    i: byte;
+    d: word; // distance
+    last_move: p_move;
+begin
+ if ini.me_mode=1 then d:=0 else d:=1;
+// d = distance to last moves; increments (+1..n) if me_mode=1 (partner-wise memory error); remains 1 with me_mode=2 (fixed memory error)
+ if player^.lastmoves<>nil then begin // if agent has played at least once
+  if player^.lastmoves^.next<>nil then repeat
+   player^.lastmoves:=player^.lastmoves^.next;
+  until player^.lastmoves^.next=nil;
+  last_move:=player^.lastmoves;
+  if player^.lastmoves^.prev<>nil then begin // if agent played more than once
+   b1:=false;b2:=false;i:=0;
+   repeat
+    if (ini.me_mode=1) then inc(d);
+    if player^.lastmoves^.partner=partner then begin // checks whether a partner in the agent's list of past interactions is the current partner
+     inc(i);
+     case i of
+      1: if not memory_error(player^.lastmoves^.pmove,d) then b1:=true; // last interaction between agent and partner
+      2: if not memory_error(player^.lastmoves^.pmove,d) then b2:=true; // second-to-last interaction
+     end;
+    end;
+    player^.lastmoves:=player^.lastmoves^.prev;
+   until (i=2) or (player^.lastmoves^.prev=nil);
+   player^.lastmoves:=last_move;
+   if (b1 and b2) then strat_tf2t:=false else strat_tf2t:=true; // if partner defected on the last move and the second-to-last move, then defect; otherwise, cooperate
+  end else strat_tf2t:=true; // if agent has played only once, then cooperate
+ end else strat_tf2t:=true; // if agent has never played before, then cooperate
+end;
+
+procedure interact;
+// passes through all interactions of a generation, all generations of a run, all runs of an initial value, all initial values of a forget value, and all forget values
+var b,exist1,exist2: boolean;
+    i: byte;
+    s: string;
+    xx: real;
+begin
+ temp.forget:=ini.forget[1]+1;
+ repeat // is repeated for all forget values
+  temp.forget:=temp.forget-1; // reduces forget parameter by 0.01
+  temp.initial:=ini.initial[1]+1;
+  repeat // is repeated for all initial values
+   clrscr;
+   temp.initial:=temp.initial-1; // reduces initial parameter by 0.01
+   temp.run:=0;
+   repeat // is repeated for all runs
+    inc(temp.run); // increments run variable by 1
+    b:=true;
+    temp.gen:=1;
+    repeat // is repeated as long as no strategy has a proportion of 100%
+     if temp.gen>1 then begin // if current generation is > 1
+      wth_gen(b); // writes data of last generation in run_data memory
+      clear_mem; // deletes data of last generation
+     end;
+     setup(b); // initializes generation
+     if temp.gen=1 then wth_gen(b); // initializes first run
+     run_data^.cclg:=0; // sets "cooperation counter (last generation)" to 0
+     pair:=first_pair;
+     repeat // is repeated for all interactions of a generation
+      // determines next move depending on agent's strategy
+      case pair^.player^.strat of
+       1: player_move:=strat_prob(1,pair^.player,pair^.partner); // probabilistic strategy (generous tit-for-tat)
+       2: player_move:=strat_prob(2,pair^.player,pair^.partner); // probabilistic strategy (pavlov)
+       3: player_move:=strat_random;                             // random
+       4: player_move:=strat_grim(pair^.player,pair^.partner);   // grim
+       5: player_move:=strat_ctft(pair^.player,pair^.partner);   // contrite tit-for-tat
+       6: player_move:=strat_tft(pair^.player,pair^.partner);    // tit-for-tat
+       7: player_move:=strat_tf2t(pair^.player,pair^.partner);   // tit-for-two-tat
+       8: player_move:=true;                                     // allc
+       9: player_move:=false;                                    // alld
+      end;
+      // determines next move depending on agent's strategy
+      case pair^.partner^.strat of
+       1: partner_move:=strat_prob(1,pair^.partner,pair^.player);
+       2: partner_move:=strat_prob(2,pair^.partner,pair^.player);
+       3: partner_move:=strat_random;
+       4: partner_move:=strat_grim(pair^.partner,pair^.player);
+       5: partner_move:=strat_ctft(pair^.partner,pair^.player);
+       6: partner_move:=strat_tft(pair^.partner,pair^.player);
+       7: partner_move:=strat_tf2t(pair^.partner,pair^.player);
+       8: partner_move:=true;
+       9: partner_move:=false;
+      end;
+      inc(run_data^.icounter); // increments interaction counter of the generation (+1)
+      if player_move then begin // if agent cooperates
+       inc(run_data^.ccounter); // increments cooperation counter (+1)
+       inc(run_data^.cclg); // increments cooperation counter of the possible last generation (+1)
+      end;
+      if partner_move then begin // same check for partner as for agent before
+       inc(run_data^.ccounter);
+       inc(run_data^.cclg);
+      end;
+      payoffs(player_move,partner_move); // calculates payoffs corresponding to agent's and partner's moves
+      if pair^.player^.lastmoves=nil then begin
+       new(pair^.player^.lastmoves);
+       pair^.player^.lastmoves^.next:=nil;
+       pair^.player^.lastmoves^.prev:=nil;
+      end else begin
+       while pair^.player^.lastmoves^.next<>nil do pair^.player^.lastmoves:=pair^.player^.lastmoves^.next;
+       new(pair^.player^.lastmoves^.next);
+       pair^.player^.lastmoves^.next^.prev:=pair^.player^.lastmoves;
+       pair^.player^.lastmoves:=pair^.player^.lastmoves^.next;
+       pair^.player^.lastmoves^.next:=nil;
+      end;
+      if pair^.partner^.lastmoves=nil then begin
+       new(pair^.partner^.lastmoves);
+       pair^.partner^.lastmoves^.next:=nil;
+       pair^.partner^.lastmoves^.prev:=nil;
+      end else begin
+       while pair^.partner^.lastmoves^.next<>nil do pair^.partner^.lastmoves:=pair^.partner^.lastmoves^.next;
+       new(pair^.partner^.lastmoves^.next);
+       pair^.partner^.lastmoves^.next^.prev:=pair^.partner^.lastmoves;
+       pair^.partner^.lastmoves:=pair^.partner^.lastmoves^.next;
+       pair^.partner^.lastmoves^.next:=nil;
+      end;
+      // now stores results of this interaction
+      pair^.player^.lastmoves^.move:=player_move;
+      pair^.player^.lastmoves^.pmove:=partner_move;
+      pair^.partner^.lastmoves^.move:=partner_move;
+      pair^.partner^.lastmoves^.pmove:=player_move;
+      pair^.player^.lastmoves^.partner:=pair^.partner;
+      pair^.partner^.lastmoves^.partner:=pair^.player;
+      pair^.player^.cpayoff:=pair^.player^.cpayoff+player_payoff;
+      pair^.partner^.cpayoff:=pair^.partner^.cpayoff+partner_payoff;
+      pair:=pair^.next;
+     until pair=nil; // ends if all interactions of a generation are complete
+     pair:=first_pair;
+     agent:=first_agent;
+     b:=false;
+     gotoxy(1,1);
+     inc(temp.gen);
+    until check_for_new_run_and_create; // ends if 100% of all agents pursue the same strategy
+   until temp.run=ini.runs; // ends if all runs are complete
+   wtd_runs; // stores all runs on hard disc
+   clear_all_heaps; // deletes memory
+   // if initial parameter is not complete, creates new files in which to store data later
+   if temp.initial>ini.initial[2] then begin
+    i:=1;
+    xx:=temp.initial-1;
+    if ini.blocked then s:='TRUE' else s:='FALSE';
+    filename_run:='block'+s;
+    if ini.me_mode=1 then s:='pw' else s:='fx';
+    filename_run:=filename_run+'_'+s
+                  +'_'
+                  +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                  +real2str(xx/100,2)+'i_'
+                  +real2str(temp.forget/100,2)+'f_'
+                  +int2str(ini.noft2)+'g_'
+                  +int2str(ini.noip)+'p_'
+                  +int2str(ini.noiwp)+'int';
+    filename_statistics:=filename_run+'_stat.txt';
+    filename_run:=filename_run+'.txt';
+    {$I-}
+    repeat
+     assign(f_run,'data\'+filename_run);
+     reset(f_run);
+     if ioresult<>0 then exist1:=false else exist1:=true;
+     if not exist1 then begin
+      assign(f_statistics,'statistics\'+filename_statistics);
+      reset(f_statistics);
+      if ioresult<>0 then exist2:=false else exist2:=true;
+     end;
+     if (exist1)or(exist2) then begin
+      if exist1 then close(f_run);
+      if exist2 then close(f_statistics);
+      inc(i);
+      if ini.blocked then s:='TRUE' else s:='FALSE';
+      filename_run:='block'+s;
+      if ini.me_mode=1 then s:='pw' else s:='fx';
+      filename_run:=filename_run+'_'+s
+                    +'_'
+                    +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                    +real2str(xx/100,2)+'i_'
+                    +real2str(temp.forget/100,2)+'f_'
+                    +int2str(ini.noft2)+'g_'
+                    +int2str(ini.noip)+'p_'
+                    +int2str(ini.noiwp)+'int';
+      filename_statistics:=filename_run+'_stat_('+int2str(i)+').txt';
+      filename_run:=filename_run+'_('+int2str(i)+').txt';
+     end;
+    until (not exist1)and(not exist2);
+    rewrite(f_run);
+    close(f_run);
+    rewrite(f_statistics);
+    close(f_statistics);
+   end;
+  until temp.initial=ini.initial[2]; // ends if initial parameter has reached the user-defined value
+  // if forget parameter is not complete, creates new files in which to store data later
+  if temp.forget>ini.forget[2] then begin
+   i:=1;
+   xx:=temp.forget-1;
+   if ini.blocked then s:='TRUE' else s:='FALSE';
+   filename_run:='block'+s;
+   if ini.me_mode=1 then s:='pw' else s:='fx';
+   filename_run:=filename_run+'_'+s
+                 +'_'
+                 +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                 +real2str(ini.initial[1]/100,2)+'i_'
+                 +real2str(xx/100,2)+'f_'
+                 +int2str(ini.noft2)+'g_'
+                 +int2str(ini.noip)+'p_'
+                 +int2str(ini.noiwp)+'int';
+   filename_statistics:=filename_run+'_stat.txt';
+   filename_run:=filename_run+'.txt';
+   {$I-}
+   repeat
+    assign(f_run,'data\'+filename_run);
+    reset(f_run);
+    if ioresult<>0 then exist1:=false else exist1:=true;
+    if not exist1 then begin
+     assign(f_statistics,'statistics\'+filename_statistics);
+     reset(f_statistics);
+     if ioresult<>0 then exist2:=false else exist2:=true;
+    end;
+    if (exist1)or(exist2) then begin
+     if exist1 then close(f_run);
+     if exist2 then close(f_statistics);
+     inc(i);
+     if ini.blocked then s:='TRUE' else s:='FALSE';
+     filename_run:='block'+s;
+     if ini.me_mode=1 then s:='pw' else s:='fx';
+     filename_run:=filename_run+'_'+s
+                   +'_'
+                   +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                   +real2str(ini.initial[1]/100,2)+'i_'
+                   +real2str(xx/100,2)+'f_'
+                   +int2str(ini.noft2)+'g_'
+                   +int2str(ini.noip)+'p_'
+                   +int2str(ini.noiwp)+'int';
+     filename_statistics:=filename_run+'_stat_('+int2str(i)+').txt';
+     filename_run:=filename_run+'_('+int2str(i)+').txt';
+    end;
+   until (not exist1)and(not exist2);
+   rewrite(f_run);
+   close(f_run);
+   rewrite(f_statistics);
+   close(f_statistics);
+  end;
+ until temp.forget=ini.forget[2]; // ends if forget parameter reaches user-defined value
+end;
+
+procedure load_ini_file;
+// reads ini file, if existent; otherwise, determines default values
+var i: byte;
+    x: word;
+    xx: double;
+    s,s2: string;
+    exist1,exist2,exist3: boolean;
+begin
+ directory:='';
+ exist1:=false;
+ if paramcount<>0 then begin
+  s:=paramstr(1);
+  {$I-}
+  assign(f_ini,s);
+  reset(f_ini);
+  if ioresult<>0 then begin
+   writeln('Can''t read initialisation file.');
+   write('Press any key to continue with standard settings...');
+   keypressed;
+  end else begin
+   exist1:=true;
+   while (not eof(f_ini) and (exist1)) do begin
+    readln(f_ini,s);
+    readln(f_ini,s2);
+    x:=str2int(s2);
+    if (s='directory_name') then begin
+     directory:=s2;
+    end;
+    if (s='blocked_interaction')then begin
+     if s2='on' then ini.blocked:=true else if s2='off' then ini.blocked:=false else exist1:=false;
+    end;
+    if (s='number_of_agents') then begin
+     if x<>65432 then ini.noft:=x else exist1:=false;
+    end;
+    if (s='number_of_interaction_partners') then begin
+     if x<>65432 then ini.noip:=x else exist1:=false;
+    end;
+    if (s='number_of_interactions_with_partner') then begin
+     if x<>65432 then ini.noiwp:=x else exist1:=false;
+    end;
+    if (s='mutation') then begin
+     xx:=str2real(s2);
+     if xx<>65432 then ini.mutation:=round(xx*(c_mutationrange-1)) else exist1:=false;
+    end;
+    if (s='memory_error_mode') then begin
+     if s2='partner-wise' then ini.me_mode:=1 else if s2='fixed' then ini.me_mode:=2 else exist1:=false;
+    end;
+    if (s='memory_error_initial_start') then begin
+     xx:=str2real(s2);
+     if xx<>65432 then ini.initial[1]:=round(xx*100) else exist1:=false;
+    end;
+    if (s='memory_error_initial_end') then begin
+     xx:=str2real(s2);
+     if xx<>65432 then ini.initial[2]:=round(xx*100) else exist1:=false;
+    end;
+    if (s='memory_error_forget_start') then begin
+     xx:=str2real(s2);
+     if xx<>65432 then ini.forget[1]:=round(xx*100) else exist1:=false;
+    end;
+    if (s='memory_error_forget_end') then begin
+     xx:=str2real(s2);
+     if xx<>65432 then ini.forget[2]:=round(xx*100) else exist1:=false;
+    end;
+    if (s='runs') then begin
+     if x<>65432 then ini.runs:=x else exist1:=false;
+    end;
+    if (s='output_on_screen') then begin
+     if s2='on' then ini.output:=true else if s2='off' then ini.output:=false else exist1:=false;
+    end;
+    if (s='gtft_first_move') then begin
+     if x<>65432 then ini.prob1_firstmove:=x else exist1:=false;
+    end;
+    if (s='gtft_cc') then begin
+     if x<>65432 then ini.prob1_cc:=x else exist1:=false;
+    end;
+    if (s='gtft_cd') then begin
+     if x<>65432 then ini.prob1_cd:=x else exist1:=false;
+    end;
+    if (s='gtft_dc') then begin
+     if x<>65432 then ini.prob1_dc:=x else exist1:=false;
+    end;
+    if (s='gtft_dd') then begin
+     if x<>65432 then ini.prob1_dd:=x else exist1:=false;
+    end;
+    if (s='pavlov_first_move') then begin
+     if x<>65432 then ini.prob2_firstmove:=x else exist1:=false;
+    end;
+    if (s='pavlov_cc') then begin
+     if x<>65432 then ini.prob2_cc:=x else exist1:=false;
+    end;
+    if (s='pavlov_cd') then begin
+     if x<>65432 then ini.prob2_cd:=x else exist1:=false;
+    end;
+    if (s='pavlov_dc') then begin
+     if x<>65432 then ini.prob2_dc:=x else exist1:=false;
+    end;
+    if (s='pavlov_dd') then begin
+     if x<>65432 then ini.prob2_dd:=x else exist1:=false;
+    end;
+   end;
+   if not exist1 then begin
+    writeln('Can''t read initialisation file.');
+    writeln('line: ',s,' - content: ',s2);
+    write('Press return to continue with standard settings...');
+    readln;
+   end;
+   if ini.initial[1]<ini.initial[2] then begin
+    x:=ini.initial[2];
+    ini.initial[2]:=ini.initial[1];
+    ini.initial[1]:=x;
+   end;
+   if ini.forget[1]<ini.forget[2] then begin
+    x:=ini.forget[2];
+    ini.forget[2]:=ini.forget[1];
+    ini.forget[1]:=x;
+   end;
+   close(f_ini);
+  end;
+ end;
+ if not exist1 then begin
+  directory:='';
+  ini.blocked:=true;
+  ini.noft:=99;
+  ini.noip:=5;
+  ini.noiwp:=5;
+  ini.mutation:=10;
+  ini.me_mode:=2;
+  ini.initial[1]:=80;
+  ini.initial[2]:=79;
+  ini.forget[1]:=0;
+  ini.forget[2]:=0;
+  ini.runs:=10;
+  ini.prob1_firstmove:=100; // generous tit-for-tat
+  ini.prob1_cc:=100;
+  ini.prob1_cd:=33;
+  ini.prob1_dc:=100;
+  ini.prob1_dd:=33;
+  ini.prob2_firstmove:=100; // pavlov
+  ini.prob2_cc:=100;
+  ini.prob2_cd:=0;
+  ini.prob2_dc:=0;
+  ini.prob2_dd:=100;
+  ini.output:=false;
+ end;
+ if (ini.me_mode=2)and((ini.forget[1]<>0)or(ini.forget[2]<>0)) then begin
+  writeln;
+  writeln('Forget parameter is no object in fixed interaction pattern.');
+  write('Press return to continue with forget=0.0');
+  readln;
+  ini.forget[1]:=0;
+  ini.forget[2]:=0;
+ end;
+ strat_name[1]:='gtft        ';
+ strat_name[2]:='pavlov      ';
+ strat_name[3]:='random      ';
+ strat_name[4]:='grim        ';
+ strat_name[5]:='contrite tft';
+ strat_name[6]:='tft         ';
+ strat_name[7]:='tf2t        ';
+ strat_name[8]:='allc        ';
+ strat_name[9]:='alld        ';
+ ini.noft2:=ini.noft;
+ if ((ini.noft*ini.noip) mod 2) > 0 then dec(ini.noft); // if number of agents * number of interaction partners cannot be divided by two, one randomly chosen agent is not available for one generation, e.g., 99 agents, 5 interaction partners
+ i:=1;
+ {$I-}
+ if directory<>'' then begin
+  chdir(directory);
+  if ioresult<>0 then begin
+   mkdir(directory);
+   chdir(directory);
+  end;
+ end;
+ chdir('data');
+ if ioresult<>0 then mkdir('data') else chdir('..');
+ chdir('statistics');
+ if ioresult<>0 then mkdir('statistics') else chdir('..');
+ if ini.blocked then s:='TRUE' else s:='FALSE';
+ filename_run:='block'+s;
+ filename_statistics_all:='block'+s;
+ if ini.me_mode=1 then s:='pw' else s:='fx';
+ filename_run:=filename_run+'_'+s
+               +'_'
+               +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'// mutation
+               +real2str(ini.initial[1]/100,2)+'i_'// initial
+               +real2str(ini.forget[1]/100,2)+'f_'// forget
+               +int2str(ini.noft2)+'g_'// grid
+               +int2str(ini.noip)+'p_' // partners
+               +int2str(ini.noiwp)+'int';// interactions
+ filename_statistics:=filename_run+'_stat.txt';
+ filename_statistics_all:=filename_statistics_all+'_'+s
+                          +'_'
+                          +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                          +real2str(ini.initial[1]/100,2)+'-'+real2str(ini.initial[2]/100,2)+'i_'
+                          +real2str(ini.forget[1]/100,2)+'-'+real2str(ini.forget[2]/100,2)+'f_'
+                          +int2str(ini.noft2)+'g_'
+                          +int2str(ini.noip)+'p_'
+                          +int2str(ini.noiwp)+'int_overall.txt';
+ filename_run:=filename_run+'.txt';
+ repeat
+  filename_run:='data\'+filename_run;
+  assign(f_run,filename_run);
+  reset(f_run);
+  if ioresult<>0 then exist1:=false else exist1:=true;
+  if not exist1 then begin
+   filename_statistics:='statistics\'+filename_statistics;
+   assign(f_statistics,filename_statistics);
+   reset(f_statistics);
+   if ioresult<>0 then exist2:=false else exist2:=true;
+  end;
+  if (not exist1)and(not exist2) then begin
+   filename_statistics_all:=filename_statistics_all;
+   assign(f_statistics_all,filename_statistics_all);
+   reset(f_statistics_all);
+   if ioresult<>0 then exist3:=false else exist3:=true;
+  end;
+  if (exist1)or(exist2)or(exist3) then begin
+   if exist1 then close(f_run);
+   if exist2 then close(f_statistics);
+   if exist3 then close(f_statistics_all);
+   inc(i);
+   if ini.blocked then s:='TRUE' else s:='FALSE';
+   filename_run:='block'+s;
+   filename_statistics_all:='block'+s;
+   if ini.me_mode=1 then s:='pw' else s:='fx';
+   filename_run:=filename_run+'_'+s
+                 +'_'
+                 +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                 +real2str(ini.initial[1]/100,2)+'i_'
+                 +real2str(ini.forget[1]/100,2)+'f_'
+                 +int2str(ini.noft2)+'g_'
+                 +int2str(ini.noip)+'p_'
+                 +int2str(ini.noiwp)+'int';
+   filename_statistics:=filename_run+'_stat_('+int2str(i)+').txt';
+   filename_run:=filename_run+'_('+int2str(i)+').txt';
+   filename_statistics_all:=filename_statistics_all+'_'+s
+                            +'_'
+                            +real2str(ini.mutation/(c_mutationrange-1),3)+'m_'
+                            +real2str(ini.initial[1]/100,2)+'-'+real2str(ini.initial[2]/100,2)+'i_'
+                            +real2str(ini.forget[1]/100,2)+'-'+real2str(ini.forget[2]/100,2)+'f_'
+                            +int2str(ini.noft2)+'g_'
+                            +int2str(ini.noip)+'p_'
+                            +int2str(ini.noiwp)+'int_overall_('+int2str(i)+').txt'
+  end;
+ until (not exist1)and(not exist2)and(not exist3);
+ rewrite(f_run);
+ close(f_run);
+ rewrite(f_statistics);
+ close(f_statistics);
+ rewrite(f_statistics_all);
+ close(f_statistics_all);
+ if not ini.output then writeln('Please wait....');
+end;
+
+begin
+ {$I-}
+ clrscr;
+ agent:=nil;
+ pair:=nil;
+ load_ini_file;
+ setup(true);
+ interact;
+ write('Press any key to finish. ');
+ readkey;
+ writeln;
+ {$I+}
+end.
+
+
+

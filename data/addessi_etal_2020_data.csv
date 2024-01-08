@@ -1,0 +1,1800 @@
+subject,session,date,condition,trial_num,ll_side,choice,last_choice
+Gal,1,2018-07-18,Low cost same,3,left,1,NA
+Gal,1,2018-07-18,Low cost same,4,right,1,1
+Gal,1,2018-07-18,Low cost same,5,left,0,1
+Gal,1,2018-07-18,Low cost same,6,right,0,0
+Gal,1,2018-07-18,Low cost same,7,left,0,0
+Gal,1,2018-07-18,Low cost same,8,right,0,0
+Gal,1,2018-09-06,High cost,3,right,0,NA
+Gal,1,2018-09-06,High cost,4,left,0,0
+Gal,1,2018-09-06,High cost,5,right,0,0
+Gal,1,2018-09-06,High cost,6,left,0,0
+Gal,1,2018-09-06,High cost,7,left,0,0
+Gal,1,2018-09-06,High cost,8,right,0,0
+Gal,1,2018-09-19,Low cost different,3,left,1,NA
+Gal,1,2018-09-19,Low cost different,4,right,0,1
+Gal,1,2018-09-19,Low cost different,5,left,1,0
+Gal,1,2018-09-19,Low cost different,6,right,1,1
+Gal,1,2018-09-19,Low cost different,7,left,1,1
+Gal,1,2018-09-19,Low cost different,8,right,0,1
+Gal,2,2018-07-20,Low cost same,3,left,0,NA
+Gal,2,2018-07-20,Low cost same,4,left,0,0
+Gal,2,2018-07-20,Low cost same,5,left,0,0
+Gal,2,2018-07-20,Low cost same,6,right,0,0
+Gal,2,2018-07-20,Low cost same,7,right,1,0
+Gal,2,2018-07-20,Low cost same,8,right,0,1
+Gal,2,2018-09-07,High cost,3,left,0,NA
+Gal,2,2018-09-07,High cost,4,right,0,0
+Gal,2,2018-09-07,High cost,5,left,0,0
+Gal,2,2018-09-07,High cost,6,left,0,0
+Gal,2,2018-09-07,High cost,7,right,0,0
+Gal,2,2018-09-07,High cost,8,right,0,0
+Gal,2,2018-09-20,Low cost different,3,left,1,NA
+Gal,2,2018-09-20,Low cost different,4,right,1,1
+Gal,2,2018-09-20,Low cost different,5,left,1,1
+Gal,2,2018-09-20,Low cost different,6,right,1,1
+Gal,2,2018-09-20,Low cost different,7,left,1,1
+Gal,2,2018-09-20,Low cost different,8,right,1,1
+Gal,3,2018-07-23,Low cost same,3,left,0,NA
+Gal,3,2018-07-23,Low cost same,4,left,0,0
+Gal,3,2018-07-23,Low cost same,5,left,0,0
+Gal,3,2018-07-23,Low cost same,6,right,1,0
+Gal,3,2018-07-23,Low cost same,7,right,1,1
+Gal,3,2018-07-23,Low cost same,8,right,0,1
+Gal,3,2018-09-10,High cost,3,right,0,NA
+Gal,3,2018-09-10,High cost,4,left,0,0
+Gal,3,2018-09-10,High cost,5,left,0,0
+Gal,3,2018-09-10,High cost,6,right,0,0
+Gal,3,2018-09-10,High cost,7,right,0,0
+Gal,3,2018-09-10,High cost,8,left,0,0
+Gal,3,2018-09-21,Low cost different,3,right,1,NA
+Gal,3,2018-09-21,Low cost different,4,right,1,1
+Gal,3,2018-09-21,Low cost different,5,left,1,1
+Gal,3,2018-09-21,Low cost different,6,left,1,1
+Gal,3,2018-09-21,Low cost different,7,right,1,1
+Gal,3,2018-09-21,Low cost different,8,left,1,1
+Gal,4,2018-07-24,Low cost same,3,left,0,NA
+Gal,4,2018-07-24,Low cost same,4,right,0,0
+Gal,4,2018-07-24,Low cost same,5,right,1,0
+Gal,4,2018-07-24,Low cost same,6,left,0,1
+Gal,4,2018-07-24,Low cost same,7,right,0,0
+Gal,4,2018-07-24,Low cost same,8,left,1,0
+Gal,4,2018-09-12,High cost,3,right,0,NA
+Gal,4,2018-09-12,High cost,4,right,0,0
+Gal,4,2018-09-12,High cost,5,left,0,0
+Gal,4,2018-09-12,High cost,6,left,0,0
+Gal,4,2018-09-12,High cost,7,left,0,0
+Gal,4,2018-09-12,High cost,8,right,0,0
+Gal,4,2018-09-24,Low cost different,3,left,0,NA
+Gal,4,2018-09-24,Low cost different,4,left,0,0
+Gal,4,2018-09-24,Low cost different,5,left,1,0
+Gal,4,2018-09-24,Low cost different,6,right,1,1
+Gal,4,2018-09-24,Low cost different,7,right,0,1
+Gal,4,2018-09-24,Low cost different,8,right,0,0
+Gal,5,2018-07-25,Low cost same,3,right,1,NA
+Gal,5,2018-07-25,Low cost same,4,left,0,1
+Gal,5,2018-07-25,Low cost same,5,right,0,0
+Gal,5,2018-07-25,Low cost same,6,right,0,0
+Gal,5,2018-07-25,Low cost same,7,left,0,0
+Gal,5,2018-07-25,Low cost same,8,left,0,0
+Gal,5,2018-09-13,High cost,3,right,0,NA
+Gal,5,2018-09-13,High cost,4,right,0,0
+Gal,5,2018-09-13,High cost,5,left,0,0
+Gal,5,2018-09-13,High cost,6,left,0,0
+Gal,5,2018-09-13,High cost,7,right,0,0
+Gal,5,2018-09-13,High cost,8,left,0,0
+Gal,5,2018-09-25,Low cost different,3,right,0,NA
+Gal,5,2018-09-25,Low cost different,4,left,1,0
+Gal,5,2018-09-25,Low cost different,5,left,1,1
+Gal,5,2018-09-25,Low cost different,6,right,0,1
+Gal,5,2018-09-25,Low cost different,7,left,0,0
+Gal,5,2018-09-25,Low cost different,8,right,0,0
+Gal,6,2018-09-26,Low cost different,3,left,1,NA
+Gal,6,2018-09-26,Low cost different,4,right,1,1
+Gal,6,2018-09-26,Low cost different,5,right,1,1
+Gal,6,2018-09-26,Low cost different,6,right,0,1
+Gal,6,2018-09-26,Low cost different,7,left,0,0
+Gal,6,2018-09-26,Low cost different,8,left,1,0
+Gal,7,2018-09-27,Low cost different,3,right,1,NA
+Gal,7,2018-09-27,Low cost different,4,left,1,1
+Gal,7,2018-09-27,Low cost different,5,right,1,1
+Gal,7,2018-09-27,Low cost different,6,left,0,1
+Gal,7,2018-09-27,Low cost different,7,right,0,0
+Gal,7,2018-09-27,Low cost different,8,left,1,0
+Gal,8,2018-09-28,Low cost different,3,left,1,NA
+Gal,8,2018-09-28,Low cost different,4,right,0,1
+Gal,8,2018-09-28,Low cost different,5,left,1,0
+Gal,8,2018-09-28,Low cost different,6,right,1,1
+Gal,8,2018-09-28,Low cost different,7,right,0,1
+Gal,8,2018-09-28,Low cost different,8,left,1,0
+Gal,9,2018-10-01,Low cost different,3,left,1,NA
+Gal,9,2018-10-01,Low cost different,4,left,1,1
+Gal,9,2018-10-01,Low cost different,5,right,1,1
+Gal,9,2018-10-01,Low cost different,6,left,1,1
+Gal,9,2018-10-01,Low cost different,7,right,1,1
+Gal,9,2018-10-01,Low cost different,8,right,1,1
+Gal,10,2018-10-02,Low cost different,3,left,1,NA
+Gal,10,2018-10-02,Low cost different,4,right,1,1
+Gal,10,2018-10-02,Low cost different,5,right,0,1
+Gal,10,2018-10-02,Low cost different,6,right,0,0
+Gal,10,2018-10-02,Low cost different,7,left,1,0
+Gal,10,2018-10-02,Low cost different,8,left,1,1
+Gal,11,2018-10-04,Low cost different,3,right,0,NA
+Gal,11,2018-10-04,Low cost different,4,left,1,0
+Gal,11,2018-10-04,Low cost different,5,right,1,1
+Gal,11,2018-10-04,Low cost different,6,left,1,1
+Gal,11,2018-10-04,Low cost different,7,left,1,1
+Gal,11,2018-10-04,Low cost different,8,right,0,1
+Gal,12,2018-10-05,Low cost different,3,right,1,NA
+Gal,12,2018-10-05,Low cost different,4,right,0,1
+Gal,12,2018-10-05,Low cost different,5,left,0,0
+Gal,12,2018-10-05,Low cost different,6,left,0,0
+Gal,12,2018-10-05,Low cost different,7,right,1,0
+Gal,12,2018-10-05,Low cost different,8,left,0,1
+Gal,13,2018-10-10,Low cost different,3,right,1,NA
+Gal,13,2018-10-10,Low cost different,4,left,1,1
+Gal,13,2018-10-10,Low cost different,5,right,0,1
+Gal,13,2018-10-10,Low cost different,6,left,0,0
+Gal,13,2018-10-10,Low cost different,7,left,0,0
+Gal,13,2018-10-10,Low cost different,8,right,0,0
+Gal,14,2018-10-11,Low cost different,3,left,0,NA
+Gal,14,2018-10-11,Low cost different,4,right,1,0
+Gal,14,2018-10-11,Low cost different,5,right,1,1
+Gal,14,2018-10-11,Low cost different,6,left,1,1
+Gal,14,2018-10-11,Low cost different,7,left,0,1
+Gal,14,2018-10-11,Low cost different,8,right,1,0
+Gal,15,2018-10-12,Low cost different,3,right,0,NA
+Gal,15,2018-10-12,Low cost different,4,right,0,0
+Gal,15,2018-10-12,Low cost different,5,right,0,0
+Gal,15,2018-10-12,Low cost different,6,left,0,0
+Gal,15,2018-10-12,Low cost different,7,left,0,0
+Gal,15,2018-10-12,Low cost different,8,left,0,0
+Gal,16,2018-10-15,Low cost different,3,left,1,NA
+Gal,16,2018-10-15,Low cost different,4,left,0,1
+Gal,16,2018-10-15,Low cost different,5,right,0,0
+Gal,16,2018-10-15,Low cost different,6,left,0,0
+Gal,16,2018-10-15,Low cost different,7,right,0,0
+Gal,16,2018-10-15,Low cost different,8,right,0,0
+Gal,17,2018-10-16,Low cost different,3,left,0,NA
+Gal,17,2018-10-16,Low cost different,4,left,0,0
+Gal,17,2018-10-16,Low cost different,5,right,1,0
+Gal,17,2018-10-16,Low cost different,6,left,1,1
+Gal,17,2018-10-16,Low cost different,7,right,0,1
+Gal,17,2018-10-16,Low cost different,8,right,1,0
+Gal,18,2018-10-17,Low cost different,3,right,0,NA
+Gal,18,2018-10-17,Low cost different,4,left,0,0
+Gal,18,2018-10-17,Low cost different,5,left,0,0
+Gal,18,2018-10-17,Low cost different,6,right,0,0
+Gal,18,2018-10-17,Low cost different,7,right,0,0
+Gal,18,2018-10-17,Low cost different,8,left,0,0
+Gal,19,2018-10-18,Low cost different,3,left,0,NA
+Gal,19,2018-10-18,Low cost different,4,left,0,0
+Gal,19,2018-10-18,Low cost different,5,left,1,0
+Gal,19,2018-10-18,Low cost different,6,right,0,1
+Gal,19,2018-10-18,Low cost different,7,right,0,0
+Gal,19,2018-10-18,Low cost different,8,right,0,0
+Gal,20,2018-10-19,Low cost different,3,left,1,NA
+Gal,20,2018-10-19,Low cost different,4,left,0,1
+Gal,20,2018-10-19,Low cost different,5,right,0,0
+Gal,20,2018-10-19,Low cost different,6,right,0,0
+Gal,20,2018-10-19,Low cost different,7,right,0,0
+Gal,20,2018-10-19,Low cost different,8,left,1,0
+Gal,21,2018-10-22,Low cost different,3,right,0,NA
+Gal,21,2018-10-22,Low cost different,4,left,1,0
+Gal,21,2018-10-22,Low cost different,5,right,0,1
+Gal,21,2018-10-22,Low cost different,6,left,1,0
+Gal,21,2018-10-22,Low cost different,7,right,1,1
+Gal,21,2018-10-22,Low cost different,8,left,1,1
+Gal,22,2018-10-23,Low cost different,3,left,1,NA
+Gal,22,2018-10-23,Low cost different,4,left,1,1
+Gal,22,2018-10-23,Low cost different,5,right,0,1
+Gal,22,2018-10-23,Low cost different,6,right,0,0
+Gal,22,2018-10-23,Low cost different,7,right,0,0
+Gal,22,2018-10-23,Low cost different,8,left,1,0
+Gal,23,2018-10-24,Low cost different,3,right,0,NA
+Gal,23,2018-10-24,Low cost different,4,right,0,0
+Gal,23,2018-10-24,Low cost different,5,left,0,0
+Gal,23,2018-10-24,Low cost different,6,left,1,0
+Gal,23,2018-10-24,Low cost different,7,right,0,1
+Gal,23,2018-10-24,Low cost different,8,left,1,0
+Gal,24,2018-10-25,Low cost different,3,right,0,NA
+Gal,24,2018-10-25,Low cost different,4,left,1,0
+Gal,24,2018-10-25,Low cost different,5,left,0,1
+Gal,24,2018-10-25,Low cost different,6,right,0,0
+Gal,24,2018-10-25,Low cost different,7,left,0,0
+Gal,24,2018-10-25,Low cost different,8,right,0,0
+Gal,25,2018-10-26,Low cost different,3,left,1,NA
+Gal,25,2018-10-26,Low cost different,4,left,1,1
+Gal,25,2018-10-26,Low cost different,5,right,0,1
+Gal,25,2018-10-26,Low cost different,6,right,1,0
+Gal,25,2018-10-26,Low cost different,7,right,0,1
+Gal,25,2018-10-26,Low cost different,8,left,1,0
+Gal,26,2018-10-29,Low cost different,3,right,0,NA
+Gal,26,2018-10-29,Low cost different,4,left,1,0
+Gal,26,2018-10-29,Low cost different,5,right,0,1
+Gal,26,2018-10-29,Low cost different,6,left,1,0
+Gal,26,2018-10-29,Low cost different,7,right,1,1
+Gal,26,2018-10-29,Low cost different,8,left,1,1
+Gal,27,2018-10-31,Low cost different,3,right,1,NA
+Gal,27,2018-10-31,Low cost different,4,left,1,1
+Gal,27,2018-10-31,Low cost different,5,left,1,1
+Gal,27,2018-10-31,Low cost different,6,right,0,1
+Gal,27,2018-10-31,Low cost different,7,right,0,0
+Gal,27,2018-10-31,Low cost different,8,left,1,0
+Gal,28,2018-11-05,Low cost different,3,right,1,NA
+Gal,28,2018-11-05,Low cost different,4,left,1,1
+Gal,28,2018-11-05,Low cost different,5,left,0,1
+Gal,28,2018-11-05,Low cost different,6,right,0,0
+Gal,28,2018-11-05,Low cost different,7,right,0,0
+Gal,28,2018-11-05,Low cost different,8,left,0,0
+Gal,29,2018-11-06,Low cost different,3,right,0,NA
+Gal,29,2018-11-06,Low cost different,4,left,0,0
+Gal,29,2018-11-06,Low cost different,5,right,0,0
+Gal,29,2018-11-06,Low cost different,6,left,1,0
+Gal,29,2018-11-06,Low cost different,7,left,1,1
+Gal,29,2018-11-06,Low cost different,8,right,0,1
+Gal,30,2018-11-09,Low cost different,3,left,1,NA
+Gal,30,2018-11-09,Low cost different,4,right,0,1
+Gal,30,2018-11-09,Low cost different,5,right,0,0
+Gal,30,2018-11-09,Low cost different,6,left,1,0
+Gal,30,2018-11-09,Low cost different,7,left,1,1
+Gal,30,2018-11-09,Low cost different,8,right,0,1
+Gal,31,2018-11-12,Low cost different,3,right,0,NA
+Gal,31,2018-11-12,Low cost different,4,right,0,0
+Gal,31,2018-11-12,Low cost different,5,left,1,0
+Gal,31,2018-11-12,Low cost different,6,left,1,1
+Gal,31,2018-11-12,Low cost different,7,right,0,1
+Gal,31,2018-11-12,Low cost different,8,left,1,0
+Gal,32,2018-11-13,Low cost different,3,right,1,NA
+Gal,32,2018-11-13,Low cost different,4,left,0,1
+Gal,32,2018-11-13,Low cost different,5,right,1,0
+Gal,32,2018-11-13,Low cost different,6,left,0,1
+Gal,32,2018-11-13,Low cost different,7,left,1,0
+Gal,32,2018-11-13,Low cost different,8,right,1,1
+Gal,33,2018-11-15,Low cost different,3,right,0,NA
+Gal,33,2018-11-15,Low cost different,4,right,0,0
+Gal,33,2018-11-15,Low cost different,5,left,1,0
+Gal,33,2018-11-15,Low cost different,6,right,0,1
+Gal,33,2018-11-15,Low cost different,7,left,1,0
+Gal,33,2018-11-15,Low cost different,8,left,1,1
+Gal,34,2018-11-16,Low cost different,3,right,0,NA
+Gal,34,2018-11-16,Low cost different,4,left,1,0
+Gal,34,2018-11-16,Low cost different,5,right,0,1
+Gal,34,2018-11-16,Low cost different,6,left,1,0
+Gal,34,2018-11-16,Low cost different,7,left,1,1
+Gal,34,2018-11-16,Low cost different,8,right,0,1
+Paprica,1,2018-07-16,High cost,3,left,0,NA
+Paprica,1,2018-07-16,High cost,4,right,1,0
+Paprica,1,2018-07-16,High cost,5,right,0,1
+Paprica,1,2018-07-16,High cost,6,right,1,0
+Paprica,1,2018-07-16,High cost,7,left,1,1
+Paprica,1,2018-07-16,High cost,8,left,1,1
+Paprica,1,2018-09-06,Low cost same,3,left,0,NA
+Paprica,1,2018-09-06,Low cost same,4,left,0,0
+Paprica,1,2018-09-06,Low cost same,5,right,0,0
+Paprica,1,2018-09-06,Low cost same,6,right,0,0
+Paprica,1,2018-09-06,Low cost same,7,left,0,0
+Paprica,1,2018-09-06,Low cost same,8,right,0,0
+Paprica,1,2018-09-19,Low cost different,3,right,0,NA
+Paprica,1,2018-09-19,Low cost different,4,left,0,0
+Paprica,1,2018-09-19,Low cost different,5,left,0,0
+Paprica,1,2018-09-19,Low cost different,6,left,0,0
+Paprica,1,2018-09-19,Low cost different,7,right,1,0
+Paprica,1,2018-09-19,Low cost different,8,right,0,1
+Paprica,2,2018-07-18,High cost,3,right,1,NA
+Paprica,2,2018-07-18,High cost,4,left,1,1
+Paprica,2,2018-07-18,High cost,5,right,1,1
+Paprica,2,2018-07-18,High cost,6,left,0,1
+Paprica,2,2018-07-18,High cost,7,right,0,0
+Paprica,2,2018-07-18,High cost,8,left,0,0
+Paprica,2,2018-09-07,Low cost same,3,right,0,NA
+Paprica,2,2018-09-07,Low cost same,4,right,0,0
+Paprica,2,2018-09-07,Low cost same,5,left,0,0
+Paprica,2,2018-09-07,Low cost same,6,left,0,0
+Paprica,2,2018-09-07,Low cost same,7,left,0,0
+Paprica,2,2018-09-07,Low cost same,8,right,0,0
+Paprica,2,2018-09-20,Low cost different,3,right,1,NA
+Paprica,2,2018-09-20,Low cost different,4,left,0,1
+Paprica,2,2018-09-20,Low cost different,5,left,0,0
+Paprica,2,2018-09-20,Low cost different,6,right,0,0
+Paprica,2,2018-09-20,Low cost different,7,right,1,0
+Paprica,2,2018-09-20,Low cost different,8,left,0,1
+Paprica,3,2018-07-20,High cost,3,left,0,NA
+Paprica,3,2018-07-20,High cost,4,left,0,0
+Paprica,3,2018-07-20,High cost,5,right,1,0
+Paprica,3,2018-07-20,High cost,6,right,0,1
+Paprica,3,2018-07-20,High cost,7,right,0,0
+Paprica,3,2018-07-20,High cost,8,left,0,0
+Paprica,3,2018-09-10,Low cost same,3,right,0,NA
+Paprica,3,2018-09-10,Low cost same,4,right,0,0
+Paprica,3,2018-09-10,Low cost same,5,right,0,0
+Paprica,3,2018-09-10,Low cost same,6,left,0,0
+Paprica,3,2018-09-10,Low cost same,7,left,0,0
+Paprica,3,2018-09-10,Low cost same,8,left,0,0
+Paprica,3,2018-09-21,Low cost different,3,right,0,NA
+Paprica,3,2018-09-21,Low cost different,4,right,0,0
+Paprica,3,2018-09-21,Low cost different,5,right,0,0
+Paprica,3,2018-09-21,Low cost different,6,left,0,0
+Paprica,3,2018-09-21,Low cost different,7,left,0,0
+Paprica,3,2018-09-21,Low cost different,8,left,0,0
+Paprica,4,2018-07-23,High cost,3,right,0,NA
+Paprica,4,2018-07-23,High cost,4,right,0,0
+Paprica,4,2018-07-23,High cost,5,right,0,0
+Paprica,4,2018-07-23,High cost,6,left,0,0
+Paprica,4,2018-07-23,High cost,7,left,1,0
+Paprica,4,2018-07-23,High cost,8,left,0,1
+Paprica,4,2018-09-12,Low cost same,3,left,0,NA
+Paprica,4,2018-09-12,Low cost same,4,right,0,0
+Paprica,4,2018-09-12,Low cost same,5,right,0,0
+Paprica,4,2018-09-12,Low cost same,6,left,0,0
+Paprica,4,2018-09-12,Low cost same,7,left,0,0
+Paprica,4,2018-09-12,Low cost same,8,right,0,0
+Paprica,4,2018-09-24,Low cost different,3,left,0,NA
+Paprica,4,2018-09-24,Low cost different,4,right,0,0
+Paprica,4,2018-09-24,Low cost different,5,left,0,0
+Paprica,4,2018-09-24,Low cost different,6,left,0,0
+Paprica,4,2018-09-24,Low cost different,7,right,1,0
+Paprica,4,2018-09-24,Low cost different,8,right,0,1
+Paprica,5,2018-07-24,High cost,3,left,0,NA
+Paprica,5,2018-07-24,High cost,4,left,0,0
+Paprica,5,2018-07-24,High cost,5,right,0,0
+Paprica,5,2018-07-24,High cost,6,left,1,0
+Paprica,5,2018-07-24,High cost,7,right,1,1
+Paprica,5,2018-07-24,High cost,8,right,0,1
+Paprica,5,2018-09-13,Low cost same,3,right,0,NA
+Paprica,5,2018-09-13,Low cost same,4,left,0,0
+Paprica,5,2018-09-13,Low cost same,5,right,0,0
+Paprica,5,2018-09-13,Low cost same,6,right,0,0
+Paprica,5,2018-09-13,Low cost same,7,left,1,0
+Paprica,5,2018-09-13,Low cost same,8,left,0,1
+Paprica,5,2018-09-25,Low cost different,3,right,0,NA
+Paprica,5,2018-09-25,Low cost different,4,right,0,0
+Paprica,5,2018-09-25,Low cost different,5,left,0,0
+Paprica,5,2018-09-25,Low cost different,6,left,0,0
+Paprica,5,2018-09-25,Low cost different,7,left,0,0
+Paprica,5,2018-09-25,Low cost different,8,right,0,0
+Paprica,6,2018-07-25,High cost,3,right,0,NA
+Paprica,6,2018-07-25,High cost,4,right,0,0
+Paprica,6,2018-07-25,High cost,5,left,0,0
+Paprica,6,2018-07-25,High cost,6,left,0,0
+Paprica,6,2018-07-25,High cost,7,right,0,0
+Paprica,6,2018-07-25,High cost,8,left,0,0
+Paprica,6,2018-09-26,Low cost different,3,left,0,NA
+Paprica,6,2018-09-26,Low cost different,4,right,0,0
+Paprica,6,2018-09-26,Low cost different,5,right,0,0
+Paprica,6,2018-09-26,Low cost different,6,left,0,0
+Paprica,6,2018-09-26,Low cost different,7,left,0,0
+Paprica,6,2018-09-26,Low cost different,8,right,0,0
+Paprica,7,2018-07-26,High cost,3,left,0,NA
+Paprica,7,2018-07-26,High cost,4,left,0,0
+Paprica,7,2018-07-26,High cost,5,left,0,0
+Paprica,7,2018-07-26,High cost,6,right,0,0
+Paprica,7,2018-07-26,High cost,7,right,1,0
+Paprica,7,2018-07-26,High cost,8,right,0,1
+Paprica,7,2018-09-27,Low cost different,3,right,0,NA
+Paprica,7,2018-09-27,Low cost different,4,left,0,0
+Paprica,7,2018-09-27,Low cost different,5,right,1,0
+Paprica,7,2018-09-27,Low cost different,6,left,0,1
+Paprica,7,2018-09-27,Low cost different,7,right,0,0
+Paprica,7,2018-09-27,Low cost different,8,left,0,0
+Paprica,8,2018-07-27,High cost,3,right,1,NA
+Paprica,8,2018-07-27,High cost,4,left,0,1
+Paprica,8,2018-07-27,High cost,5,left,0,0
+Paprica,8,2018-07-27,High cost,6,right,0,0
+Paprica,8,2018-07-27,High cost,7,left,0,0
+Paprica,8,2018-07-27,High cost,8,right,0,0
+Paprica,9,2018-07-30,High cost,3,right,0,NA
+Paprica,9,2018-07-30,High cost,4,left,0,0
+Paprica,9,2018-07-30,High cost,5,right,0,0
+Paprica,9,2018-07-30,High cost,6,right,1,0
+Paprica,9,2018-07-30,High cost,7,left,0,1
+Paprica,9,2018-07-30,High cost,8,left,0,0
+Paprica,10,2018-07-31,High cost,3,left,0,NA
+Paprica,10,2018-07-31,High cost,4,right,0,0
+Paprica,10,2018-07-31,High cost,5,left,0,0
+Paprica,10,2018-07-31,High cost,6,left,0,0
+Paprica,10,2018-07-31,High cost,7,right,0,0
+Paprica,10,2018-07-31,High cost,8,right,0,0
+Roberta,1,2018-07-16,High cost,3,left,1,NA
+Roberta,1,2018-07-16,High cost,4,right,0,1
+Roberta,1,2018-07-16,High cost,5,left,0,0
+Roberta,1,2018-07-16,High cost,6,right,0,0
+Roberta,1,2018-07-16,High cost,7,right,1,0
+Roberta,1,2018-07-16,High cost,8,left,0,1
+Roberta,1,2018-09-07,Low cost different,3,right,1,NA
+Roberta,1,2018-09-07,Low cost different,4,left,0,1
+Roberta,1,2018-09-07,Low cost different,5,left,0,0
+Roberta,1,2018-09-07,Low cost different,6,left,1,0
+Roberta,1,2018-09-07,Low cost different,7,right,1,1
+Roberta,1,2018-09-07,Low cost different,8,right,0,1
+Roberta,1,2018-10-26,Low cost same,3,right,1,NA
+Roberta,1,2018-10-26,Low cost same,4,right,1,1
+Roberta,1,2018-10-26,Low cost same,5,right,0,1
+Roberta,1,2018-10-26,Low cost same,6,left,0,0
+Roberta,1,2018-10-26,Low cost same,7,left,0,0
+Roberta,1,2018-10-26,Low cost same,8,left,0,0
+Roberta,2,2018-07-17,High cost,3,right,1,NA
+Roberta,2,2018-07-17,High cost,4,left,0,1
+Roberta,2,2018-07-17,High cost,5,right,1,0
+Roberta,2,2018-07-17,High cost,6,right,0,1
+Roberta,2,2018-07-17,High cost,7,left,0,0
+Roberta,2,2018-07-17,High cost,8,left,0,0
+Roberta,2,2018-09-10,Low cost different,3,right,0,NA
+Roberta,2,2018-09-10,Low cost different,4,left,0,0
+Roberta,2,2018-09-10,Low cost different,5,left,0,0
+Roberta,2,2018-09-10,Low cost different,6,left,0,0
+Roberta,2,2018-09-10,Low cost different,7,right,0,0
+Roberta,2,2018-09-10,Low cost different,8,right,0,0
+Roberta,2,2018-10-29,Low cost same,3,left,0,NA
+Roberta,2,2018-10-29,Low cost same,4,left,0,0
+Roberta,2,2018-10-29,Low cost same,5,right,0,0
+Roberta,2,2018-10-29,Low cost same,6,right,1,0
+Roberta,2,2018-10-29,Low cost same,7,right,0,1
+Roberta,2,2018-10-29,Low cost same,8,left,0,0
+Roberta,3,2018-07-18,High cost,3,left,0,NA
+Roberta,3,2018-07-18,High cost,4,right,0,0
+Roberta,3,2018-07-18,High cost,5,left,0,0
+Roberta,3,2018-07-18,High cost,6,right,0,0
+Roberta,3,2018-07-18,High cost,7,left,0,0
+Roberta,3,2018-07-18,High cost,8,right,0,0
+Roberta,3,2018-09-12,Low cost different,3,right,1,NA
+Roberta,3,2018-09-12,Low cost different,4,left,0,1
+Roberta,3,2018-09-12,Low cost different,5,right,1,0
+Roberta,3,2018-09-12,Low cost different,6,left,1,1
+Roberta,3,2018-09-12,Low cost different,7,right,0,1
+Roberta,3,2018-09-12,Low cost different,8,left,0,0
+Roberta,3,2018-10-31,Low cost same,3,left,0,NA
+Roberta,3,2018-10-31,Low cost same,4,left,0,0
+Roberta,3,2018-10-31,Low cost same,5,right,0,0
+Roberta,3,2018-10-31,Low cost same,6,right,0,0
+Roberta,3,2018-10-31,Low cost same,7,right,0,0
+Roberta,3,2018-10-31,Low cost same,8,left,0,0
+Roberta,4,2018-07-19,High cost,3,right,0,NA
+Roberta,4,2018-07-19,High cost,4,right,0,0
+Roberta,4,2018-07-19,High cost,5,left,0,0
+Roberta,4,2018-07-19,High cost,6,left,0,0
+Roberta,4,2018-07-19,High cost,7,right,0,0
+Roberta,4,2018-07-19,High cost,8,left,0,0
+Roberta,4,2018-09-13,Low cost different,3,right,1,NA
+Roberta,4,2018-09-13,Low cost different,4,right,0,1
+Roberta,4,2018-09-13,Low cost different,5,left,1,0
+Roberta,4,2018-09-13,Low cost different,6,left,0,1
+Roberta,4,2018-09-13,Low cost different,7,left,0,0
+Roberta,4,2018-09-13,Low cost different,8,right,1,0
+Roberta,4,2018-11-05,Low cost same,3,right,1,NA
+Roberta,4,2018-11-05,Low cost same,4,right,0,1
+Roberta,4,2018-11-05,Low cost same,5,left,1,0
+Roberta,4,2018-11-05,Low cost same,6,left,0,1
+Roberta,4,2018-11-05,Low cost same,7,left,0,0
+Roberta,4,2018-11-05,Low cost same,8,right,1,0
+Roberta,5,2018-07-20,High cost,3,right,0,NA
+Roberta,5,2018-07-20,High cost,4,left,0,0
+Roberta,5,2018-07-20,High cost,5,right,1,0
+Roberta,5,2018-07-20,High cost,6,left,0,1
+Roberta,5,2018-07-20,High cost,7,left,0,0
+Roberta,5,2018-07-20,High cost,8,right,0,0
+Roberta,5,2018-09-14,Low cost different,3,left,1,NA
+Roberta,5,2018-09-14,Low cost different,4,left,0,1
+Roberta,5,2018-09-14,Low cost different,5,right,1,0
+Roberta,5,2018-09-14,Low cost different,6,right,1,1
+Roberta,5,2018-09-14,Low cost different,7,left,1,1
+Roberta,5,2018-09-14,Low cost different,8,right,1,1
+Roberta,5,2018-11-06,Low cost same,3,left,0,NA
+Roberta,5,2018-11-06,Low cost same,4,right,1,0
+Roberta,5,2018-11-06,Low cost same,5,right,1,1
+Roberta,5,2018-11-06,Low cost same,6,right,0,1
+Roberta,5,2018-11-06,Low cost same,7,left,0,0
+Roberta,5,2018-11-06,Low cost same,8,left,0,0
+Roberta,6,2018-07-23,High cost,3,right,0,NA
+Roberta,6,2018-07-23,High cost,4,right,0,0
+Roberta,6,2018-07-23,High cost,5,left,0,0
+Roberta,6,2018-07-23,High cost,6,left,0,0
+Roberta,6,2018-07-23,High cost,7,left,0,0
+Roberta,6,2018-07-23,High cost,8,right,0,0
+Roberta,6,2018-09-18,Low cost different,3,right,1,NA
+Roberta,6,2018-09-18,Low cost different,4,left,1,1
+Roberta,6,2018-09-18,Low cost different,5,left,1,1
+Roberta,6,2018-09-18,Low cost different,6,right,1,1
+Roberta,6,2018-09-18,Low cost different,7,left,0,1
+Roberta,6,2018-09-18,Low cost different,8,right,0,0
+Roberta,6,2018-11-09,Low cost same,3,right,0,NA
+Roberta,6,2018-11-09,Low cost same,4,left,0,0
+Roberta,6,2018-11-09,Low cost same,5,right,1,0
+Roberta,6,2018-11-09,Low cost same,6,right,0,1
+Roberta,6,2018-11-09,Low cost same,7,left,0,0
+Roberta,6,2018-11-09,Low cost same,8,left,1,0
+Roberta,7,2018-07-24,High cost,3,right,0,NA
+Roberta,7,2018-07-24,High cost,4,right,0,0
+Roberta,7,2018-07-24,High cost,5,right,0,0
+Roberta,7,2018-07-24,High cost,6,left,0,0
+Roberta,7,2018-07-24,High cost,7,left,0,0
+Roberta,7,2018-07-24,High cost,8,left,0,0
+Roberta,7,2018-09-19,Low cost different,3,right,0,NA
+Roberta,7,2018-09-19,Low cost different,4,left,1,0
+Roberta,7,2018-09-19,Low cost different,5,right,0,1
+Roberta,7,2018-09-19,Low cost different,6,left,0,0
+Roberta,7,2018-09-19,Low cost different,7,left,0,0
+Roberta,7,2018-09-19,Low cost different,8,right,0,0
+Roberta,7,2018-11-12,Low cost same,3,right,1,NA
+Roberta,7,2018-11-12,Low cost same,4,left,0,1
+Roberta,7,2018-11-12,Low cost same,5,right,0,0
+Roberta,7,2018-11-12,Low cost same,6,left,0,0
+Roberta,7,2018-11-12,Low cost same,7,right,0,0
+Roberta,7,2018-11-12,Low cost same,8,left,0,0
+Roberta,8,2018-09-20,Low cost different,3,right,1,NA
+Roberta,8,2018-09-20,Low cost different,4,left,0,1
+Roberta,8,2018-09-20,Low cost different,5,left,1,0
+Roberta,8,2018-09-20,Low cost different,6,right,1,1
+Roberta,8,2018-09-20,Low cost different,7,right,0,1
+Roberta,8,2018-09-20,Low cost different,8,left,0,0
+Roberta,8,2018-11-13,Low cost same,3,right,0,NA
+Roberta,8,2018-11-13,Low cost same,4,left,0,0
+Roberta,8,2018-11-13,Low cost same,5,left,0,0
+Roberta,8,2018-11-13,Low cost same,6,left,0,0
+Roberta,8,2018-11-13,Low cost same,7,right,0,0
+Roberta,8,2018-11-13,Low cost same,8,right,0,0
+Roberta,9,2018-09-21,Low cost different,3,left,0,NA
+Roberta,9,2018-09-21,Low cost different,4,right,1,0
+Roberta,9,2018-09-21,Low cost different,5,right,0,1
+Roberta,9,2018-09-21,Low cost different,6,left,0,0
+Roberta,9,2018-09-21,Low cost different,7,right,1,0
+Roberta,9,2018-09-21,Low cost different,8,left,0,1
+Roberta,9,2018-11-15,Low cost same,3,right,0,NA
+Roberta,9,2018-11-15,Low cost same,4,left,0,0
+Roberta,9,2018-11-15,Low cost same,5,right,0,0
+Roberta,9,2018-11-15,Low cost same,6,left,0,0
+Roberta,9,2018-11-15,Low cost same,7,left,0,0
+Roberta,9,2018-11-15,Low cost same,8,right,0,0
+Roberta,10,2018-09-24,Low cost different,3,right,0,NA
+Roberta,10,2018-09-24,Low cost different,4,right,1,0
+Roberta,10,2018-09-24,Low cost different,5,left,0,1
+Roberta,10,2018-09-24,Low cost different,6,left,0,0
+Roberta,10,2018-09-24,Low cost different,7,left,1,0
+Roberta,10,2018-09-24,Low cost different,8,right,0,1
+Roberta,10,2018-11-16,Low cost same,3,right,0,NA
+Roberta,10,2018-11-16,Low cost same,4,right,0,0
+Roberta,10,2018-11-16,Low cost same,5,left,0,0
+Roberta,10,2018-11-16,Low cost same,6,left,0,0
+Roberta,10,2018-11-16,Low cost same,7,left,0,0
+Roberta,10,2018-11-16,Low cost same,8,right,0,0
+Roberta,11,2018-09-25,Low cost different,3,right,0,NA
+Roberta,11,2018-09-25,Low cost different,4,left,0,0
+Roberta,11,2018-09-25,Low cost different,5,left,0,0
+Roberta,11,2018-09-25,Low cost different,6,right,1,0
+Roberta,11,2018-09-25,Low cost different,7,right,1,1
+Roberta,11,2018-09-25,Low cost different,8,left,1,1
+Roberta,11,2018-11-19,Low cost same,3,right,0,NA
+Roberta,11,2018-11-19,Low cost same,4,left,0,0
+Roberta,11,2018-11-19,Low cost same,5,left,0,0
+Roberta,11,2018-11-19,Low cost same,6,right,1,0
+Roberta,11,2018-11-19,Low cost same,7,right,0,1
+Roberta,11,2018-11-19,Low cost same,8,left,0,0
+Roberta,12,2018-09-26,Low cost different,3,right,1,NA
+Roberta,12,2018-09-26,Low cost different,4,left,0,1
+Roberta,12,2018-09-26,Low cost different,5,right,1,0
+Roberta,12,2018-09-26,Low cost different,6,left,0,1
+Roberta,12,2018-09-26,Low cost different,7,right,0,0
+Roberta,12,2018-09-26,Low cost different,8,left,0,0
+Robin Hood,1,2018-07-13,High cost,3,left,0,NA
+Robin Hood,1,2018-07-13,High cost,4,left,1,0
+Robin Hood,1,2018-07-13,High cost,5,right,0,1
+Robin Hood,1,2018-07-13,High cost,6,right,0,0
+Robin Hood,1,2018-07-13,High cost,7,left,0,0
+Robin Hood,1,2018-07-13,High cost,8,right,0,0
+Robin Hood,1,2018-09-06,Low cost different,3,right,0,NA
+Robin Hood,1,2018-09-06,Low cost different,4,right,1,0
+Robin Hood,1,2018-09-06,Low cost different,5,right,0,1
+Robin Hood,1,2018-09-06,Low cost different,6,left,1,0
+Robin Hood,1,2018-09-06,Low cost different,7,left,1,1
+Robin Hood,1,2018-09-06,Low cost different,8,left,1,1
+Robin Hood,1,2018-09-28,Low cost same,3,left,0,NA
+Robin Hood,1,2018-09-28,Low cost same,4,right,0,0
+Robin Hood,1,2018-09-28,Low cost same,5,right,0,0
+Robin Hood,1,2018-09-28,Low cost same,6,right,0,0
+Robin Hood,1,2018-09-28,Low cost same,7,left,1,0
+Robin Hood,1,2018-09-28,Low cost same,8,left,1,1
+Robin Hood,2,2018-07-16,High cost,3,right,0,NA
+Robin Hood,2,2018-07-16,High cost,4,left,0,0
+Robin Hood,2,2018-07-16,High cost,5,left,0,0
+Robin Hood,2,2018-07-16,High cost,6,right,0,0
+Robin Hood,2,2018-07-16,High cost,7,left,0,0
+Robin Hood,2,2018-07-16,High cost,8,right,0,0
+Robin Hood,2,2018-09-07,Low cost different,3,left,1,NA
+Robin Hood,2,2018-09-07,Low cost different,4,right,0,1
+Robin Hood,2,2018-09-07,Low cost different,5,left,0,0
+Robin Hood,2,2018-09-07,Low cost different,6,right,1,0
+Robin Hood,2,2018-09-07,Low cost different,7,left,1,1
+Robin Hood,2,2018-09-07,Low cost different,8,right,1,1
+Robin Hood,2,2018-10-01,Low cost same,3,right,0,NA
+Robin Hood,2,2018-10-01,Low cost same,4,left,1,0
+Robin Hood,2,2018-10-01,Low cost same,5,left,1,1
+Robin Hood,2,2018-10-01,Low cost same,6,right,0,1
+Robin Hood,2,2018-10-01,Low cost same,7,right,0,0
+Robin Hood,2,2018-10-01,Low cost same,8,left,1,0
+Robin Hood,3,2018-07-19,High cost,3,right,0,NA
+Robin Hood,3,2018-07-19,High cost,4,right,0,0
+Robin Hood,3,2018-07-19,High cost,5,right,0,0
+Robin Hood,3,2018-07-19,High cost,6,left,0,0
+Robin Hood,3,2018-07-19,High cost,7,left,0,0
+Robin Hood,3,2018-07-19,High cost,8,left,0,0
+Robin Hood,3,2018-09-10,Low cost different,3,left,1,NA
+Robin Hood,3,2018-09-10,Low cost different,4,right,0,1
+Robin Hood,3,2018-09-10,Low cost different,5,left,1,0
+Robin Hood,3,2018-09-10,Low cost different,6,right,1,1
+Robin Hood,3,2018-09-10,Low cost different,7,left,1,1
+Robin Hood,3,2018-09-10,Low cost different,8,right,0,1
+Robin Hood,3,2018-10-02,Low cost same,3,right,0,NA
+Robin Hood,3,2018-10-02,Low cost same,4,left,1,0
+Robin Hood,3,2018-10-02,Low cost same,5,left,1,1
+Robin Hood,3,2018-10-02,Low cost same,6,right,0,1
+Robin Hood,3,2018-10-02,Low cost same,7,right,0,0
+Robin Hood,3,2018-10-02,Low cost same,8,left,0,0
+Robin Hood,4,2018-07-23,High cost,3,left,0,NA
+Robin Hood,4,2018-07-23,High cost,4,right,0,0
+Robin Hood,4,2018-07-23,High cost,5,left,0,0
+Robin Hood,4,2018-07-23,High cost,6,right,0,0
+Robin Hood,4,2018-07-23,High cost,7,left,0,0
+Robin Hood,4,2018-07-23,High cost,8,right,0,0
+Robin Hood,4,2018-09-13,Low cost different,3,right,0,NA
+Robin Hood,4,2018-09-13,Low cost different,4,right,0,0
+Robin Hood,4,2018-09-13,Low cost different,5,right,0,0
+Robin Hood,4,2018-09-13,Low cost different,6,left,1,0
+Robin Hood,4,2018-09-13,Low cost different,7,left,1,1
+Robin Hood,4,2018-09-13,Low cost different,8,left,1,1
+Robin Hood,4,2018-10-03,Low cost same,3,left,0,NA
+Robin Hood,4,2018-10-03,Low cost same,4,right,0,0
+Robin Hood,4,2018-10-03,Low cost same,5,right,0,0
+Robin Hood,4,2018-10-03,Low cost same,6,left,0,0
+Robin Hood,4,2018-10-03,Low cost same,7,right,0,0
+Robin Hood,4,2018-10-03,Low cost same,8,left,0,0
+Robin Hood,5,2018-07-24,High cost,3,right,0,NA
+Robin Hood,5,2018-07-24,High cost,4,left,0,0
+Robin Hood,5,2018-07-24,High cost,5,left,0,0
+Robin Hood,5,2018-07-24,High cost,6,left,0,0
+Robin Hood,5,2018-07-24,High cost,7,right,0,0
+Robin Hood,5,2018-07-24,High cost,8,right,0,0
+Robin Hood,5,2018-09-14,Low cost different,3,right,0,NA
+Robin Hood,5,2018-09-14,Low cost different,4,left,0,0
+Robin Hood,5,2018-09-14,Low cost different,5,left,1,0
+Robin Hood,5,2018-09-14,Low cost different,6,right,0,1
+Robin Hood,5,2018-09-14,Low cost different,7,right,0,0
+Robin Hood,5,2018-09-14,Low cost different,8,left,1,0
+Robin Hood,5,2018-10-04,Low cost same,3,right,0,NA
+Robin Hood,5,2018-10-04,Low cost same,4,left,1,0
+Robin Hood,5,2018-10-04,Low cost same,5,left,0,1
+Robin Hood,5,2018-10-04,Low cost same,6,right,0,0
+Robin Hood,5,2018-10-04,Low cost same,7,left,1,0
+Robin Hood,5,2018-10-04,Low cost same,8,right,0,1
+Robin Hood,6,2018-09-18,Low cost different,3,left,0,NA
+Robin Hood,6,2018-09-18,Low cost different,4,left,1,0
+Robin Hood,6,2018-09-18,Low cost different,5,right,0,1
+Robin Hood,6,2018-09-18,Low cost different,6,right,0,0
+Robin Hood,6,2018-09-18,Low cost different,7,right,0,0
+Robin Hood,6,2018-09-18,Low cost different,8,left,1,0
+Robin Hood,6,2018-10-05,Low cost same,3,left,1,NA
+Robin Hood,6,2018-10-05,Low cost same,4,left,1,1
+Robin Hood,6,2018-10-05,Low cost same,5,right,1,1
+Robin Hood,6,2018-10-05,Low cost same,6,right,0,1
+Robin Hood,6,2018-10-05,Low cost same,7,left,1,0
+Robin Hood,6,2018-10-05,Low cost same,8,right,1,1
+Robin Hood,7,2018-09-19,Low cost different,3,right,0,NA
+Robin Hood,7,2018-09-19,Low cost different,4,right,0,0
+Robin Hood,7,2018-09-19,Low cost different,5,left,1,0
+Robin Hood,7,2018-09-19,Low cost different,6,left,0,1
+Robin Hood,7,2018-09-19,Low cost different,7,left,1,0
+Robin Hood,7,2018-09-19,Low cost different,8,right,0,1
+Robin Hood,7,2018-10-10,Low cost same,3,right,0,NA
+Robin Hood,7,2018-10-10,Low cost same,4,left,0,0
+Robin Hood,7,2018-10-10,Low cost same,5,left,1,0
+Robin Hood,7,2018-10-10,Low cost same,6,right,0,1
+Robin Hood,7,2018-10-10,Low cost same,7,right,0,0
+Robin Hood,7,2018-10-10,Low cost same,8,left,0,0
+Robin Hood,8,2018-09-21,Low cost different,3,right,0,NA
+Robin Hood,8,2018-09-21,Low cost different,4,left,1,0
+Robin Hood,8,2018-09-21,Low cost different,5,left,0,1
+Robin Hood,8,2018-09-21,Low cost different,6,right,0,0
+Robin Hood,8,2018-09-21,Low cost different,7,left,0,0
+Robin Hood,8,2018-09-21,Low cost different,8,right,0,0
+Robin Hood,8,2018-10-11,Low cost same,3,left,0,NA
+Robin Hood,8,2018-10-11,Low cost same,4,right,0,0
+Robin Hood,8,2018-10-11,Low cost same,5,right,1,0
+Robin Hood,8,2018-10-11,Low cost same,6,left,1,1
+Robin Hood,8,2018-10-11,Low cost same,7,right,0,1
+Robin Hood,8,2018-10-11,Low cost same,8,left,0,0
+Robin Hood,9,2018-09-24,Low cost different,3,right,0,NA
+Robin Hood,9,2018-09-24,Low cost different,4,right,0,0
+Robin Hood,9,2018-09-24,Low cost different,5,left,1,0
+Robin Hood,9,2018-09-24,Low cost different,6,right,0,1
+Robin Hood,9,2018-09-24,Low cost different,7,left,0,0
+Robin Hood,9,2018-09-24,Low cost different,8,left,0,0
+Robin Hood,9,2018-10-12,Low cost same,3,left,0,NA
+Robin Hood,9,2018-10-12,Low cost same,4,left,0,0
+Robin Hood,9,2018-10-12,Low cost same,5,left,0,0
+Robin Hood,9,2018-10-12,Low cost same,6,right,0,0
+Robin Hood,9,2018-10-12,Low cost same,7,right,0,0
+Robin Hood,9,2018-10-12,Low cost same,8,right,0,0
+Robin Hood,10,2018-10-15,Low cost same,3,left,0,NA
+Robin Hood,10,2018-10-15,Low cost same,4,right,0,0
+Robin Hood,10,2018-10-15,Low cost same,5,left,0,0
+Robin Hood,10,2018-10-15,Low cost same,6,right,0,0
+Robin Hood,10,2018-10-15,Low cost same,7,left,0,0
+Robin Hood,10,2018-10-15,Low cost same,8,right,0,0
+Robin Hood,11,2018-10-16,Low cost same,3,right,0,NA
+Robin Hood,11,2018-10-16,Low cost same,4,left,0,0
+Robin Hood,11,2018-10-16,Low cost same,5,left,0,0
+Robin Hood,11,2018-10-16,Low cost same,6,right,0,0
+Robin Hood,11,2018-10-16,Low cost same,7,right,0,0
+Robin Hood,11,2018-10-16,Low cost same,8,left,0,0
+Robin Hood,12,2018-10-17,Low cost same,3,right,0,NA
+Robin Hood,12,2018-10-17,Low cost same,4,right,0,0
+Robin Hood,12,2018-10-17,Low cost same,5,left,0,0
+Robin Hood,12,2018-10-17,Low cost same,6,right,0,0
+Robin Hood,12,2018-10-17,Low cost same,7,left,0,0
+Robin Hood,12,2018-10-17,Low cost same,8,left,0,0
+Robin Hood,13,2018-10-18,Low cost same,3,right,0,NA
+Robin Hood,13,2018-10-18,Low cost same,4,right,0,0
+Robin Hood,13,2018-10-18,Low cost same,5,left,0,0
+Robin Hood,13,2018-10-18,Low cost same,6,right,0,0
+Robin Hood,13,2018-10-18,Low cost same,7,left,0,0
+Robin Hood,13,2018-10-18,Low cost same,8,left,0,0
+Robinia,1,2018-07-16,Low cost same,3,left,0,NA
+Robinia,1,2018-07-16,Low cost same,4,right,1,0
+Robinia,1,2018-07-16,Low cost same,5,right,0,1
+Robinia,1,2018-07-16,Low cost same,6,left,0,0
+Robinia,1,2018-07-16,Low cost same,7,left,0,0
+Robinia,1,2018-07-16,Low cost same,8,right,0,0
+Robinia,1,2018-09-06,Low cost different,3,left,1,NA
+Robinia,1,2018-09-06,Low cost different,4,left,1,1
+Robinia,1,2018-09-06,Low cost different,5,right,1,1
+Robinia,1,2018-09-06,Low cost different,6,right,0,1
+Robinia,1,2018-09-06,Low cost different,7,right,0,0
+Robinia,1,2018-09-06,Low cost different,8,left,0,0
+Robinia,1,2018-10-24,High cost,3,right,0,NA
+Robinia,1,2018-10-24,High cost,4,left,0,0
+Robinia,1,2018-10-24,High cost,5,right,0,0
+Robinia,1,2018-10-24,High cost,6,left,0,0
+Robinia,1,2018-10-24,High cost,7,left,0,0
+Robinia,1,2018-10-24,High cost,8,right,0,0
+Robinia,2,2018-07-17,Low cost same,3,left,0,NA
+Robinia,2,2018-07-17,Low cost same,4,left,0,0
+Robinia,2,2018-07-17,Low cost same,5,right,0,0
+Robinia,2,2018-07-17,Low cost same,6,right,0,0
+Robinia,2,2018-07-17,Low cost same,7,right,0,0
+Robinia,2,2018-07-17,Low cost same,8,left,0,0
+Robinia,2,2018-09-07,Low cost different,3,left,0,NA
+Robinia,2,2018-09-07,Low cost different,4,right,1,0
+Robinia,2,2018-09-07,Low cost different,5,left,1,1
+Robinia,2,2018-09-07,Low cost different,6,left,1,1
+Robinia,2,2018-09-07,Low cost different,7,right,1,1
+Robinia,2,2018-09-07,Low cost different,8,right,1,1
+Robinia,2,2018-10-25,High cost,3,right,0,NA
+Robinia,2,2018-10-25,High cost,4,left,0,0
+Robinia,2,2018-10-25,High cost,5,right,0,0
+Robinia,2,2018-10-25,High cost,6,left,0,0
+Robinia,2,2018-10-25,High cost,7,left,0,0
+Robinia,2,2018-10-25,High cost,8,right,0,0
+Robinia,3,2018-07-18,Low cost same,3,right,0,NA
+Robinia,3,2018-07-18,Low cost same,4,left,0,0
+Robinia,3,2018-07-18,Low cost same,5,right,0,0
+Robinia,3,2018-07-18,Low cost same,6,left,0,0
+Robinia,3,2018-07-18,Low cost same,7,right,1,0
+Robinia,3,2018-07-18,Low cost same,8,left,0,1
+Robinia,3,2018-09-10,Low cost different,3,left,1,NA
+Robinia,3,2018-09-10,Low cost different,4,left,0,1
+Robinia,3,2018-09-10,Low cost different,5,right,1,0
+Robinia,3,2018-09-10,Low cost different,6,right,1,1
+Robinia,3,2018-09-10,Low cost different,7,right,1,1
+Robinia,3,2018-09-10,Low cost different,8,left,0,1
+Robinia,3,2018-10-26,High cost,3,left,0,NA
+Robinia,3,2018-10-26,High cost,4,left,0,0
+Robinia,3,2018-10-26,High cost,5,right,0,0
+Robinia,3,2018-10-26,High cost,6,right,0,0
+Robinia,3,2018-10-26,High cost,7,right,0,0
+Robinia,3,2018-10-26,High cost,8,left,0,0
+Robinia,4,2018-07-19,Low cost same,3,right,0,NA
+Robinia,4,2018-07-19,Low cost same,4,right,0,0
+Robinia,4,2018-07-19,Low cost same,5,right,0,0
+Robinia,4,2018-07-19,Low cost same,6,left,0,0
+Robinia,4,2018-07-19,Low cost same,7,left,0,0
+Robinia,4,2018-07-19,Low cost same,8,left,0,0
+Robinia,4,2018-09-12,Low cost different,3,left,1,NA
+Robinia,4,2018-09-12,Low cost different,4,right,1,1
+Robinia,4,2018-09-12,Low cost different,5,right,1,1
+Robinia,4,2018-09-12,Low cost different,6,left,1,1
+Robinia,4,2018-09-12,Low cost different,7,left,0,1
+Robinia,4,2018-09-12,Low cost different,8,right,1,0
+Robinia,4,2018-10-29,High cost,3,left,0,NA
+Robinia,4,2018-10-29,High cost,4,right,0,0
+Robinia,4,2018-10-29,High cost,5,left,0,0
+Robinia,4,2018-10-29,High cost,6,right,0,0
+Robinia,4,2018-10-29,High cost,7,left,0,0
+Robinia,4,2018-10-29,High cost,8,right,0,0
+Robinia,5,2018-07-20,Low cost same,3,left,0,NA
+Robinia,5,2018-07-20,Low cost same,4,right,0,0
+Robinia,5,2018-07-20,Low cost same,5,left,0,0
+Robinia,5,2018-07-20,Low cost same,6,right,0,0
+Robinia,5,2018-07-20,Low cost same,7,right,0,0
+Robinia,5,2018-07-20,Low cost same,8,left,0,0
+Robinia,5,2018-09-13,Low cost different,3,right,1,NA
+Robinia,5,2018-09-13,Low cost different,4,left,0,1
+Robinia,5,2018-09-13,Low cost different,5,right,1,0
+Robinia,5,2018-09-13,Low cost different,6,left,0,1
+Robinia,5,2018-09-13,Low cost different,7,left,1,0
+Robinia,5,2018-09-13,Low cost different,8,right,1,1
+Robinia,5,2018-10-31,High cost,3,right,0,NA
+Robinia,5,2018-10-31,High cost,4,left,0,0
+Robinia,5,2018-10-31,High cost,5,right,0,0
+Robinia,5,2018-10-31,High cost,6,right,0,0
+Robinia,5,2018-10-31,High cost,7,left,0,0
+Robinia,5,2018-10-31,High cost,8,left,0,0
+Robinia,6,2018-09-18,Low cost different,3,right,1,NA
+Robinia,6,2018-09-18,Low cost different,4,left,1,1
+Robinia,6,2018-09-18,Low cost different,5,left,0,1
+Robinia,6,2018-09-18,Low cost different,6,right,0,0
+Robinia,6,2018-09-18,Low cost different,7,left,0,0
+Robinia,6,2018-09-18,Low cost different,8,right,0,0
+Robinia,7,2018-09-19,Low cost different,3,left,1,NA
+Robinia,7,2018-09-19,Low cost different,4,right,1,1
+Robinia,7,2018-09-19,Low cost different,5,left,1,1
+Robinia,7,2018-09-19,Low cost different,6,right,1,1
+Robinia,7,2018-09-19,Low cost different,7,left,1,1
+Robinia,7,2018-09-19,Low cost different,8,right,1,1
+Robinia,8,2018-09-20,Low cost different,3,right,0,NA
+Robinia,8,2018-09-20,Low cost different,4,left,0,0
+Robinia,8,2018-09-20,Low cost different,5,left,0,0
+Robinia,8,2018-09-20,Low cost different,6,right,1,0
+Robinia,8,2018-09-20,Low cost different,7,right,1,1
+Robinia,8,2018-09-20,Low cost different,8,left,1,1
+Robinia,9,2018-09-21,Low cost different,3,right,1,NA
+Robinia,9,2018-09-21,Low cost different,4,right,1,1
+Robinia,9,2018-09-21,Low cost different,5,left,1,1
+Robinia,9,2018-09-21,Low cost different,6,left,1,1
+Robinia,9,2018-09-21,Low cost different,7,right,1,1
+Robinia,9,2018-09-21,Low cost different,8,left,0,1
+Robinia,10,2018-09-24,Low cost different,3,left,0,NA
+Robinia,10,2018-09-24,Low cost different,4,right,0,0
+Robinia,10,2018-09-24,Low cost different,5,left,1,0
+Robinia,10,2018-09-24,Low cost different,6,right,1,1
+Robinia,10,2018-09-24,Low cost different,7,right,1,1
+Robinia,10,2018-09-24,Low cost different,8,left,1,1
+Robinia,11,2018-09-25,Low cost different,3,right,1,NA
+Robinia,11,2018-09-25,Low cost different,4,left,0,1
+Robinia,11,2018-09-25,Low cost different,5,right,1,0
+Robinia,11,2018-09-25,Low cost different,6,left,1,1
+Robinia,11,2018-09-25,Low cost different,7,left,1,1
+Robinia,11,2018-09-25,Low cost different,8,right,1,1
+Robinia,12,2018-09-26,Low cost different,3,right,0,NA
+Robinia,12,2018-09-26,Low cost different,4,right,1,0
+Robinia,12,2018-09-26,Low cost different,5,left,1,1
+Robinia,12,2018-09-26,Low cost different,6,right,1,1
+Robinia,12,2018-09-26,Low cost different,7,left,0,1
+Robinia,12,2018-09-26,Low cost different,8,left,0,0
+Robinia,13,2018-09-28,Low cost different,3,left,0,NA
+Robinia,13,2018-09-28,Low cost different,4,right,1,0
+Robinia,13,2018-09-28,Low cost different,5,left,0,1
+Robinia,13,2018-09-28,Low cost different,6,right,1,0
+Robinia,13,2018-09-28,Low cost different,7,left,1,1
+Robinia,13,2018-09-28,Low cost different,8,right,0,1
+Robinia,14,2018-10-01,Low cost different,3,right,1,NA
+Robinia,14,2018-10-01,Low cost different,4,right,0,1
+Robinia,14,2018-10-01,Low cost different,5,right,0,0
+Robinia,14,2018-10-01,Low cost different,6,left,0,0
+Robinia,14,2018-10-01,Low cost different,7,left,0,0
+Robinia,14,2018-10-01,Low cost different,8,left,0,0
+Robinia,15,2018-10-02,Low cost different,3,right,1,NA
+Robinia,15,2018-10-02,Low cost different,4,right,1,1
+Robinia,15,2018-10-02,Low cost different,5,left,0,1
+Robinia,15,2018-10-02,Low cost different,6,left,1,0
+Robinia,15,2018-10-02,Low cost different,7,left,1,1
+Robinia,15,2018-10-02,Low cost different,8,right,1,1
+Robinia,16,2018-10-03,Low cost different,3,right,0,NA
+Robinia,16,2018-10-03,Low cost different,4,right,0,0
+Robinia,16,2018-10-03,Low cost different,5,right,0,0
+Robinia,16,2018-10-03,Low cost different,6,left,0,0
+Robinia,16,2018-10-03,Low cost different,7,left,0,0
+Robinia,16,2018-10-03,Low cost different,8,left,1,0
+Robinia,17,2018-10-04,Low cost different,3,right,0,NA
+Robinia,17,2018-10-04,Low cost different,4,right,0,0
+Robinia,17,2018-10-04,Low cost different,5,left,0,0
+Robinia,17,2018-10-04,Low cost different,6,right,1,0
+Robinia,17,2018-10-04,Low cost different,7,left,1,1
+Robinia,17,2018-10-04,Low cost different,8,left,0,1
+Robinia,18,2018-10-05,Low cost different,3,right,0,NA
+Robinia,18,2018-10-05,Low cost different,4,left,0,0
+Robinia,18,2018-10-05,Low cost different,5,left,1,0
+Robinia,18,2018-10-05,Low cost different,6,right,1,1
+Robinia,18,2018-10-05,Low cost different,7,left,0,1
+Robinia,18,2018-10-05,Low cost different,8,right,0,0
+Robinia,19,2018-10-10,Low cost different,3,left,0,NA
+Robinia,19,2018-10-10,Low cost different,4,right,0,0
+Robinia,19,2018-10-10,Low cost different,5,right,0,0
+Robinia,19,2018-10-10,Low cost different,6,left,0,0
+Robinia,19,2018-10-10,Low cost different,7,right,0,0
+Robinia,19,2018-10-10,Low cost different,8,left,0,0
+Robinia,20,2018-10-11,Low cost different,3,left,0,NA
+Robinia,20,2018-10-11,Low cost different,4,left,0,0
+Robinia,20,2018-10-11,Low cost different,5,right,1,0
+Robinia,20,2018-10-11,Low cost different,6,left,0,1
+Robinia,20,2018-10-11,Low cost different,7,right,0,0
+Robinia,20,2018-10-11,Low cost different,8,right,1,0
+Robinia,21,2018-10-12,Low cost different,3,right,0,NA
+Robinia,21,2018-10-12,Low cost different,4,left,0,0
+Robinia,21,2018-10-12,Low cost different,5,left,0,0
+Robinia,21,2018-10-12,Low cost different,6,right,0,0
+Robinia,21,2018-10-12,Low cost different,7,right,0,0
+Robinia,21,2018-10-12,Low cost different,8,left,0,0
+Robinia,22,2018-10-15,Low cost different,3,right,1,NA
+Robinia,22,2018-10-15,Low cost different,4,left,0,1
+Robinia,22,2018-10-15,Low cost different,5,left,0,0
+Robinia,22,2018-10-15,Low cost different,6,right,0,0
+Robinia,22,2018-10-15,Low cost different,7,right,0,0
+Robinia,22,2018-10-15,Low cost different,8,left,0,0
+Robinia,23,2018-10-16,Low cost different,3,right,0,NA
+Robinia,23,2018-10-16,Low cost different,4,right,0,0
+Robinia,23,2018-10-16,Low cost different,5,left,0,0
+Robinia,23,2018-10-16,Low cost different,6,left,0,0
+Robinia,23,2018-10-16,Low cost different,7,right,0,0
+Robinia,23,2018-10-16,Low cost different,8,left,0,0
+Robinia,24,2018-10-17,Low cost different,3,left,0,NA
+Robinia,24,2018-10-17,Low cost different,4,right,0,0
+Robinia,24,2018-10-17,Low cost different,5,right,0,0
+Robinia,24,2018-10-17,Low cost different,6,left,0,0
+Robinia,24,2018-10-17,Low cost different,7,right,0,0
+Robinia,24,2018-10-17,Low cost different,8,left,0,0
+Robinia,25,2018-10-18,Low cost different,3,left,0,NA
+Robinia,25,2018-10-18,Low cost different,4,right,0,0
+Robinia,25,2018-10-18,Low cost different,5,left,0,0
+Robinia,25,2018-10-18,Low cost different,6,right,0,0
+Robinia,25,2018-10-18,Low cost different,7,left,0,0
+Robinia,25,2018-10-18,Low cost different,8,right,0,0
+Robiola,1,2018-07-18,Low cost same,3,right,0,NA
+Robiola,1,2018-07-18,Low cost same,4,left,0,0
+Robiola,1,2018-07-18,Low cost same,5,left,0,0
+Robiola,1,2018-07-18,Low cost same,6,right,0,0
+Robiola,1,2018-07-18,Low cost same,7,left,0,0
+Robiola,1,2018-07-18,Low cost same,8,right,1,0
+Robiola,1,2018-09-06,High cost,3,right,0,NA
+Robiola,1,2018-09-06,High cost,4,left,0,0
+Robiola,1,2018-09-06,High cost,5,left,0,0
+Robiola,1,2018-09-06,High cost,6,right,0,0
+Robiola,1,2018-09-06,High cost,7,right,0,0
+Robiola,1,2018-09-06,High cost,8,left,0,0
+Robiola,1,2018-09-19,Low cost different,3,right,0,NA
+Robiola,1,2018-09-19,Low cost different,4,right,0,0
+Robiola,1,2018-09-19,Low cost different,5,left,0,0
+Robiola,1,2018-09-19,Low cost different,6,left,0,0
+Robiola,1,2018-09-19,Low cost different,7,right,0,0
+Robiola,1,2018-09-19,Low cost different,8,left,0,0
+Robiola,2,2018-07-19,Low cost same,3,right,0,NA
+Robiola,2,2018-07-19,Low cost same,4,right,1,0
+Robiola,2,2018-07-19,Low cost same,5,right,0,1
+Robiola,2,2018-07-19,Low cost same,6,left,0,0
+Robiola,2,2018-07-19,Low cost same,7,left,0,0
+Robiola,2,2018-07-19,Low cost same,8,left,0,0
+Robiola,2,2018-09-07,High cost,3,right,0,NA
+Robiola,2,2018-09-07,High cost,4,right,0,0
+Robiola,2,2018-09-07,High cost,5,left,0,0
+Robiola,2,2018-09-07,High cost,6,left,0,0
+Robiola,2,2018-09-07,High cost,7,left,0,0
+Robiola,2,2018-09-07,High cost,8,right,0,0
+Robiola,2,2018-09-20,Low cost different,3,right,0,NA
+Robiola,2,2018-09-20,Low cost different,4,left,0,0
+Robiola,2,2018-09-20,Low cost different,5,left,0,0
+Robiola,2,2018-09-20,Low cost different,6,right,1,0
+Robiola,2,2018-09-20,Low cost different,7,right,0,1
+Robiola,2,2018-09-20,Low cost different,8,left,0,0
+Robiola,3,2018-07-20,Low cost same,3,left,0,NA
+Robiola,3,2018-07-20,Low cost same,4,right,0,0
+Robiola,3,2018-07-20,Low cost same,5,left,0,0
+Robiola,3,2018-07-20,Low cost same,6,right,0,0
+Robiola,3,2018-07-20,Low cost same,7,right,0,0
+Robiola,3,2018-07-20,Low cost same,8,left,0,0
+Robiola,3,2018-09-10,High cost,3,right,0,NA
+Robiola,3,2018-09-10,High cost,4,right,0,0
+Robiola,3,2018-09-10,High cost,5,left,0,0
+Robiola,3,2018-09-10,High cost,6,left,0,0
+Robiola,3,2018-09-10,High cost,7,right,0,0
+Robiola,3,2018-09-10,High cost,8,left,0,0
+Robiola,3,2018-09-21,Low cost different,3,left,1,NA
+Robiola,3,2018-09-21,Low cost different,4,right,0,1
+Robiola,3,2018-09-21,Low cost different,5,right,0,0
+Robiola,3,2018-09-21,Low cost different,6,right,0,0
+Robiola,3,2018-09-21,Low cost different,7,left,0,0
+Robiola,3,2018-09-21,Low cost different,8,left,0,0
+Robiola,4,2018-07-23,Low cost same,3,left,0,NA
+Robiola,4,2018-07-23,Low cost same,4,right,0,0
+Robiola,4,2018-07-23,Low cost same,5,left,1,0
+Robiola,4,2018-07-23,Low cost same,6,right,1,1
+Robiola,4,2018-07-23,Low cost same,7,right,1,1
+Robiola,4,2018-07-23,Low cost same,8,left,1,1
+Robiola,4,2018-09-12,High cost,3,right,0,NA
+Robiola,4,2018-09-12,High cost,4,right,0,0
+Robiola,4,2018-09-12,High cost,5,right,0,0
+Robiola,4,2018-09-12,High cost,6,left,0,0
+Robiola,4,2018-09-12,High cost,7,left,0,0
+Robiola,4,2018-09-12,High cost,8,left,0,0
+Robiola,4,2018-09-24,Low cost different,3,right,0,NA
+Robiola,4,2018-09-24,Low cost different,4,right,0,0
+Robiola,4,2018-09-24,Low cost different,5,left,0,0
+Robiola,4,2018-09-24,Low cost different,6,left,0,0
+Robiola,4,2018-09-24,Low cost different,7,left,0,0
+Robiola,4,2018-09-24,Low cost different,8,right,0,0
+Robiola,5,2018-07-24,Low cost same,3,left,0,NA
+Robiola,5,2018-07-24,Low cost same,4,right,0,0
+Robiola,5,2018-07-24,Low cost same,5,right,1,0
+Robiola,5,2018-07-24,Low cost same,6,left,0,1
+Robiola,5,2018-07-24,Low cost same,7,left,0,0
+Robiola,5,2018-07-24,Low cost same,8,right,0,0
+Robiola,5,2018-09-13,High cost,3,right,0,NA
+Robiola,5,2018-09-13,High cost,4,left,0,0
+Robiola,5,2018-09-13,High cost,5,left,0,0
+Robiola,5,2018-09-13,High cost,6,right,0,0
+Robiola,5,2018-09-13,High cost,7,left,0,0
+Robiola,5,2018-09-13,High cost,8,right,0,0
+Robiola,5,2018-09-25,Low cost different,3,left,0,NA
+Robiola,5,2018-09-25,Low cost different,4,right,0,0
+Robiola,5,2018-09-25,Low cost different,5,right,0,0
+Robiola,5,2018-09-25,Low cost different,6,left,0,0
+Robiola,5,2018-09-25,Low cost different,7,right,0,0
+Robiola,5,2018-09-25,Low cost different,8,left,0,0
+Robiola,6,2018-07-25,Low cost same,3,right,1,NA
+Robiola,6,2018-07-25,Low cost same,4,left,0,1
+Robiola,6,2018-07-25,Low cost same,5,left,0,0
+Robiola,6,2018-07-25,Low cost same,6,right,0,0
+Robiola,6,2018-07-25,Low cost same,7,left,0,0
+Robiola,6,2018-07-25,Low cost same,8,right,1,0
+Robiola,7,2018-07-26,Low cost same,3,left,0,NA
+Robiola,7,2018-07-26,Low cost same,4,left,0,0
+Robiola,7,2018-07-26,Low cost same,5,right,0,0
+Robiola,7,2018-07-26,Low cost same,6,right,0,0
+Robiola,7,2018-07-26,Low cost same,7,right,0,0
+Robiola,7,2018-07-26,Low cost same,8,left,0,0
+Robiola,8,2018-07-27,Low cost same,3,right,1,NA
+Robiola,8,2018-07-27,Low cost same,4,left,0,1
+Robiola,8,2018-07-27,Low cost same,5,left,0,0
+Robiola,8,2018-07-27,Low cost same,6,right,0,0
+Robiola,8,2018-07-27,Low cost same,7,right,1,0
+Robiola,8,2018-07-27,Low cost same,8,left,0,1
+Robiola,9,2018-07-30,Low cost same,3,right,1,NA
+Robiola,9,2018-07-30,Low cost same,4,right,0,1
+Robiola,9,2018-07-30,Low cost same,5,left,0,0
+Robiola,9,2018-07-30,Low cost same,6,right,0,0
+Robiola,9,2018-07-30,Low cost same,7,left,0,0
+Robiola,9,2018-07-30,Low cost same,8,left,0,0
+Robiola,10,2018-07-31,Low cost same,3,left,0,NA
+Robiola,10,2018-07-31,Low cost same,4,left,0,0
+Robiola,10,2018-07-31,Low cost same,5,right,0,0
+Robiola,10,2018-07-31,Low cost same,6,left,0,0
+Robiola,10,2018-07-31,Low cost same,7,right,0,0
+Robiola,10,2018-07-31,Low cost same,8,right,0,0
+Robiola,11,2018-08-01,Low cost same,3,right,0,NA
+Robiola,11,2018-08-01,Low cost same,4,left,0,0
+Robiola,11,2018-08-01,Low cost same,5,left,0,0
+Robiola,11,2018-08-01,Low cost same,6,left,0,0
+Robiola,11,2018-08-01,Low cost same,7,right,0,0
+Robiola,11,2018-08-01,Low cost same,8,right,0,0
+Robiola,12,2018-08-02,Low cost same,3,left,0,NA
+Robiola,12,2018-08-02,Low cost same,4,left,0,0
+Robiola,12,2018-08-02,Low cost same,5,right,0,0
+Robiola,12,2018-08-02,Low cost same,6,left,0,0
+Robiola,12,2018-08-02,Low cost same,7,right,0,0
+Robiola,12,2018-08-02,Low cost same,8,right,0,0
+Robiola,13,2018-08-03,Low cost same,3,left,0,NA
+Robiola,13,2018-08-03,Low cost same,4,right,0,0
+Robiola,13,2018-08-03,Low cost same,5,left,0,0
+Robiola,13,2018-08-03,Low cost same,6,left,0,0
+Robiola,13,2018-08-03,Low cost same,7,right,1,0
+Robiola,13,2018-08-03,Low cost same,8,right,0,1
+Robot,1,2018-07-13,High cost,3,left,0,NA
+Robot,1,2018-07-13,High cost,4,left,1,0
+Robot,1,2018-07-13,High cost,5,right,0,1
+Robot,1,2018-07-13,High cost,6,right,1,0
+Robot,1,2018-07-13,High cost,7,left,0,1
+Robot,1,2018-07-13,High cost,8,right,0,0
+Robot,1,2018-09-06,Low cost same,3,right,1,NA
+Robot,1,2018-09-06,Low cost same,4,left,1,1
+Robot,1,2018-09-06,Low cost same,5,left,1,1
+Robot,1,2018-09-06,Low cost same,6,right,1,1
+Robot,1,2018-09-06,Low cost same,7,left,0,1
+Robot,1,2018-09-06,Low cost same,8,right,1,0
+Robot,1,2018-09-19,Low cost different,3,right,0,NA
+Robot,1,2018-09-19,Low cost different,4,left,0,0
+Robot,1,2018-09-19,Low cost different,5,left,0,0
+Robot,1,2018-09-19,Low cost different,6,right,0,0
+Robot,1,2018-09-19,Low cost different,7,right,0,0
+Robot,1,2018-09-19,Low cost different,8,left,0,0
+Robot,2,2018-07-16,High cost,3,left,0,NA
+Robot,2,2018-07-16,High cost,4,right,0,0
+Robot,2,2018-07-16,High cost,5,left,0,0
+Robot,2,2018-07-16,High cost,6,right,0,0
+Robot,2,2018-07-16,High cost,7,right,0,0
+Robot,2,2018-07-16,High cost,8,left,0,0
+Robot,2,2018-09-07,Low cost same,3,left,1,NA
+Robot,2,2018-09-07,Low cost same,4,left,1,1
+Robot,2,2018-09-07,Low cost same,5,left,1,1
+Robot,2,2018-09-07,Low cost same,6,right,1,1
+Robot,2,2018-09-07,Low cost same,7,right,1,1
+Robot,2,2018-09-07,Low cost same,8,right,1,1
+Robot,2,2018-09-20,Low cost different,3,right,0,NA
+Robot,2,2018-09-20,Low cost different,4,left,0,0
+Robot,2,2018-09-20,Low cost different,5,left,0,0
+Robot,2,2018-09-20,Low cost different,6,right,0,0
+Robot,2,2018-09-20,Low cost different,7,left,0,0
+Robot,2,2018-09-20,Low cost different,8,right,0,0
+Robot,3,2018-07-17,High cost,3,right,0,NA
+Robot,3,2018-07-17,High cost,4,right,1,0
+Robot,3,2018-07-17,High cost,5,right,0,1
+Robot,3,2018-07-17,High cost,6,left,0,0
+Robot,3,2018-07-17,High cost,7,left,0,0
+Robot,3,2018-07-17,High cost,8,left,0,0
+Robot,3,2018-09-10,Low cost same,3,left,1,NA
+Robot,3,2018-09-10,Low cost same,4,right,1,1
+Robot,3,2018-09-10,Low cost same,5,right,1,1
+Robot,3,2018-09-10,Low cost same,6,left,1,1
+Robot,3,2018-09-10,Low cost same,7,left,1,1
+Robot,3,2018-09-10,Low cost same,8,right,1,1
+Robot,3,2018-09-21,Low cost different,3,left,0,NA
+Robot,3,2018-09-21,Low cost different,4,right,0,0
+Robot,3,2018-09-21,Low cost different,5,right,0,0
+Robot,3,2018-09-21,Low cost different,6,right,0,0
+Robot,3,2018-09-21,Low cost different,7,left,0,0
+Robot,3,2018-09-21,Low cost different,8,left,0,0
+Robot,4,2018-07-19,High cost,3,left,0,NA
+Robot,4,2018-07-19,High cost,4,left,0,0
+Robot,4,2018-07-19,High cost,5,right,0,0
+Robot,4,2018-07-19,High cost,6,right,0,0
+Robot,4,2018-07-19,High cost,7,right,0,0
+Robot,4,2018-07-19,High cost,8,left,0,0
+Robot,4,2018-09-12,Low cost same,3,left,1,NA
+Robot,4,2018-09-12,Low cost same,4,left,1,1
+Robot,4,2018-09-12,Low cost same,5,right,1,1
+Robot,4,2018-09-12,Low cost same,6,right,1,1
+Robot,4,2018-09-12,Low cost same,7,left,1,1
+Robot,4,2018-09-12,Low cost same,8,right,1,1
+Robot,4,2018-09-24,Low cost different,3,right,0,NA
+Robot,4,2018-09-24,Low cost different,4,right,0,0
+Robot,4,2018-09-24,Low cost different,5,left,0,0
+Robot,4,2018-09-24,Low cost different,6,right,0,0
+Robot,4,2018-09-24,Low cost different,7,left,0,0
+Robot,4,2018-09-24,Low cost different,8,left,0,0
+Robot,5,2018-07-20,High cost,3,right,0,NA
+Robot,5,2018-07-20,High cost,4,left,0,0
+Robot,5,2018-07-20,High cost,5,left,0,0
+Robot,5,2018-07-20,High cost,6,left,0,0
+Robot,5,2018-07-20,High cost,7,right,0,0
+Robot,5,2018-07-20,High cost,8,right,0,0
+Robot,5,2018-09-13,Low cost same,3,left,1,NA
+Robot,5,2018-09-13,Low cost same,4,right,1,1
+Robot,5,2018-09-13,Low cost same,5,left,1,1
+Robot,5,2018-09-13,Low cost same,6,left,1,1
+Robot,5,2018-09-13,Low cost same,7,right,1,1
+Robot,5,2018-09-13,Low cost same,8,right,1,1
+Robot,5,2018-09-25,Low cost different,3,left,0,NA
+Robot,5,2018-09-25,Low cost different,4,right,0,0
+Robot,5,2018-09-25,Low cost different,5,right,0,0
+Robot,5,2018-09-25,Low cost different,6,left,0,0
+Robot,5,2018-09-25,Low cost different,7,left,0,0
+Robot,5,2018-09-25,Low cost different,8,right,0,0
+Robot,6,2018-07-23,High cost,3,left,0,NA
+Robot,6,2018-07-23,High cost,4,right,0,0
+Robot,6,2018-07-23,High cost,5,left,0,0
+Robot,6,2018-07-23,High cost,6,right,1,0
+Robot,6,2018-07-23,High cost,7,left,0,1
+Robot,6,2018-07-23,High cost,8,right,1,0
+Robot,7,2018-07-24,High cost,3,right,0,NA
+Robot,7,2018-07-24,High cost,4,left,1,0
+Robot,7,2018-07-24,High cost,5,right,0,1
+Robot,7,2018-07-24,High cost,6,left,0,0
+Robot,7,2018-07-24,High cost,7,right,0,0
+Robot,7,2018-07-24,High cost,8,left,0,0
+Robot,8,2018-07-25,High cost,3,right,0,NA
+Robot,8,2018-07-25,High cost,4,left,0,0
+Robot,8,2018-07-25,High cost,5,right,0,0
+Robot,8,2018-07-25,High cost,6,left,0,0
+Robot,8,2018-07-25,High cost,7,left,0,0
+Robot,8,2018-07-25,High cost,8,right,1,0
+Robot,9,2018-07-26,High cost,3,right,0,NA
+Robot,9,2018-07-26,High cost,4,left,0,0
+Robot,9,2018-07-26,High cost,5,right,0,0
+Robot,9,2018-07-26,High cost,6,left,0,0
+Robot,9,2018-07-26,High cost,7,left,0,0
+Robot,9,2018-07-26,High cost,8,right,1,0
+Robot,10,2018-07-27,High cost,3,right,0,NA
+Robot,10,2018-07-27,High cost,4,left,0,0
+Robot,10,2018-07-27,High cost,5,right,1,0
+Robot,10,2018-07-27,High cost,6,right,0,1
+Robot,10,2018-07-27,High cost,7,left,0,0
+Robot,10,2018-07-27,High cost,8,left,0,0
+Rucola,1,2018-07-18,Low cost different,3,left,0,NA
+Rucola,1,2018-07-18,Low cost different,4,right,1,0
+Rucola,1,2018-07-18,Low cost different,5,right,1,1
+Rucola,1,2018-07-18,Low cost different,6,right,0,1
+Rucola,1,2018-07-18,Low cost different,7,left,1,0
+Rucola,1,2018-07-18,Low cost different,8,left,1,1
+Rucola,1,2018-10-05,Low cost same,3,left,0,NA
+Rucola,1,2018-10-05,Low cost same,4,right,0,0
+Rucola,1,2018-10-05,Low cost same,5,right,0,0
+Rucola,1,2018-10-05,Low cost same,6,left,1,0
+Rucola,1,2018-10-05,Low cost same,7,right,0,1
+Rucola,1,2018-10-05,Low cost same,8,left,0,0
+Rucola,1,2018-10-19,High cost,3,right,0,NA
+Rucola,1,2018-10-19,High cost,4,left,0,0
+Rucola,1,2018-10-19,High cost,5,left,0,0
+Rucola,1,2018-10-19,High cost,6,left,0,0
+Rucola,1,2018-10-19,High cost,7,right,0,0
+Rucola,1,2018-10-19,High cost,8,right,0,0
+Rucola,2,2018-07-19,Low cost different,3,left,0,NA
+Rucola,2,2018-07-19,Low cost different,4,right,0,0
+Rucola,2,2018-07-19,Low cost different,5,left,1,0
+Rucola,2,2018-07-19,Low cost different,6,right,0,1
+Rucola,2,2018-07-19,Low cost different,7,right,0,0
+Rucola,2,2018-07-19,Low cost different,8,left,1,0
+Rucola,2,2018-10-10,Low cost same,3,left,0,NA
+Rucola,2,2018-10-10,Low cost same,4,left,0,0
+Rucola,2,2018-10-10,Low cost same,5,right,0,0
+Rucola,2,2018-10-10,Low cost same,6,right,0,0
+Rucola,2,2018-10-10,Low cost same,7,left,0,0
+Rucola,2,2018-10-10,Low cost same,8,right,0,0
+Rucola,2,2018-10-22,High cost,3,left,0,NA
+Rucola,2,2018-10-22,High cost,4,right,0,0
+Rucola,2,2018-10-22,High cost,5,right,0,0
+Rucola,2,2018-10-22,High cost,6,right,0,0
+Rucola,2,2018-10-22,High cost,7,left,0,0
+Rucola,2,2018-10-22,High cost,8,left,0,0
+Rucola,3,2018-07-20,Low cost different,3,right,0,NA
+Rucola,3,2018-07-20,Low cost different,4,left,0,0
+Rucola,3,2018-07-20,Low cost different,5,left,1,0
+Rucola,3,2018-07-20,Low cost different,6,left,1,1
+Rucola,3,2018-07-20,Low cost different,7,right,0,1
+Rucola,3,2018-07-20,Low cost different,8,right,0,0
+Rucola,3,2018-10-11,Low cost same,3,left,0,NA
+Rucola,3,2018-10-11,Low cost same,4,left,0,0
+Rucola,3,2018-10-11,Low cost same,5,right,0,0
+Rucola,3,2018-10-11,Low cost same,6,right,0,0
+Rucola,3,2018-10-11,Low cost same,7,right,0,0
+Rucola,3,2018-10-11,Low cost same,8,left,0,0
+Rucola,3,2018-10-23,High cost,3,left,0,NA
+Rucola,3,2018-10-23,High cost,4,left,0,0
+Rucola,3,2018-10-23,High cost,5,right,0,0
+Rucola,3,2018-10-23,High cost,6,right,0,0
+Rucola,3,2018-10-23,High cost,7,right,0,0
+Rucola,3,2018-10-23,High cost,8,left,0,0
+Rucola,4,2018-07-23,Low cost different,3,right,1,NA
+Rucola,4,2018-07-23,Low cost different,4,right,0,1
+Rucola,4,2018-07-23,Low cost different,5,left,1,0
+Rucola,4,2018-07-23,Low cost different,6,right,1,1
+Rucola,4,2018-07-23,Low cost different,7,left,1,1
+Rucola,4,2018-07-23,Low cost different,8,left,1,1
+Rucola,4,2018-10-12,Low cost same,3,left,0,NA
+Rucola,4,2018-10-12,Low cost same,4,right,0,0
+Rucola,4,2018-10-12,Low cost same,5,right,0,0
+Rucola,4,2018-10-12,Low cost same,6,left,0,0
+Rucola,4,2018-10-12,Low cost same,7,right,0,0
+Rucola,4,2018-10-12,Low cost same,8,left,0,0
+Rucola,4,2018-10-24,High cost,3,right,0,NA
+Rucola,4,2018-10-24,High cost,4,left,0,0
+Rucola,4,2018-10-24,High cost,5,left,0,0
+Rucola,4,2018-10-24,High cost,6,left,0,0
+Rucola,4,2018-10-24,High cost,7,right,0,0
+Rucola,4,2018-10-24,High cost,8,right,0,0
+Rucola,5,2018-07-24,Low cost different,3,left,1,NA
+Rucola,5,2018-07-24,Low cost different,4,right,0,1
+Rucola,5,2018-07-24,Low cost different,5,right,1,0
+Rucola,5,2018-07-24,Low cost different,6,right,0,1
+Rucola,5,2018-07-24,Low cost different,7,left,1,0
+Rucola,5,2018-07-24,Low cost different,8,left,1,1
+Rucola,5,2018-10-15,Low cost same,3,left,0,NA
+Rucola,5,2018-10-15,Low cost same,4,right,0,0
+Rucola,5,2018-10-15,Low cost same,5,left,0,0
+Rucola,5,2018-10-15,Low cost same,6,left,0,0
+Rucola,5,2018-10-15,Low cost same,7,right,0,0
+Rucola,5,2018-10-15,Low cost same,8,right,0,0
+Rucola,5,2018-10-25,High cost,3,right,0,NA
+Rucola,5,2018-10-25,High cost,4,left,0,0
+Rucola,5,2018-10-25,High cost,5,right,0,0
+Rucola,5,2018-10-25,High cost,6,left,0,0
+Rucola,5,2018-10-25,High cost,7,left,0,0
+Rucola,5,2018-10-25,High cost,8,right,0,0
+Rucola,6,2018-07-25,Low cost different,3,right,0,NA
+Rucola,6,2018-07-25,Low cost different,4,left,0,0
+Rucola,6,2018-07-25,Low cost different,5,right,0,0
+Rucola,6,2018-07-25,Low cost different,6,left,1,0
+Rucola,6,2018-07-25,Low cost different,7,right,0,1
+Rucola,6,2018-07-25,Low cost different,8,left,1,0
+Rucola,7,2018-07-26,Low cost different,3,right,1,NA
+Rucola,7,2018-07-26,Low cost different,4,right,0,1
+Rucola,7,2018-07-26,Low cost different,5,left,1,0
+Rucola,7,2018-07-26,Low cost different,6,left,1,1
+Rucola,7,2018-07-26,Low cost different,7,right,1,1
+Rucola,7,2018-07-26,Low cost different,8,left,1,1
+Rucola,8,2018-07-27,Low cost different,3,left,0,NA
+Rucola,8,2018-07-27,Low cost different,4,right,1,0
+Rucola,8,2018-07-27,Low cost different,5,right,1,1
+Rucola,8,2018-07-27,Low cost different,6,left,1,1
+Rucola,8,2018-07-27,Low cost different,7,left,1,1
+Rucola,8,2018-07-27,Low cost different,8,right,1,1
+Rucola,9,2018-07-30,Low cost different,3,right,1,NA
+Rucola,9,2018-07-30,Low cost different,4,left,1,1
+Rucola,9,2018-07-30,Low cost different,5,left,1,1
+Rucola,9,2018-07-30,Low cost different,6,right,0,1
+Rucola,9,2018-07-30,Low cost different,7,left,1,0
+Rucola,9,2018-07-30,Low cost different,8,right,1,1
+Rucola,10,2018-07-31,Low cost different,3,right,0,NA
+Rucola,10,2018-07-31,Low cost different,4,right,0,0
+Rucola,10,2018-07-31,Low cost different,5,left,1,0
+Rucola,10,2018-07-31,Low cost different,6,left,1,1
+Rucola,10,2018-07-31,Low cost different,7,right,0,1
+Rucola,10,2018-07-31,Low cost different,8,left,1,0
+Rucola,11,2018-08-02,Low cost different,3,left,1,NA
+Rucola,11,2018-08-02,Low cost different,4,left,1,1
+Rucola,11,2018-08-02,Low cost different,5,left,1,1
+Rucola,11,2018-08-02,Low cost different,7,right,0,1
+Rucola,11,2018-08-02,Low cost different,8,right,1,0
+Rucola,12,2018-08-03,Low cost different,3,left,0,NA
+Rucola,12,2018-08-03,Low cost different,4,left,0,0
+Rucola,12,2018-08-03,Low cost different,5,right,0,0
+Rucola,12,2018-08-03,Low cost different,6,right,0,0
+Rucola,12,2018-08-03,Low cost different,7,left,0,0
+Rucola,12,2018-08-03,Low cost different,8,right,0,0
+Rucola,13,2018-09-04,Low cost different,3,left,1,NA
+Rucola,13,2018-09-04,Low cost different,4,right,0,1
+Rucola,13,2018-09-04,Low cost different,5,left,1,0
+Rucola,13,2018-09-04,Low cost different,6,left,1,1
+Rucola,13,2018-09-04,Low cost different,7,right,0,1
+Rucola,13,2018-09-04,Low cost different,8,right,0,0
+Rucola,14,2018-09-05,Low cost different,3,right,0,NA
+Rucola,14,2018-09-05,Low cost different,4,left,1,0
+Rucola,14,2018-09-05,Low cost different,5,left,1,1
+Rucola,14,2018-09-05,Low cost different,6,right,1,1
+Rucola,14,2018-09-05,Low cost different,7,left,1,1
+Rucola,14,2018-09-05,Low cost different,8,right,1,1
+Rucola,15,2018-09-06,Low cost different,3,right,0,NA
+Rucola,15,2018-09-06,Low cost different,4,left,1,0
+Rucola,15,2018-09-06,Low cost different,5,right,0,1
+Rucola,15,2018-09-06,Low cost different,6,left,0,0
+Rucola,15,2018-09-06,Low cost different,7,left,1,0
+Rucola,15,2018-09-06,Low cost different,8,right,0,1
+Rucola,16,2018-09-07,Low cost different,3,left,1,NA
+Rucola,16,2018-09-07,Low cost different,4,left,1,1
+Rucola,16,2018-09-07,Low cost different,5,right,0,1
+Rucola,16,2018-09-07,Low cost different,6,right,0,0
+Rucola,16,2018-09-07,Low cost different,7,left,1,0
+Rucola,16,2018-09-07,Low cost different,8,right,1,1
+Rucola,17,2018-09-10,Low cost different,3,right,1,NA
+Rucola,17,2018-09-10,Low cost different,4,left,1,1
+Rucola,17,2018-09-10,Low cost different,5,right,0,1
+Rucola,17,2018-09-10,Low cost different,6,left,1,0
+Rucola,17,2018-09-10,Low cost different,7,left,1,1
+Rucola,17,2018-09-10,Low cost different,8,right,0,1
+Rucola,18,2018-09-12,Low cost different,3,right,0,NA
+Rucola,18,2018-09-12,Low cost different,4,right,0,0
+Rucola,18,2018-09-12,Low cost different,5,left,0,0
+Rucola,18,2018-09-12,Low cost different,6,right,0,0
+Rucola,18,2018-09-12,Low cost different,7,left,0,0
+Rucola,18,2018-09-12,Low cost different,8,left,0,0
+Rucola,19,2018-09-13,Low cost different,3,left,1,NA
+Rucola,19,2018-09-13,Low cost different,4,right,0,1
+Rucola,19,2018-09-13,Low cost different,5,left,0,0
+Rucola,19,2018-09-13,Low cost different,6,right,0,0
+Rucola,19,2018-09-13,Low cost different,7,right,0,0
+Rucola,19,2018-09-13,Low cost different,8,left,1,0
+Rucola,20,2018-09-14,Low cost different,3,right,0,NA
+Rucola,20,2018-09-14,Low cost different,4,left,0,0
+Rucola,20,2018-09-14,Low cost different,5,right,0,0
+Rucola,20,2018-09-14,Low cost different,6,right,0,0
+Rucola,20,2018-09-14,Low cost different,7,left,0,0
+Rucola,20,2018-09-14,Low cost different,8,left,0,0
+Rucola,21,2018-09-17,Low cost different,3,right,1,NA
+Rucola,21,2018-09-17,Low cost different,4,right,1,1
+Rucola,21,2018-09-17,Low cost different,5,left,1,1
+Rucola,21,2018-09-17,Low cost different,6,right,1,1
+Rucola,21,2018-09-17,Low cost different,7,left,1,1
+Rucola,21,2018-09-17,Low cost different,8,left,1,1
+Rucola,22,2018-09-18,Low cost different,3,left,1,NA
+Rucola,22,2018-09-18,Low cost different,4,right,0,1
+Rucola,22,2018-09-18,Low cost different,5,right,1,0
+Rucola,22,2018-09-18,Low cost different,6,left,1,1
+Rucola,22,2018-09-18,Low cost different,7,left,1,1
+Rucola,22,2018-09-18,Low cost different,8,right,0,1
+Rucola,23,2018-09-19,Low cost different,3,right,0,NA
+Rucola,23,2018-09-19,Low cost different,4,right,0,0
+Rucola,23,2018-09-19,Low cost different,5,left,0,0
+Rucola,23,2018-09-19,Low cost different,6,left,0,0
+Rucola,23,2018-09-19,Low cost different,7,left,0,0
+Rucola,23,2018-09-19,Low cost different,8,right,0,0
+Rucola,24,2018-09-20,Low cost different,3,right,1,NA
+Rucola,24,2018-09-20,Low cost different,4,left,1,1
+Rucola,24,2018-09-20,Low cost different,5,right,1,1
+Rucola,24,2018-09-20,Low cost different,6,right,0,1
+Rucola,24,2018-09-20,Low cost different,7,left,1,0
+Rucola,24,2018-09-20,Low cost different,8,left,1,1
+Rucola,25,2018-09-21,Low cost different,3,right,0,NA
+Rucola,25,2018-09-21,Low cost different,4,right,0,0
+Rucola,25,2018-09-21,Low cost different,5,left,1,0
+Rucola,25,2018-09-21,Low cost different,6,left,1,1
+Rucola,25,2018-09-21,Low cost different,7,right,0,1
+Rucola,25,2018-09-21,Low cost different,8,left,0,0
+Rucola,26,2018-09-24,Low cost different,3,right,0,NA
+Rucola,26,2018-09-24,Low cost different,4,right,0,0
+Rucola,26,2018-09-24,Low cost different,5,left,1,0
+Rucola,26,2018-09-24,Low cost different,6,right,0,1
+Rucola,26,2018-09-24,Low cost different,7,left,1,0
+Rucola,26,2018-09-24,Low cost different,8,left,0,1
+Rucola,27,2018-09-25,Low cost different,3,right,0,NA
+Rucola,27,2018-09-25,Low cost different,4,left,1,0
+Rucola,27,2018-09-25,Low cost different,5,right,0,1
+Rucola,27,2018-09-25,Low cost different,6,left,0,0
+Rucola,27,2018-09-25,Low cost different,7,right,0,0
+Rucola,27,2018-09-25,Low cost different,8,left,0,0
+Rucola,28,2018-09-26,Low cost different,3,right,0,NA
+Rucola,28,2018-09-26,Low cost different,4,right,0,0
+Rucola,28,2018-09-26,Low cost different,5,left,0,0
+Rucola,28,2018-09-26,Low cost different,6,left,0,0
+Rucola,28,2018-09-26,Low cost different,7,right,0,0
+Rucola,28,2018-09-26,Low cost different,8,left,0,0
+Rucola,29,2018-09-27,Low cost different,3,right,0,NA
+Rucola,29,2018-09-27,Low cost different,4,left,0,0
+Rucola,29,2018-09-27,Low cost different,5,right,0,0
+Rucola,29,2018-09-27,Low cost different,6,left,0,0
+Rucola,29,2018-09-27,Low cost different,7,right,0,0
+Rucola,29,2018-09-27,Low cost different,8,left,0,0
+Rucola,30,2018-09-28,Low cost different,3,right,0,NA
+Rucola,30,2018-09-28,Low cost different,4,right,0,0
+Rucola,30,2018-09-28,Low cost different,5,left,0,0
+Rucola,30,2018-09-28,Low cost different,6,left,0,0
+Rucola,30,2018-09-28,Low cost different,7,right,0,0
+Rucola,30,2018-09-28,Low cost different,8,left,0,0
+Rucola,31,2018-10-01,Low cost different,3,right,0,NA
+Rucola,31,2018-10-01,Low cost different,4,right,0,0
+Rucola,31,2018-10-01,Low cost different,5,right,0,0
+Rucola,31,2018-10-01,Low cost different,6,left,0,0
+Rucola,31,2018-10-01,Low cost different,7,left,0,0
+Rucola,31,2018-10-01,Low cost different,8,left,0,0
+Sandokan,1,2018-07-16,Low cost different,3,left,0,NA
+Sandokan,1,2018-07-16,Low cost different,4,left,0,0
+Sandokan,1,2018-07-16,Low cost different,5,right,0,0
+Sandokan,1,2018-07-16,Low cost different,6,right,1,0
+Sandokan,1,2018-07-16,Low cost different,7,right,1,1
+Sandokan,1,2018-07-16,Low cost different,8,left,0,1
+Sandokan,1,2018-09-07,Low cost same,3,left,0,NA
+Sandokan,1,2018-09-07,Low cost same,4,right,0,0
+Sandokan,1,2018-09-07,Low cost same,5,right,1,0
+Sandokan,1,2018-09-07,Low cost same,6,right,0,1
+Sandokan,1,2018-09-07,Low cost same,7,left,0,0
+Sandokan,1,2018-09-07,Low cost same,8,left,0,0
+Sandokan,1,2018-10-01,High cost,3,left,0,NA
+Sandokan,1,2018-10-01,High cost,4,left,0,0
+Sandokan,1,2018-10-01,High cost,5,right,0,0
+Sandokan,1,2018-10-01,High cost,6,left,0,0
+Sandokan,1,2018-10-01,High cost,7,right,0,0
+Sandokan,1,2018-10-01,High cost,8,right,0,0
+Sandokan,2,2018-07-17,Low cost different,3,right,1,NA
+Sandokan,2,2018-07-17,Low cost different,4,right,1,1
+Sandokan,2,2018-07-17,Low cost different,5,left,0,1
+Sandokan,2,2018-07-17,Low cost different,6,left,0,0
+Sandokan,2,2018-07-17,Low cost different,7,left,0,0
+Sandokan,2,2018-07-17,Low cost different,8,right,0,0
+Sandokan,2,2018-09-10,Low cost same,3,right,1,NA
+Sandokan,2,2018-09-10,Low cost same,4,left,0,1
+Sandokan,2,2018-09-10,Low cost same,5,left,0,0
+Sandokan,2,2018-09-10,Low cost same,6,right,0,0
+Sandokan,2,2018-09-10,Low cost same,7,left,0,0
+Sandokan,2,2018-09-10,Low cost same,8,right,1,0
+Sandokan,2,2018-10-02,High cost,3,left,0,NA
+Sandokan,2,2018-10-02,High cost,4,left,0,0
+Sandokan,2,2018-10-02,High cost,5,right,0,0
+Sandokan,2,2018-10-02,High cost,6,right,0,0
+Sandokan,2,2018-10-02,High cost,7,left,0,0
+Sandokan,2,2018-10-02,High cost,8,right,0,0
+Sandokan,3,2018-07-18,Low cost different,3,left,1,NA
+Sandokan,3,2018-07-18,Low cost different,4,left,0,1
+Sandokan,3,2018-07-18,Low cost different,5,right,1,0
+Sandokan,3,2018-07-18,Low cost different,6,right,1,1
+Sandokan,3,2018-07-18,Low cost different,7,left,0,1
+Sandokan,3,2018-07-18,Low cost different,8,right,1,0
+Sandokan,3,2018-09-12,Low cost same,3,right,0,NA
+Sandokan,3,2018-09-12,Low cost same,4,left,0,0
+Sandokan,3,2018-09-12,Low cost same,5,left,0,0
+Sandokan,3,2018-09-12,Low cost same,6,right,0,0
+Sandokan,3,2018-09-12,Low cost same,7,left,0,0
+Sandokan,3,2018-09-12,Low cost same,8,right,0,0
+Sandokan,3,2018-10-03,High cost,3,right,0,NA
+Sandokan,3,2018-10-03,High cost,4,left,0,0
+Sandokan,3,2018-10-03,High cost,5,right,0,0
+Sandokan,3,2018-10-03,High cost,6,right,0,0
+Sandokan,3,2018-10-03,High cost,7,left,0,0
+Sandokan,3,2018-10-03,High cost,8,left,0,0
+Sandokan,4,2018-07-19,Low cost different,3,left,0,NA
+Sandokan,4,2018-07-19,Low cost different,4,right,1,0
+Sandokan,4,2018-07-19,Low cost different,5,left,0,1
+Sandokan,4,2018-07-19,Low cost different,6,right,1,0
+Sandokan,4,2018-07-19,Low cost different,7,right,1,1
+Sandokan,4,2018-07-19,Low cost different,8,left,0,1
+Sandokan,4,2018-09-13,Low cost same,3,left,0,NA
+Sandokan,4,2018-09-13,Low cost same,4,right,0,0
+Sandokan,4,2018-09-13,Low cost same,5,right,0,0
+Sandokan,4,2018-09-13,Low cost same,6,right,0,0
+Sandokan,4,2018-09-13,Low cost same,7,left,0,0
+Sandokan,4,2018-09-13,Low cost same,8,left,0,0
+Sandokan,4,2018-10-04,High cost,3,left,0,NA
+Sandokan,4,2018-10-04,High cost,4,right,0,0
+Sandokan,4,2018-10-04,High cost,5,left,0,0
+Sandokan,4,2018-10-04,High cost,6,right,0,0
+Sandokan,4,2018-10-04,High cost,7,right,0,0
+Sandokan,4,2018-10-04,High cost,8,left,0,0
+Sandokan,5,2018-07-20,Low cost different,3,left,0,NA
+Sandokan,5,2018-07-20,Low cost different,4,left,1,0
+Sandokan,5,2018-07-20,Low cost different,5,right,1,1
+Sandokan,5,2018-07-20,Low cost different,6,right,1,1
+Sandokan,5,2018-07-20,Low cost different,7,left,0,1
+Sandokan,5,2018-07-20,Low cost different,8,right,1,0
+Sandokan,5,2018-09-14,Low cost same,3,right,0,NA
+Sandokan,5,2018-09-14,Low cost same,4,left,0,0
+Sandokan,5,2018-09-14,Low cost same,5,right,0,0
+Sandokan,5,2018-09-14,Low cost same,6,left,0,0
+Sandokan,5,2018-09-14,Low cost same,7,left,0,0
+Sandokan,5,2018-09-14,Low cost same,8,right,0,0
+Sandokan,5,2018-10-05,High cost,3,right,0,NA
+Sandokan,5,2018-10-05,High cost,4,left,0,0
+Sandokan,5,2018-10-05,High cost,5,right,0,0
+Sandokan,5,2018-10-05,High cost,6,left,0,0
+Sandokan,5,2018-10-05,High cost,7,left,0,0
+Sandokan,5,2018-10-05,High cost,8,right,0,0
+Sandokan,6,2018-07-23,Low cost different,3,left,0,NA
+Sandokan,6,2018-07-23,Low cost different,4,right,1,0
+Sandokan,6,2018-07-23,Low cost different,5,left,0,1
+Sandokan,6,2018-07-23,Low cost different,6,left,0,0
+Sandokan,6,2018-07-23,Low cost different,7,right,0,0
+Sandokan,6,2018-07-23,Low cost different,8,right,1,0
+Sandokan,6,2018-09-18,Low cost same,3,right,1,NA
+Sandokan,6,2018-09-18,Low cost same,4,left,0,1
+Sandokan,6,2018-09-18,Low cost same,5,right,0,0
+Sandokan,6,2018-09-18,Low cost same,6,right,0,0
+Sandokan,6,2018-09-18,Low cost same,7,left,1,0
+Sandokan,6,2018-09-18,Low cost same,8,left,0,1
+Sandokan,7,2018-07-24,Low cost different,3,left,0,NA
+Sandokan,7,2018-07-24,Low cost different,4,right,1,0
+Sandokan,7,2018-07-24,Low cost different,5,right,1,1
+Sandokan,7,2018-07-24,Low cost different,6,left,0,1
+Sandokan,7,2018-07-24,Low cost different,7,left,0,0
+Sandokan,7,2018-07-24,Low cost different,8,right,1,0
+Sandokan,7,2018-09-19,Low cost same,3,right,0,NA
+Sandokan,7,2018-09-19,Low cost same,4,left,0,0
+Sandokan,7,2018-09-19,Low cost same,5,right,0,0
+Sandokan,7,2018-09-19,Low cost same,6,right,0,0
+Sandokan,7,2018-09-19,Low cost same,7,left,0,0
+Sandokan,7,2018-09-19,Low cost same,8,left,0,0
+Sandokan,8,2018-07-25,Low cost different,3,right,1,NA
+Sandokan,8,2018-07-25,Low cost different,4,right,1,1
+Sandokan,8,2018-07-25,Low cost different,5,left,0,1
+Sandokan,8,2018-07-25,Low cost different,6,left,0,0
+Sandokan,8,2018-07-25,Low cost different,7,left,0,0
+Sandokan,8,2018-07-25,Low cost different,8,right,1,0
+Sandokan,8,2018-09-20,Low cost same,3,left,0,NA
+Sandokan,8,2018-09-20,Low cost same,4,right,0,0
+Sandokan,8,2018-09-20,Low cost same,5,right,0,0
+Sandokan,8,2018-09-20,Low cost same,6,left,0,0
+Sandokan,8,2018-09-20,Low cost same,7,left,0,0
+Sandokan,8,2018-09-20,Low cost same,8,right,0,0
+Sandokan,9,2018-07-26,Low cost different,3,right,1,NA
+Sandokan,9,2018-07-26,Low cost different,4,left,0,1
+Sandokan,9,2018-07-26,Low cost different,5,right,1,0
+Sandokan,9,2018-07-26,Low cost different,6,left,0,1
+Sandokan,9,2018-07-26,Low cost different,7,left,0,0
+Sandokan,9,2018-07-26,Low cost different,8,right,1,0
+Sandokan,9,2018-09-21,Low cost same,3,left,0,NA
+Sandokan,9,2018-09-21,Low cost same,4,right,0,0
+Sandokan,9,2018-09-21,Low cost same,5,right,0,0
+Sandokan,9,2018-09-21,Low cost same,6,left,0,0
+Sandokan,9,2018-09-21,Low cost same,7,right,0,0
+Sandokan,9,2018-09-21,Low cost same,8,left,0,0
+Sandokan,10,2018-07-27,Low cost different,3,right,1,NA
+Sandokan,10,2018-07-27,Low cost different,4,right,1,1
+Sandokan,10,2018-07-27,Low cost different,5,right,1,1
+Sandokan,10,2018-07-27,Low cost different,6,left,0,1
+Sandokan,10,2018-07-27,Low cost different,7,left,0,0
+Sandokan,10,2018-07-27,Low cost different,8,left,0,0
+Sandokan,10,2018-09-24,Low cost same,3,left,0,NA
+Sandokan,10,2018-09-24,Low cost same,4,right,0,0
+Sandokan,10,2018-09-24,Low cost same,5,right,0,0
+Sandokan,10,2018-09-24,Low cost same,6,left,0,0
+Sandokan,10,2018-09-24,Low cost same,7,left,0,0
+Sandokan,10,2018-09-24,Low cost same,8,right,0,0
+Sandokan,11,2018-09-25,Low cost same,3,right,0,NA
+Sandokan,11,2018-09-25,Low cost same,4,right,0,0
+Sandokan,11,2018-09-25,Low cost same,5,right,1,0
+Sandokan,11,2018-09-25,Low cost same,6,left,0,1
+Sandokan,11,2018-09-25,Low cost same,7,left,0,0
+Sandokan,11,2018-09-25,Low cost same,8,left,0,0
+Saroma,1,2018-07-16,Low cost different,3,left,0,NA
+Saroma,1,2018-07-16,Low cost different,4,left,1,0
+Saroma,1,2018-07-16,Low cost different,5,left,1,1
+Saroma,1,2018-07-16,Low cost different,6,right,1,1
+Saroma,1,2018-07-16,Low cost different,7,right,1,1
+Saroma,1,2018-07-16,Low cost different,8,right,1,1
+Saroma,1,2018-09-06,High cost,3,left,0,NA
+Saroma,1,2018-09-06,High cost,4,right,0,0
+Saroma,1,2018-09-06,High cost,5,left,1,0
+Saroma,1,2018-09-06,High cost,6,right,0,1
+Saroma,1,2018-09-06,High cost,7,right,0,0
+Saroma,1,2018-09-06,High cost,8,left,0,0
+Saroma,1,2018-09-19,Low cost same,3,right,0,NA
+Saroma,1,2018-09-19,Low cost same,4,left,1,0
+Saroma,1,2018-09-19,Low cost same,5,right,0,1
+Saroma,1,2018-09-19,Low cost same,6,left,0,0
+Saroma,1,2018-09-19,Low cost same,7,left,1,0
+Saroma,1,2018-09-19,Low cost same,8,right,0,1
+Saroma,2,2018-07-17,Low cost different,3,right,1,NA
+Saroma,2,2018-07-17,Low cost different,4,right,1,1
+Saroma,2,2018-07-17,Low cost different,5,right,0,1
+Saroma,2,2018-07-17,Low cost different,6,left,1,0
+Saroma,2,2018-07-17,Low cost different,7,left,1,1
+Saroma,2,2018-07-17,Low cost different,8,left,0,1
+Saroma,2,2018-09-07,High cost,3,left,0,NA
+Saroma,2,2018-09-07,High cost,4,left,0,0
+Saroma,2,2018-09-07,High cost,5,right,0,0
+Saroma,2,2018-09-07,High cost,6,right,0,0
+Saroma,2,2018-09-07,High cost,7,left,0,0
+Saroma,2,2018-09-07,High cost,8,right,0,0
+Saroma,2,2018-09-20,Low cost same,3,left,1,NA
+Saroma,2,2018-09-20,Low cost same,4,left,1,1
+Saroma,2,2018-09-20,Low cost same,5,left,1,1
+Saroma,2,2018-09-20,Low cost same,6,right,0,1
+Saroma,2,2018-09-20,Low cost same,7,right,0,0
+Saroma,2,2018-09-20,Low cost same,8,right,0,0
+Saroma,3,2018-07-18,Low cost different,3,right,1,NA
+Saroma,3,2018-07-18,Low cost different,4,left,1,1
+Saroma,3,2018-07-18,Low cost different,5,right,0,1
+Saroma,3,2018-07-18,Low cost different,6,left,1,0
+Saroma,3,2018-07-18,Low cost different,7,left,1,1
+Saroma,3,2018-07-18,Low cost different,8,right,1,1
+Saroma,3,2018-09-10,High cost,3,right,0,NA
+Saroma,3,2018-09-10,High cost,4,left,0,0
+Saroma,3,2018-09-10,High cost,5,right,0,0
+Saroma,3,2018-09-10,High cost,6,left,0,0
+Saroma,3,2018-09-10,High cost,7,left,0,0
+Saroma,3,2018-09-10,High cost,8,right,0,0
+Saroma,3,2018-09-21,Low cost same,3,left,1,NA
+Saroma,3,2018-09-21,Low cost same,4,right,0,1
+Saroma,3,2018-09-21,Low cost same,5,left,1,0
+Saroma,3,2018-09-21,Low cost same,6,right,0,1
+Saroma,3,2018-09-21,Low cost same,7,left,0,0
+Saroma,3,2018-09-21,Low cost same,8,right,0,0
+Saroma,4,2018-07-19,Low cost different,3,right,0,NA
+Saroma,4,2018-07-19,Low cost different,4,left,0,0
+Saroma,4,2018-07-19,Low cost different,5,right,0,0
+Saroma,4,2018-07-19,Low cost different,6,left,1,0
+Saroma,4,2018-07-19,Low cost different,7,left,1,1
+Saroma,4,2018-07-19,Low cost different,8,right,1,1
+Saroma,4,2018-09-12,High cost,3,right,0,NA
+Saroma,4,2018-09-12,High cost,4,left,0,0
+Saroma,4,2018-09-12,High cost,5,left,0,0
+Saroma,4,2018-09-12,High cost,6,left,0,0
+Saroma,4,2018-09-12,High cost,7,right,0,0
+Saroma,4,2018-09-12,High cost,8,right,0,0
+Saroma,4,2018-09-24,Low cost same,3,right,0,NA
+Saroma,4,2018-09-24,Low cost same,4,right,0,0
+Saroma,4,2018-09-24,Low cost same,5,left,0,0
+Saroma,4,2018-09-24,Low cost same,6,left,1,0
+Saroma,4,2018-09-24,Low cost same,7,right,0,1
+Saroma,4,2018-09-24,Low cost same,8,left,1,0
+Saroma,5,2018-07-20,Low cost different,3,left,1,NA
+Saroma,5,2018-07-20,Low cost different,4,right,1,1
+Saroma,5,2018-07-20,Low cost different,5,left,1,1
+Saroma,5,2018-07-20,Low cost different,6,left,1,1
+Saroma,5,2018-07-20,Low cost different,7,right,0,1
+Saroma,5,2018-07-20,Low cost different,8,right,1,0
+Saroma,5,2018-09-13,High cost,3,left,0,NA
+Saroma,5,2018-09-13,High cost,4,left,0,0
+Saroma,5,2018-09-13,High cost,5,right,0,0
+Saroma,5,2018-09-13,High cost,6,left,0,0
+Saroma,5,2018-09-13,High cost,7,right,0,0
+Saroma,5,2018-09-13,High cost,8,right,0,0
+Saroma,5,2018-09-25,Low cost same,3,right,0,NA
+Saroma,5,2018-09-25,Low cost same,4,left,0,0
+Saroma,5,2018-09-25,Low cost same,5,left,0,0
+Saroma,5,2018-09-25,Low cost same,6,right,0,0
+Saroma,5,2018-09-25,Low cost same,7,left,0,0
+Saroma,5,2018-09-25,Low cost same,8,right,0,0
+Saroma,6,2018-07-23,Low cost different,3,left,0,NA
+Saroma,6,2018-07-23,Low cost different,4,right,0,0
+Saroma,6,2018-07-23,Low cost different,5,left,1,0
+Saroma,6,2018-07-23,Low cost different,6,right,0,1
+Saroma,6,2018-07-23,Low cost different,7,left,1,0
+Saroma,6,2018-07-23,Low cost different,8,right,0,1
+Saroma,6,2018-09-26,Low cost same,3,right,0,NA
+Saroma,6,2018-09-26,Low cost same,4,right,0,0
+Saroma,6,2018-09-26,Low cost same,5,left,0,0
+Saroma,6,2018-09-26,Low cost same,6,right,0,0
+Saroma,6,2018-09-26,Low cost same,7,left,0,0
+Saroma,6,2018-09-26,Low cost same,8,left,0,0
+Saroma,7,2018-07-24,Low cost different,3,left,1,NA
+Saroma,7,2018-07-24,Low cost different,4,right,1,1
+Saroma,7,2018-07-24,Low cost different,5,left,1,1
+Saroma,7,2018-07-24,Low cost different,6,right,1,1
+Saroma,7,2018-07-24,Low cost different,7,right,0,1
+Saroma,7,2018-07-24,Low cost different,8,left,1,0
+Saroma,7,2018-09-28,Low cost same,3,right,0,NA
+Saroma,7,2018-09-28,Low cost same,4,left,0,0
+Saroma,7,2018-09-28,Low cost same,5,right,0,0
+Saroma,7,2018-09-28,Low cost same,6,right,0,0
+Saroma,7,2018-09-28,Low cost same,7,left,1,0
+Saroma,7,2018-09-28,Low cost same,8,left,1,1
+Saroma,8,2018-07-25,Low cost different,3,left,1,NA
+Saroma,8,2018-07-25,Low cost different,4,left,1,1
+Saroma,8,2018-07-25,Low cost different,5,left,1,1
+Saroma,8,2018-07-25,Low cost different,6,right,0,1
+Saroma,8,2018-07-25,Low cost different,7,right,0,0
+Saroma,8,2018-07-25,Low cost different,8,right,0,0
+Saroma,8,2018-10-01,Low cost same,3,right,0,NA
+Saroma,8,2018-10-01,Low cost same,4,left,0,0
+Saroma,8,2018-10-01,Low cost same,5,right,0,0
+Saroma,8,2018-10-01,Low cost same,6,left,0,0
+Saroma,8,2018-10-01,Low cost same,7,right,0,0
+Saroma,8,2018-10-01,Low cost same,8,left,0,0
+Saroma,9,2018-07-26,Low cost different,3,right,0,NA
+Saroma,9,2018-07-26,Low cost different,4,left,1,0
+Saroma,9,2018-07-26,Low cost different,5,right,0,1
+Saroma,9,2018-07-26,Low cost different,6,left,1,0
+Saroma,9,2018-07-26,Low cost different,7,left,1,1
+Saroma,9,2018-07-26,Low cost different,8,right,0,1
+Saroma,9,2018-10-02,Low cost same,3,left,0,NA
+Saroma,9,2018-10-02,Low cost same,4,right,0,0
+Saroma,9,2018-10-02,Low cost same,5,right,0,0
+Saroma,9,2018-10-02,Low cost same,6,left,0,0
+Saroma,9,2018-10-02,Low cost same,7,right,0,0
+Saroma,9,2018-10-02,Low cost same,8,left,0,0
+Saroma,10,2018-07-27,Low cost different,3,left,1,NA
+Saroma,10,2018-07-27,Low cost different,4,right,0,1
+Saroma,10,2018-07-27,Low cost different,5,right,0,0
+Saroma,10,2018-07-27,Low cost different,6,right,0,0
+Saroma,10,2018-07-27,Low cost different,7,left,0,0
+Saroma,10,2018-07-27,Low cost different,8,left,0,0
+Saroma,10,2018-10-03,Low cost same,3,left,0,NA
+Saroma,10,2018-10-03,Low cost same,4,right,0,0
+Saroma,10,2018-10-03,Low cost same,5,right,0,0
+Saroma,10,2018-10-03,Low cost same,6,left,0,0
+Saroma,10,2018-10-03,Low cost same,7,right,0,0
+Saroma,10,2018-10-03,Low cost same,8,left,0,0
+Saroma,11,2018-07-30,Low cost different,3,right,0,NA
+Saroma,11,2018-07-30,Low cost different,4,left,1,0
+Saroma,11,2018-07-30,Low cost different,5,right,0,1
+Saroma,11,2018-07-30,Low cost different,6,left,1,0
+Saroma,11,2018-07-30,Low cost different,7,right,0,1
+Saroma,11,2018-07-30,Low cost different,8,left,1,0
+Saroma,11,2018-10-04,Low cost same,3,left,0,NA
+Saroma,11,2018-10-04,Low cost same,4,right,0,0
+Saroma,11,2018-10-04,Low cost same,5,right,0,0
+Saroma,11,2018-10-04,Low cost same,6,left,0,0
+Saroma,11,2018-10-04,Low cost same,7,right,0,0
+Saroma,11,2018-10-04,Low cost same,8,left,0,0
+Saroma,12,2018-07-31,Low cost different,3,right,0,NA
+Saroma,12,2018-07-31,Low cost different,4,left,1,0
+Saroma,12,2018-07-31,Low cost different,5,right,0,1
+Saroma,12,2018-07-31,Low cost different,6,left,1,0
+Saroma,12,2018-07-31,Low cost different,7,right,1,1
+Saroma,12,2018-07-31,Low cost different,8,left,1,1
+Saroma,12,2018-10-05,Low cost same,3,left,0,NA
+Saroma,12,2018-10-05,Low cost same,4,left,1,0
+Saroma,12,2018-10-05,Low cost same,5,left,0,1
+Saroma,12,2018-10-05,Low cost same,6,right,0,0
+Saroma,12,2018-10-05,Low cost same,7,right,0,0
+Saroma,12,2018-10-05,Low cost same,8,right,0,0
+Saroma,13,2018-08-01,Low cost different,3,left,1,NA
+Saroma,13,2018-08-01,Low cost different,4,left,1,1
+Saroma,13,2018-08-01,Low cost different,5,left,1,1
+Saroma,13,2018-08-01,Low cost different,6,right,0,1
+Saroma,13,2018-08-01,Low cost different,7,right,0,0
+Saroma,13,2018-08-01,Low cost different,8,right,0,0
+Saroma,14,2018-08-02,Low cost different,3,right,0,NA
+Saroma,14,2018-08-02,Low cost different,4,left,1,0
+Saroma,14,2018-08-02,Low cost different,5,right,0,1
+Saroma,14,2018-08-02,Low cost different,6,left,1,0
+Saroma,14,2018-08-02,Low cost different,7,right,0,1
+Saroma,14,2018-08-02,Low cost different,8,left,1,0
+Saroma,15,2018-08-03,Low cost different,3,right,0,NA
+Saroma,15,2018-08-03,Low cost different,4,left,1,0
+Saroma,15,2018-08-03,Low cost different,5,left,1,1
+Saroma,15,2018-08-03,Low cost different,6,left,1,1
+Saroma,15,2018-08-03,Low cost different,7,right,0,1
+Saroma,15,2018-08-03,Low cost different,8,right,0,0
