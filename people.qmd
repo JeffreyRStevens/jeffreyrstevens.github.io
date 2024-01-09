@@ -6,7 +6,7 @@ title: "People"
 
 ![](images/jeff.png){fig-alt="Jeff Stevens" width="200" fig-align="left"}
 
-#### E-mail: [jeffreyrstevens@protonmail.com](mailto:jeffreyrstevens@protonmail.com)
+#### E-mail: [jeffreyrstevens@protonmail.com](mailto:jeffreyrstevens@gmail.com)
 
 #### Phone: +1 402 472 3721
 
@@ -29,11 +29,11 @@ Graduate Students
 
 Anwyn is a Ph.D. student who earned their B.A. in Psychology and Animal Behavior from Hampshire College in 2020. Their senior thesis was a study on dogs' ability to follow human pointing gestures and compared the point-following abilities of herding breeds to that of non-herding breeds. After graduating, Anwyn worked as a lab manager for Dr. Daphna Buchsbaum's Computational Cognitive Development Lab and Brown Dog Lab at Brown University. Anwyn is interested in how our long history of breeding dogs to help us on farms has shaped the behavior and cognition of those dogs.
 
-### Francine Goh
+<!-- ### Francine Goh -->
 
-![](images/francine_goh.jpg){fig-alt="Francine Goh" width="200" fig-align="left"}
+<!-- ![](images/francine_goh.jpg){fig-alt="Francine Goh" width="200" fig-align="left"} -->
 
-Francine graduated with a B.S. in Psychology from Fontbonne University in 2015. As an undergraduate, she explored the effects of stress on decision making in social dilemmas for her senior thesis. Francine is interested in decision making behavior in social contexts, particularly in when individuals decide to engage in prosocial behavior and cooperate with others.
+<!-- Francine graduated with a B.S. in Psychology from Fontbonne University in 2015. As an undergraduate, she explored the effects of stress on decision making in social dilemmas for her senior thesis. Francine is interested in decision making behavior in social contexts, particularly in when individuals decide to engage in prosocial behavior and cooperate with others. -->
 
 ### London Wolff
 
@@ -111,6 +111,7 @@ Former Lab Members
 * Krysten Fries
 * Aiswary Ganapathy
 * Cherylynn Gibson
+* [Francine Goh (MERC UNL)](https://merc.unl.edu/francine-goh)
 * Patrick Griffin
 * Shannon Guy
 * Kris Hans
