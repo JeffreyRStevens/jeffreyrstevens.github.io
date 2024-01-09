@@ -6,7 +6,7 @@ title: "People"
 
 ![](images/jeff.png){fig-alt="Jeff Stevens" width="200" fig-align="left"}
 
-#### E-mail: [jeffreyrstevens@protonmail.com](mailto:jeffreyrstevens@gmail.com)
+#### E-mail: [jeffreyrstevens@gmail.com](mailto:jeffreyrstevens@gmail.com)
 
 #### Phone: +1 402 472 3721
 
