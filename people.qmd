@@ -6,13 +6,13 @@ title: "People"
 
 ![](images/jeff.png){fig-alt="Jeff Stevens" width="200" fig-align="left"}
 
-#### E-mail: [jeffreyrstevens@gmail.com](mailto:jeffreyrstevens@gmail.com)
+#### E-mail: [jeffrey.r.stevens@gmail.com](mailto:jeffrey.r.stevens@gmail.com)
 
 #### Phone: +1 402 472 3721
 
-Dr. Stevens is the director of the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu). He received his Ph.D. in Ecology, Evolution, and Behavior from the University of Minnesota in 2002. He then spent four years as a Ruth L Kirschstein postdoctoral fellow in the Department of Psychology at Harvard University. From 2006-2011, he held a research scientist position in the Center for Adaptive Behavior and Cognition at the Max Planck Institute for Human Development.  
+Dr. Stevens is the director of the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu). He received his Ph.D. in Ecology, Evolution, and Behavior from the University of Minnesota in 2002. He then spent four years as a Ruth L. Kirschstein postdoctoral fellow in the Department of Psychology at Harvard University. From 2006-2011, he held a research scientist position in the Center for Adaptive Behavior and Cognition at the Max Planck Institute for Human Development.  
   
-Dr. Stevens is a Susan J. Rosowski Associate Professor in the Department of Psychology and is a resident faculty member in the Center for Brain, Biology & Behavior. He was founding editor-in-chief of [Frontiers in Comparative Psychology](http://www.frontiersin.org/comparative%20psychology) from 2010-2017. Dr. Stevens is interested in the evolution of decision making in humans and other animals. At the moment, his research focuses on intertemporal choice, risky choice, cooperation, and human-animal interaction. He teaches courses on Evolution, Behavior and Society; Controversial Issues in Psychology; the Psychology of Decision Making; and Data Science and Visualization in R.
+Dr. Stevens is a Susan J. Rosowski Professor in the [Department of Psychology](https://psychology.unl.edu) and is a resident faculty member in the [Center for Brain, Biology & Behavior](https://cb3.unl.edu/). He was founding editor-in-chief of [Frontiers in Comparative Psychology](http://www.frontiersin.org/comparative%20psychology) from 2010-2017. Dr. Stevens is interested in the evolution of decision making in humans and other animals. At the moment, his research focuses on intertemporal choice, risky choice, cooperation, and human-animal interaction. He teaches courses on Evolution, Behavior and Society; Controversial Issues in Psychology; the Psychology of Decision Making; and [Data Science and Visualization in R](http://dpavir.org).
 
 [Curriculum vitae (HTML)](cv.html)
 
