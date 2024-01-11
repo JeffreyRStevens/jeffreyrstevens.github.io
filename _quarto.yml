@@ -33,7 +33,7 @@ website:
 
   page-footer:
     background: light
-    left: "&copy; 2023 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
+    left: "&copy; 2024 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
     right:
       - icon: mastodon
         href: https://fediscience.org/@JeffreyRStevens
@@ -44,7 +44,7 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/JeffreyRStevens/
       - icon: envelope
-        href: mailto:jeffrey.r.stevens@protonmail.com
+        href: mailto:jeffrey.r.stevens@gmail.com
 
 format:
   html:
