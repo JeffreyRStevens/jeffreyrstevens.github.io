@@ -337,7 +337,7 @@ format:
 
  **Stevens, J.R.**, \*Saltzman, A., \*Rasumussen, T., & Soh, L.-K. (2021). Improving measurements of similarity judgments with machine-learning algorithms. *Journal of Computational Social Science*, 4(2), 613-629. [doi:10.1007/s42001-020-00098-1](https://doi.org/10.1007/s42001-020-00098-1) 
 
- **Stevens, J.R.**, \*Wolff, L.M., \*Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict obedience and impulsivity. *Animal Cognition*, 24(2) 219-230. [doi:10.1007/s10071-020-01458-0](https://doi.org/10.1007/s10071-020-01458-0)
+ **Stevens, J.R.**, \*Wolff, L.M., \*Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict training success. *Animal Cognition*, 24(2) 219-230. [doi:10.1007/s10071-020-01458-0](https://doi.org/10.1007/s10071-020-01458-0)
 
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2022]{.aside}
@@ -500,6 +500,13 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 [Preprints]{.aside}
 <!-- ::: -->
 
+ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _OSF Preprints_. [doi:10.31219/osf.io/jw24a](https://doi.org/10.31219/osf.io/jw24a)
+ 
+::: {.content-visible when-format="html"}
+<a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
  
 ::: {.content-visible when-format="html"}
@@ -515,7 +522,7 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 <a href="https://psyarxiv.com/csnqv" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-Wolff, L. M., & **Stevens, J.R.** (2024). Less activity means improved welfare? How pair housing influences pinyon jay (Gymnorhinus cyanocephalus) behavior  _bioRxiv_. [doi:10.1101/2024.02.07.579343](https://doi.org/10.1101/2024.02.07.579343)
+Wolff, L. M., & **Stevens, J.R.** (2024). Less activity means improved welfare? How pair housing influences pinyon jay (_Gymnorhinus cyanocephalus_) behavior  _bioRxiv_. [doi:10.1101/2024.02.07.579343](https://doi.org/10.1101/2024.02.07.579343)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/wolff_stevens_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>

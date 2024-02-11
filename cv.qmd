@@ -216,6 +216,10 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
  
  "Mechanisms of impulsivity in humans and other animals", Cognitive Science Program, University of Arizona, Tucson, AZ
 
+[2024]{.aside}
+ 
+ "[Canine Cognition and Human Interaction Lab](https://jeffreyrstevens.quarto.pub/seeca2024)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
+
 ### Conference
 
 [2002]{.aside}
@@ -227,10 +231,6 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 [2003]{.aside}
 
  "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2004]{.aside}
 
@@ -449,6 +449,10 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2009]{.aside} 
 
  Deutscher Akademischer Austausch Dienst International Conference Trips "Reflections of the social environment in the primate mind?" (775 euro or \$1100)
@@ -508,10 +512,6 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 [2017-2023]{.aside} 
 
  National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2018]{.aside} 
 
@@ -610,10 +610,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 [1999]{.aside} 
 
  "Competition and fighting", University of Minnesota---Introduction to Animal Behavior: EEB 3111
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2000-2001]{.aside} 
 
@@ -781,7 +777,7 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
 [2023]{.aside} 
 
- Organizer for Husker DogFest at University of Nebraska-Lincoln
+ Organizer for [Husker DogFest](https://dogfest.unl.edu) at University of Nebraska-Lincoln
 
 ## Professional Service and Development
 
@@ -998,7 +994,7 @@ Improvement Grant panel
 Economic and Social Research Council (UK), Institute for Advanced Study Berlin, Konrad Lorenz Institute, Leakey Foundation, L'Oreal Foundation, National Science Foundation, Vienna Science and Technology Fund, Wellcome Trust
 
 
-## Professional Societies
+<!-- ## Professional Societies -->
 
-Animal Behavior Society, Comparative Cognition Society, International Society for Behavioral Ecology, Psychonomic Society, Society for Judgment and Decision Making
+<!-- Animal Behavior Society, Comparative Cognition Society, International Society for Behavioral Ecology, Psychonomic Society, Society for Judgment and Decision Making -->
 
