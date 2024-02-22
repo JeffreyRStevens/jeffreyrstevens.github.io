@@ -214,11 +214,13 @@ I'm Susan J. Rosowski Professor of [Psychology](https://psychology.unl.edu) and 
 
 [2022]{.aside}
  
- "Mechanisms of impulsivity in humans and other animals", Cognitive Science Program, University of Arizona, Tucson, AZ
+ "[Mechanisms of impulsivity in humans and other animals](https://jeffreyrstevens.quarto.pub/az2022/)", Cognitive Science Program, University of Arizona, Tucson, AZ
 
 [2024]{.aside}
  
  "[Canine Cognition and Human Interaction Lab](https://jeffreyrstevens.quarto.pub/seeca2024)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
+
+ "[Canine cognition and the human bond](https://jeffreyrstevens.quarto.pub/asci_2024)", Animal Science Breeding and Genetics Group, University of Nebraska-Lincoln
 
 ### Conference
 
