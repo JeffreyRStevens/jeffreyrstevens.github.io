@@ -907,7 +907,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 [2022-]{.aside} 
 
  Co-director of [ManyDogs Project](http://manydogs.org)
- 
+
+[2023-]{.aside} 
+ Editorial board of [_Journal of Comparative Psychology_](https://www.apa.org/pubs/journals/com/)
+
 
 ## Honors and Awards
 
@@ -954,9 +957,9 @@ Developer of R package [excluder](https://docs.ropensci.org/excluder/), which fa
 
 Developer of R package [flashr](https://jeffreyrstevens.github.io/flashr/), which creates flashcards for learning terms and descriptions.
 
-### formatstats
+### cocoon
 
-Developer of R package [formatstats](https://jeffreyrstevens.github.io/formatstats/), which format statistical output in a way that can be inserted into R Markdown documents.
+Developer of R package [cocoon](https://jeffreyrstevens.github.io/cocoon/), which format statistical output in a way that can be inserted into R Markdown documents.
 
 ### prereg
 Minor contributor to R package [prereg](https://github.com/crsh/prereg), which provides R Markdown templates that facilitate authoring preregistrations of scientific studies in PDF format.

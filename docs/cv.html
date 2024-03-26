@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.537">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-02-22">
+<meta name="dcterms.date" content="2024-03-26">
 
 <title>Jeffrey R. Stevens - Jeffrey R. Stevens - Curriculum vitae</title>
 <style>
@@ -205,7 +205,7 @@ cookieconsent.run({
   <ul class="collapse">
   <li><a href="#excluder" id="toc-excluder" class="nav-link" data-scroll-target="#excluder">excluder</a></li>
   <li><a href="#flashr" id="toc-flashr" class="nav-link" data-scroll-target="#flashr">flashr</a></li>
-  <li><a href="#formatstats" id="toc-formatstats" class="nav-link" data-scroll-target="#formatstats">formatstats</a></li>
+  <li><a href="#cocoon" id="toc-cocoon" class="nav-link" data-scroll-target="#cocoon">cocoon</a></li>
   <li><a href="#prereg" id="toc-prereg" class="nav-link" data-scroll-target="#prereg">prereg</a></li>
   <li><a href="#see" id="toc-see" class="nav-link" data-scroll-target="#see">see</a></li>
   </ul></li>
@@ -238,7 +238,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-02-22</p>
+      <p class="date">2024-03-26</p>
     </div>
   </div>
   
@@ -935,6 +935,7 @@ cookieconsent.run({
 <p>Participant in <a href="https://research.unl.edu/researchleaders/">Research Leaders Program</a>, University of Nebraska-Lincoln</p>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">2022-</span></div></div>
 <p>Co-director of <a href="http://manydogs.org">ManyDogs Project</a></p>
+<div class="page-columns page-full"><p> Editorial board of <a href="https://www.apa.org/pubs/journals/com/"><em>Journal of Comparative Psychology</em></a></p><div class="no-row-height column-margin column-container"><span class="margin-aside">2023-</span></div></div>
 </section>
 <section id="honors-and-awards" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="honors-and-awards">Honors and Awards</h2>
@@ -965,9 +966,9 @@ cookieconsent.run({
 <h3 class="anchored" data-anchor-id="flashr">flashr</h3>
 <p>Developer of R package <a href="https://jeffreyrstevens.github.io/flashr/">flashr</a>, which creates flashcards for learning terms and descriptions.</p>
 </section>
-<section id="formatstats" class="level3">
-<h3 class="anchored" data-anchor-id="formatstats">formatstats</h3>
-<p>Developer of R package <a href="https://jeffreyrstevens.github.io/formatstats/">formatstats</a>, which format statistical output in a way that can be inserted into R Markdown documents.</p>
+<section id="cocoon" class="level3">
+<h3 class="anchored" data-anchor-id="cocoon">cocoon</h3>
+<p>Developer of R package <a href="https://jeffreyrstevens.github.io/cocoon/">cocoon</a>, which format statistical output in a way that can be inserted into R Markdown documents.</p>
 </section>
 <section id="prereg" class="level3">
 <h3 class="anchored" data-anchor-id="prereg">prereg</h3>
@@ -1167,7 +1168,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
