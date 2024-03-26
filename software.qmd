@@ -48,6 +48,19 @@ The [flashr](https://jeffreyrstevens.github.io/flashr/){target="_blank"} package
 * [GitHub repo](https://github.com/JeffreyRStevens/flashr_decks){target="_blank"}
 
 
+### cocoon
+
+The [cocoon](https://jeffreyrstevens.github.io/cocoon/){target="_blank"} package flexibly formats statistical output in a way that can be inserted into R Markdown or Quarto documents. The default style for statistical output follows American Psychological Association style, but many defaults can be over-ridden to customize the format of output.
+
+::: {.column-margin}
+[![](images/cocoon_hex.png)](https://jeffreyrstevens.github.io/cocoon/){target="_blank"}
+:::
+
+* [Getting started with cocoon vignette](https://jeffreyrstevens.github.io/cocoon/articles/cocoon.html){target="_blank"}
+* [GitHub repo](https://github.com/JeffreyRStevens/cocoon){target="_blank"}
+
+
+
 ### Package development tools
 
 I could not have developed these packages without the tools and resources created and published by many other developers. To get started developing R packages, start off by reading [R Packages](https://r-pkgs.org){target="_blank"} by Hadley Wickham and Jenny Bryan. In there, you will learn about invaluable package development tools such as [devtools](https://devtools.r-lib.org/){target="_blank"}, [usethis](https://usethis.r-lib.org/){target="_blank"}, and [testthat](https://testthat.r-lib.org/){target="_blank"}. Also, check out Indrajeet Patil's [resources for R package development](https://indrajeetpatil.github.io/awesome-r-pkgtools/){target="_blank"}.

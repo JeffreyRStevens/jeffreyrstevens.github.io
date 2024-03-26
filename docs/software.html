@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.537">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -226,6 +226,17 @@ cookieconsent.run({
 <li><a href="https://github.com/JeffreyRStevens/flashr_decks" target="_blank">GitHub repo</a></li>
 </ul>
 </section>
+<section id="cocoon" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="cocoon">cocoon</h3>
+<p>The <a href="https://jeffreyrstevens.github.io/cocoon/" target="_blank">cocoon</a> package flexibly formats statistical output in a way that can be inserted into R Markdown or Quarto documents. The default style for statistical output follows American Psychological Association style, but many defaults can be over-ridden to customize the format of output.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="https://jeffreyrstevens.github.io/cocoon/" target="_blank"><img src="images/cocoon_hex.png" class="img-fluid"></a></p>
+</div></div><ul>
+<li><a href="https://jeffreyrstevens.github.io/cocoon/articles/cocoon.html" target="_blank">Getting started with cocoon vignette</a></li>
+<li><a href="https://github.com/JeffreyRStevens/cocoon" target="_blank">GitHub repo</a></li>
+</ul>
+</section>
 <section id="package-development-tools" class="level3">
 <h3 class="anchored" data-anchor-id="package-development-tools">Package development tools</h3>
 <p>I could not have developed these packages without the tools and resources created and published by many other developers. To get started developing R packages, start off by reading <a href="https://r-pkgs.org" target="_blank">R Packages</a> by Hadley Wickham and Jenny Bryan. In there, you will learn about invaluable package development tools such as <a href="https://devtools.r-lib.org/" target="_blank">devtools</a>, <a href="https://usethis.r-lib.org/" target="_blank">usethis</a>, and <a href="https://testthat.r-lib.org/" target="_blank">testthat</a>. Also, check out Indrajeet Patil’s <a href="https://indrajeetpatil.github.io/awesome-r-pkgtools/" target="_blank">resources for R package development</a>.</p>
@@ -396,7 +407,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
