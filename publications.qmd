@@ -457,7 +457,7 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 <!-- ### 2024 -->
 <!-- ::: -->
 
-\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2024). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_, 138(1), 20–31. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352)
+\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2024). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_, 138(1), 20–31. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352) [Selected as [APA Editor's Choice](https://www.apa.org/news/editors-choice)]
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/barela_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
