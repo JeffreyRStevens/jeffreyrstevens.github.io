@@ -450,6 +450,20 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 **Stevens, J.R.** (2023). Of dogs and bonds. In J.R. Stevens (Ed.), _Canine Cognition and the Human Bond_ (pp. 1–10). Springer. [doi:10.1007/978-3-031-29789-2_1](https://doi.org/10.1007/978-3-031-29789-2_1)
 
 
+<!-- ::: {.content-visible when-format="pdf"} -->
+[2024]{.aside}
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### 2024 -->
+<!-- ::: -->
+
+\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2024). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_, 138(1), 20–31. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/barela_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://doi.org/10.31234/osf.io/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
 
 
 ::: {.content-visible when-format="html"}
@@ -466,14 +480,6 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 <a href="https://doi.org/10.31234/osf.io/rynvu" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-
-\*Barela, J., \*Worth, Y., & **Stevens, J.R.** (in press). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352)
-
-::: {.content-visible when-format="html"}
-<a href="pubs/barela_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://doi.org/10.31234/osf.io/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
 
  \*Goh, F. & **Stevens, J.R.** (in press). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
 
