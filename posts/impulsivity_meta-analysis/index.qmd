@@ -1,0 +1,73 @@
+---
+title: 'Impulsivity meta-analysis'
+author:
+  - Jeffrey Stevens
+date: '2024-04-08'
+categories: 
+  - dogs
+  - impulsivity
+  - meta-analysis
+description: "We published a paper analyzing previous research on impulsivity as a trait in dogs."
+draft: true
+# execute:
+#   freeze: auto
+---
+
+Golden retriever rolling around in brown grass
+
+Brown dog with their face in a jar licking treats
+
+Black dog lying on ground watching nearby black and white cat
+
+## What is impulsivity?
+
+Impulsivity is a concept that means a lot of things to different people. And it is particularly important in dogs. Being impulsive can mean that your dog is unable to stop themselves from doing something like chasing after a squirrel, barking at another dog walking by, rolling in the stinkiest junk they come across, or [jumping into the pool any chance they get](https://www.cnn.com/videos/entertainment/2024/03/21/bad-dog-in-pool-moos-cprog-orig-bdk.cnn).
+
+Being impulsive can also mean that your dog cannot wait for things. Does your dog start eating as your still pouring food into their bowl? Do the run into the door as you're opening it to let them outside? Would they eat an entire bag of dog food if it were available?
+
+Being impulsive can mean that your dog takes risks. A dog that comes home with a nose full of porcupine quills or claw marks raked across their nose from a close encounter with a neighborhood cat is showing impulsivity.
+
+Finally, being impulsive can mean that your dog is easily distracted. Rather than focusing attention on one thing, some dogs may quickly break their focus from one thing in their environment when something new appear. The classic joke of dogs stopping what they are doing the instant a squirrel is detect personifies this idea. Or maybe while they are supposed to be retrieving a ball, they stop and smell the flowers.
+
+## Why is it important?
+
+Impulsivity is important in dogs because we often want them to resist temptation, wait for things, and avoid risks. In fact, many dog training programs focus specifically on impulse control. Certainly, for pet dogs this is important because we want them to be able to nicely interact with other dogs at the dog park or be friendly to a small child who may not know how to appropriately pet a dog.
+
+Controlling impulsivity in working dogs is critical, too. Detection dogs have a job to do and can't be distracted by people walking by, potentially with yummy food to snatch. Herding dogs must focus on their task and avoid other distractions but also inhibit their strong prey drive to focus on herding and not capturing.
+
+In short, impulsivity is often a problem behavior in dogs. Though there can be times with impulsivity is good, we often want dogs to have self-control.
+
+## What did we do?
+
+Since it is so important in dogs, we were interested in whether impulsivity is a behavioral trait. That is, we wondered if dogs are consistently impulsive in different ways. Is a dog that can't resist the temptation to roll in something also likely to take risks around bigger critters or dig through the trash? If impulsivity is a trait, then we should be able to screen for it and predict behavior in new contexts. Or develop training techniques that, when they work in one situation, should also apply to other situations.
+
+To investigate this question, we didn't run our own study. Instead, we scoured the scientific literature to find cases of other studies that looked into this question. Then we could combine all of these studies and run some fancy statistics to see if there was evidence across studies for impuslivity as a behavioral trait. We searched several databases and found almost 10,000 articles that mentioned dogs and impulsivity. We winnowed that down to 13 articles that actually collected data on different impulsivity tasks in the same dogs or a measure of the owner's perceptions of their dog's impulsivity. That gave us 31 pairs of impulsivity tasks and 15 pairs of impulsivity task and owner perception ratings. This allowed us to answer two questions:
+
+1. Are dogs' impulsivity levels related across tasks?
+1. Are dogs' impulsivity levels in tasks related to owner perceptions of their impulsivity?
+
+## What did we find?
+
+Across the 31 impulsivity task pairs, there was a relationship between tasks in only three of them. One of those relationships was between two very similar tasks (though another study did not find a relationship between the same tasks, and it had a larger sample size).
+
+Across the 15 task/owner perception pairs, there was a relationship in five of them. However, in all tasks that showed a relationship with owner perception, there were other studies that did not show a relationship.
+
+Finally, we conducted a meta-analysis on one pair of tasks (1B & 4 in Figure ?) that had seven studies attempt to look for a relationship. Meta-analyses combine the effects in all of the studies to see if there is an overall effect. In all studies, there was no relationship, and so there was no overall relationship either.
+
+## What does this mean?
+
+Let's go back to our original research questions.
+
+1. Are dogs' impulsivity levels related across tasks?
+
+* There is not good evidence for relationships in performance across different tasks--even for relatively similar tasks.
+
+2. Are dogs' impulsivity levels in tasks related to owner perceptions of their impulsivity?
+
+* There is more evidence for this, but it is still not very strong. Owner perception of dog impulsivity match behavior in some tasks, but even in those cases there is contradictory findings in other studies
+
+So in general, we don't have a lot of strong evidence that impulsivity is a behavioral trait in dogs. But this may not be too problematic because we can see similar issues with impulsivity in humans. Instead of impulsivity being an overall trait, it makes sense that there may be multiple types of impulsivity (like defined in the first section). So you might not expect too many relationships across different categories of impulsivity. However, that does not explain why we don't see stronger relationships between tasks in the same categories. Answering this question is going to require more studies or much larger studies.
+
+## Reference
+
+Barela, J., Worth, Y., & Stevens, J.R. (2024). Impulsivity as a trait in domestic dogs (Canis familiaris): A systematic review and meta-analysis. Journal of Comparative Psychology, 138(1), 20–31. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352) [Selected as [APA Editor’s Choice](https://www.apa.org/news/editors-choice)]
