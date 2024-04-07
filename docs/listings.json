@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/impulsivity_meta-analysis/index.html",
       "/posts/ropensci_excluder/index.html",
       "/posts/ropensci_qualtrics/index.html"
     ]
