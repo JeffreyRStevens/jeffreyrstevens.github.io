@@ -355,6 +355,7 @@ format:
 <a href="https://www.youtube.com/watch?v=fIKlNvzwXUY" title="Video" class="cv-pub-links">Video</a>
 <a href="https://hackaday.com/2022/02/06/open-hardware-dog-treat-dispenser-is-a-stepping-stone-for-behavioral-research/" title="Press" class="cv-pub-links">Press</a>
 <a href="https://github.com/unl-cchil/canine_precise_dispenser" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.5334/joh.41" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
  Bryer, M. A. H., Koopman, S. E., Cantlon, J. F., Piantadosi, S. T., MacLean, E. L., Baker, J. M., Beran, M. J., Jones, S. M., Jordan, K. E., Mahamane, S., Nieder, A., Perdue, B. M., Range, F., **Stevens, J. R.**, Tomonaga, M., Ujfalussy, D. J., & Vonk, J. (2022). The evolution of quantitative sensitivity. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 377(1844), 20200529. [doi:10.1098/rstb.2020.0529](https://doi.org/10.1098/rstb.2020.0529) 
@@ -402,6 +403,7 @@ format:
 <a href="pubs/stevens_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/eb5m3/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/hyvdq" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.26451/abc.09.03.02.2022" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
 \*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
@@ -410,6 +412,7 @@ format:
 <a href="pubs/thayer.stevens.2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/v7wxt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/7v5nq" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.1079/hai.2022.0015" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
 <!-- ::: {.content-visible when-format="pdf"} -->
@@ -432,6 +435,7 @@ ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espi
 ::: {.content-visible when-format="html"}
 <a href="pubs/manydogs.etal.2023a.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://doi.org/10.31234/osf.io/j82uc" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.3819/CCBR.2023.180004" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
 
@@ -442,6 +446,7 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 <a href="https://osf.io/9r5xf/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://doi.org/10.31234/osf.io/4kncr" title="Preprint" class="cv-pub-links">Preprint</a>
 <a href="https://psyarxiv.com/f86jq" title="Stage 1 registered report" class="cv-pub-links">Registered report</a>
+<a href="https://doi.org/10.26451/abc.10.03.03.2023" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
 **Stevens, J.R.** (2023). _Canine Cognition and the Human Bond_ (Nebraska Symposium on Motivation Series, Vol. 69). Springer. [doi:10.1007/978-3-031-29789-2](https://doi.org/10.1007/978-3-031-29789-2)
@@ -456,6 +461,15 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 <!-- ::: {.content-visible when-format="html"} -->
 <!-- ### 2024 -->
 <!-- ::: -->
+
+Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., Gjoneska, B., Huber, L., Mazza, V., Miller, R., Nawroth, C., Pronizius, E., Qadri, M. A. J., Šlipogor, V., Soderstrom, M., **Stevens, J. R.**, Visser, I., Williams, M., Zettersten, M., & Prétôt, L. (2024). Comparative cognition needs big team science: How large-scale collaborations will unlock the future of the field. _Comparative Cognition and Behavior Review_, 19, 67–72. [doi:10.3819/CCBR.2024.190001](https://doi.org/10.3819/CCBR.2024.190001)
+
+::: {.content-visible when-format="html"}
+<a href="https://doi.org/10.31234/osf.io/rynvu" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.3819/CCBR.2024.190001" title="Open Access" class="cv-pub-links">
+{{<ai open-access>}}</a>
+:::
+
 
 \*Barela, J., \*Worth, Y., & **Stevens, J.R.** (2024). Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis. _Journal of Comparative Psychology_, 138(1), 20–31. [doi:10.1037/com0000352](https://doi.org/10.1037/com0000352) [Selected as [APA Editor's Choice](https://www.apa.org/news/editors-choice)]
 
@@ -473,13 +487,6 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 <!-- ::: {.content-visible when-format="pdf"} -->
 [In press]{.aside}
 <!-- ::: -->
-
-Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., Gjoneska, B., Huber, L., Mazza, V., Miller, R., Nawroth, C., Pronizius, E., Qadri, M. A. J., Šlipogor, V., Soderstrom, M., **Stevens, J. R.**, Visser, I., Williams, M., Zettersten, M., & Prétôt, L. (forthcoming). Comparative cognition needs big team science: How large-scale collaborations will unlock the future of the field. _Comparative Cognition and Behavior Review_. [doi:10.31234/osf.io/rynvu](https://doi.org/10.31234/osf.io/rynvu)
-
-::: {.content-visible when-format="html"}
-<a href="https://doi.org/10.31234/osf.io/rynvu" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
 
  \*Goh, F. & **Stevens, J.R.** (in press). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
 
