@@ -14,7 +14,7 @@ description: "We published a paper analyzing previous research on impulsivity as
 ---
 
 
-![Source: Samuel Pollard](images/dog_patience1_samuel-pollard500.png){fig-alt="Brown dogs laying down staring a treat nearby."}
+![Source: [Samuel Pollard](https://unsplash.com/photos/brown-long-coated-small-dog-lying-on-white-textile-VENlJkaFbZ4)](images/dog_patience1_samuel-pollard500.png){fig-alt="Brown dogs laying down staring a treat nearby."}
 
 We recently had a [paper](https://doi.org/10.1037/com0000352) published in _Journal of Comparative Psychology_ that was a systematic review and meta-analysis on whether impulsivity is a behavioral trait in dogs. This work was conducted with Jessica Barela and Yasmine Worth and was selected as an [APA Editor’s Choice](https://www.apa.org/news/editors-choice) article.
 
@@ -22,7 +22,7 @@ We recently had a [paper](https://doi.org/10.1037/com0000352) published in _Jour
 
 _Impulsivity_ is a concept that means a lot of things to different people. And it is particularly important in dogs. Being impulsive can mean that your dog is **_unable to stop themselves_** from doing something like chasing after a squirrel, barking at another dog walking by, rolling in the stinkiest junk they come across, or [jumping into the pool any chance they get](https://www.cnn.com/videos/entertainment/2024/03/21/bad-dog-in-pool-moos-cprog-orig-bdk.cnn).
 
-![Dogs exhibit many different types of impulsivity. Sources: Michael Oxdine, Tamas Pap, Guillaume de Germain, Joshua McLaughlin](images/dog_impulsivity.png){fig-alt="Top left: Golden retriever rolling around in brown grass. Top right: Brown dog with their face in a jar licking treats. Bottom left: Black dog lying on ground watching nearby black and white cat. Bottom right: Brown dog sniffing a white flower."}
+![Dogs exhibit many different types of impulsivity. Sources: [Michael Oxdine](https://unsplash.com/photos/adult-gold-golden-retriever-lying-on-floor-t7wwffh6x8E), [Tamas Pap](https://unsplash.com/photos/brown-and-black-long-coated-small-dog-AMRVK6UINy8), [Guillaume de Germain](https://unsplash.com/photos/black-short-coated-dog-lying-on-green-grass-beside-brown-wooden-fence-during-daytime-EfIBVgtRZm8), [Joshua McLaughlin](https://unsplash.com/photos/brown-and-white-short-coated-dog-wearing-red-and-white-polka-dot-shirt-sitting-on-green-rJIvKdWIuTs)](images/dog_impulsivity.png){fig-alt="Top left: Golden retriever rolling around in brown grass. Top right: Brown dog with their face in a jar licking treats. Bottom left: Black dog lying on ground watching nearby black and white cat. Bottom right: Brown dog sniffing a white flower."}
 
 Being impulsive can also mean that your dog **_cannot wait for things_**. Does your dog start eating while you're still pouring food into their bowl? Do they run into the door as you're opening it to let them outside? Would they eat an entire bag of dog food if it were available?
 
@@ -34,7 +34,7 @@ Finally, being impulsive can mean that your dog is **_easily distracted_**. Rath
 
 Impulsivity is important in dogs because we often want them to resist temptation, wait for things, and avoid risks. In fact, many dog training programs focus specifically on impulse control. Certainly, for pet dogs this is important because we want them to be able to nicely interact with other dogs at the dog park or be friendly to a small child who may not know how to appropriately pet a dog.
 
-![Controlling impulsivity is important in may contexts for dogs. Sources: U.S. Department of Homeland Security, William Milliot, Sofia Shultz, Mohamed Nohassi](images/impulsivity_importance.png){fig-alt="Top left: Three dogs playing in a dog park. Top right: Very small child nose-to-nose with a small puppy. Bottom left: Black detection dog with handler walking through crowd. Bottom right: Black and white dog next to a herd of goats."}
+![Controlling impulsivity is important in may contexts for dogs. Sources: [Sofia Shultz](https://unsplash.com/photos/black-and-tan-german-shepherd-and-brown-and-black-german-shepherd-mix-dogs-on-brown-field-Z-lEcNOfWMI), [Mohamed Nohassi](https://unsplash.com/photos/toddler-boy-leaning-towards-a-puppy-ZvRbPin1szc), [U.S. Department of Homeland Security](https://www.dhs.gov/science-and-technology/detection-canine), [William Milliot](https://unsplash.com/photos/herd-of-goat-and-black-and-white-dog-on-pature-2WS9JzdsA-Y)](images/impulsivity_importance.png){fig-alt="Top left: Three dogs playing in a dog park. Top right: Very small child nose-to-nose with a small puppy. Bottom left: Black detection dog with handler walking through crowd. Bottom right: Black and white dog next to a herd of goats."}
 
 Controlling impulsivity is critical in working dogs, too. Detection dogs have a job to do and can't be distracted by people walking by, potentially with yummy food to snatch. Likewise, herding dogs must focus on their task and avoid other distractions but also inhibit their strong prey drive to focus on herding and not capturing.
 
@@ -79,6 +79,7 @@ So in general, **we don't have a lot of strong evidence that impulsivity is a be
 
 Barela, J., Worth, Y., & Stevens, J.R. (2024). [Impulsivity as a trait in domestic dogs (_Canis familiaris_): A systematic review and meta-analysis](https://doi.org/10.1037/com0000352). _Journal of Comparative Psychology_, 138(1), 20–31. [View freely available preprint](https://doi.org/10.31234/osf.io/ctfns)
 
+_Updated 2024-04-12 to include links to photo sources where available._
 
 [^1]: We don't go into the actual tasks here, but they involved inhibiting the drive to  move straight at visible treats when you need to go around them or waiting for delayed treats or other measures of impulsivity.
 [^2]: This survey is called the Dog Impulsivity Assessment Scale (DIAS), and it measures their ability to regulate behavior, their aggression, and how they respond to things in their environment. Wright, H. F., Mills, D. S., & Pollux, P. M. J. (2011). [Development and validation of a psychometric tool for assessing impulsivity in the domestic dog (_Canis familiaris_)](https://doi.org/10.46867/ijcp.2011.24.02.03). _International Journal of Comparative Psychology_, 24(2), 210–225.
