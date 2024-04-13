@@ -1,0 +1,52 @@
+---
+title: 'ManyDogs: Big Team Canine Science'
+author:
+  - Jeffrey Stevens
+date: '2024-04-15'
+categories: 
+  - dogs
+  - big team science
+  - canine cognition
+  - open science
+description: "ManyDogs is an international consortium of canine science researchers."
+draft: true
+# execute:
+#   freeze: auto
+---
+
+
+![Source: [Craig Chander, UNL University Communications](https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/)](images/manydogs.jpg){fig-alt="Lots of dogs standing or sitting on or near a ramp."}
+
+CCHIL is elated to be part of a very exciting initiative called the [ManyDogs Project](http://manydogs.org) that brings together dog behavior and cognition labs worldwide together to study canine science. We have a [paper](https://doi.org/10.3819/CCBR.2023.180004) published in _Comparative Cognition and Behavior Reviews_ that introduces this initiative, but here we give a quick summary.
+
+## What is the ManyDogs Project?
+
+ManyDogs is a collaboration between dog behavior and cognition labs worldwide interested in running the same studies across sites.
+
+The project kicked off at a [Comparative Cognition Society Conference](), where a number of canine researchers got together to talk about joining forces to collect data together. CCHIL was invited to join in March 2020 (yes, that March 2020)---we readily agreed and haven't looked back since. While starting off with just a handful of labs, we now boast more than 25 participating sites and are intent to keep growing!
+
+
+![Locations for ManyDogs sites as of 2023. Source: [ManyDogs Project](http://manydogs.org)](images/md_labs.png)
+
+## Why is it important?
+
+
+## What do we do?
+
+
+
+
+## What's next?
+
+MD2
+
+ManyManys
+
+
+## Reference
+
+ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & Stevens, J.R. (2023). ManyDogs Project: [A big team science approach to investigating canine behavior and cognition](https://doi.org/10.3819/CCBR.2023.180004). _Comparative Cognition and Behavior Reviews_, 18, 59-77. 
+
+News article: [To the dogs: Stevens co-directing global consortium on canine research](https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/) by Scott Schrage, UNL University Communications.
+
+[^1]: 
