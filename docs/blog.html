@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -251,10 +251,10 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="dogs,impulsivity,meta-analysis" data-listing-date-sort="1712552400000" data-listing-file-modified-sort="1712937205003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1354">
+<div class="g-col-1" data-index="0" data-categories="dogs,impulsivity,meta-analysis" data-listing-date-sort="1712552400000" data-listing-file-modified-sort="1712939031014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1354">
 <a href="./posts/impulsivity_meta-analysis/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/impulsivity_meta-analysis/images/dog_patience1_samuel-pollard500.png" alt="Brown dogs laying down staring a treat nearby." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts/impulsivity_meta-analysis/images/dog_patience1_samuel-pollard500.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Impulsivity as a behavioral trait in dogs
@@ -285,7 +285,7 @@ Apr 8, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="coding,R package" data-listing-date-sort="1660021200000" data-listing-file-modified-sort="1681078513515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2165">
+<div class="g-col-1" data-index="1" data-categories="coding,R package" data-listing-date-sort="1660021200000" data-listing-file-modified-sort="1681589060078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2165">
 <a href="./posts/ropensci_excluder/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -318,7 +318,7 @@ Aug 9, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="coding,R package" data-listing-date-sort="1659416400000" data-listing-file-modified-sort="1681078513515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1636">
+<div class="g-col-1" data-index="2" data-categories="coding,R package" data-listing-date-sort="1659416400000" data-listing-file-modified-sort="1681589060078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1636">
 <a href="./posts/ropensci_qualtrics/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/ropensci_qualtrics/mouseclicking.gif" alt="A gif of a hand furiously clicking a computer mouse." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -433,6 +433,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -467,7 +485,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
