@@ -46,6 +46,18 @@ London graduated with honors in Biology and Animal Behavior, Ecology and Conserv
 Undergraduate Students
 ----------------------
 
+### Savannah Clites
+
+![](images/savannah_clites.jpeg){fig-alt="Savannah Clites" width="200" fig-align="left"}
+
+Susannah is a junior here at UNL pursuing a bachelor's degree in psychology. She would love to pursue research further in graduate school and see where that can take her in the field of psychology. She got involved with CCHIL by working as an RA on London's original stress test procedure and is excited to get to explore that further as we begin working with the dogs!
+
+### Susannah Couture
+
+![](images/susannah_couture.jpg){fig-alt="Susannah Couture" width="200" fig-align="left"}
+
+Susannah is pursuing a dual major in Biological Sciences and Psychology at UNL. She aspires to go to graduate school to become a researcher and hopes to add to the scientific world with her interest in animal behavior. She learned about the lab after her dog, Bean, was a participant, and after looking through previous research, was interested in what the lab was doing. She is now excited to contribute to the amazing studies.
+
 
 ### Hunter DeBoer
 
@@ -69,7 +81,21 @@ Maya is a junior studying Animal Science in the companion animal area. She is on
 
 ![](images/ashley_llewellyn.jpg){fig-alt="Ashley Llewellyn" width="200" fig-align="left"}
 
-Ashley is a freshman Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
+Ashley is an Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
+
+
+### Lily Mook
+
+![](images/lily_mook.jpg){fig-alt="Lily Mook" width="200" fig-align="left"}
+
+Lily is an Animal Science major with a focus in veterinary medicine. Her current plan is to pursue a career in companion animal veterinary medicine, but she loves learning more about animal behavior and psychology. She's excited to learn more through her experience in the lab, and she looks forward to working with the dogs!
+
+### Nathan Nienaber
+
+![](images/nathan_nienaber.jpg){fig-alt="Nathan Nienaber" width="200" fig-align="left"}
+
+Nathan is currently studying as pre-vet and is particularly drawn to surgery and lab work. Guinea pigs hold a special place in his heart, and he enjoys crochet and needle arts in his free time.
+
 
 ### Lauryn Rivale
 
