@@ -9,7 +9,7 @@ categories:
   - canine cognition
   - open science
 description: "ManyDogs is an international consortium of canine science researchers."
-draft: true
+#draft: true
 # execute:
 #   freeze: auto
 ---
