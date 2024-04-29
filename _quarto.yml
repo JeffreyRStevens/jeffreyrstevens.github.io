@@ -25,6 +25,8 @@ website:
         text: "R Resources"
       - href: blog.qmd
         text: Blog
+      - icon: rss
+        href: blog.xml
   google-analytics:
     tracking-id: "G-1P6FW90MJL"
     anonymize-ip: true
