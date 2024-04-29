@@ -29,6 +29,8 @@ website:
     tracking-id: "G-1P6FW90MJL"
     anonymize-ip: true
   cookie-consent: true
+  site-url: https://jeffreyrstevens.github.io/
+  description: "Jeff Stevens' blog"
 
 
   page-footer:
