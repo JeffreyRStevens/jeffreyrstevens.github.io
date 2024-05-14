@@ -25,8 +25,7 @@ ManyDogs is a collaboration between dog behavior and cognition labs worldwide in
 
 ManyDogs kicked off at a [Comparative Cognition Society Conference](https://comparativecognition.org/), where a number of canine researchers got together to talk about joining forces to collect data together. CCHIL was invited to join in March 2020 (yes, that March 2020)---we readily agreed and haven't looked back since. While starting off with just a handful of labs, we now boast more than 25 participating sites and are intent to keep growing!
 
-
-![Locations for ManyDogs sites as of 2023. Source: [ManyDogs Project](http://manydogs.org)](images/md_labs.png)
+![Locations for ManyDogs sites as of 2023. Source: [ManyDogs Project](http://manydogs.org)](images/md_labs.png){fig-alt="Map of the world with dots representing the locations of ManyDogs research sites."}
 
 ## What do we do?
 Our first order of business was to recruit research sites into our collaboration. This allowed us to build a core group of researchers interested in leading ManyDogs as an organization and growing the research sites to include labs from all over the world. The ManyDogs [leadership team](https://manydogsproject.github.io/leadership.html) works to build our community, maintain our data management infrastructure, and monitor the selection of research projects.
@@ -34,7 +33,6 @@ Our first order of business was to recruit research sites into our collaboration
 Which leads us to the key function of ManyDogs, which is to organize and support research projects. This involves selecting projects, developing methods, organizing data collection across research sites, analyzing data across sites, publishing scientific papers, and archiving materials and data from projects.
 
 Our first project ([ManyDogs 1](https://manydogsproject.github.io/manydogs1.html)) was completed and published in 2023. It focused on how dogs follow human point gestures[^3]. We have survey data from over 700 dogs and behavioral data from over 450 dogs. I'd say that was a success!
-
 
 
 ## Why is it important?
@@ -63,17 +61,16 @@ In addition to the many methodological benefits of big team science, there is on
 
 Another unique question that ManyDogs can address that is hard to address for individual labs is the effect of culture on dog behavior and cognition. Dogs are treated differently across and within countries. How owners treat their dogs could have direct effects on their behavior. Therefore, dogs living in different cultures could behave differently. We can directly test potential cultural differences in dog behavior by comparing data across labs in different countries---a bonus benefit of the international reach of ManyDogs.
 
-![Dogs and their owners. Source: [Gerrard Gethings](https://www.instagram.com/gezgethings/).](images/dogs_owners_gerrard_gethings.png)
+![Dogs and their owners. Source: [Gerrard Gethings](https://www.instagram.com/gezgethings/).](images/dogs_owners_gerrard_gethings.png){fig-alt="Four pairs of images of owners who look like their dogs."}
+
 
 ## What's next?
 
 Since ManyDogs 1 is complete, we have moved on to ManyDogs 2, which will focus on overimitation[^4]. ManyDogs 2 is currently in the methods development phase with data collection probably starting in 2025.
 
-
 Another project that we're super excited about is a **big**-big team science project. We mentioned before that there are other projects similar to ManyDogs that focus on [babies](https://manybabies.org/), [primates](https://manyprimates.github.io/), [birds](https://themanybirds.com/), [goats](https://www.themanygoatsproject.com/), and [fish](https://themanyfishes.github.io/). Well, all of the groups (and more) have joined together in a [ManyManys](https://manymanys.github.io/) project that will collaborate across all of the labs in all of these projects. We will be testing dozens of species! ManyManys 1 will focus on reversal learning[^5] and is in the methods development phase.
 
 ManyDogs and the other big team science projects are not meant to replace studies in individual labs. But they can offer unique opportunities to answer important questions with large sample sizes. For ManyDogs, this includes questions about dog behavior at a scale that is simply not feasible for most individual labs.  We're excited about the future of ManyDogs and canine behavioral science!
-
 
 
 ## Reference
@@ -81,6 +78,8 @@ ManyDogs and the other big team science projects are not meant to replace studie
 ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & Stevens, J.R. (2023). ManyDogs Project: [A big team science approach to investigating canine behavior and cognition](https://doi.org/10.3819/CCBR.2023.180004). _Comparative Cognition and Behavior Reviews_, 18, 59-77. 
 
 News article: [To the dogs: Stevens co-directing global consortium on canine research](https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/) by Scott Schrage, UNL University Communications.
+
+_Updated 2024-05-14 to include alt text for images._
 
 [^1]: Baumgartner, H. A., Alessandroni, N., Byers-Heinlein, K., Frank, M. C., Hamlin, J. K., Soderstrom, M., Voelkel, J. G., Willer, R., Yuen, F., & Coles, N. A. (2023). [How to build up big team science: A practical guide for large-scale collaborations](https://doi.org/10.1098/rsos.230235). _Royal Society Open Science_, 10(6), 230235. 
 
