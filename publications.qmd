@@ -483,6 +483,14 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 <a href="https://doi.org/10.31234/osf.io/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+\*Wolff, L. M., \*Carey, K., \& **Stevens, J.R.** (2024). Friends aren’t food: pinyon jays show context-dependent quantity preference. _Animal Behavior & Cognition_, 11(2), 112-135. [doi:10.26451/abc.11.02.01.2024](https://doi.org/10.26451/abc.11.02.01.2024)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/wolff_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/g45nk/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://psyarxiv.com/kxgwt" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 
 ::: {.content-visible when-format="html"}
 ### In press
@@ -499,14 +507,6 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 <a href="https://osf.io/6zg84" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/du2xm/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
-\*Wolff, L. M., \*Carey, K., \& **Stevens, J.R.** (forthcoming). Friends aren’t food: pinyon jays show context-dependent numerical cognition. _Animal Behavior & Cognition_. [doi:10.31234/osf.io/kxgwt](https://doi.org/10.31234/osf.io/kxgwt)
-
-::: {.content-visible when-format="html"}
-<a href="pubs/wolff_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://osf.io/g45nk/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://psyarxiv.com/kxgwt" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 ::: {.content-visible when-format="html"}
