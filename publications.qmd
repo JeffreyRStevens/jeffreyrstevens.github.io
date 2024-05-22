@@ -312,9 +312,26 @@ format:
 [2020]{.aside}
 <!-- ::: -->
 
- \#Duque, J.F., \*Rasmussen, T., \*Rodriguez, A., & **Stevens, J.R.** (2020). The role of mesotocin on social bonding in pinyon jays. *Ethology*, 126(2), 165-175. [doi:10.1111/eth.12990](https://doi.org/10.1111/eth.12990)
+\*Arce, W. & **Stevens, J.R.** (2020). Developing a computer-controlled treat dispenser for canine operant conditioning. *Journal of Open Hardware*, 4(1), 6. [doi:10.5334/joh.27](https://doi.org/10.5334/joh.27)
 
- \*Arce, W. & **Stevens, J.R.** (2020). Developing a computer-controlled treat dispenser for canine operant conditioning. *Journal of Open Hardware*, 4(1), 6. [doi:10.5334/joh.27](https://doi.org/10.5334/joh.27)
+::: {.content-visible when-format="html"}
+<a href="pubs/arce_stevens_2020.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/arce_stevens_2020_data.csv" title="Data" class="cv-pub-links">Data</a>
+<a href="data/arce_stevens_2020_rcode.R" title="Code" class="cv-pub-links">Code</a>
+<a href="https://www.youtube.com/watch?v=veKvqE5ipu4" title="Video" class="cv-pub-links">Video</a>
+<a href="https://github.com/unl-cchil/canine_treat_dispenser" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.5334/joh.27" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
+\#Duque, J.F., \*Rasmussen, T., \*Rodriguez, A., & **Stevens, J.R.** (2020). The role of mesotocin on social bonding in pinyon jays. *Ethology*, 126(2), 165-175. [doi:10.1111/eth.12990](https://doi.org/10.1111/eth.12990)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/duque_etal_2020.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/duque_etal_2020_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="https://osf.io/67ncp/" title="Data & code" class="cv-pub-links">Data</a>
+<a href="https://www.biorxiv.org/content/10.1101/599555v2" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2021]{.aside}
@@ -323,21 +340,67 @@ format:
 <!-- ### 2021 -->
 <!-- ::: -->
 
- \#Addessi, E., \*Tierno, V., \*Focaroli, V., \*Rossi, F., \*Gastaldi, S., \*De Petrillo, F., Paglieri, F., & **Stevens, J.R.** (2021). Are capuchin monkeys (*Sapajus spp.*) sensitive to lost opportunities? The role of opportunity costs in intertemporal choice. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 376(1819), 20190674. [doi:10.1098/rstb.2019.0674](https://doi.org/10.1098/rstb.2019.0674) 
+\#Addessi, E., \*Tierno, V., \*Focaroli, V., \*Rossi, F., \*Gastaldi, S., \*De Petrillo, F., Paglieri, F., & **Stevens, J.R.** (2021). Are capuchin monkeys (*Sapajus spp.*) sensitive to lost opportunities? The role of opportunity costs in intertemporal choice. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 376(1819), 20190674. [doi:10.1098/rstb.2019.0674](https://doi.org/10.1098/rstb.2019.0674) 
 
- \#Goh, F. & **Stevens, J.R.** (2021). Attribute-based choice. In: R. Viale (Ed.), *Routledge handbook of bounded rationality*. (pp. 242-253). Routledge. [doi:10.4324/9781315658353-16](https://doi.org/10.4324/9781315658353-16) 
+::: {.content-visible when-format="html"}
+<a href="pubs/addessi_etal_2020.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/addessi_etal_2020_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="https://doi.org/10.5061/dryad.mcvdncjxd" title="Data & code" class="cv-pub-links">Data</a>
+:::
 
- Koehler, K., \*Beckford, S. E., \*Thayer, E., \*Martin, A.R., Boron, J. B., & **Stevens, J. R.** (2021). Exercise shifts hypothetical food choices towards greater amounts and more immediate consumption. *Nutrients*, 13(2), 347. [doi:10.3390/nu13020347](https://doi.org/10.3390/nu13020347) 
 
- Schutte, A., Torquati, J., & **Stevens, J.R.** (2021). *Nature and Psychology: Biological, Cognitive, Developmental, and Social Pathways to Well-Being*. New York: Springer. [doi:10.1007/978-3-030-69020-5](https://doi.org/10.1007/978-3-030-69020-5) 
+\#Goh, F. & **Stevens, J.R.** (2021). Attribute-based choice. In: R. Viale (Ed.), *Routledge handbook of bounded rationality*. (pp. 242-253). Routledge. [doi:10.4324/9781315658353-16](https://doi.org/10.4324/9781315658353-16) 
 
- Schutte, A., Torquati, J., & **Stevens, J.R.** (2021). Introduction. In: A. Schutte, J. Torquati, & J.R. Stevens. *Nature and Psychology: Biological, Cognitive, Developmental, and Social Pathways to Well-Being*. New York: Springer. [doi:10.1007/978-3-030-69020-5_1](https://doi.org/10.1007/978-3-030-69020-5_1) 
+::: {.content-visible when-format="html"}
+<a href="pubs/goh_stevens_2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
- **Stevens, J. R.**, (2021). excluder: An R package that checks for exclusion criteria in online data. *Journal of Open Source Software*, 6(67), 3893, [doi:10.21105/joss.03893](https://doi.org/10.21105/joss.03893) 
 
- **Stevens, J.R.**, \*Saltzman, A., \*Rasumussen, T., & Soh, L.-K. (2021). Improving measurements of similarity judgments with machine-learning algorithms. *Journal of Computational Social Science*, 4(2), 613-629. [doi:10.1007/s42001-020-00098-1](https://doi.org/10.1007/s42001-020-00098-1) 
+Koehler, K., \*Beckford, S. E., \*Thayer, E., \*Martin, A.R., Boron, J. B., & **Stevens, J. R.** (2021). Exercise shifts hypothetical food choices towards greater amounts and more immediate consumption. *Nutrients*, 13(2), 347. [doi:10.3390/nu13020347](https://doi.org/10.3390/nu13020347)
 
- **Stevens, J.R.**, \*Wolff, L.M., \*Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict training success. *Animal Cognition*, 24(2) 219-230. [doi:10.1007/s10071-020-01458-0](https://doi.org/10.1007/s10071-020-01458-0)
+::: {.content-visible when-format="html"}
+<a href="pubs/koehler_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/tqcwx/" title="Data & code" class="cv-pub-links">Data</a>
+<a href="https://psyarxiv.com/3z2er/" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.3390/nu13020347" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
+
+Schutte, A., Torquati, J., & **Stevens, J.R.** (2021). *Nature and Psychology: Biological, Cognitive, Developmental, and Social Pathways to Well-Being*. New York: Springer. [doi:10.1007/978-3-030-69020-5](https://doi.org/10.1007/978-3-030-69020-5) 
+
+
+Schutte, A., Torquati, J., & **Stevens, J.R.** (2021). Introduction. In: A. Schutte, J. Torquati, & J.R. Stevens. *Nature and Psychology: Biological, Cognitive, Developmental, and Social Pathways to Well-Being*. New York: Springer. [doi:10.1007/978-3-030-69020-5_1](https://doi.org/10.1007/978-3-030-69020-5_1) 
+
+
+**Stevens, J. R.**, (2021). excluder: An R package that checks for exclusion criteria in online data. *Journal of Open Source Software*, 6(67), 3893, [doi:10.21105/joss.03893](https://doi.org/10.21105/joss.03893) 
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2021_excluder.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://github.com/ropensci/excluder" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.21105/joss.03893" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
+
+**Stevens, J.R.**, \*Saltzman, A., \*Rasumussen, T., & Soh, L.-K. (2021). Improving measurements of similarity judgments with machine-learning algorithms. *Journal of Computational Social Science*, 4(2), 613-629. [doi:10.1007/s42001-020-00098-1](https://doi.org/10.1007/s42001-020-00098-1) 
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stevens_etal_2020_data.csv" title="Data" class="cv-pub-links">Data</a>
+<a href="data/stevens_etal_2020_rcode.R" title="Code" class="cv-pub-links">Code</a>
+<a href="https://psyarxiv.com/epkyv" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+**Stevens, J.R.**, \*Wolff, L.M., \*Bosworth, M., & Morstad, J. (2021). Dog and owner characteristics predict training success. *Animal Cognition*, 24(2) 219-230. [doi:10.1007/s10071-020-01458-0](https://doi.org/10.1007/s10071-020-01458-0)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2020_obed_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stevens_etal_2020_obed_data.csv" title="Data" class="cv-pub-links">Data</a>
+<a href="data/stevens_etal_2020_obed_rcode.R" title="Code" class="cv-pub-links">Code</a>
+<a href="https://github.com/unl-cchil/dogobedience2021" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://psyarxiv.com/p4dc7" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2022]{.aside}
@@ -358,6 +421,7 @@ format:
 <a href="https://doi.org/10.5334/joh.41" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
+
  Bryer, M. A. H., Koopman, S. E., Cantlon, J. F., Piantadosi, S. T., MacLean, E. L., Baker, J. M., Beran, M. J., Jones, S. M., Jordan, K. E., Mahamane, S., Nieder, A., Perdue, B. M., Range, F., **Stevens, J. R.**, Tomonaga, M., Ujfalussy, D. J., & Vonk, J. (2022). The evolution of quantitative sensitivity. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 377(1844), 20200529. [doi:10.1098/rstb.2020.0529](https://doi.org/10.1098/rstb.2020.0529) 
  
 ::: {.content-visible when-format="html"}
@@ -366,12 +430,14 @@ format:
 <a href="https://osf.io/j9sv8/" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
+
  \*Goh, F., \*Jungck, A.C., & **Stevens, J.R.** (2022). Pro tip: Screen-based payment methods increase negative feelings in consumers but do not increase tip sizes. _European Journal of Behavioral Sciences_, 4(4), 1–21. [doi:10.33422/ejbs.v4i4.678](https://doi.org/10.33422/ejbs.v4i4.678) 
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/goh_etal_2022_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="pubs/goh_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/bqf52/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/adaptive-decision-making-lab/tippingnudges" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/yfne8" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
@@ -382,6 +448,7 @@ format:
 <a href="pubs/marvin_etal_2020_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://psyarxiv.com/w4p7b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
+
 
  Miller, R., Lambert, M. L., Frohnwieser, A., Brecht, K. F., Bugnyar, T., Crampton, I., Garcia-Pelegrin, E., Gould, K., Greggor, A. L., Izawa, E.-I., Kelly, D. M., Li, Z., Luo, Y., Luong, L. B., Massen, J. J. M., Neider, A., Reber, S. A., Schiestl, M., Seguchi, A., **Stevens, J.R.**, Taylor, A.H., Wang, L.,  Wolff, L.M.,  Zhang, Y., Clayton, N. S. (2022). Socio-ecological correlates of neophobia in corvids. *Current Biology*, 32(1), 74-85.e4.  [doi:10.1016/j.cub.2021.10.045](https://doi.org/10.1016/j.cub.2021.10.045) 
 
@@ -395,6 +462,7 @@ format:
 <a href="https://doi.org/10.1101/2021.07.27.453788" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+
  **Stevens, J.R.**, \*Mathias, M., \*Herridge, M., \*Hughes-Duvall, K., \*Wolff, L. M., & \*Yohe, M. (2022). Do owners know how impulsive their dogs are? *Animal Behavior & Cognition*,   9(3), 261-286. [doi:10.26451/abc.09.03.02.2022](https://doi.org/10.26451/abc.09.03.02.2022)
  <!-- [[PDF](pubs/stevens_etal_2022.pdf)] -->
 
@@ -402,15 +470,18 @@ format:
 <a href="pubs/stevens_etal_2022.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="pubs/stevens_etal_2022_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/eb5m3/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/dogspatialchoices" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/hyvdq" title="Preprint" class="cv-pub-links">Preprint</a>
 <a href="https://doi.org/10.26451/abc.09.03.02.2022" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
+
 
 \*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/thayer.stevens.2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/v7wxt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/haicognition2021" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/7v5nq" title="Preprint" class="cv-pub-links">Preprint</a>
 <a href="https://doi.org/10.1079/hai.2022.0015" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
@@ -429,6 +500,7 @@ Höchsmann, C., Becksford, S.E., French, J.A., Boron, J.B., **Stevens, J.R.**, &
 <a href="https://doi.org/10.21203/rs.3.rs-1414640/v1" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+
 ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., & **Stevens, J.R.** (2023). ManyDogs Project: A big team science approach to investigating canine behavior and cognition. _Comparative Cognition and Behavior Reviews_, 18, 59-77. 
 [doi:10.3819/CCBR.2023.180004](https://doi.org/10.3819/CCBR.2023.180004)
 
@@ -444,10 +516,12 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 ::: {.content-visible when-format="html"}
 <a href="pubs/manydogs.etal.2023b.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/9r5xf/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/ManyDogsProject/manydogs1_abc" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://doi.org/10.31234/osf.io/4kncr" title="Preprint" class="cv-pub-links">Preprint</a>
 <a href="https://psyarxiv.com/f86jq" title="Stage 1 registered report" class="cv-pub-links">Registered report</a>
 <a href="https://doi.org/10.26451/abc.10.03.03.2023" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
+
 
 **Stevens, J.R.** (2023). _Canine Cognition and the Human Bond_ (Nebraska Symposium on Motivation Series, Vol. 69). Springer. [doi:10.1007/978-3-031-29789-2](https://doi.org/10.1007/978-3-031-29789-2)
 
@@ -457,6 +531,7 @@ ManyDogs Project, Espinosa, J., **Stevens, J.R.**, Alberghina, D., Alway, H.E.E.
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_2023.pdf" title="PDF" class="cv-pub-links">PDF</a>
 :::
+
 
 <!-- ::: {.content-visible when-format="pdf"} -->
 [2024]{.aside}
@@ -480,14 +555,17 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 ::: {.content-visible when-format="html"}
 <a href="pubs/barela_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/z6svt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/dogimpulsivitymeta-analysis" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://doi.org/10.31234/osf.io/ctfns" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
+
 
 \*Wolff, L. M., \*Carey, K., \& **Stevens, J.R.** (2024). Friends aren’t food: pinyon jays show context-dependent quantity preference. _Animal Behavior & Cognition_, 11(2), 112-135. [doi:10.26451/abc.11.02.01.2024](https://doi.org/10.26451/abc.11.02.01.2024)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/wolff_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/g45nk/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/adaptive-decision-making-lab/corvidnumber" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/kxgwt" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
@@ -506,8 +584,10 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 <a href="https://doi.org/10.31234/osf.io/xz68b" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/6zg84" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/du2xm/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/adaptive-decision-making-lab/socialinfluences" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
+
 
 ::: {.content-visible when-format="html"}
 ### Preprints
@@ -521,14 +601,18 @@ ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens
  
 ::: {.content-visible when-format="html"}
 <a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/ManyDogsProject/md1_data" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
+
 
 **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
  
 ::: {.content-visible when-format="html"}
+<a href="https://github.com/JeffreyRStevens/flashr" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://osf.io/w7dks/" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
+
 
 **Stevens, J.R.**, \*Cully, T., & \*Goh, F.W. (2021). Framing attributes in similarity judgments and intertemporal choices. _PsyArXiv_. [doi:10.31234/osf.io/csnqv](https://doi.org/10.31234/osf.io/csnqv) 
 
@@ -539,11 +623,13 @@ ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens
 <a href="https://psyarxiv.com/csnqv" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+
 Wolff, L. M., & **Stevens, J.R.** (2024). Less activity means improved welfare? How pair housing influences pinyon jay (_Gymnorhinus cyanocephalus_) behavior  _bioRxiv_. [doi:10.1101/2024.02.07.579343](https://doi.org/10.1101/2024.02.07.579343)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/wolff_stevens_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/v9r6q/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/adaptive-decision-making-lab/corvidactivity" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://doi.org/10.1101/2024.02.07.579343" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
