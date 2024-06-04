@@ -20,7 +20,7 @@ format:
  | 
 -- | --
 {{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@gmail.com](mailto:jeffrey.r.stevens@gmail.com) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
-{{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens](https://fediscience.org/@JeffreyRStevens) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
+{{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens@fediscience.org](https://fediscience.org/@JeffreyRStevens) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
 {{< fa square title="Bluesky logo" >}} [JeffreyRStevens](https://bsky.app/profile/jeffreyrstevens.bsky.social) | {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai researchgate>}} [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | {{<ai impactstory>}} [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
@@ -296,6 +296,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "Reproducible results in comparative cognition", Comparative Cognition Society Fall Meeting, Seattle, WA.
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2012]{.aside}
 
  "Is cooperative memory special? The role of costly errors and context when remembering the past", **Stevens, J.R.** and Winke, T., Psychonomic Society Meeting, Minneapolis, USA.
@@ -451,9 +455,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2009]{.aside} 
 
@@ -694,6 +695,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Tyler Stading---"Naturally stressed: The effect of nature exposure on stress physiology and decision making", (honor's thesis in Psychology, University of Nebraska-Lincoln)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2020]{.aside}
 
  Hannah Eggert---"General and veterinary care of service dogs and how service dogs benefit their handlers", (honor's thesis in Veterinary Sciences, University of Nebraska-Lincoln)
@@ -828,10 +833,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Faculty for Summer Institute on Bounded Rationality in Psychology and Economics, Berlin, Germany
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2010]{.aside} 
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
@@ -880,6 +881,10 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
 Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2019]{.aside} 
 
  Co-organizer of Nebraska Symposium on Motivation on [Nature and Psychology: How the Natural World Shapes Our Cognition](https://psychology.unl.edu/symposium/recent-symposia/#sym2019), University of Nebraska-Lincoln
@@ -904,10 +909,6 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 [2022-2023]{.aside} 
 
  Participant in [Research Leaders Program](https://research.unl.edu/researchleaders/), University of Nebraska-Lincoln
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2022-]{.aside} 
 
