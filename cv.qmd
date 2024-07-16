@@ -378,6 +378,14 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "Impulsivity as a trait in domestic dogs: A systematic review and meta-analysis", Barela, J., Worth, Y., & **Stevens, J.R.**, Comparative Cognition Conference, Melbourne, FL (poster).
  
  "[ManyX Projects: Joining forces to address challenges in comparative research with big team science](https://jeffreyrstevens.quarto.pub/co3-2023/#/title-slide)", **Stevens, J.R.**, Comparative Cognition Conference, Melbourne, FL.
+ 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
+[2024]{.aside}
+ 
+"[Do dogs follow Weber's Law? The role of ratio and difference in quantity preference](https://jeffreyrstevens.quarto.pub/csc_2024/#/title-slide)", **Stevens, J.R.**, DeBoer, H., Fitzpatrick, H., Gatesy-Davis, A., & Wolf, L.M., Canine Science Conference, Seattle, WA.
 
 ### Tutorials
 
@@ -768,7 +776,7 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Organizer for Husker DogFest at University of Nebraska-Lincoln
 
-[2019-2023]{.aside} Guest speaker at Edgerton Explorit Dog Science Camp
+[2019-2023]{.aside} Invited speaker at Edgerton Explorit Dog Science Camp
 
  Invited speaker for Science Café by University of Nebraska State Museum: \"Pawsitive Psychology: Dog-Human Bonds\"
 
@@ -776,7 +784,7 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
 [2021]{.aside} 
  
- Guest speaker at Edgerton Explorit Veterinary Camp
+ Invited speaker at Edgerton Explorit Veterinary Camp
 
 [2021-2022]{.aside} 
  
@@ -789,6 +797,8 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 [2024]{.aside} 
 
  Organizer for "Animal Brains" station at BrainStorm event at Sunday with a Scientist at University of Nebraska State Museum
+ 
+ Invited speaker at [Girls Inc. of Lincoln](https://girlsincomaha.org/programs/girls-inc-of-lincoln/) summer camp
  
 
 ## Professional Service and Development
@@ -810,6 +820,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
  Organizer of the Biological Basis of Behavior Seminar, EEB 8360---Ecology, Evolution, and Behavior, University of Minnesota
 
  Co-author curriculum for Introduction to Animal Behavior Laboratory, EEB 3411---Ecology, Evolution, and Behavior, University of Minnesota
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2002]{.aside}
 
@@ -877,13 +891,13 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
  Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
 
-[2018-2021]{.aside}
-
-Department of Psychology Executive Committee, University of Nebraska-Lincoln
-
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
+
+[2018-2021]{.aside}
+
+Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
 [2019]{.aside} 
 

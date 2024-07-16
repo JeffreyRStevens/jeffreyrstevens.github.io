@@ -395,6 +395,7 @@ Schutte, A., Torquati, J., & **Stevens, J.R.** (2021). Introduction. In: A. Schu
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_etal_2020_obed_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stevens_etal_2020_obed_SM.pdf" title="SM" class="cv-pub-links">SM</a>
 <a href="data/stevens_etal_2020_obed_data.csv" title="Data" class="cv-pub-links">Data</a>
 <a href="data/stevens_etal_2020_obed_rcode.R" title="Code" class="cv-pub-links">Code</a>
 <a href="https://github.com/unl-cchil/dogobedience2021" title="GitHub" class="cv-pub-links">GitHub</a>
