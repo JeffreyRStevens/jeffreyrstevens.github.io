@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-04-29">
 <meta name="description" content="ManyDogs is an international consortium of canine science researchers.">
 
-<title>Jeffrey R. Stevens - ManyDogs: Big Team Canine Science</title>
+<title>ManyDogs: Big Team Canine Science – Jeffrey R. Stevens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ cookieconsent.run({
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -126,7 +126,7 @@ cookieconsent.run({
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
@@ -159,7 +159,7 @@ cookieconsent.run({
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -235,7 +235,7 @@ cookieconsent.run({
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/manydogs.jpg" class="img-fluid figure-img"></p>
+<p><img src="images/manydogs.jpg" class="img-fluid figure-img" alt="Lots of dogs standing or sitting on or near a ramp."></p>
 <figcaption>Source: <a href="https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/">Craig Chander, UNL University Communications</a></figcaption>
 </figure>
 </div>
@@ -246,7 +246,7 @@ cookieconsent.run({
 <p>ManyDogs kicked off at a <a href="https://comparativecognition.org/">Comparative Cognition Society Conference</a>, where a number of canine researchers got together to talk about joining forces to collect data together. CCHIL was invited to join in March 2020 (yes, that March 2020)—we readily agreed and haven’t looked back since. While starting off with just a handful of labs, we now boast more than 25 participating sites and are intent to keep growing!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/md_labs.png" class="img-fluid figure-img"></p>
+<p><img src="images/md_labs.png" class="img-fluid figure-img" alt="Map of the world with dots representing the locations of ManyDogs research sites."></p>
 <figcaption>Locations for ManyDogs sites as of 2023. Source: <a href="http://manydogs.org">ManyDogs Project</a></figcaption>
 </figure>
 </div>
@@ -288,7 +288,7 @@ cookieconsent.run({
 <p>Another unique question that ManyDogs can address that is hard to address for individual labs is the effect of culture on dog behavior and cognition. Dogs are treated differently across and within countries. How owners treat their dogs could have direct effects on their behavior. Therefore, dogs living in different cultures could behave differently. We can directly test potential cultural differences in dog behavior by comparing data across labs in different countries—a bonus benefit of the international reach of ManyDogs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/dogs_owners_gerrard_gethings.png" class="img-fluid figure-img"></p>
+<p><img src="images/dogs_owners_gerrard_gethings.png" class="img-fluid figure-img" alt="Four pairs of images of owners who look like their dogs."></p>
 <figcaption>Dogs and their owners. Source: <a href="https://www.instagram.com/gezgethings/">Gerrard Gethings</a>.</figcaption>
 </figure>
 </div>
@@ -355,18 +355,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -398,7 +387,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/jeffreyrstevens\.github\.io\/");
@@ -406,7 +417,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

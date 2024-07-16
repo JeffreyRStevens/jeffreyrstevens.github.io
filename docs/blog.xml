@@ -9,7 +9,7 @@
 <link>https://jeffreyrstevens.github.io/blog.html</link>
 <atom:link href="https://jeffreyrstevens.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Jeff Stevens&#39; blog</description>
-<generator>quarto-1.4.553</generator>
+<generator>quarto-1.5.53</generator>
 <lastBuildDate>Mon, 29 Apr 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>ManyDogs: Big Team Canine Science</title>
@@ -22,7 +22,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/manydogs.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/manydogs.jpg" class="img-fluid figure-img" alt="Lots of dogs standing or sitting on or near a ramp."></p>
 <figcaption>Source: <a href="https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/">Craig Chander, UNL University Communications</a></figcaption>
 </figure>
 </div>
@@ -33,7 +33,7 @@
 <p>ManyDogs kicked off at a <a href="https://comparativecognition.org/">Comparative Cognition Society Conference</a>, where a number of canine researchers got together to talk about joining forces to collect data together. CCHIL was invited to join in March 2020 (yes, that March 2020)—we readily agreed and haven’t looked back since. While starting off with just a handful of labs, we now boast more than 25 participating sites and are intent to keep growing!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/md_labs.png" class="img-fluid figure-img"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/md_labs.png" class="img-fluid figure-img" alt="Map of the world with dots representing the locations of ManyDogs research sites."></p>
 <figcaption>Locations for ManyDogs sites as of 2023. Source: <a href="http://manydogs.org">ManyDogs Project</a></figcaption>
 </figure>
 </div>
@@ -75,7 +75,7 @@
 <p>Another unique question that ManyDogs can address that is hard to address for individual labs is the effect of culture on dog behavior and cognition. Dogs are treated differently across and within countries. How owners treat their dogs could have direct effects on their behavior. Therefore, dogs living in different cultures could behave differently. We can directly test potential cultural differences in dog behavior by comparing data across labs in different countries—a bonus benefit of the international reach of ManyDogs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/dogs_owners_gerrard_gethings.png" class="img-fluid figure-img"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/dogs_owners_gerrard_gethings.png" class="img-fluid figure-img" alt="Four pairs of images of owners who look like their dogs."></p>
 <figcaption>Dogs and their owners. Source: <a href="https://www.instagram.com/gezgethings/">Gerrard Gethings</a>.</figcaption>
 </figure>
 </div>
@@ -125,7 +125,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/dog_patience1_samuel-pollard500.png" class="img-fluid figure-img"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/dog_patience1_samuel-pollard500.png" class="img-fluid figure-img" alt="Brown dogs laying down staring a treat nearby."></p>
 <figcaption>Source: <a href="https://unsplash.com/photos/brown-long-coated-small-dog-lying-on-white-textile-VENlJkaFbZ4">Samuel Pollard</a></figcaption>
 </figure>
 </div>
@@ -135,7 +135,7 @@
 <p><em>Impulsivity</em> is a concept that means a lot of things to different people. And it is particularly important in dogs. Being impulsive can mean that your dog is <strong><em>unable to stop themselves</em></strong> from doing something like chasing after a squirrel, barking at another dog walking by, rolling in the stinkiest junk they come across, or <a href="https://www.cnn.com/videos/entertainment/2024/03/21/bad-dog-in-pool-moos-cprog-orig-bdk.cnn">jumping into the pool any chance they get</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/dog_impulsivity.png" class="img-fluid figure-img"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/dog_impulsivity.png" class="img-fluid figure-img" alt="Top left: Golden retriever rolling around in brown grass. Top right: Brown dog with their face in a jar licking treats. Bottom left: Black dog lying on ground watching nearby black and white cat. Bottom right: Brown dog sniffing a white flower."></p>
 <figcaption>Dogs exhibit many different types of impulsivity. Sources: <a href="https://unsplash.com/photos/adult-gold-golden-retriever-lying-on-floor-t7wwffh6x8E">Michael Oxdine</a>, <a href="https://unsplash.com/photos/brown-and-black-long-coated-small-dog-AMRVK6UINy8">Tamas Pap</a>, <a href="https://unsplash.com/photos/black-short-coated-dog-lying-on-green-grass-beside-brown-wooden-fence-during-daytime-EfIBVgtRZm8">Guillaume de Germain</a>, <a href="https://unsplash.com/photos/brown-and-white-short-coated-dog-wearing-red-and-white-polka-dot-shirt-sitting-on-green-rJIvKdWIuTs">Joshua McLaughlin</a></figcaption>
 </figure>
 </div>
@@ -148,7 +148,7 @@
 <p>Impulsivity is important in dogs because we often want them to resist temptation, wait for things, and avoid risks. In fact, many dog training programs focus specifically on impulse control. Certainly, for pet dogs this is important because we want them to be able to nicely interact with other dogs at the dog park or be friendly to a small child who may not know how to appropriately pet a dog.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/impulsivity_importance.png" class="img-fluid figure-img"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/impulsivity_importance.png" class="img-fluid figure-img" alt="Top left: Three dogs playing in a dog park. Top right: Very small child nose-to-nose with a small puppy. Bottom left: Black detection dog with handler walking through crowd. Bottom right: Black and white dog next to a herd of goats."></p>
 <figcaption>Controlling impulsivity is important in may contexts for dogs. Sources: <a href="https://unsplash.com/photos/black-and-tan-german-shepherd-and-brown-and-black-german-shepherd-mix-dogs-on-brown-field-Z-lEcNOfWMI">Sofia Shultz</a>, <a href="https://unsplash.com/photos/toddler-boy-leaning-towards-a-puppy-ZvRbPin1szc">Mohamed Nohassi</a>, <a href="https://www.dhs.gov/science-and-technology/detection-canine">U.S. Department of Homeland Security</a>, <a href="https://unsplash.com/photos/herd-of-goat-and-black-and-white-dog-on-pature-2WS9JzdsA-Y">William Milliot</a></figcaption>
 </figure>
 </div>
@@ -169,14 +169,14 @@
 <p>Across the 31 impulsivity task pairs, there was a relationship between tasks in only <strong>three</strong> of them. One of those relationships was between two very similar tasks (though another study did not find a relationship between the same tasks, and it had a larger sample size).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/systmatic_review_tasks.png" class="img-fluid figure-img" width="500"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/systmatic_review_tasks.png" class="img-fluid figure-img" alt="Matrix of tasks with green and red squares in different matrix cells." width="500"></p>
 <figcaption>Matrix of observed relationships between different behavioral tasks. Cells are divided into numbers of studies that measured both tasks in the same dogs. Green represents studies that showed relationships, and red represents studies finding no relationship.</figcaption>
 </figure>
 </div>
 <p>Across the 15 task/owner perception pairs, there was a relationship in <strong>five</strong> of them. However, in all tasks that showed a relationship with owner perception, there were other studies that did not show a relationship.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/systematic_review_dias.png" class="img-fluid figure-img" width="500"></p>
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/systematic_review_dias.png" class="img-fluid figure-img" alt="Columns of tasks with owner perception as the row and green and red squares in different cells." width="500"></p>
 <figcaption>Matrix of observed relationships between behavioral tasks and owner perceptions of dog impulsivity. Cells are divided into numbers of studies that measured tasks and owner perceptions in the same dogs. Green represents studies that showed relationships, and red represents studies finding no relationship.</figcaption>
 </figure>
 </div>
