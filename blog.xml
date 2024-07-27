@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Jeffrey R. Stevens</title>
+<link>https://jeffreyrstevens.github.io/blog.html</link>
+<atom:link href="https://jeffreyrstevens.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Jeff Stevens&#39; blog</description>
+<generator>quarto-1.5.53</generator>
+<lastBuildDate>Mon, 29 Apr 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>ManyDogs: Big Team Canine Science</title>
+  <dc:creator>Jeffrey Stevens</dc:creator>
+  <link>https://jeffreyrstevens.github.io/posts/manydogs/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/manydogs.jpg" class="img-fluid figure-img" alt="Lots of dogs standing or sitting on or near a ramp."></p>
+<figcaption>Source: <a href="https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/">Craig Chander, UNL University Communications</a></figcaption>
+</figure>
+</div>
+<p>CCHIL is elated to be part of a very exciting initiative called the <a href="http://manydogs.org">ManyDogs Project</a> that brings together dog behavior and cognition labs worldwide together to study canine science. We have a <a href="https://doi.org/10.3819/CCBR.2023.180004">paper</a> published in <em>Comparative Cognition and Behavior Reviews</em> that introduces this initiative, but here we give a quick summary.</p>
+<section id="what-is-the-manydogs-project" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-manydogs-project">What is the ManyDogs Project?</h2>
+<p>ManyDogs is a collaboration between dog behavior and cognition labs worldwide interested in running the same studies across sites. It’s an example of <em>big team science</em>, or “collaborations wherein a comparatively large number of researchers pool their intellectual and/or material resources to pursue a common goal”<sup>1</sup>. There are similar groups that study <a href="https://manybabies.org/">babies</a>, <a href="https://manyprimates.github.io/">primates</a>, <a href="https://themanybirds.com/">birds</a>, <a href="https://www.themanygoatsproject.com/">goats</a>, and <a href="https://themanyfishes.github.io/">fish</a>.</p>
+<p>ManyDogs kicked off at a <a href="https://comparativecognition.org/">Comparative Cognition Society Conference</a>, where a number of canine researchers got together to talk about joining forces to collect data together. CCHIL was invited to join in March 2020 (yes, that March 2020)—we readily agreed and haven’t looked back since. While starting off with just a handful of labs, we now boast more than 25 participating sites and are intent to keep growing!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/md_labs.png" class="img-fluid figure-img" alt="Map of the world with dots representing the locations of ManyDogs research sites."></p>
+<figcaption>Locations for ManyDogs sites as of 2023. Source: <a href="http://manydogs.org">ManyDogs Project</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="what-do-we-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-do-we-do">What do we do?</h2>
+<p>Our first order of business was to recruit research sites into our collaboration. This allowed us to build a core group of researchers interested in leading ManyDogs as an organization and growing the research sites to include labs from all over the world. The ManyDogs <a href="https://manydogsproject.github.io/leadership.html">leadership team</a> works to build our community, maintain our data management infrastructure, and monitor the selection of research projects.</p>
+<p>Which leads us to the key function of ManyDogs, which is to organize and support research projects. This involves selecting projects, developing methods, organizing data collection across research sites, analyzing data across sites, publishing scientific papers, and archiving materials and data from projects.</p>
+<p>Our first project (<a href="https://manydogsproject.github.io/manydogs1.html">ManyDogs 1</a>) was completed and published in 2023. It focused on how dogs follow human point gestures<sup>2</sup>. We have survey data from over 700 dogs and behavioral data from over 450 dogs. I’d say that was a success!</p>
+</section>
+<section id="why-is-it-important" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-it-important">Why is it important?</h2>
+<p>Many areas of behavioral science are facing a reckoning about how we do research. As scientists, we want our work to be high quality in a number of ways:</p>
+<ul>
+<li>rigor—using strong methods that test what we want to test</li>
+<li>reproducibility—ensuring that our methods and analyses can be reproduced by other scientists</li>
+<li>replicability—ensuring that our findings can be replicated by other scientists</li>
+<li>robustness—ensuring that our findings are generalizable across a wide range of contexts</li>
+</ul>
+<section id="rigor" class="level3">
+<h3 class="anchored" data-anchor-id="rigor">Rigor</h3>
+<p>If you talk with ten scientists, you’ll hear ten different opinions on how to run a study. ManyDog’s big team science approach takes advantage of this by having many scientists come together to develop research designs and methods. Using the collective wisdom of lots of smart people helps ensure the rigor of the methods used in the studies.</p>
+</section>
+<section id="reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="reproducibility">Reproducibility</h3>
+<p>For far too long, the descriptions of methods in scientific papers were too sparse, and important information such as the experimental materials, data, and analysis records were not published along with the scientific article. The <em>open science</em> movement has changed that by encouraging researchers to write thorough methods descriptions and post experimental materials, data, and analysis records with scientific publication or on separate (but linked) repositories such as the <a href="https://osf.io">Open Science Framework</a>. At ManyDogs, we embrace open science and try to ensure that our work is as reproducible as possible, so other scientists can take our materials and data and check our work…or expand on it.</p>
+</section>
+<section id="replicability" class="level3">
+<h3 class="anchored" data-anchor-id="replicability">Replicability</h3>
+<p>To achieve replicable science, one of the best things that we can do is use large sample sizes to include all of the variability that we see in subjects. A small sample size can result in an unrepresentative sample that biases findings. Behavioral testing in dogs is time consuming, and typical sample sizes for behavioral studies often range from 20-50 dogs. Combining forces across labs allows us to test many more dogs than individual labs can. Collecting data on hundreds of dogs increases the chances that our findings are consistent and replicable.</p>
+</section>
+<section id="robustness" class="level3">
+<h3 class="anchored" data-anchor-id="robustness">Robustness</h3>
+<p>Collecting data in one lab from one population may not carry over into other locations and populations. Different labs have different procedures for how they do things. And sometimes those procedures might have unintended effects on findings. For instance, the gender of the experimenter can effect behavior and stress responses in rodent studies<sup>3</sup>, so a different gender composition across labs could influence results. One way to increase robustness of findings across labs and populations is to include lots of labs and populations all in the same study! That’s built into the big team science approach of collecting data across many research sites. So hopefully our findings are robust to population differences.</p>
+</section>
+<section id="unique-research-questions" class="level3">
+<h3 class="anchored" data-anchor-id="unique-research-questions">Unique research questions</h3>
+<p>In addition to the many methodological benefits of big team science, there is one super important advantage to ManyDogs—we can ask unique research questions that we simply cannot address easily in individual labs. Any time we talk about dog behavior, the first question people ask is “Are there breed difference?”. This question is extremely difficult for a single lab to answer (at least for behavioral questions) because there are hundreds of breeds and most sample sizes are in the low dozens. So there’s often no way to directly address breed differences in single lab studies of behavior. But with ManyDogs, we have hundreds of dogs and can start to explore some questions about breed differences (though really thousands of dogs may be needed to get at breed effects well).</p>
+<p>Another unique question that ManyDogs can address that is hard to address for individual labs is the effect of culture on dog behavior and cognition. Dogs are treated differently across and within countries. How owners treat their dogs could have direct effects on their behavior. Therefore, dogs living in different cultures could behave differently. We can directly test potential cultural differences in dog behavior by comparing data across labs in different countries—a bonus benefit of the international reach of ManyDogs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/manydogs/images/dogs_owners_gerrard_gethings.png" class="img-fluid figure-img" alt="Four pairs of images of owners who look like their dogs."></p>
+<figcaption>Dogs and their owners. Source: <a href="https://www.instagram.com/gezgethings/">Gerrard Gethings</a>.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next?</h2>
+<p>Since ManyDogs 1 is complete, we have moved on to ManyDogs 2, which will focus on overimitation<sup>4</sup>. ManyDogs 2 is currently in the methods development phase with data collection probably starting in 2025.</p>
+<p>Another project that we’re super excited about is a <strong>big</strong>-big team science project. We mentioned before that there are other projects similar to ManyDogs that focus on <a href="https://manybabies.org/">babies</a>, <a href="https://manyprimates.github.io/">primates</a>, <a href="https://themanybirds.com/">birds</a>, <a href="https://www.themanygoatsproject.com/">goats</a>, and <a href="https://themanyfishes.github.io/">fish</a>. Well, all of the groups (and more) have joined together in a <a href="https://manymanys.github.io/">ManyManys</a> project that will collaborate across all of the labs in all of these projects. We will be testing dozens of species! ManyManys 1 will focus on reversal learning<sup>5</sup> and is in the methods development phase.</p>
+<p>ManyDogs and the other big team science projects are not meant to replace studies in individual labs. But they can offer unique opportunities to answer important questions with large sample sizes. For ManyDogs, this includes questions about dog behavior at a scale that is simply not feasible for most individual labs. We’re excited about the future of ManyDogs and canine behavioral science!</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>ManyDogs Project, Alberghina, D., Bray, E., Buchsbaum, D., Byosiere, S.-E., Espinosa, J., Gnanadesikan, G., Guran, C.-N.A., Hare, E., Horschler, D., Huber, L., Kuhlmeier, V.A., MacLean, E., Pelgrim, M.H., Perez, B., Ravid-Schurr, D., Rothkoff, L., Sexton, C., Silver, Z., &amp; Stevens, J.R. (2023). ManyDogs Project: <a href="https://doi.org/10.3819/CCBR.2023.180004">A big team science approach to investigating canine behavior and cognition</a>. <em>Comparative Cognition and Behavior Reviews</em>, 18, 59-77.</p>
+<p>News article: <a href="https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/">To the dogs: Stevens co-directing global consortium on canine research</a> by Scott Schrage, UNL University Communications.</p>
+<p><em>Updated 2024-05-14 to include alt text for images.</em></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Baumgartner, H. A., Alessandroni, N., Byers-Heinlein, K., Frank, M. C., Hamlin, J. K., Soderstrom, M., Voelkel, J. G., Willer, R., Yuen, F., &amp; Coles, N. A. (2023). <a href="https://doi.org/10.1098/rsos.230235">How to build up big team science: A practical guide for large-scale collaborations</a>. <em>Royal Society Open Science</em>, 10(6), 230235.↩︎</p></li>
+<li id="fn2"><p>ManyDogs Project, Espinosa, J., Stevens, J.R., Alberghina, D., Alway, H.E.E., Barela, J.D., Bogese, M., Bray, E.E., Buchsbaum, D. Byosiere, S.-E., Byrne, M., Cavalli, C. M., Chaudoir, L. M., Collins-Pisano, C., DeBoer, H.J., Douglas L.E.L.C., Dror, S., Dzik, M.V., Ferguson, B., Fisher, L., Fitzpatrick, H.C., Freeman, M.S., Frinton, S.N., Glover, M.K., Gnanadesikan, G.E., Goacher, J.E.P., Golańska, M., Guran, C.-N.A., Hare, E., Hare, B. Hickey, M., Horschler, D.J., Huber, L., Jim, H.-L., Johnston, A.M., Kaminski, J. Kelly, D.M., Kuhlmeier, V.A., Lassiter, L., Lazarowski, L., Leighton-Birch, J., MacLean, E.L., Maliszewska, K., Marra, V., Montgomery, L.I., Murray, M.S., Nelson, E.K., Ostojić, L., Palermo, S.G., Parks Russell, A.E., Pelgrim, M.H., Pellowe, S.D., Reinholz, A., Rial, L.A., Richards, E.M., Ross, M.A., Rothkoff, L.G., Salomons, H., Sanger, J.K., Santos, L., Shirle, A.R., Shearer, S.J., Silver, Z.A., Silverman, J.M., Sommese, A., Srdoc, T., St.&nbsp;John-Mosse, H., Vega, A.C., Vékony, K., Völter, C.J., Walsh C.J., Worth, Y.A., Zipperling, L.M.I., Żołędziewska, B., &amp; Zylberfuden, S.G. (2023). <a href="https://doi.org/10.26451/abc.10.03.03.2023">ManyDogs 1: A multi-lab replication study of dogs’ pointing comprehension</a>. <em>Animal Behavior &amp; Cognition</em>, 10(3), 232-28.↩︎</p></li>
+<li id="fn3"><p>Georgiou, P., Zanos, P., Mou, T.-C. M., An, X., Gerhard, D. M., Dryanovski, D. I., Potter, L. E., Highland, J. N., Jenne, C. E., Stewart, B. W., Pultorak, K. J., Yuan, P., Powels, C. F., Lovett, J., Pereira, E. F. R., Clark, S. M., Tonelli, L. H., Moaddel, R., Zarate, C. A., … Gould, T. D. (2022). <a href="https://doi.org/10.1038/s41593-022-01146-x">Experimenters’ sex modulates mouse behaviors and neural responses to ketamine via corticotropin releasing factor</a>. <em>Nature Neuroscience</em>, 25(9), 1191–1200.↩︎</p></li>
+<li id="fn4"><p>Overimitation is the persistent imitation of unnecessary actions. Lyons, D. E., Young, A. G., &amp; Keil, F. C. (2007). <a href="https://doi.org/10.1073/pnas.0704452104">The hidden structure of overimitation</a>. <em>Proceedings of the National Academy of Sciences</em>, 104(50), 19751–19756.↩︎</p></li>
+<li id="fn5"><p>Reversal learning involves training animals on one association (e.g., pressing red button yields reinforcer but pressing green does not). After the animals acquire this association by reliably choosing the reinforced option, the contingencies switch (e.g., now green is reinforced but red isn’t). The question is how long does it take to learn the newly reversed contingency. Researchers may continue to reverse the learning contingencies to see if the animals catch on. Thus, reversal learning is a measure of behavioral flexibility. Yaple, Z. A., &amp; Yu, R. (2019). <a href="https://doi.org/10.1016/j.neubiorev.2019.04.006">Fractionating adaptive learning: A meta-analysis of the reversal learning paradigm</a>. <em>Neuroscience &amp; Biobehavioral Reviews</em>, 102, 85–94.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>dogs</category>
+  <category>big team science</category>
+  <category>canine cognition</category>
+  <category>open science</category>
+  <guid>https://jeffreyrstevens.github.io/posts/manydogs/</guid>
+  <pubDate>Mon, 29 Apr 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Impulsivity as a behavioral trait in dogs</title>
+  <dc:creator>Jeffrey Stevens</dc:creator>
+  <link>https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/dog_patience1_samuel-pollard500.png" class="img-fluid figure-img" alt="Brown dogs laying down staring a treat nearby."></p>
+<figcaption>Source: <a href="https://unsplash.com/photos/brown-long-coated-small-dog-lying-on-white-textile-VENlJkaFbZ4">Samuel Pollard</a></figcaption>
+</figure>
+</div>
+<p>We recently had a <a href="https://doi.org/10.1037/com0000352">paper</a> published in <em>Journal of Comparative Psychology</em> that was a systematic review and meta-analysis on whether impulsivity is a behavioral trait in dogs. This work was conducted with Jessica Barela and Yasmine Worth and was selected as an <a href="https://www.apa.org/news/editors-choice">APA Editor’s Choice</a> article.</p>
+<section id="what-is-impulsivity" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-impulsivity">What is impulsivity?</h2>
+<p><em>Impulsivity</em> is a concept that means a lot of things to different people. And it is particularly important in dogs. Being impulsive can mean that your dog is <strong><em>unable to stop themselves</em></strong> from doing something like chasing after a squirrel, barking at another dog walking by, rolling in the stinkiest junk they come across, or <a href="https://www.cnn.com/videos/entertainment/2024/03/21/bad-dog-in-pool-moos-cprog-orig-bdk.cnn">jumping into the pool any chance they get</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/dog_impulsivity.png" class="img-fluid figure-img" alt="Top left: Golden retriever rolling around in brown grass. Top right: Brown dog with their face in a jar licking treats. Bottom left: Black dog lying on ground watching nearby black and white cat. Bottom right: Brown dog sniffing a white flower."></p>
+<figcaption>Dogs exhibit many different types of impulsivity. Sources: <a href="https://unsplash.com/photos/adult-gold-golden-retriever-lying-on-floor-t7wwffh6x8E">Michael Oxdine</a>, <a href="https://unsplash.com/photos/brown-and-black-long-coated-small-dog-AMRVK6UINy8">Tamas Pap</a>, <a href="https://unsplash.com/photos/black-short-coated-dog-lying-on-green-grass-beside-brown-wooden-fence-during-daytime-EfIBVgtRZm8">Guillaume de Germain</a>, <a href="https://unsplash.com/photos/brown-and-white-short-coated-dog-wearing-red-and-white-polka-dot-shirt-sitting-on-green-rJIvKdWIuTs">Joshua McLaughlin</a></figcaption>
+</figure>
+</div>
+<p>Being impulsive can also mean that your dog <strong><em>cannot wait for things</em></strong>. Does your dog start eating while you’re still pouring food into their bowl? Do they run into the door as you’re opening it to let them outside? Would they eat an entire bag of dog food if it were available?</p>
+<p>Being impulsive can mean that your dog <strong><em>takes risks</em></strong>. A dog that comes home with a nose full of porcupine quills or claw marks raked across their nose from a close encounter with a neighborhood cat is showing impulsivity.</p>
+<p>Finally, being impulsive can mean that your dog is <strong><em>easily distracted</em></strong>. Rather than focusing attention on one thing, some dogs may lose their focus from one thing in their environment when something new appears. The classic joke of dogs stopping what they are doing the instant a squirrel is detected personifies this idea. Or maybe while they are supposed to be retrieving a ball, they stop and smell the flowers.</p>
+</section>
+<section id="why-is-it-important" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-it-important">Why is it important?</h2>
+<p>Impulsivity is important in dogs because we often want them to resist temptation, wait for things, and avoid risks. In fact, many dog training programs focus specifically on impulse control. Certainly, for pet dogs this is important because we want them to be able to nicely interact with other dogs at the dog park or be friendly to a small child who may not know how to appropriately pet a dog.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/impulsivity_importance.png" class="img-fluid figure-img" alt="Top left: Three dogs playing in a dog park. Top right: Very small child nose-to-nose with a small puppy. Bottom left: Black detection dog with handler walking through crowd. Bottom right: Black and white dog next to a herd of goats."></p>
+<figcaption>Controlling impulsivity is important in may contexts for dogs. Sources: <a href="https://unsplash.com/photos/black-and-tan-german-shepherd-and-brown-and-black-german-shepherd-mix-dogs-on-brown-field-Z-lEcNOfWMI">Sofia Shultz</a>, <a href="https://unsplash.com/photos/toddler-boy-leaning-towards-a-puppy-ZvRbPin1szc">Mohamed Nohassi</a>, <a href="https://www.dhs.gov/science-and-technology/detection-canine">U.S. Department of Homeland Security</a>, <a href="https://unsplash.com/photos/herd-of-goat-and-black-and-white-dog-on-pature-2WS9JzdsA-Y">William Milliot</a></figcaption>
+</figure>
+</div>
+<p>Controlling impulsivity is critical in working dogs, too. Detection dogs have a job to do and can’t be distracted by people walking by, potentially with yummy food to snatch. Likewise, herding dogs must focus on their task and avoid other distractions but also inhibit their strong prey drive to focus on herding and not capturing.</p>
+<p>In short, impulsivity is often a problem behavior in dogs. Though there can be times when impulsivity is good, we often want dogs to have <em>self-control</em>.</p>
+</section>
+<section id="what-did-we-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-did-we-do">What did we do?</h2>
+<p>Since it is so important in dogs, we were interested in whether impulsivity is a <em>behavioral trait</em>. That is, we wondered if dogs are consistently impulsive in different ways. Is a dog that can’t resist the temptation to roll in something also likely to take risks around bigger critters or dig through the trash? If impulsivity is a trait, then we should be able to screen for it and predict behavior in new contexts. Or develop training techniques that, when they work in one situation, should also apply to other situations.</p>
+<p>To investigate this question, we didn’t run our own study. Instead, we scoured the scientific literature to find other studies that looked into this question. Then we combined all of these studies and ran some statistics to see if there was evidence across studies for impulsivity as a behavioral trait. We searched several databases and found almost 10,000 articles that mentioned dogs and impulsivity. We winnowed that down to 13 articles that actually collected data on different impulsivity tasks<sup>1</sup> in the same dogs or a measure of the owner’s perceptions of their dog’s impulsivity<sup>2</sup>. That gave us 31 pairs of impulsivity tasks and 15 pairs of owner perception ratings and impulsivity tasks. This allowed us to answer two questions:</p>
+<ol type="1">
+<li>Are dogs’ impulsivity levels related across tasks?</li>
+<li>Are dogs’ impulsivity levels in tasks related to owner perceptions of their impulsivity?</li>
+</ol>
+</section>
+<section id="what-did-we-find" class="level2">
+<h2 class="anchored" data-anchor-id="what-did-we-find">What did we find?</h2>
+<p>Across the 31 impulsivity task pairs, there was a relationship between tasks in only <strong>three</strong> of them. One of those relationships was between two very similar tasks (though another study did not find a relationship between the same tasks, and it had a larger sample size).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/systmatic_review_tasks.png" class="img-fluid figure-img" alt="Matrix of tasks with green and red squares in different matrix cells." width="500"></p>
+<figcaption>Matrix of observed relationships between different behavioral tasks. Cells are divided into numbers of studies that measured both tasks in the same dogs. Green represents studies that showed relationships, and red represents studies finding no relationship.</figcaption>
+</figure>
+</div>
+<p>Across the 15 task/owner perception pairs, there was a relationship in <strong>five</strong> of them. However, in all tasks that showed a relationship with owner perception, there were other studies that did not show a relationship.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/images/systematic_review_dias.png" class="img-fluid figure-img" alt="Columns of tasks with owner perception as the row and green and red squares in different cells." width="500"></p>
+<figcaption>Matrix of observed relationships between behavioral tasks and owner perceptions of dog impulsivity. Cells are divided into numbers of studies that measured tasks and owner perceptions in the same dogs. Green represents studies that showed relationships, and red represents studies finding no relationship.</figcaption>
+</figure>
+</div>
+<p>Finally, we conducted a meta-analysis on one pair of tasks (Tasks 1B &amp; 4) that had seven studies attempt to look for a relationship. Meta-analyses combined the effects in all of the studies to see if there is an overall effect. In each individual study, there was no relationship in performance between these tasks, and so there was no overall relationship either.</p>
+</section>
+<section id="what-does-this-mean" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-this-mean">What does this mean?</h2>
+<p>Let’s go back to our original research questions.</p>
+<ol type="1">
+<li>Are dogs’ impulsivity levels related across tasks?</li>
+</ol>
+<ul>
+<li>There is not good evidence for relationships in performance across different tasks—even for relatively similar tasks.</li>
+</ul>
+<ol start="2" type="1">
+<li>Are dogs’ impulsivity levels in tasks related to owner perceptions of their impulsivity?</li>
+</ol>
+<ul>
+<li>There is more evidence for this, but it is still not very strong. Owner perception of dog impulsivity matched behavior in some tasks, but even in those cases there are contradictory findings in other studies</li>
+</ul>
+<p>So in general, <strong>we don’t have a lot of strong evidence that impulsivity is a behavioral trait in dogs</strong>. But this may not be too problematic because we can see similar issues with impulsivity in humans. Instead of impulsivity being an overall trait, it makes sense that there may be multiple types of impulsivity (like defined in the first section). So we might not expect too many relationships across different categories of impulsivity. However, that does not explain why we don’t see stronger relationships between tasks in the same categories. Answering this question is going to require more studies or much larger studies.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Barela, J., Worth, Y., &amp; Stevens, J.R. (2024). <a href="https://doi.org/10.1037/com0000352">Impulsivity as a trait in domestic dogs (<em>Canis familiaris</em>): A systematic review and meta-analysis</a>. <em>Journal of Comparative Psychology</em>, 138(1), 20–31. <a href="https://doi.org/10.31234/osf.io/ctfns">View freely available preprint</a></p>
+<p><em>Updated 2024-04-12 to include links to photo sources where available.</em></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>We don’t go into the actual tasks here, but they involved inhibiting the drive to move straight at visible treats when you need to go around them or waiting for delayed treats or other measures of impulsivity.↩︎</p></li>
+<li id="fn2"><p>This survey is called the Dog Impulsivity Assessment Scale (DIAS), and it measures their ability to regulate behavior, their aggression, and how they respond to things in their environment. Wright, H. F., Mills, D. S., &amp; Pollux, P. M. J. (2011). <a href="https://doi.org/10.46867/ijcp.2011.24.02.03">Development and validation of a psychometric tool for assessing impulsivity in the domestic dog (<em>Canis familiaris</em>)</a>. <em>International Journal of Comparative Psychology</em>, 24(2), 210–225.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>dogs</category>
+  <category>impulsivity</category>
+  <category>meta-analysis</category>
+  <guid>https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/</guid>
+  <pubDate>Mon, 08 Apr 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Working with Qualtrics Data - Part 2: Excluding Data</title>
+  <dc:creator>Jeffrey Stevens</dc:creator>
+  <link>https://jeffreyrstevens.github.io/posts/ropensci_excluder/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>Note: Cross-posted with <a href="https://ropensci.org/blog/2022/08/09/working-with-qualtrics-data-excluding/">rOpenSci blog</a>.</em></p>
+<p>In the <a href="../../blog/2022/08/02/working-with-qualtrics-data-importing/">last post</a>, we used the <a href="https://docs.ropensci.org/qualtRics/">qualtRics</a><sup>1</sup> package to import survey data directly from <a href="https://www.qualtrics.com/">Qualtrics</a> accounts. I often use Qualtrics for survey data collected via <a href="https://www.mturk.com/">Amazon’s Mechanical Turk</a>, which is an automated system that connects online respondents to paid surveys. However, sometimes those data are not super useful because the quality of the data is poor. In the anonymous, large-scale market of online survey respondents, the financial incentives for completing surveys attract respondents who blast through the study just to collect the money or, worse, automated bots programmed to act like humans and reap the incentives. 🤖 As a scientist, I’m collecting survey data to understand human nature, so I’m looking for honest responses. But low-quality data can be common in online surveys, and not just on Mechanical Turk<sup>2</sup>.</p>
+<p>There are some cues that data may come from bots, such as entries originating from outside of your specified country or multiple entries coming from the same IP address. Cues of inattentive human participants include not completing the survey, completing it very quickly or slowly, or ignoring your requests to use specific types of devices (e.g., desktop computers not phones or tablets). I call these kinds of cues <em>metadata</em> because they are not direct responses from the respondents but are information about <em>how</em> the respondent took the survey. After repeatedly creating filters to deal with these problematic metadata, I formalized them into my first R package called <a href="https://docs.ropensci.org/excluder/">excluder</a><sup>3</sup>.</p>
+<p>In Part 2 of this series, we’ll use excluder to remove potentially problematic metadata. First, we’ll learn how to set up your Qualtrics survey to collect the relevant information. Then we’ll learn how to mark, check, and exclude observations based on the metadata. Finally, we’ll clean up our data sets by deidentifying them.</p>
+<section id="before-collecting-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="before-collecting-your-data">Before collecting your data</h2>
+<p>As a reminder, excluder focuses on <em>metadata</em> about an entry rather than the actual responses. If you have particular questions from your specific survey that you want to use to exclude data (for example, questions specifically designed to check the attentiveness of respondents), you should use regular subset/filter functions from <a href="https://rdrr.io/r/base/subset.html">base R</a> or <a href="https://dplyr.tidyverse.org/reference/filter.html">dplyr</a>. Here, we’re focusing on metadata collected about your survey respondents.</p>
+<p>But to use this metadata, you must first collect it! Though the excluder package can work with metadata from other survey systems (e.g., SurveyMonkey), we’ll focus on data coming from Qualtrics surveys. There are two options in Qualtrics that allow you to collect the metadata that excluder can work with.</p>
+<section id="anonymous-vs.-non-anonymous-data" class="level3">
+<h3 class="anchored" data-anchor-id="anonymous-vs.-non-anonymous-data">Anonymous vs.&nbsp;non-anonymous data</h3>
+<p>First, Qualtrics can collect either anonymous or non-anonymous data. Non-anonymous data include IP address, geolocation, and contact information provided by you (if you have Qualtrics email your respondents). To collect non-anonymous data, you must toggle the switch <em>Off</em> under <em>Survey</em> &gt; <em>Options</em> &gt; <em>Security</em> &gt; <a href="https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses"><em>Anonymize responses</em></a>. If you collect non-anonymous data, just make sure that respondents know that you’re collecting their IP address and location<sup>4</sup>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_excluder/qualtrics_anonymize.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A screenshot of Qualtrics Survey > Options > Security tab." width="600"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens</p>
+</section>
+<section id="computer-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="computer-metadata">Computer metadata</h3>
+<p>In addition to IP address and location, Qualtrics can also collect information about the computer environment that respondents use to take your survey, such as operating system, browser type and version, and screen resolution. To collect the <a href="https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/meta-info-question/">computer metadata</a>, you must create a question in your survey in a block that already has another question. Click <em>Add a new question</em> and select the <em>Meta info</em> question type.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_excluder/qualtrics_metadata.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A screenshot of adding a Meta info question to a Qualtrics survey." width="600"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens</p>
+</section>
+</section>
+<section id="removing-problematic-data" class="level2">
+<h2 class="anchored" data-anchor-id="removing-problematic-data">Removing problematic data</h2>
+<p>Now that we’ve collected the proper metadata, we can use it to deal with potentially problematic data.</p>
+<section id="metadata" class="level3">
+<h3 class="anchored" data-anchor-id="metadata">Metadata</h3>
+<p>Here are seven types of metadata that excluder works with, along with their tags that are used in excluder functions.</p>
+<ul>
+<li><strong>Qualtrics preview status</strong> (<code>preview</code>): Qualtrics records data when you <a href="https://www.qualtrics.com/support/survey-platform/survey-module/preview-survey/">preview your survey</a> before deploying it. You probably always want to remove preview data.</li>
+<li><strong>Survey progress</strong> (<code>progress</code>): Qualtrics tracks how much of the survey the respondent completes. excluder can detect surveys which are incomplete.</li>
+<li><strong>Survey completion time</strong> (<code>duration</code>): Qualtrics records the number of seconds that the respondent works on the survey. excluder can detect completion times that are too fast or that take too long.</li>
+<li><strong>IP address country</strong> (<code>ip</code>)<sup>*</sup>: If IP addresses are collected, they can determine the country of origin for the respondent. excluder can detect IP addresses outside of a specified country. Note, however, that VPNs can use IP addresses outside of the country of origin, so you must weigh the possibility of false alarms in detecting IP addresses from other countries.</li>
+<li><strong>Geolocation in US</strong> (<code>location</code>)<sup>*</sup>: Qualtrics determines geolocation (latitude and longitude) through GPS or IP addresses. excluder can detect locations within the United States but cannot detect this for other countries at the moment.</li>
+<li><strong>Duplicate IP address</strong> (<code>duplicates</code>)<sup>*</sup>: Automated bots may spam your survey from the same IP address. excluder detects if the same IP address shows up repeatedly in your data. Note, however, that duplicate IP addresses may be legitimately different respondents using the same computer or recycled dynamic IP address in the same household, dormitory, or business. So you must weigh the costs of losing good data against the benefits of removing bad data.</li>
+<li><strong>Screen resolution</strong> (<code>resolution</code>)<sup>**</sup>: Sometimes, you may request that respondents use a particular kind of device for your survey, such as a desktop computer rather than a phone or tablet. excluder can assess screen resolution to detect respondents who may be using the wrong type of device.</li>
+</ul>
+<p><sup>*</sup> You must have enabled <a href="https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses">non-anonymized data</a> in Qualtrics to collect these metadata.</p>
+<p><sup>**</sup> You must have included the <a href="https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/meta-info-question/">computer metadata question</a> in Qualtrics to collect these metadata.</p>
+</section>
+<section id="marking-rows" class="level3">
+<h3 class="anchored" data-anchor-id="marking-rows">Marking rows</h3>
+<p>OK, now that we know what kind of metadata we can work with, what do we do with them? The excluder package can do three actions on the metadata: mark, check, or exclude. The mark functions are the backbone of the package. Mark functions make new columns with the metadata criteria output appended to the existing data frame. So you pass a data frame to the mark functions to see which rows meet the metadata criteria. Mark function names simple prepend <code>mark_</code> to the metadata tag. So, for example, the function that marks preview metadata (<code>preview</code>) is <code>mark_preview()</code>.</p>
+<p>Before we start marking, let’s look at an example data set that we can work with. The <code>qualtrics_text</code> data set includes both non-anonymous and computer metadata. We’ll just look at the first six rows by piping to <code>head()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(excluder)</span>
+<span id="cb1-2">qualtrics_text <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status    IPAddress Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview         &lt;NA&gt;      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address   73.23.43.0      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address 16.140.105.0      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address 107.57.244.0      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address 15.232.167.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         29.73694         -94.97599           EN  Chrome 88.0.4324.41
+2         39.74107        -121.82490           EN  Chrome 88.0.4324.50
+3         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+4         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+5         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+6         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2        Macintosh  1680x1050
+3  Windows NT 10.0   1366x768
+4  Windows NT 10.0   1536x864
+5  Windows NT 10.0   1536x864
+6  Windows NT 10.0   1366x768</code></pre>
+</div>
+</div>
+<p>By looking at the <code>Status</code> column, we can already see that the first two rows are previews. Let’s see what <code>mark_preview()</code> does by applying it to the <code>qualtrics_text</code> data.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mark_preview</span>(qualtrics_text) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb3-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status    IPAddress Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview         &lt;NA&gt;      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address   73.23.43.0      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address 16.140.105.0      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address 107.57.244.0      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address 15.232.167.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         29.73694         -94.97599           EN  Chrome 88.0.4324.41
+2         39.74107        -121.82490           EN  Chrome 88.0.4324.50
+3         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+4         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+5         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+6         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+  Operating System Resolution exclusion_preview
+1  Windows NT 10.0   1366x768           preview
+2        Macintosh  1680x1050           preview
+3  Windows NT 10.0   1366x768                  
+4  Windows NT 10.0   1536x864                  
+5  Windows NT 10.0   1536x864                  
+6  Windows NT 10.0   1366x768                  </code></pre>
+</div>
+</div>
+<p>There are two important outputs. First, we have an informational message telling us that <em>2 rows were collected as previews</em>. Each mark function will output this kind of message letting us know how many rows meet each metadata criterion. Second, we now have a new column called <code>exclusion_preview</code> appended to the data frame. Notice that the first two rows of that column have <code>preview</code> values while the rest of the rows are blank. We have now marked which rows meet this metadata criterion. ☑️</p>
+<p>Of course, you may want to mark your data for multiple metadata criteria. To do this, you simply have to connect multiple mark functions with a pipe (either <a href="https://rdrr.io/r/base/pipeOp.html">base R’s <code>|&gt;</code></a> or <a href="https://magrittr.tidyverse.org/reference/pipe.html">magrittr’s %&gt;%</a>). So if we want to mark preview data and all rows where the completion duration is less than 200 seconds or more than 600 seconds, we just chain these together. In fact, we can also pull the data frame out of functions as well. Note that for clarity, I use the <a href="https://dplyr.tidyverse.org/reference/select.html"><code>select()</code></a> function from <a href="https://dplyr.tidyverse.org/reference/select.html">dplyr</a> to show just a subset of columns and rows.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb6-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mark_preview</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb6-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mark_duration</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">min_duration =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">200</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">max_duration =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">600</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb6-4">  dplyr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(Status, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Duration (in seconds)</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span>, exclusion_preview, exclusion_duration) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb6-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 23 out of 100 rows took less time than 200.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 8 out of 100 rows took more time than 600.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          Status Duration (in seconds) exclusion_preview exclusion_duration
+1 Survey Preview                   465           preview                   
+2 Survey Preview                   545           preview                   
+3     IP Address                   651                        duration_slow
+4     IP Address                   409                                     
+5     IP Address                   140                       duration_quick
+6     IP Address                   213                                     </code></pre>
+</div>
+</div>
+<p>Now we have three messages regarding rows that meet the criteria: one for previews, one for short completion times, and one for long completion times. We also now have a new <code>exclusion_duration</code> column added that marks rows that are too quick or too slow.</p>
+<p>You can pipe together as many mark functions as you would like to get a feel for which data rows meet your different criteria. But adding a new column for each criterion can make it difficult to visualize everything together. If you want to combine all of your criteria into a single column, add the <code>unite_exclusions()</code> function at the end of the chain. Rows meeting multiple criteria will separate those criteria with commas.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb11-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mark_preview</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb11-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mark_duration</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">min_duration =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">200</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">max_duration =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">600</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb11-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">unite_exclusions</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb11-5">  dplyr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(Status, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Duration (in seconds)</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span>, exclusions) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb11-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 23 out of 100 rows took less time than 200.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 8 out of 100 rows took more time than 600.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          Status Duration (in seconds)     exclusions
+1 Survey Preview                   465        preview
+2 Survey Preview                   545        preview
+3     IP Address                   651  duration_slow
+4     IP Address                   409               
+5     IP Address                   140 duration_quick
+6     IP Address                   213               </code></pre>
+</div>
+</div>
+</section>
+<section id="checking-rows" class="level3">
+<h3 class="anchored" data-anchor-id="checking-rows">Checking rows</h3>
+<p>The mark functions are nice to view rows that meet all of your different criteria, but it can be unwieldy to use this if you have large data sets or sparse cases that meet criteria. The <code>check</code> functions help with this by extracting only the rows that meet the criterion. So you can view just the problematic data. Here we use <code>check_progress()</code> to extract the rows with progress percentages less than 100.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb16-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">check_progress</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb16-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 6 out of 100 rows did not complete the study.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate     Status    IPAddress Progress
+1 2020-12-17 15:40:53 2020-12-17 15:43:25 IP Address   22.51.31.0       99
+2 2020-12-17 15:40:56 2020-12-17 15:46:23 IP Address 71.146.112.0        1
+3 2020-12-17 15:41:52 2020-12-17 15:46:37 IP Address   15.223.0.0       13
+4 2020-12-17 15:41:27 2020-12-17 15:46:45 IP Address  19.127.87.0       48
+5 2020-12-17 15:49:42 2020-12-17 15:51:50 IP Address 40.146.247.0        5
+6 2020-12-17 15:49:28 2020-12-17 15:55:06 IP Address   2.246.67.0       44
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   879    FALSE 2020-12-17 15:43:25 R_AkQyJypPyjgribz
+2                   627    FALSE 2020-12-17 15:46:23 R_1cvaTAoXO7XW1vi
+3                    40    FALSE 2020-12-17 15:46:37 R_Dx6w74UfhnGhAmj
+4                    74    FALSE 2020-12-17 15:46:46 R_ewyyOOPADLGo9xZ
+5                   307    FALSE 2020-12-17 15:51:50 R_HFKclPO5wWGNsFs
+6                   355    FALSE 2020-12-17 15:55:06 R_UfSQq1VXYkVcxdJ
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         37.28265        -120.50248           EN  Chrome 87.0.4280.88
+2         34.03605        -117.04066           EN    &lt;NA&gt;         &lt;NA&gt;
+3         34.77804         -84.96198           DE  Chrome 83.0.4103.61
+4         33.66715        -117.82543           EN  Chrome 87.0.4280.88
+5         29.29882         -81.04289           EN Firefox         81.0
+6         37.79058        -121.96737           EN  Chrome 87.0.4280.67
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2             &lt;NA&gt;       &lt;NA&gt;
+3  Windows NT 10.0   1366x768
+4  Windows NT 10.0   1188x668
+5  Windows NT 10.0   1366x768
+6        Macintosh   1280x800</code></pre>
+</div>
+</div>
+<p>The check functions are useful for viewing rows meeting individual criteria. But you probably do not want to pipe multiple check functions together because each function outputs only the subset of the data that meets that criterion. So piping multiple check functions returns the rows that meet all of the criteria at once (the <em>intersection</em> of the criteria in set theory lingo).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_excluder/check_venn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A Venn diagram of multiple check functions overlapping with an arrow pointing to the intersection." width="600"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens</p>
+</section>
+<section id="excluding-rows" class="level3">
+<h3 class="anchored" data-anchor-id="excluding-rows">Excluding rows</h3>
+<p>After marking and/or checking our data, we may have decided which rows we want to remove. For this, we use the <code>exclude</code> functions. For instance to exclude all rows that come from the same IP address, we use the <code>exclude_duplicates()</code> function.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb19-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_duplicates</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb19-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 10 out of 100 duplicate rows were excluded, leaving 90 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status    IPAddress Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview         &lt;NA&gt;      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address   73.23.43.0      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address 16.140.105.0      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address 107.57.244.0      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address 15.232.167.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         29.73694         -94.97599           EN  Chrome 88.0.4324.41
+2         39.74107        -121.82490           EN  Chrome 88.0.4324.50
+3         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+4         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+5         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+6         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2        Macintosh  1680x1050
+3  Windows NT 10.0   1366x768
+4  Windows NT 10.0   1536x864
+5  Windows NT 10.0   1536x864
+6  Windows NT 10.0   1366x768</code></pre>
+</div>
+</div>
+<p>This leaves all rows except the ones that meet the criterion, in this case, the 10 rows out of 100 that have duplicate IP addresses. The exclude functions are like the opposite of the check functions. Therefore, we can pipe multiple exclude functions together to remove data based on multiple metadata criteria.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_preview</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_progress</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_duplicates</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_duration</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">min_duration =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_resolution</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_ip</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exclude_location</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb22-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 out of 100 preview rows were excluded, leaving 98 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 6 out of 98 rows with incomplete progress were excluded, leaving 92 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 9 out of 92 duplicate rows were excluded, leaving 83 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 out of 83 rows of short and/or long duration were excluded, leaving 81 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 3 out of 81 rows with unacceptable screen resolution were excluded, leaving 78 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 2 out of 78 rows with IP addresses outside of US were excluded, leaving 76 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>ℹ 4 out of 76 rows outside of the US were excluded, leaving 72 rows.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate     Status    IPAddress Progress
+1 2020-12-11 12:17:22 2020-12-11 12:21:41 IP Address   73.23.43.0      100
+2 2020-12-11 12:17:41 2020-12-11 12:22:07 IP Address 16.140.105.0      100
+3 2020-12-11 12:19:45 2020-12-11 12:23:16 IP Address 107.57.244.0      100
+4 2020-12-11 12:37:51 2020-12-11 12:43:09 IP Address 15.232.167.0      100
+5 2020-12-11 12:37:04 2020-12-11 12:45:50 IP Address  98.75.201.0      100
+6 2020-12-11 13:22:34 2020-12-11 13:35:19 IP Address 17.163.199.0      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+2                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+3                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+4                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H
+5                   662     TRUE 2020-12-11 12:45:51 R_6OZ4weICjHVtEkg
+6                   277     TRUE 2020-12-11 13:35:19 R_ed0N9zgbymHSLLd
+  LocationLatitude LocationLongitude UserLanguage Browser      Version
+1         34.03852        -118.25739           EN  Chrome 87.0.4280.88
+2         44.96581         -93.07187           EN  Chrome 87.0.4280.88
+3         27.98064         -82.78531           EN  Chrome 87.0.4280.88
+4         29.76499         -95.36156           EN  Chrome 87.0.4280.88
+5         29.41433         -98.50342           EN    Edge  84.0.522.52
+6         33.41401        -111.55062           EN Firefox         83.0
+  Operating System Resolution
+1  Windows NT 10.0   1366x768
+2  Windows NT 10.0   1536x864
+3  Windows NT 10.0   1536x864
+4  Windows NT 10.0   1366x768
+5  Windows NT 10.0  1920x1080
+6  Windows NT 10.0   1440x900</code></pre>
+</div>
+</div>
+<p>As we exclude, the messages tell us how many rows are returned from each functions, so we can see how the data frame gets smaller at each step. While the order of the functions shouldn’t influence the final data frame output, it might make sense to use criteria with many exclusions early to speed processing of subsequent exclusions.</p>
+</section>
+</section>
+<section id="deidentifying-data" class="level2">
+<h2 class="anchored" data-anchor-id="deidentifying-data">Deidentifying data</h2>
+<p>Congratulations—we have now removed all of our problematic data! 🎉 However, those data frames may still have identifying information included in them (e.g., IP addresses and geolocation). Before we pass on the data set to others or post it publicly, we probably want to remove those identifying columns. excluder has a <code>deidentify()</code> function that quickly removes all metadata columns. 🥸</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">deidentify</span>(qualtrics_text) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb31-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H</code></pre>
+</div>
+</div>
+<p>You can also use the <code>strict = FALSE</code> argument to only remove the non-anonymous columns, leaving the computer metadata.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">deidentify</span>(qualtrics_text, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">strict =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb33-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            StartDate             EndDate         Status Progress
+1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview      100
+2 2020-12-11 12:06:43 2020-12-11 12:11:27 Survey Preview      100
+3 2020-12-11 12:17:22 2020-12-11 12:21:41     IP Address      100
+4 2020-12-11 12:17:41 2020-12-11 12:22:07     IP Address      100
+5 2020-12-11 12:19:45 2020-12-11 12:23:16     IP Address      100
+6 2020-12-11 12:37:51 2020-12-11 12:43:09     IP Address      100
+  Duration (in seconds) Finished        RecordedDate        ResponseId Browser
+1                   465     TRUE 2020-12-11 12:10:30 R_xLWiuPaNuURSFXY  Chrome
+2                   545     TRUE 2020-12-11 12:11:27 R_Q5lqYw6emJQZx2o  Chrome
+3                   651     TRUE 2020-12-11 12:21:42 R_fbYBeNscosfzN9L  Chrome
+4                   409     TRUE 2020-12-11 12:22:07 R_yyG1HGXOMNPfWDn  Chrome
+5                   140     TRUE 2020-12-11 12:23:16 R_9dnzH1VI9mf8gle  Chrome
+6                   213     TRUE 2020-12-11 12:43:09 R_1BoPF5igdMw536H  Chrome
+       Version Operating System Resolution
+1 88.0.4324.41  Windows NT 10.0   1366x768
+2 88.0.4324.50        Macintosh  1680x1050
+3 87.0.4280.88  Windows NT 10.0   1366x768
+4 87.0.4280.88  Windows NT 10.0   1536x864
+5 87.0.4280.88  Windows NT 10.0   1536x864
+6 87.0.4280.88  Windows NT 10.0   1366x768</code></pre>
+</div>
+</div>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Before the fun part of analyzing data, we often need to perform some more tedious steps. The <a href="https://docs.ropensci.org/qualtRics/">qualtRics</a> package is a huge help in automating the import of data into R. As we learned in <a href="../../blog/2022/08/02/working-with-qualtrics-data-importing/">Part 1</a>, after connecting to the Qualtrics API, we can quickly (and powerfully) import our Qualtrics data with the <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code></a> function. Once those data are imported, we can use the <a href="https://docs.ropensci.org/excluder/">excluder</a> package to deal with potentially problematic online survey data based on respondent metadata, using the mark, check, and exclude functions. Then we can deidentify our data set before continuing to work with it or passing it on to others. Combined, these two packages can improve your data workflow by automating import and early cleaning processes, leaving the fun part of data processing up to you!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_excluder/happy_data.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A person sitting on a black couch with a laptop is looking left and smiling." width="600"></p>
+</figure>
+</div>
+<p>Source: Brooke Cagle on <a href="https://unsplash.com/photos/LCcFI_26diA">Unsplash</a>.</p>
+<p>If you have ideas for improvements to the excluder package or if you find bugs, please <a href="https://github.com/ropensci/excluder/issues">submit an issue</a> on the <a href="https://github.com/ropensci/excluder/">excluder GitHub repo</a>.</p>
+</section>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>In developing the excluder package, I thank <a href="https://orcid.org/0000-0002-7364-4398">Francine Goh</a> and Billy Lim for comments on an early version of the package, as well as the insightful feedback during <a href="https://github.com/ropensci/software-review/issues/455">peer review</a> from rOpenSci editor <a href="../../author/mauro-lepore/">Mauro Lepore</a> and reviewers <a href="https://orcid.org/0000-0001-9851-5077">Joseph O’Brien</a> and <a href="../../author/julia-silge/">Julia Silge</a>. This work was funded by US National Science Foundation grant NSF-1658837.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Ginn J, Silge J (2022). qualtRics: Download ‘Qualtrics’ Survey Data. R package version 3.1.6, <a href="https://CRAN.R-project.org/package=qualtRics" class="uri">https://CRAN.R-project.org/package=qualtRics</a>↩︎</p></li>
+<li id="fn2"><p>Eyal, P., David, R., Andrew, G., Zak, E., &amp; Ekaterina, D. (2021). Data quality of platforms and panels for online behavioral research. Behavior Research Methods. <a href="https://doi.org/10.3758/s13428-021-01694-3" class="uri">https://doi.org/10.3758/s13428-021-01694-3</a>↩︎</p></li>
+<li id="fn3"><p>Stevens, J. R. (2021). excluder: An R package that checks for exclusion criteria in online data. <em>Journal of Open Source Software</em>, 6(67), 3893. <a href="https://doi.org/10.21105/joss.03893" class="uri">https://doi.org/10.21105/joss.03893</a>↩︎</p></li>
+<li id="fn4"><p>In some cases, the default in Qualtrics is to collect non-anonymous data, so always check that this option is set to your desired selection for each survey.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>coding</category>
+  <category>R package</category>
+  <guid>https://jeffreyrstevens.github.io/posts/ropensci_excluder/</guid>
+  <pubDate>Tue, 09 Aug 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyrstevens.github.io/posts/ropensci_excluder/excluder_hex.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
+  <title>Working with Qualtrics Data - Part 1: Importing Data</title>
+  <dc:creator>Jeffrey Stevens</dc:creator>
+  <link>https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>Note: Cross-posted with <a href="https://ropensci.org/blog/2022/08/02/working-with-qualtrics-data-importing/">rOpenSci blog</a>.</em></p>
+<p>The online survey system <a href="https://www.qualtrics.com/">Qualtrics</a> can be a great way to collect data from research participants, customers, and stakeholders. I use it frequently to conduct research studies with participants or just to poll students and collaborators. However, while Qualtrics makes survey design straightforward, once the data are collected, there is a lot of work to do. Fortunately, two R packages (<a href="https://docs.ropensci.org/qualtRics/">qualtRics</a><sup>1</sup> and <a href="https://docs.ropensci.org/excluder/">excluder</a><sup>2</sup>) can make importing data and excluding low-quality data easier.</p>
+<p>Discovering the qualtRics package has saved me a lot of time importing data. It also lets me create data pipelines for sensitive data by reading files directly into R without saving them locally until they’ve been deidentified. This way I don’t accidentally save personally identifiable information in a place that is not authorized for sensitive data.</p>
+<p>After importing data, there is often a lot of clean up that needs to happen, especially for online survey respondents. I developed the excluder package to help with removing data entries based on broad metadata such as response duration, respondent location, screen resolution, etc. Combining the qualtRics and excluder packages can help you deal with the tedious part of survey data and quickly get to the fun part of data analysis!</p>
+<p>Part 1 of this series will show you how to use qualtRics to import your data, and we’ll cover excluding your data with excluder in <a href="../../blog/2022/08/09/working-with-qualtrics-data-excluding/">Part 2</a>.</p>
+<section id="importing-qualtrics-data-into-r" class="level2">
+<h2 class="anchored" data-anchor-id="importing-qualtrics-data-into-r">Importing Qualtrics data into R</h2>
+<p>If you’ve worked with Qualtrics data before, you know you have to log into Qualtrics, navigate to the data section, wait for all of the data to be “re-indexed” for viewing, choose whether to export as numeric or character values, choose what type of file to export, download the data file, find the downloaded data file, change the name of the file to something comprehensible, and delete those first two obnoxious rows of metadata. 😮‍💨 Having to go through this process manually every time that you want to download Qualtrics data can be cumbersome and time consuming.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/mouseclicking.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A gif of a hand furiously clicking a computer mouse."></p>
+</figure>
+</div>
+<p>Source: <span class="citation" data-cites="corsairgaming">@corsairgaming</span> at <a href="https://media.giphy.com/media/443u3QvEVYcvcHJVdQ/giphy.gif">Giphy</a></p>
+<p>Enter, the <a href="https://docs.ropensci.org/qualtRics/">qualtRics</a> package from <a href="https://juliasilge.com/">Julia Silge</a> and <a href="https://jasperhg90.github.io/">Jasper Ginn</a><sup>3</sup>. This package allows you to use the Qualtrics API to directly connect to your survey data. You can download a list of surveys in your account, as well as the actual questions and metadata about those questions. But, most importantly, the qualtRics package allows you to download Qualtrics data into your R session. Therefore, you can write scripts that automatically import your Qualtrics data whenever you run your script. No more time wasted downloading manually!</p>
+<section id="connecting-to-qualtrics" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-to-qualtrics">Connecting to Qualtrics</h3>
+<p>Of course, to get your data, you have to have access to your Qualtrics account. The <a href="https://api.qualtrics.com/">Qualtrics API</a> allows you to connect to your Qualtrics account with your personal API token (or key) and your datacenter ID. You can <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMg-api-key-authentication">find your API token</a> by logging into Qualtrics, going to <em>Account Settings</em>, selecting the <em>Qualtrics IDs</em> tab, finding the <em>API</em> box, clicking <em>Generate Token</em>, and copying the long string of random letters and numbers shown next to <em>Token</em>. Note this key is like your password for accessing your account, so don’t share it with others. 🤫</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/qualtrics_api_token.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An image of the Qualtrics ID page with an example token in the API box highlighted with a red rectangle." width="800"></p>
+</figure>
+</div>
+<p>Source: <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMg-api-key-authentication">Qualtrics API Documentation</a></p>
+<p>For your datacenter ID, follow the same procedure but look in the <em>User</em> box of the <em>Qualtrics ID</em> page and grab the <em>Datacenter ID</em>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/qualtrics_api_datacenter.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An image of the User box from the Qualtrics ID page with an example User ID, Organization ID, and Datacenter ID." width="400"></p>
+</figure>
+</div>
+<p>Source: <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMw-base-url-and-datacenter-i-ds">Qualtrics API Documentation</a></p>
+<p>Your datacenter ID can now be appended before <code>qualtrics.com</code> to generate your base URL: <code>yourdatacenterid.qualtrics.com</code> (don’t include <code>https://</code>). You can use the qualtRics function <code>qualtrics_api_credentials()</code> to connect your R session to the Qualtrics API.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(qualtRics)</span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">qualtrics_api_credentials</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">api_key =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
+<span id="cb1-4">                          <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_url =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>)</span></code></pre></div>
+</div>
+<p>Now your R session should have access to your Qualtrics account. But if you start a new R session, you’ll have to rerun this command. And it is not recommended to save this command in an R script because, if you send the script to someone else or post it publicly in a repository, you are granting access to your Qualtrics account to other people. 😬</p>
+<p>To avoid having to rerun the command, you can store your API token and base URL on your local computer by using <code>install = TRUE</code>. Including this argument will save the API token and base URL information in your <code>.Renviron</code> file, which is read when starting every new R session.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">qualtrics_api_credentials</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">api_key =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
+<span id="cb2-2">                          <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_url =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>,</span>
+<span id="cb2-3">                          <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">install =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)</span></code></pre></div>
+</div>
+<p>Now you’ll either need to restart your R session or reload your environment with <code>readRenviron("~/.Renviron")</code> to make the credentials accessible in the current R session.</p>
+<p>If you use <code>install = TRUE</code>, this means that your credentials are stored in a plain text file on your computer. So this may not be something that you want to do on a shared computer account. You must decide between the security of not storing credentials on your computer and the convenience of not having to enter your credentials for every new R session. ⚖️</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/security_convenience.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Meme with hand hovering over two red buttons, one reading Security and the other reading Convenience." width="400"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens built in <a href="https://imgflip.com/meme/Two-Buttons">Meme Generator</a></p>
+<p>Congrats—you’ve now registered your Qualtrics credentials! 🎉 If you have difficulty with this, check out the qualtRics <a href="https://docs.ropensci.org/qualtRics/articles/qualtRics.html#registering-your-qualtrics-credentials">documentation</a> or <a href="https://github.com/ropensci/qualtRics/issues">GitHub issues</a>, or the <a href="https://api.qualtrics.com/">Qualtrics API documentation</a>. If you have multiple Qualtrics accounts that you want you use, you’ll have to get creative about how you <a href="https://github.com/ropensci/qualtRics/issues/110">set up your API tokens</a>.</p>
+</section>
+<section id="listing-your-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="listing-your-surveys">Listing your surveys</h3>
+<p>Now that you’ve connected to your Qualtrics account, one of the first things you may want to do is list the surveys that you have in your account. While you can do this by hand through the Qualtrics website, you can also download a list of all surveys as a data frame with <a href="https://docs.ropensci.org/qualtRics/reference/all_surveys.html"><code>all_surveys()</code></a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">surveys <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all_surveys</span>() </span></code></pre></div>
+</div>
+<p>You can then view data frame to find the survey that you want.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">View</span>(surveys)</span></code></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/qualtrics_surveys.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An image of a data frame that is the output of the all_surveys function with columns id, name, ownerID, lastModified, creationDate, and isActive." width="800"></p>
+</figure>
+</div>
+<p>Source: Jeffrey Stevens”</p>
+<p>The <code>id</code> column lists the survey ID for each survey (starting with <code>SV_</code>). This is a unique identifier that Qualtrics uses to label each survey. You will need the survey ID to download or work with it, so make sure to copy it from the data frame.</p>
+</section>
+<section id="importing-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="importing-surveys">Importing surveys</h3>
+<p>Now that we know which survey we want, we can import it using <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code></a> and the survey ID.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">mysurvey <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fetch_survey</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">surveyID =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"SV_XXXXXXXXXX"</span>)</span></code></pre></div>
+</div>
+<p>This imports the survey as a data frame. The <code>fetch_survey()</code> function has many arguments that are helpful in importing your data. Here are just a few:</p>
+<ul>
+<li><p>Set your time zone with <code>time_zone</code>. This is important because, if you don’t set it in your Account Settings, Qualtrics has a default time zone that may differ from your own.</p></li>
+<li><p>Extract entries during a particular time period with <code>start_date</code> and/or <code>end_date</code>.</p></li>
+<li><p>Import only certain questions with <code>include_questions</code>.</p></li>
+<li><p>Control whether you import choice text or numeric data with <code>label</code>.</p></li>
+<li><p>Let the function try to guess the proper data types for your columns with <code>convert</code> or specify the data types with <code>col_types</code>.</p></li>
+<li><p>Save your data frame locally with the <code>save_dir</code> argument. Note it saves the file as an RDS file, so you’ll need something like <a href="https://rdrr.io/r/base/readRDS.html"><code>readRDS()</code></a> to read it.</p></li>
+</ul>
+<p>Find out more about this function in the <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code> documentation</a>.</p>
+<p><code>fetch_survey()</code> allows you to automatically import your Qualtrics surveys directly—no more messy and time-consuming downloads! But if you’ve already downloaded a file from Qualtrics, you can use qualtRics’ <a href="https://docs.ropensci.org/qualtRics/reference/read_survey.html"><code>read_survey()</code></a> function to import that file and clean up some Qualtrics messiness like removing those first two obnoxious rows and allowing control over the time zone and column data types.</p>
+</section>
+<section id="viewing-survey-info" class="level3">
+<h3 class="anchored" data-anchor-id="viewing-survey-info">Viewing survey info</h3>
+<p>While <code>fetch_survey()</code> provides the core functionality of the qualtRics package, the package also includes some other helper functions that allow you to view information about your survey.</p>
+<p>You can get a data frame that includes all survey questions and their IDs and names with <a href="https://docs.ropensci.org/qualtRics/reference/survey_questions.html"><code>survey_questions()</code></a>. To really drill down into your survey, use the <a href="https://docs.ropensci.org/qualtRics/reference/metadata.html"><code>metadata()</code></a> function. Not only can you access general metadata about your survey (survey name, owner ID, organization ID, creation/modification dates), but you can get more detailed information about your questions (question labels, question type, response option descriptions), block information, and survey flow. You can access information about the survey distribution, mailing lists, etc. with other functions. It’s definitely worth exploring all of the <a href="https://docs.ropensci.org/qualtRics/reference/index.html">helper functions</a>.</p>
+</section>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
+<p>You have learned a quick and easy way to automatically download your Qualtrics data with the qualtRics package. 😎 Now what do you do with it? Well, if you’re collecting online surveys, you may have a lot of problematic data that you want to remove. Check out <a href="../../blog/2022/08/09/working-with-qualtrics-data-excluding/">Part 2: Excluding Data</a> to find out how to exclude data with the <a href="https://docs.ropensci.org/excluder/">excluder</a> package.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Ginn J, Silge J (2022). qualtRics: Download ‘Qualtrics’ Survey Data. R package version 3.1.6, https://CRAN.R-project.org/package=qualtRics↩︎</p></li>
+<li id="fn2"><p>Stevens, J. R. (2021). excluder: An R package that checks for exclusion criteria in online data. <em>Journal of Open Source Software</em>, 6(67), 3893. <a href="https://doi.org/10.21105/joss.03893" class="uri">https://doi.org/10.21105/joss.03893</a>↩︎</p></li>
+<li id="fn3"><p>Many thanks to Julia Silge and Jasper Ginn for creating a wonderful package and providing the <a href="https://docs.ropensci.org/qualtRics/">documentation</a> and <a href="https://docs.ropensci.org/qualtRics/articles/qualtRics.html">vignette</a> on which this post was based! Also, check out Julia’s blog post about <a href="../../blog/2019/04/30/qualtrics-relaunch/">relaunching the qualtRics package</a>.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>coding</category>
+  <category>R package</category>
+  <guid>https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/</guid>
+  <pubDate>Tue, 02 Aug 2022 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

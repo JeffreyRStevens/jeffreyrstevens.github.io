@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/software.html</loc>
-    <lastmod>2023-12-31T23:48:44.942Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/posts/ropensci_excluder/index.html</loc>
+    <lastmod>2023-04-15T20:04:20.078Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/posts/ropensci_qualtrics/index.html</loc>
-    <lastmod>2023-12-31T23:48:42.882Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/cv.html</loc>
+    <lastmod>2024-07-27T18:00:14.160Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/people.html</loc>
-    <lastmod>2023-12-31T23:48:40.494Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/publications.html</loc>
+    <lastmod>2024-07-27T20:03:14.679Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/cv.html</loc>
-    <lastmod>2023-12-31T23:48:30.274Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/index.html</loc>
+    <lastmod>2024-04-12T16:23:51.014Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/blog.html</loc>
-    <lastmod>2023-12-31T23:48:23.629Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/index.html</loc>
+    <lastmod>2023-12-31T23:32:15.997Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/index.html</loc>
-    <lastmod>2023-12-31T23:48:39.734Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/blog.html</loc>
+    <lastmod>2024-04-29T17:21:22.943Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/posts/ropensci_excluder/index.html</loc>
-    <lastmod>2023-12-31T23:48:41.894Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/people.html</loc>
+    <lastmod>2024-07-27T18:00:14.180Z</lastmod>
   </url>
   <url>
-    <loc>https://JeffreyRStevens.github.io/jeffreyrstevens_website/publications.html</loc>
-    <lastmod>2023-12-31T23:48:44.474Z</lastmod>
+    <loc>https://jeffreyrstevens.github.io/posts/manydogs/index.html</loc>
+    <lastmod>2024-05-18T19:46:51.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jeffreyrstevens.github.io/software.html</loc>
+    <lastmod>2024-04-05T23:27:02.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/index.html</loc>
+    <lastmod>2023-04-15T20:04:20.078Z</lastmod>
   </url>
 </urlset>

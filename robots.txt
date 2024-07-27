@@ -1,1 +1,1 @@
-Sitemap: https://JeffreyRStevens.github.io/jeffreyrstevens_website/sitemap.xml
+Sitemap: https://jeffreyrstevens.github.io/sitemap.xml
