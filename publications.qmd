@@ -674,6 +674,15 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 :::
 
 
+ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _Journal of Open Psychology Data_. [doi:10.31219/osf.io/jw24a](https://doi.org/10.31219/osf.io/jw24a)
+ 
+::: {.content-visible when-format="html"}
+<a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/ManyDogsProject/md1_data" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
 \*Wolff, L. M., & **Stevens, J.R.** (forthcoming). Less activity means improved welfare? How pair housing influences pinyon jay (_Gymnorhinus cyanocephalus_) behavior.  _Animal Welfare_. [doi:10.1101/2024.02.07.579343](https://doi.org/10.1101/2024.02.07.579343)
 
 ::: {.content-visible when-format="html"}
@@ -688,14 +697,9 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 ### Preprints
 :::
 
-ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _OSF Preprints_. [doi:10.31219/osf.io/jw24a](https://doi.org/10.31219/osf.io/jw24a)
- 
-::: {.content-visible when-format="html"}
-<a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://github.com/ManyDogsProject/md1_data" title="GitHub" class="cv-pub-links">GitHub</a>
-<a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
+::: {.content-visible when-format="pdf"}
+[Preprints]{.aside}
 :::
-
 
 **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
  
