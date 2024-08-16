@@ -646,6 +646,16 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 :::
 
 
+ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _Journal of Open Psychology Data_. [doi:10.5334/jopd.109](https://doi.org/10.5334/jopd.109)
+ 
+::: {.content-visible when-format="html"}
+<a href="pubs/manydogs_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/ManyDogsProject/md1_data" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
 \*Wolff, L. M., \*Carey, K., \& **Stevens, J.R.** (2024). Friends aren’t food: pinyon jays show context-dependent quantity preference. _Animal Behavior & Cognition_, 11(2), 112-135. [doi:10.26451/abc.11.02.01.2024](https://doi.org/10.26451/abc.11.02.01.2024)
 
 ::: {.content-visible when-format="html"}
@@ -671,15 +681,6 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 <a href="https://osf.io/du2xm/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/adaptive-decision-making-lab/socialinfluences" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
-
-ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _Journal of Open Psychology Data_. [doi:10.31219/osf.io/jw24a](https://doi.org/10.31219/osf.io/jw24a)
- 
-::: {.content-visible when-format="html"}
-<a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://github.com/ManyDogsProject/md1_data" title="GitHub" class="cv-pub-links">GitHub</a>
-<a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 
