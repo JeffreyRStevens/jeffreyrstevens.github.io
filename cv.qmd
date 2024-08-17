@@ -555,6 +555,8 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
 
+ R Consortium User Group Grant, "Nebraska R User Group", (PI) ($250)
+
 
 ## Teaching Experience
 
