@@ -548,14 +548,22 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
 [2023-]{.aside} 
 
- APDT Foundation, "Unleashing stress: Pet and therapy dog responses to human stress odors", PI with Tierney Lorenz and London Woff (\$2,500)
+APDT Foundation, "Unleashing stress: Pet and therapy dog responses to human stress odors", PI with Tierney Lorenz and London Woff (\$2,500)
  
 
 <!-- [2023]{.aside}  -->
 
- University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
+University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
 
- R Consortium User Group Grant, "Nebraska R User Group", (PI) ($250)
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
+[2024-]{.aside} 
+
+R Consortium User Group Grant, "Nebraska R User Group", PI ($250)
+
+University of Nebraska-Lincoln Layman New Directions Award, "Dog physiological and neural responses to human stress", PI ($9,990)
 
 
 ## Teaching Experience
