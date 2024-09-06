@@ -84,11 +84,11 @@ Maya is a junior studying Animal Science in the companion animal area. She is on
 Ashley is an Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
 
 
-### Lily Mook
+<!-- ### Lily Mook -->
 
-![](images/lily_mook.jpg){fig-alt="Lily Mook" width="200" fig-align="left"}
+<!-- ![](images/lily_mook.jpg){fig-alt="Lily Mook" width="200" fig-align="left"} -->
 
-Lily is an Animal Science major with a focus in veterinary medicine. Her current plan is to pursue a career in companion animal veterinary medicine, but she loves learning more about animal behavior and psychology. She's excited to learn more through her experience in the lab, and she looks forward to working with the dogs!
+<!-- Lily is an Animal Science major with a focus in veterinary medicine. Her current plan is to pursue a career in companion animal veterinary medicine, but she loves learning more about animal behavior and psychology. She's excited to learn more through her experience in the lab, and she looks forward to working with the dogs! -->
 
 ### Nathan Nienaber
 
@@ -167,6 +167,7 @@ Former Lab Members
 * Maddie Mathias
 * Trevor Mattox
 * Sama Mehta
+* Lily Mook
 * Carly Moran
 * Brianna Moser
 * Duy Nguyen
