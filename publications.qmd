@@ -646,7 +646,7 @@ Alessandroni, N., Altschul, D., Bazhydai, M., Byers-Heinlein, K., Elsherif, M., 
 :::
 
 
-ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _Journal of Open Psychology Data_. [doi:10.5334/jopd.109](https://doi.org/10.5334/jopd.109)
+ManyDogs Project, Espinosa, J., Hare, E., Alberghina, D., Perez, B., & **Stevens, J.R.** (2024). Data from ManyDogs 1. _Journal of Open Psychology Data_, 12(1), 7. [doi:10.5334/jopd.109](https://doi.org/10.5334/jopd.109)
  
 ::: {.content-visible when-format="html"}
 <a href="pubs/manydogs_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
