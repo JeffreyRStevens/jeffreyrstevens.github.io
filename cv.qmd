@@ -190,6 +190,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "The bounded rationality of reciprocity", Program in Behavior, Economics, and Evolution, University of Lausanne, Switzerland
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2017]{.aside}
 
  "The bounded rationality of cooperation", Symposium on The Neural Basis of Social Evaluation, Heinrich-Heine-Universität, Düsseldorf, Germany
@@ -296,10 +300,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "Reproducible results in comparative cognition", Comparative Cognition Society Fall Meeting, Seattle, WA.
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2012]{.aside}
 
  "Is cooperative memory special? The role of costly errors and context when remembering the past", **Stevens, J.R.** and Winke, T., Psychonomic Society Meeting, Minneapolis, USA.
@@ -355,6 +355,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "Framing patience: how the representation of reward amounts and time delays shapes intertemporal choice", **Stevens, J.R.**, Cully, T., Goh, F., Society for Judgment and Decision Making, New Orleans, LA
 (poster).
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2019]{.aside}
 
  "Social network structure buffers forgetting in cooperative games", **Stevens, J.R.**, Woike, J., Schooler, L.J., Lindner, S., and Pachur, T., Fly Over State Scientists Integrating Evolution (FOSSIL) conference, Stillwater, OK.
@@ -379,10 +383,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  
  "[ManyX Projects: Joining forces to address challenges in comparative research with big team science](https://jeffreyrstevens.quarto.pub/co3-2023/#/title-slide)", **Stevens, J.R.**, Comparative Cognition Conference, Melbourne, FL.
  
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2024]{.aside}
  
 "[Do dogs follow Weber's Law? The role of ratio and difference in quantity preference](https://jeffreyrstevens.quarto.pub/csc_2024/#/title-slide)", **Stevens, J.R.**, DeBoer, H., Fitzpatrick, H., Gatesy-Davis, A., & Wolf, L.M., Canine Science Conference, Seattle, WA.
@@ -524,6 +524,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2018]{.aside} 
 
  University of Nebraska-Lincoln College of Arts & Sciences Partnership Seed Funding Grant, "Predicting dog training success" (\$9,958)
@@ -554,10 +558,6 @@ APDT Foundation, "Unleashing stress: Pet and therapy dog responses to human stre
 <!-- [2023]{.aside}  -->
 
 University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2024-]{.aside} 
 
@@ -683,9 +683,33 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
  "Reciprocal relations between dog and human psychology", University of Nebraska-Lincoln---Behavioral Neuroscience: Psychology 465
 
 
-## Theses Advised
+## Mentoring
 
-### Undergraduate
+### Student Awards
+
+[2005]{.aside}
+
+Hoopes Thesis Award, Harvard University (Alexandra Rosati)
+
+Psychology Faculty Award, Harvard University (Alexandra Rosati)
+
+
+[2007]{.aside}
+
+Psychology Faculty Award, Harvard University (Sarah Heilbronner)
+
+
+[2013-2016]{.aside}
+
+National Science Foundation Graduate Research Fellowship (Juan Duque)
+
+
+[2016]{.aside}
+
+Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincoln (Tyler Stading)
+
+
+### Undergraduate Theses Advised
 
 [2003-2004]{.aside}
 
@@ -713,10 +737,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Tyler Stading---"Naturally stressed: The effect of nature exposure on stress physiology and decision making", (honor's thesis in Psychology, University of Nebraska-Lincoln)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2020]{.aside}
 
  Hannah Eggert---"General and veterinary care of service dogs and how service dogs benefit their handlers", (honor's thesis in Veterinary Sciences, University of Nebraska-Lincoln)
@@ -727,7 +747,7 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  McKenna Yohe---"Predictors of separation anxiety in dogs", (honor's thesis in Veterinary Science and Psychology, University of Nebraska-Lincoln)
 
-### Graduate
+### Graduate Theses Advised
 
 [2008-2012]{.aside}
 
@@ -837,10 +857,6 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  Co-author curriculum for Introduction to Animal Behavior Laboratory, EEB 3411---Ecology, Evolution, and Behavior, University of Minnesota
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2002]{.aside}
 
  Participant in Preparing Future Faculty Retreat---Preparing Future Faculty, Center for Teaching and Learning Services, University of Minnesota
@@ -907,13 +923,13 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
  Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2018-2021]{.aside}
 
 Department of Psychology Executive Committee, University of Nebraska-Lincoln
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2019]{.aside} 
 
@@ -988,6 +1004,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 [2020]{.aside} 
 
  Susan J. Rosowski Associate Professorship, University of Nebraska-Lincoln
+
+[2024]{.aside} 
+
+ Barela et al. (2024) selected as [APA Editor's Choice](https://www.apa.org/news/editors-choice)
 
 
 ## Software Development
