@@ -698,7 +698,7 @@ format:
 [Preprints]{.aside}
 :::
 
-DeBoer, H., Fitzpatrick, H., Wolff, L. M., Gatesy-Davis, A., & **Stevens, J. R.** (2024). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. _PsyArXiv_. [doi:10.31234/osf.io/rn8gq](https://doi.org/10.31234/osf.io/rn8gq)
+\*DeBoer, H., \*Fitzpatrick, H., \*Wolff, L. M., \*Gatesy-Davis, A., & **Stevens, J. R.** (2024). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. _PsyArXiv_. [doi:10.31234/osf.io/rn8gq](https://doi.org/10.31234/osf.io/rn8gq)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/deboer_etal_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
