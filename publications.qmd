@@ -357,8 +357,8 @@ format:
 68. **Stevens, J.R.**, Woike, J., Schooler, L.J., \*Lindner, S., and Pachur, T. (2018) Social contact patterns can buffer costs of forgetting in the evolution of cooperation. *Proceedings of the Royal Society of London, Series B*, 285(1880), 20180407. [doi:10.1098/rspb.2018.0407](https://doi.org/10.1098/rspb.2018.0407)
 
 ::: {.content-visible when-format="html"}
-<a href="pubs/stevens_etal_2028.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_etal_2028_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2018.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stevens_etal_2018_SM.pdf" title="SM" class="cv-pub-links">SM</a>
 <a href="https://osf.io/a7d3b/" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
