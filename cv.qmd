@@ -92,6 +92,11 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 {{< include publications.qmd >}}
 
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
+
 ## Presentations
 
 ### Invited
@@ -190,10 +195,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "The bounded rationality of reciprocity", Program in Behavior, Economics, and Evolution, University of Lausanne, Switzerland
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2017]{.aside}
 
  "The bounded rationality of cooperation", Symposium on The Neural Basis of Social Evaluation, Heinrich-Heine-Universität, Düsseldorf, Germany
@@ -225,8 +226,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "[Canine Cognition and Human Interaction Lab](https://jeffreyrstevens.quarto.pub/seeca2024)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
 
  "[Canine cognition and the human bond](https://jeffreyrstevens.quarto.pub/asci_2024)", Animal Science Breeding and Genetics Group, University of Nebraska-Lincoln
- 
- "[Impulsivity and quantity preference in dogs](jeffreyrstevens.quarto.pub/elte_2024)", Department of Ethology, Eötvös Loránd University, Budapest, Hungary
 
 ### Conference
 
@@ -236,13 +235,13 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "Harassment increases food sharing: a selfish explanation for generosity in primates", Animal Behaviour Society, Bloomington, IN.
 
-[2003]{.aside}
-
- "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
-
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
+
+[2003]{.aside}
+
+ "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
 
 [2004]{.aside}
 
@@ -313,6 +312,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "Testing theories of intertemporal choice", Regenwetter, M., **Stevens, J.R.**, Guo, Y., Popova, A., and Zwilling, C., Workshop on Testing Theories of Choice Behavior, Berlin, Germany.
 
  "Memory for cooperative actions: the role of costly errors and context when remembering the past", **Stevens, J.R.** and Winke, T., Animal Behavior Society--Human Behavior and Evolution Society joint meeting, Albuquerque, NM.
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2013]{.aside}
 
@@ -522,10 +525,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  University of Nebraska Food for Health Collaboration Initiative Seed Grant, "Understanding the effect of exercise on future food intake: The role of behavioral, physiological, and neural mechanisms" Co-PI with Karsten Koehler (PI), Matthew Bice, Ronald Bulbulian, Jeffrey French, Christopher Gustafson, Maital Neta, Scott Stoltenberg (\$150,000)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2017-2023]{.aside} 
 
  National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
@@ -724,6 +723,10 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 [2005-2007]{.aside}
 
  Sarah Heilbronner---"The evolution of risk-sensitive preferences in nonhuman primates", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Psychology Faculty Award*
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2010-2011]{.aside}
 
@@ -929,10 +932,6 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
 Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2019]{.aside} 
 
  Co-organizer of Nebraska Symposium on Motivation on [Nature and Psychology: How the Natural World Shapes Our Cognition](https://psychology.unl.edu/symposium/recent-symposia/#sym2019), University of Nebraska-Lincoln
@@ -971,6 +970,8 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
  Co-organizer of [Nebraska R User Group](https://nebraskarusergroup.github.io/)
  
  Member of College of Arts \& Sciences Committee on Student Academic Distinction, Awards and Appeals
+ 
+ Program committee member of [Big Team Science Conference](teamscienceconference.github.io/)
 
 
 ## Honors and Awards

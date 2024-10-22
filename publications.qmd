@@ -649,6 +649,8 @@ format:
 <a href="https://osf.io/7rwpc/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/ManyDogsProject/md1_data" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://osf.io/jw24a/" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.5334/jopd.109" title="Open Access" class="cv-pub-links">
+{{<ai open-access>}}</a>
 :::
 
 
@@ -659,6 +661,8 @@ format:
 <a href="https://osf.io/g45nk/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/adaptive-decision-making-lab/corvidnumber" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/kxgwt" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.26451/abc.11.02.01.2024" title="Open Access" class="cv-pub-links">
+{{<ai open-access>}}</a>
 :::
 
 
@@ -713,6 +717,14 @@ format:
 ::: {.content-visible when-format="html"}
 <a href="https://github.com/JeffreyRStevens/flashr" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://osf.io/w7dks/" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+**Stevens, J.R.** (2024). cocoon: An R package for extracting, formatting, and printing statistical output. _OSF Preprints_. <!--[doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).-->
+ 
+::: {.content-visible when-format="html"}
+<a href="https://github.com/JeffreyRStevens/cocoon" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://osf.io/3esud/" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 
