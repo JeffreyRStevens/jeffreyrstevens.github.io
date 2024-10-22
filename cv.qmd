@@ -225,6 +225,8 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "[Canine Cognition and Human Interaction Lab](https://jeffreyrstevens.quarto.pub/seeca2024)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
 
  "[Canine cognition and the human bond](https://jeffreyrstevens.quarto.pub/asci_2024)", Animal Science Breeding and Genetics Group, University of Nebraska-Lincoln
+ 
+ "[Impulsivity and quantity preference in dogs](jeffreyrstevens.quarto.pub/elte_2024)", Department of Ethology, Eötvös Loránd University, Budapest, Hungary
 
 ### Conference
 
@@ -237,6 +239,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 [2003]{.aside}
 
  "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2004]{.aside}
 
@@ -354,10 +360,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "Framing patience: how the representation of reward amounts and time delays shapes intertemporal choice", **Stevens, J.R.**, Cully, T., Goh, F., Society for Judgment and Decision Making, New Orleans, LA
 (poster).
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2019]{.aside}
 
@@ -520,13 +522,13 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  University of Nebraska Food for Health Collaboration Initiative Seed Grant, "Understanding the effect of exercise on future food intake: The role of behavioral, physiological, and neural mechanisms" Co-PI with Karsten Koehler (PI), Matthew Bice, Ronald Bulbulian, Jeffrey French, Christopher Gustafson, Maital Neta, Scott Stoltenberg (\$150,000)
 
-[2017-2023]{.aside} 
-
- National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
-
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
+
+[2017-2023]{.aside} 
+
+ National Science Foundation, "Similarity as a process model of intertemporal choice" PI with Leen-Kiat Soh (NSF-1658837, \$655,373)
 
 [2018]{.aside} 
 
