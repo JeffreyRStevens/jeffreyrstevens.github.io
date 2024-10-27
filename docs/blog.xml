@@ -10,7 +10,7 @@
 <atom:link href="https://jeffreyrstevens.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Jeff Stevens&#39; blog</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Sun, 28 Apr 2024 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 29 Apr 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>ManyDogs: Big Team Canine Science</title>
   <dc:creator>Jeffrey Stevens</dc:creator>
@@ -112,7 +112,7 @@
   <category>canine cognition</category>
   <category>open science</category>
   <guid>https://jeffreyrstevens.github.io/posts/manydogs/</guid>
-  <pubDate>Sun, 28 Apr 2024 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Impulsivity as a behavioral trait in dogs</title>
@@ -219,7 +219,7 @@
   <category>impulsivity</category>
   <category>meta-analysis</category>
   <guid>https://jeffreyrstevens.github.io/posts/impulsivity_meta-analysis/</guid>
-  <pubDate>Sun, 07 Apr 2024 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 08 Apr 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Working with Qualtrics Data - Part 2: Excluding Data</title>
@@ -797,7 +797,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
   <category>coding</category>
   <category>R package</category>
   <guid>https://jeffreyrstevens.github.io/posts/ropensci_excluder/</guid>
-  <pubDate>Mon, 08 Aug 2022 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 09 Aug 2022 05:00:00 GMT</pubDate>
   <media:content url="https://jeffreyrstevens.github.io/posts/ropensci_excluder/excluder_hex.png" medium="image" type="image/png" height="167" width="144"/>
 </item>
 <item>
@@ -965,7 +965,7 @@ font-style: inherit;">"SV_XXXXXXXXXX"</span>)</span></code></pre></div>
   <category>coding</category>
   <category>R package</category>
   <guid>https://jeffreyrstevens.github.io/posts/ropensci_qualtrics/</guid>
-  <pubDate>Mon, 01 Aug 2022 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 02 Aug 2022 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
