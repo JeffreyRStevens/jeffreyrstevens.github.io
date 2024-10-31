@@ -720,8 +720,8 @@ format:
 :::
 
 
-**Stevens, J.R.** (2024). cocoon: An R package for extracting, formatting, and printing statistical output. _OSF Preprints_. <!--[doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).-->
- 
+**Stevens, J.R.** (2024). cocoon: An R package for extracting, formatting, and printing statistical output. _OSF Preprints_. [doi:10.31219/osf.io/3esud](https://doi.org/10.31219/osf.io/3esud) 
+
 ::: {.content-visible when-format="html"}
 <a href="https://github.com/JeffreyRStevens/cocoon" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://osf.io/3esud/" title="Preprint" class="cv-pub-links">Preprint</a>
