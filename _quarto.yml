@@ -41,7 +41,7 @@ website:
     right:
       - icon: mastodon
         href: https://fediscience.org/@JeffreyRStevens
-      - text: "{{< iconify fa6-solid square >}}"
+      - text: "{{< iconify simple-icons bluesky >}}"
         href: https://bsky.app/profile/jeffreyrstevens.bsky.social
       - icon: github
         href: https://github.com/JeffreyRStevens

@@ -21,7 +21,7 @@ format:
 -- | --
 {{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@gmail.com](mailto:jeffrey.r.stevens@gmail.com) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
 {{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens@fediscience.org](https://fediscience.org/@JeffreyRStevens) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
-{{< fa square title="Bluesky logo" >}} [JeffreyRStevens](https://bsky.app/profile/jeffreyrstevens.bsky.social) | {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
+{{< iconify simple-icons bluesky title="BlueSky logo">}} [JeffreyRStevens](https://bsky.app/profile/jeffreyrstevens.bsky.social) | {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai researchgate>}} [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | {{<ai impactstory>}} [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
 
