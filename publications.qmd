@@ -665,6 +665,19 @@ format:
 {{<ai open-access>}}</a>
 :::
 
+99. \*Wolff, L. M., & **Stevens, J.R.** (2024). Less activity means improved welfare? How pair housing influences pinyon jay (_Gymnorhinus cyanocephalus_) behavior.  _Animal Welfare_, 33, 349. [doi:10.1017/awf.2024.40](https://doi.org/10.1017/awf.2024.40)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/wolff_stevens_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/v9r6q/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/adaptive-decision-making-lab/corvidactivity" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.1101/2024.02.07.579343" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.1017/awf.2024.40" title="Open Access" class="cv-pub-links">
+{{<ai open-access>}}</a>
+:::
+
+
+
 
 ::: {.content-visible when-format="html"}
 ### In press
@@ -681,16 +694,6 @@ format:
 <a href="https://osf.io/du2xm/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/adaptive-decision-making-lab/socialinfluences" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
-
-\*Wolff, L. M., & **Stevens, J.R.** (forthcoming). Less activity means improved welfare? How pair housing influences pinyon jay (_Gymnorhinus cyanocephalus_) behavior.  _Animal Welfare_. [doi:10.1101/2024.02.07.579343](https://doi.org/10.1101/2024.02.07.579343)
-
-::: {.content-visible when-format="html"}
-<a href="pubs/wolff_stevens_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://osf.io/v9r6q/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://github.com/adaptive-decision-making-lab/corvidactivity" title="GitHub" class="cv-pub-links">GitHub</a>
-<a href="https://doi.org/10.1101/2024.02.07.579343" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 

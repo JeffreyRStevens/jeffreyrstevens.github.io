@@ -685,6 +685,10 @@ Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of 
 
  "Reciprocal relations between dog and human psychology", University of Nebraska-Lincoln---Behavioral Neuroscience: Psychology 465
 
+[2024]{.aside} 
+
+ "Animal identity", University of Nebraska-Lincoln---Honors Seminar on Identity: Honors 189
+
 
 ## Mentoring
 
@@ -722,13 +726,13 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 
  Alexandra Rosati---"Context-dependent discounting in two New World primates, the cotton-top tamarin (*Saguinus oedipus*) and the common marmoset (*Callithrix jacchus*)", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Hoopes Thesis Award and Psychology Faculty Award*
 
-[2005-2007]{.aside}
-
- Sarah Heilbronner---"The evolution of risk-sensitive preferences in nonhuman primates", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Psychology Faculty Award*
-
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
+
+[2005-2007]{.aside}
+
+ Sarah Heilbronner---"The evolution of risk-sensitive preferences in nonhuman primates", (senior thesis, Mind, Brain, and Behavior Program, Psychology, Harvard University) *Winner of Psychology Faculty Award*
 
 [2010-2011]{.aside}
 
@@ -775,6 +779,10 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 [2018-2020]{.aside}
 
  Elise Thayer--"Effects of human-animal interactions on affect and cognition", (Master's thesis, Dept. of Psychology, University of Nebraska-Lincoln)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2019-2022]{.aside}
 
