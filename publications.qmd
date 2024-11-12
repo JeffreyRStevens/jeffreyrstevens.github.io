@@ -715,7 +715,17 @@ format:
 :::
 
 
-**Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks).
+\*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2024). Effects of human-animal interaction on positive youth development: A replication study _PsyArXiv_. [doi:10.31234/osf.io/ge7bf](https://doi.org/10.31234/osf.io/ge7bf)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/pachunka_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/8tkhp/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/haipyd" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.31234/osf.io/ge7bf" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+**Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks)
  
 ::: {.content-visible when-format="html"}
 <a href="https://github.com/JeffreyRStevens/flashr" title="GitHub" class="cv-pub-links">GitHub</a>
