@@ -228,6 +228,9 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "[Canine cognition and the human bond](https://jeffreyrstevens.quarto.pub/asci_2024)", Animal Science Breeding and Genetics Group, University of Nebraska-Lincoln
  
  "[Impulsivity and quantity preference in dogs](https://jeffreyrstevens.quarto.pub/elte_2024)", Department of Ethology, Eötvös Loránd University, Budapest, Hungary
+ 
+ "[Replicability in canine behavioral science: Lessons for conducting reliable research](https://jeffreyrstevens.quarto.pub/mit_2024), Lincoln Laboratory, MIT, Cambridge, MA
+ 
 
 ### Conference
 
@@ -236,10 +239,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "The economics of food sharing: when should blue jays cooperate?", **Stevens, J.R.**, and Stephens, Animal Social Complexity and Intelligence Conference, Chicago, IL. (poster)
 
  "Harassment increases food sharing: a selfish explanation for generosity in primates", Animal Behaviour Society, Bloomington, IN.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2003]{.aside}
 
@@ -314,10 +313,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "Testing theories of intertemporal choice", Regenwetter, M., **Stevens, J.R.**, Guo, Y., Popova, A., and Zwilling, C., Workshop on Testing Theories of Choice Behavior, Berlin, Germany.
 
  "Memory for cooperative actions: the role of costly errors and context when remembering the past", **Stevens, J.R.** and Winke, T., Animal Behavior Society--Human Behavior and Evolution Society joint meeting, Albuquerque, NM.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2013]{.aside}
 
