@@ -565,6 +565,9 @@ format:
 
 89. \*Thayer, E.R. & **Stevens, J.R.** (2022). Effects of human-animal interactions on affect and cognition. *Human-Animal Interaction Bulletin*, 10(2), 73-98. [doi:10.1079/hai.2022.0015](https://doi.org/10.1079/hai.2022.0015)
 
+Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal interactions on affect and cognition. In L. R. Kogan (Ed.), _The Impact of Therapy and Pet Animals on Human Stress_ (pp. 54–75). CABI.
+
+
 ::: {.content-visible when-format="html"}
 <a href="pubs/thayer.stevens.2021.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/v7wxt/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
@@ -615,10 +618,6 @@ format:
 <a href="pubs/stevens_2023.pdf" title="PDF" class="cv-pub-links">PDF</a>
 :::
 
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2024]{.aside}
 
