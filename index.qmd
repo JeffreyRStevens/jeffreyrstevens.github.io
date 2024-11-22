@@ -9,7 +9,7 @@ about:
       href: https://fediscience.org/@JeffreyRStevens
     - icon: "{{< iconify simple-icons bluesky >}}"
       text: "{{< iconify simple-icons bluesky >}} Bluesky" 
-      href: https://bsky.app/profile/jeffreyrstevens.bsky.social
+      href: https://bsky.app/profile/jeffreyrstevens.com
     - icon: github
       text: GitHub
       href: https://github.com/JeffreyRStevens
