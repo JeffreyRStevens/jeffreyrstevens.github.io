@@ -423,6 +423,8 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "Automatically formating statistics in R Markdown with {papaja}", CB3 Club, University of Nebraska-Lincoln
 
+[2024]{.aside}
+ "Git sandbox", [online tutorial](https://github.com/unl-cchil/git_sandbox)
 
 ## Grants and Fellowships
 
@@ -448,6 +450,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 [2002-2003]{.aside} 
 
  Doctoral Dissertation Fellowship (University of Minnesota), "The behavioral ecology of food sharing\" (\$14,000)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2003-2006]{.aside} 
 
