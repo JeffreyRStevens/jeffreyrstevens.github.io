@@ -15,7 +15,7 @@ description: "ManyDogs is an international consortium of canine science research
 ---
 
 
-![Source: [Craig Chander, UNL University Communications](https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/)](images/manydogs.jpg){fig-alt="Lots of dogs standing or sitting on or near a ramp."}
+![Source: [Craig Chandler, UNL University Communications](https://news.unl.edu/newsrooms/today/article/to-the-dogs-stevens-co-directing-global-consortium-on-canine-research/)](images/manydogs.jpg){fig-alt="Lots of dogs standing or sitting on or near a ramp."}
 
 CCHIL is elated to be part of a very exciting initiative called the [ManyDogs Project](http://manydogs.org) that brings together dog behavior and cognition labs worldwide together to study canine science. We have a [paper](https://doi.org/10.3819/CCBR.2023.180004) published in _Comparative Cognition and Behavior Reviews_ that introduces this initiative, but here we give a quick summary.
 
