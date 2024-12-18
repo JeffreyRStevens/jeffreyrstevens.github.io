@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jeffrey Stevens">
+<meta name="dcterms.date" content="2024-12-18">
+<meta name="description" content="Make flashcards for learning R functions or other terms.">
+
+<title>flashr: Create Flashcards of Terms and Definitions – Jeffrey R. Stevens</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-7021e1e31073391b7b9b140aa80e34a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1P6FW90MJL"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1P6FW90MJL', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jeffrey R. Stevens</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../../cv.html">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../people.html">
+ <span class="dropdown-text">People</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html"> 
+<span class="menu-text">R Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#building-decks" id="toc-building-decks" class="nav-link active" data-scroll-target="#building-decks">Building decks</a></li>
+  <li><a href="#finding-decks" id="toc-finding-decks" class="nav-link" data-scroll-target="#finding-decks">Finding decks</a></li>
+  <li><a href="#customizing-decks" id="toc-customizing-decks" class="nav-link" data-scroll-target="#customizing-decks">Customizing decks</a></li>
+  <li><a href="#creating-decks" id="toc-creating-decks" class="nav-link" data-scroll-target="#creating-decks">Creating decks</a></li>
+  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">Wrap-up</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">flashr: Create Flashcards of Terms and Definitions</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">coding</div>
+    <div class="quarto-category">R package</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Make flashcards for learning R functions or other terms.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jeffrey Stevens </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 18, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Are you learning R? Or teaching it? There are <strong>a lot</strong> of functions to keep track of. That’s why I developed the <a href="https://jeffreyrstevens.github.io/flashr/"><code>{flashr}</code></a> package.</p>
+<p>As an R user in the field of psychology, I was excited to read <a href="https://www.manning.com/books/the-programmers-brain"><em>The Programmer’s Brain</em></a> by Felienne Hermans because of the subtitle: “What every programmer needs to know about cognition”. This book applies what we know about cognitive psychology to coding.</p>
+<p><img src="images/programmers_brain.jpg" alt="Cover of The Programmer's Brain book." width="200" class="center"></p>
+<p>There are many gems in the book. But one of the things that stuck with me was the suggestion that flashcards could be useful in learning coding by giving repetitive experience with terms and their definitions. This inspired me to create <code>{flashr}</code> to generate flashcards. With <code>{flashr}</code> you can create flashcard slides from existing decks or from data frames of your own terms and descriptions. The slides can be viewed in the RStudio viewer or saved as HTML files.</p>
+<section id="building-decks" class="level2">
+<h2 class="anchored" data-anchor-id="building-decks">Building decks</h2>
+<p>Let’s say you or your students are learning R by reading <a href="https://r4ds.hadley.nz/"><em>R for Data Science</em></a> (R4DS)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In chapter 1 on data visualization, there are 14 functions referenced. Once you move on to chapter 3 on data transformation, there are 31 functions, 25 of which are new. By chapter 5, there are about 60 functions to know. That’s a lot! And some of them sound quite similar. Does <code>dplyr::select()</code> subset rows or columns? What about <code>dplyr::filter()</code>?</p>
+<p>Keeping track of all of the new functions can be tricky. But flashcards can help. And if you’re using R4DS, you’re in luck because we’ve already created flashcards for each chapter in the book. And they’re baked into <code>{flashr}</code>. All you have to do is find the tag that references the chapter of interest and pass it to the <code>flashcard()</code> function. So if you want to build a flashcard deck of the functions referenced in the first chapter of R4DS, just type:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flashr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="images/flashcard.gif" alt="GIF of flashcard slide deck from R for Data Science Chapter 1 showing terms and descriptions for geom_point(), ggplot(), and library()." class="center"></p>
+</section>
+<section id="finding-decks" class="level2">
+<h2 class="anchored" data-anchor-id="finding-decks">Finding decks</h2>
+<p>Where did <code>"r4ds-2e01"</code> come from? It’s a tag that represents the first chapter of the second edition of R4DS. To find it, you just have to list available flashcard decks with the <code>list_decks()</code> function. There are a lot of decks, so it helps to narrow down the list by using some pattern matching. For instance, if you’re interested in using chapters from the second edition of R4DS, you might try matching <code>"2e"</code> to focus only on that edition of the book.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">list_decks</span>(<span class="at">pattern =</span> <span class="st">"2e"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Available flashcard decks</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>1. R4DS-2e Ch. 00 (r4ds-2e00)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>2. R4DS-2e Ch. 01 (r4ds-2e01)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>3. R4DS-2e Ch. 02 (r4ds-2e02)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>4. R4DS-2e Ch. 03 (r4ds-2e03)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>5. R4DS-2e Ch. 04 (r4ds-2e04)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>6. R4DS-2e Ch. 05 (r4ds-2e05)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>7. R4DS-2e Ch. 07 (r4ds-2e07)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>8. R4DS-2e Ch. 09 (r4ds-2e09)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>9. R4DS-2e Ch. 10 (r4ds-2e10)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>10. R4DS-2e Ch. 11 (r4ds-2e11)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>11. R4DS-2e Ch. 12 (r4ds-2e12)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>12. R4DS-2e Ch. 13 (r4ds-2e13)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>13. R4DS-2e Ch. 14 (r4ds-2e14)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>14. R4DS-2e Ch. 15 (r4ds-2e15)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>15. R4DS-2e Ch. 16 (r4ds-2e16)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>16. R4DS-2e Ch. 17 (r4ds-2e17)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>17. R4DS-2e Ch. 18 (r4ds-2e18)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>18. R4DS-2e Ch. 19 (r4ds-2e19)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>19. R4DS-2e Ch. 20 (r4ds-2e20)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>20. R4DS-2e Ch. 21 (r4ds-2e21)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>21. R4DS-2e Ch. 22 (r4ds-2e22)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>22. R4DS-2e Ch. 23 (r4ds-2e23)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>23. R4DS-2e Ch. 24 (r4ds-2e24)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>24. R4DS-2e Ch. 25 (r4ds-2e25)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>25. R4DS-2e Ch. 26 (r4ds-2e26)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>26. R4DS-2e Ch. 27 (r4ds-2e27)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>27. R4DS-2e Ch. 28 (r4ds-2e28)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>28. R4DS-2e Ch. 29 (r4ds-2e29)</code></pre>
+</div>
+</div>
+<p>All of the available decks are listed in the <a href="https://jeffreyrstevens.github.io/flashr_decks/decks.html">flashr decks</a> page. It includes both editions of R4DS, along with several of the awesome <a href="https://psyteachr.github.io/">PsyTeachR</a> books and a couple of miscellaneous decks. This site not only includes the tags that you can use to create your own versions of the decks but also has links to actual flashcard slide decks that you can browse through.</p>
+</section>
+<section id="customizing-decks" class="level2">
+<h2 class="anchored" data-anchor-id="customizing-decks">Customizing decks</h2>
+<p>One of the great things about flashcards is that you can either view terms and guess descriptions or view descriptions and guess terms. By default, <code>flashcard()</code> builds decks where you have to guess the descriptions from the terms. But you can easily switch that around with the <code>termsfirst = FALSE</code> argument.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">termsfirst =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Or maybe you don’t want the package names cluttering up your decks. Just remove them with <code>package = FALSE</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">package =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>What if you don’t like the default colors and fonts? You can change the slide theme with the <code>theme</code> argument, choosing from one of the available <a href="https://revealjs.com/themes/">reveal.js</a> themes. You can also override the font size and color with <code>fontsize</code> and <code>fontcolor</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">theme =</span> <span class="st">"sky"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="images/theme_sky.png" alt="Title slide of deck for R4DS-2E Ch. 1 using sky theme with white/light blue background and black font." class="center" width="80%"></p>
+</section>
+<section id="creating-decks" class="level2">
+<h2 class="anchored" data-anchor-id="creating-decks">Creating decks</h2>
+<p>The <code>{flashr}</code> package was first published on CRAN in 2023. But version 0.2.0 includes functions that can help you build your own decks. What if there are other books besides R4DS or the PsyTeachR series that you want to build decks from? Do you have to go through and find all of the individual functions and write out all of the descriptions for those other books? Ugh…that sounds awful!</p>
+<p>Well, maybe we can help. The <code>extract_code()</code> function lets you extract the contents of code blocks from R Markdown and Quarto documents. That can then be passed to <code>extract_functions()</code> to pull out all of the functions in that code. Once you have a vector of functions, they can be passed to <code>build_functions_df()</code> which makes a flashr-friendly data frame and even pulls descriptions from functions that are included in the <a href="https://jeffreyrstevens.github.io/flashr_decks/functions.html">flashr decks list of functions</a>. Let’s try that with chapter 3 of <a href="https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Names-values.Rmd">Advanced R</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>advr3_text <span class="ot">&lt;-</span> <span class="st">"https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Vectors.Rmd"</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>advr3_df <span class="ot">&lt;-</span> advr3_text <span class="sc">|&gt;</span>  </span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">extract_code</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">extract_functions</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">build_functions_df</span>(<span class="at">fs =</span> _, <span class="at">title =</span> <span class="st">"Advanced R Ch. 3"</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(advr3_df, <span class="at">n =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          term                               description package
+2  as_tibble()                 coerce object into tibble  tibble
+3    as.Date()                           convert to date    base
+5 as.integer()                         coerce to integer    base
+7 as.numeric()                  coerce object to numeric    base
+9       attr() return or set individual attribute values    base
+             title
+2 Advanced R Ch. 3
+3 Advanced R Ch. 3
+5 Advanced R Ch. 3
+7 Advanced R Ch. 3
+9 Advanced R Ch. 3</code></pre>
+</div>
+</div>
+<p>You can also very easily create your own data frame by passing a vector of function names to <code>build_functions_df()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_functions_df</span>(<span class="at">fs =</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"filter"</span>, <span class="st">"aes"</span>, <span class="st">"extract_code"</span>), </span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">title =</span> <span class="st">"Custom deck"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      term                                     description package       title
+1        +                                        addition    base Custom deck
+2    aes() create aesthetic mappings between data and plot ggplot2 Custom deck
+4 filter()            keep rows based on values of columns   dplyr Custom deck</code></pre>
+</div>
+</div>
+<p>Notice that, though “extract_code” is in our vector of functions, it does not show up in the data frame. That is because the <code>extract_code()</code> function is not in the <a href="https://jeffreyrstevens.github.io/flashr_decks/functions.html">flashr decks list of functions</a>, so it does not have a description or package associated with it. If I want to include it in the data frame anyways (along with any other functions not on the list), I can just set <code>omit = FALSE</code> to include terms with missing descriptions. This could be useful if you want to export your data frame and fill in your own descriptions.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_functions_df</span>(<span class="at">fs =</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"filter"</span>, <span class="st">"aes"</span>, <span class="st">"extract_code"</span>), </span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">title =</span> <span class="st">"Custom deck"</span>,</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">omit =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            term                                     description package
+1              +                                        addition    base
+2          aes() create aesthetic mappings between data and plot ggplot2
+3 extract_code()                                            &lt;NA&gt;    &lt;NA&gt;
+4       filter()            keep rows based on values of columns   dplyr
+        title
+1 Custom deck
+2 Custom deck
+3 Custom deck
+4 Custom deck</code></pre>
+</div>
+</div>
+<p>Once you have a data frame, you can pass it to <code>flashcard()</code> to build the deck.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(advr3_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="images/advr3.png" alt="Title slide of deck for Advanced R Ch. 3." class="center" width="80%"></p>
+</section>
+<section id="wrap-up" class="level2">
+<h2 class="anchored" data-anchor-id="wrap-up">Wrap-up</h2>
+<p>This was a short intro into how to use the <code>{flashr}</code> package to build flashcard decks. Though we focus on using it to learn R functions, <code>{flashr}</code> can be used to learn any terms and descriptions. You just have to create your own decks. More info is available at the <a href="https://jeffreyrstevens.github.io/flashr">package website</a>, as well as the <a href="https://jeffreyrstevens.github.io/flashr_decks">decks website</a>. If you have new decks or functions to include or ideas on how to improve <code>{flashr}</code>, please <a href="https://github.com/JeffreyRStevens/flashr/issues">submit an issue</a> or <a href="jeffrey.r.stevens@protonmail.com">reach out to us</a>.</p>
+<p><img src="images/flashr_logo.png" alt="flashr hex logo with lightning bolts above the word flashr." class="center" width="200"></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Note that here we refer to the second edition of R4DS. The <a href="https://r4ds.had.co.nz/">first edition</a> is still available, and flashcard decks are available at <a href="https://jeffreyrstevens.github.io/flashr_decks/decks.html">flashr decks</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/jeffreyrstevens\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2024 Jeffrey R. Stevens. Powered by <a href="https://www.quarto.org">Quarto</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://fediscience.org/@JeffreyRStevens">
+      <i class="bi bi-mastodon" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/jeffreyrstevens.bsky.social">
+<p><iconify-icon role="img" inline="" icon="simple-icons:bluesky" aria-label="Icon bluesky from simple-icons Iconify.design set." title="Icon bluesky from simple-icons Iconify.design set."></iconify-icon></p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JeffreyRStevens">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/JeffreyRStevens/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jeffrey.r.stevens@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,129 @@
+---
+title: 'flashr: Create Flashcards of Terms and Definitions'
+author:
+  - Jeffrey Stevens
+date: '2024-12-18'
+categories: 
+  - coding
+  - R package
+description: "Make flashcards for learning R functions or other terms."
+image: "images/flashcard.gif"
+draft: false
+# execute:
+#   freeze: auto
+---
+
+Are you learning R? Or teaching it? There are **a lot** of functions to keep track of. That's why I developed the [`{flashr}`](https://jeffreyrstevens.github.io/flashr/) package.
+
+As an R user in the field of psychology, I was excited to read [_The Programmer's Brain_](https://www.manning.com/books/the-programmers-brain) by Felienne Hermans because of the subtitle: "What every programmer needs to know about cognition". This book applies what we know about cognitive psychology to coding. 
+
+<img src="images/programmers_brain.jpg" alt="Cover of The Programmer's Brain book." width="200" class="center">
+
+There are many gems in the book. But one of the things that stuck with me was the suggestion that flashcards could be useful in learning coding by giving repetitive experience with terms and their definitions. This inspired me to create `{flashr}` to generate flashcards. 
+With `{flashr}` you can create flashcard slides from existing decks or from data frames of your own terms and descriptions. The slides can be viewed in the RStudio viewer or saved as HTML files.
+
+## Building decks
+
+Let's say you or your students are learning R by reading [_R for Data Science_](https://r4ds.hadley.nz/) (R4DS)[^1]. In chapter 1 on data visualization, there are 14 functions referenced. Once you move on to chapter 3 on data transformation, there are 31 functions, 25 of which are new. By chapter 5, there are about 60 functions to know. That's a lot! And some of them sound quite similar. Does `dplyr::select()` subset rows or columns? What about `dplyr::filter()`?
+
+Keeping track of all of the new functions can be tricky. But flashcards can help. And if you're using R4DS, you're in luck because we've already created flashcards for each chapter in the book. And they're baked into `{flashr}`. All you have to do is find the tag that references the chapter of interest and pass it to the `flashcard()` function. So if you want to build a flashcard deck of the functions referenced in the first chapter of R4DS, just type:
+
+```{r echo=FALSE}
+library(flashr)
+```
+
+```{r eval=FALSE}
+library(flashr)
+flashcard("r4ds-2e01")
+```
+
+<img src="images/flashcard.gif" alt="GIF of flashcard slide deck from R for Data Science Chapter 1 showing terms and descriptions for geom_point(), ggplot(), and library()." class="center">
+
+
+## Finding decks
+
+Where did `"r4ds-2e01"` come from? It's a tag that represents the first chapter of the second edition of R4DS. To find it, you just have to list available flashcard decks with the `list_decks()` function. There are a lot of decks, so it helps to narrow down the list by using some pattern matching. For instance, if you're interested in using chapters from the second edition of R4DS, you might try matching `"2e"` to focus only on that edition of the book.
+
+```{r}
+list_decks(pattern = "2e")
+```
+
+All of the available decks are listed in the [flashr decks](https://jeffreyrstevens.github.io/flashr_decks/decks.html) page. It includes both editions of R4DS, along with several of the awesome [PsyTeachR](https://psyteachr.github.io/) books and a couple of miscellaneous decks. This site not only includes the tags that you can use to create your own versions of the decks but also has links to actual flashcard slide decks that you can browse through.
+
+
+
+## Customizing decks
+
+One of the great things about flashcards is that you can either view terms and guess descriptions or view descriptions and guess terms. By default, `flashcard()` builds decks where you have to guess the descriptions from the terms. But you can easily switch that around with the `termsfirst = FALSE` argument.
+
+```{r eval=FALSE}
+flashcard("r4ds-2e01", termsfirst = FALSE)
+```
+
+Or maybe you don't want the package names cluttering up your decks. Just remove them with `package = FALSE`.
+
+```{r eval=FALSE}
+flashcard("r4ds-2e01", package = FALSE)
+```
+
+What if you don't like the default colors and fonts? You can change the slide theme with the `theme` argument, choosing from one of the available [reveal.js](https://revealjs.com/themes/) themes. You can also override the font size and color with `fontsize` and `fontcolor`.
+
+```{r eval=FALSE}
+flashcard("r4ds-2e01", theme = "sky")
+```
+
+<img src="images/theme_sky.png" alt="Title slide of deck for R4DS-2E Ch. 1 using sky theme with white/light blue background and black font." class="center" width="80%">
+
+
+
+
+
+
+
+## Creating decks
+
+The `{flashr}` package was first published on CRAN in 2023. But version 0.2.0  includes functions that can help you build your own decks. What if there are other books besides R4DS or the PsyTeachR series that you want to build decks from? Do you have to go through and find all of the individual functions and write out all of the descriptions for those other books? Ugh...that sounds awful!
+
+Well, maybe we can help. The `extract_code()` function lets you extract the contents of code blocks from R Markdown and Quarto documents. That can then be passed to `extract_functions()` to pull out all of the functions in that code. Once you have a vector of functions, they can be passed to `build_functions_df()` which makes a flashr-friendly data frame and even pulls descriptions from functions that are included in the [flashr decks list of functions](https://jeffreyrstevens.github.io/flashr_decks/functions.html). Let's try that with chapter 3 of [Advanced R](https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Names-values.Rmd).
+
+```{r}
+advr3_text <- "https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Vectors.Rmd"
+advr3_df <- advr3_text |>  
+  extract_code() |> 
+  extract_functions() |> 
+  build_functions_df(fs = _, title = "Advanced R Ch. 3")
+head(advr3_df, n = 5)
+```
+
+You can also very easily create your own data frame by passing a vector of function names to `build_functions_df()`.
+
+```{r}
+build_functions_df(fs = c("+", "filter", "aes", "extract_code"), 
+                   title = "Custom deck")
+```
+
+Notice that, though "extract_code" is in our vector of functions, it does not show up in the data frame. That is because the `extract_code()` function is not in the [flashr decks list of functions](https://jeffreyrstevens.github.io/flashr_decks/functions.html), so it does not have a description or package associated with it. If I want to include it in the data frame anyways (along with any other functions not on the list), I can just set `omit = FALSE` to include terms with missing descriptions. This could be useful if you want to export your data frame and fill in your own descriptions.
+
+```{r}
+build_functions_df(fs = c("+", "filter", "aes", "extract_code"), 
+                   title = "Custom deck",
+                   omit = FALSE)
+```
+
+Once you have a data frame, you can pass it to `flashcard()` to build the deck.
+
+```{r eval=FALSE}
+flashcard(advr3_df)
+```
+<img src="images/advr3.png" alt="Title slide of deck for Advanced R Ch. 3." class="center" width="80%">
+
+## Wrap-up
+
+This was a short intro into how to use the `{flashr}` package to build flashcard decks. Though we focus on using it to learn R functions, `{flashr}` can be used to learn any terms and descriptions. You just have to create your own decks. More info is available at the [package website](https://jeffreyrstevens.github.io/flashr), as well as the [decks website](https://jeffreyrstevens.github.io/flashr_decks). If you have new decks or functions to include or ideas on how to improve `{flashr}`, please [submit an issue](https://github.com/JeffreyRStevens/flashr/issues) or [reach out to us](jeffrey.r.stevens@protonmail.com).
+
+
+<img src="images/flashr_logo.png" alt="flashr hex logo with lightning bolts above the word flashr." class="center" width=200>
+
+
+[^1]: Note that here we refer to the second edition of R4DS. The [first edition](https://r4ds.had.co.nz/) is still available, and flashcard decks are available at [flashr decks](https://jeffreyrstevens.github.io/flashr_decks/decks.html). 
+
