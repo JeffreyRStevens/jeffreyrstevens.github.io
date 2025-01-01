@@ -37,7 +37,7 @@ website:
 
   page-footer:
     background: light
-    left: "&copy; 2024 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
+    left: "&copy; 2025 Jeffrey R. Stevens. Powered by <a href='https://www.quarto.org'>Quarto</a>."
     right:
       - icon: mastodon
         href: https://fediscience.org/@JeffreyRStevens
