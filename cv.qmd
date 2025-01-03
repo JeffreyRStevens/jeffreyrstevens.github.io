@@ -84,7 +84,7 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
 [1997-2002]{.aside}
 
- __University of Minnesota__ Ph.D. Ecology, Evolution, and Behavior, Minor: Psychology (supervisor: David W. Stephens). Dissertation: _The behavioral ecology of food sharing_.
+ __University of Minnesota__ Ph.D. Ecology, Evolution, and Behavior, Minor: Psychology (supervisor: David W. Stephens). Dissertation: [_The behavioral ecology of food sharing_](pubs/stevens_2002.pdf).
 
 
 <!-- ## Publications -->
