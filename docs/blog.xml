@@ -9,7 +9,7 @@
 <link>https://jeffreyrstevens.github.io/blog.html</link>
 <atom:link href="https://jeffreyrstevens.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Jeff Stevens&#39; blog</description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.6.40</generator>
 <lastBuildDate>Wed, 18 Dec 2024 06:00:00 GMT</lastBuildDate>
 <item>
   <title>flashr: Create Flashcards of Terms and Definitions</title>
