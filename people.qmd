@@ -58,6 +58,12 @@ Susannah is pursuing a bachelor's degree in psychology. She would love to pursue
 
 Susannah is pursuing a dual major in Biological Sciences and Psychology at UNL. She aspires to go to graduate school to become a researcher and hopes to add to the scientific world with her interest in animal behavior. She learned about the lab after her dog, Bean, was a participant, and after looking through previous research, was interested in what the lab was doing. She is now excited to contribute to the amazing studies.
 
+### Daniela Currie
+
+![](images/daniela_currie.jpeg){fig-alt="Daniela Currie" width="200" fig-align="left"}
+
+Daniela is pursuing a degree in Animal Science with a minor in Food Technology for Companion Animals, with plans to specialize in companion animal nutrition following the completion of her undergraduate studies. She is an active member of Delta Delta Delta, S.E.E.C.A, and the Animal Behavior and Welfare Club. Passionate about animal welfare, Daniela has also established a small business focused on creating enrichment toys for companion animals. She is excited to gain hands-on experience and further expand her knowledge through this research opportunity.
+
 
 <!-- ### Hunter DeBoer -->
 
