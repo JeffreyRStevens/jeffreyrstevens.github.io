@@ -52,9 +52,12 @@ website:
 
 format:
   html:
-    theme: yeti
+    # theme: yeti
     css: styles.css
     toc: true
+theme:
+  dark: darkly
+  light: yeti
 
 
 
