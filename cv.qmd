@@ -591,19 +591,21 @@ Discussion leader, *Advances in Behavioral Economics*---Harvard University (2005
 
 Lecturer, *Psychology of Economic Decision Making, Psy 1104*---Harvard University (2006)
 
-Instructor, *Evolution, Behavior, and Society, Psyc 270*---University of Nebraska (2011--2016, 2018, 2020-2023)
+Instructor, *Evolution, Behavior, and Society, PSYC 270*---University of Nebraska (2011--2016, 2018, 2020-2023)
 
-Instructor, *Psychology of Decision Making, Psyc 961*---University of Nebraska (2012, 2013, 2015, 2017, 2020, 2022)
+Instructor, *Psychology of Decision Making, PSYC 961*---University of Nebraska (2012, 2013, 2015, 2017, 2020, 2022)
 
-Instructor, *Learning Processes, Psyc 461/861*---University of Nebraska (2013--2017)
+Instructor, *Learning Processes, PSYC 461/861*---University of Nebraska (2013--2017)
 
-Instructor, *Perspectives in Psychology, Psyc 440/840*---University of Nebraska (2013--2016, 2018--2020)
+Instructor, *Perspectives in Psychology, PSYC 440/840*---University of Nebraska (2013--2016, 2018--2020)
 
-Instructor, *Animal Learning & Cognition, Psyc 461/861*---University of Nebraska (2019)
+Instructor, *Animal Learning & Cognition, PSYC 461/861*---University of Nebraska (2019)
 
-Instructor, *Data Science and Visualization in R*, Psyc 492/971*---University of Nebraska (2021)
+Instructor, *Data Science and Visualization in R*, PSYC 492/971*---University of Nebraska (2021, 2023, 2025)
 
-Instructor, *Controversial Issues in Psychology*, Psyc 440/840*---University of Nebraska (2022-2023)
+Instructor, *Controversial Issues in Psychology*, PSYC 440/840*---University of Nebraska (2022-2023)
+
+Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior*, PSYC 913*---University of Nebraska (2025)
 
 
 ## Summer Schools and Workshops
@@ -786,7 +788,7 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 
 [2019-2023]{.aside}
 
- Francine Goh--"[Affective influences on intertemporal choice](https://digitalcommons.unl.edu/dissertations/AAI30814235/)", (PhD thesis, Dept. of Psychology, University of Nebraska-Lincoln)
+ Francine Goh--"[Affective influences on intertemporal choice](https://digitalcommons.unl.edu/dissertations/AAI30814235/)", (PhD thesis, Dept. of Psychology, University of Nebraska-Lincoln) 
  
 
 ## Outreach
