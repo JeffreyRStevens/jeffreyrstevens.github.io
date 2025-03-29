@@ -8,7 +8,7 @@ format:
 
 ## Publications
 
-\*undergraduate or graduate student author; \#invited journal article; PDFs and open, reproducible materials available [here](https://decisionslab.unl.edu/publications.html)
+\*undergraduate or graduate student author; \#invited journal article; PDFs and open, reproducible materials available on my [website](https://jeffreyrstevens.github.io/publications.html)
 
 ::: {.content-visible when-format="html"}
 ### 1990s
@@ -190,6 +190,10 @@ format:
 
 49. \#**Stevens, J.R.**, Pachur, T., & Schooler, L. J. (2013). Rational analysis of the adaptive and predictive nature of memory. *Journal of Applied Research in Memory and Cognition*, *2*, 251-253. [doi:10.1016/j.jarmac.2013.10.006](http://doi.org/10.1016/j.jarmac.2013.10.006)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2014]{.aside}
 
 50. **Stevens, J.R.** (2014). Evolutionary pressures on primate intertemporal choice. *Proceedings of the Royal Society of London, Series B*, *281*, 20140499. [doi:10.1098/rspb.2014.0499](http://doi.org/10.1098/rspb.2014.0499)
@@ -360,11 +364,6 @@ format:
 <a href="pubs/stevens_etal_2018.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="pubs/stevens_etal_2018_SM.pdf" title="SM" class="cv-pub-links">SM</a>
 <a href="https://osf.io/a7d3b/" title="Data & code" class="cv-pub-links">Data & code</a>
-:::
-
-
-::: {.content-visible when-format="pdf"}
-\newpage
 :::
 
 
@@ -684,7 +683,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [In press]{.aside}
 
-\*DeBoer, H., \*Fitzpatrick, H., \*Wolff, L. M., \*Gatesy-Davis, A., & **Stevens, J. R.** (forthcoming). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. _Psychological Topics_.
+\*DeBoer, H., \*Fitzpatrick, H., \*Wolff, L. M., \*Gatesy-Davis, A., & **Stevens, J. R.** (in press). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. _Psychological Topics_.
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/deboer_etal_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>

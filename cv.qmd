@@ -86,6 +86,46 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  __University of Minnesota__ Ph.D. Ecology, Evolution, and Behavior, Minor: Psychology (supervisor: David W. Stephens). Dissertation: [_The behavioral ecology of food sharing_](pubs/stevens_2002.pdf).
 
+## Honors and Awards
+
+[1996]{.aside} 
+
+ Phi Beta Kappa National Honor Society, Baylor University
+
+ Outstanding Senior in Biology, Baylor University
+
+ Outstanding Senior Thesis in Environmental Studies, Baylor University
+
+[1997]{.aside} 
+
+ School of Biological Sciences Research Assistantship Award, University of Nebraska-Lincoln
+
+[2001]{.aside} 
+
+ College of Biological Sciences Outstanding Teaching Assistant Award, University of Minnesota
+
+[2003]{.aside} 
+
+ Derek Bok Center for Teaching and Learning Certificate of Distinction in Teaching, Harvard University
+
+[2016]{.aside} 
+
+ College of Arts and Sciences Distinguished Teaching Award, University of Nebraska-Lincoln
+
+[2017]{.aside} 
+
+ UNL Parents Association Certificate of Recognition for Contributions to Students, University of Nebraska-Lincoln
+
+[2020]{.aside} 
+
+ Susan J. Rosowski Associate Professorship, University of Nebraska-Lincoln
+
+[2024]{.aside} 
+
+ Barela et al. (2024) selected as [APA Editor's Choice](https://www.apa.org/news/editors-choice)
+
+
+# Research
 
 <!-- ## Publications -->
 
@@ -433,6 +473,11 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "[Git sandbox](https://github.com/unl-cchil/git_sandbox)", online tutorial
 
+[2024]{.aside}
+
+"Creating websites in Quarto", CB3 Club, University of Nebraska-Lincoln
+
+
 ## Grants and Fellowships
 
 ### Completed
@@ -574,6 +619,8 @@ R Consortium User Group Grant, "Nebraska R User Group", PI ($250)
 University of Nebraska-Lincoln Layman New Directions Award, "Dog physiological and neural responses to human stress", PI ($9,990)
 
 
+# Teaching
+
 ## Teaching Experience
 
 Teaching assistant, *General Biology, Biol 1009*---Biology, University of Minnesota (1997, 1998)
@@ -696,6 +743,28 @@ Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior
 
  "Animal identity", University of Nebraska-Lincoln---Honors Seminar on Identity: Honors 189
 
+## Teaching Development
+
+[1999]{.aside} 
+
+ Participant in TA Web Certification, TAWEB 103---Academic and Distributed Computing Services, Center for Teaching and Learning Services, University of Minnesota
+
+[2000]{.aside} 
+
+ Co-author curriculum for Introduction to Animal Behavior Laboratory, EEB 3411---Ecology, Evolution, and Behavior, University of Minnesota
+
+[2002]{.aside}
+
+ Participant in Preparing Future Faculty Retreat---Preparing Future Faculty, Center for Teaching and Learning Services, University of Minnesota
+
+[2003]{.aside}
+
+ Participant in Fall Teaching Conference---Derek Bok Center for Teaching and Learning, Harvard University
+
+[2020]{.aside}
+
+Participant in Summer Institute for Online Teaching—Center for Transformative Teaching, University of Nebraska-Lincoln
+
 
 ## Mentoring
 
@@ -791,8 +860,233 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 
  Francine Goh--"[Affective influences on intertemporal choice](https://digitalcommons.unl.edu/dissertations/AAI30814235/)", (PhD thesis, Dept. of Psychology, University of Nebraska-Lincoln) 
  
+# Service
 
-## Outreach
+## Administrative Leadership and Professional Development
+
+[2011-2012]{.aside} 
+
+ Participant in Research Development Fellows Program, University of Nebraska-Lincoln
+
+[2018-]{.aside}
+
+ Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
+
+[2022-2023]{.aside} 
+
+ Participant in [Research Leaders Program](https://research.unl.edu/researchleaders/), University of Nebraska-Lincoln
+
+[2022-]{.aside} 
+
+ Co-director of [ManyDogs Project](http://manydogs.org)
+
+[2024-]{.aside} 
+
+ Founder and organizer of [Nebraska R User Group](https://nebraskarusergroup.github.io/)
+ 
+
+## Editorships
+
+[2010-2017]{.aside} 
+
+ Editor-in-chief of *Frontiers in Comparative Psychology*
+
+ Associate editor of *Frontiers in Psychology*
+
+[2020-2025]{.aside} 
+
+ Editorial board of [*Animal Behavior and Cognition*](https://animalbehaviorandcognition.org/)
+
+[2023-]{.aside} 
+
+ Editorial board of [_Journal of Comparative Psychology_](https://www.apa.org/pubs/journals/com/)
+
+[2025-]{.aside} 
+
+ Associate editor of [*Animal Behavior and Cognition*](https://animalbehaviorandcognition.org/)
+
+
+## Committee Membership
+
+[1999-2000]{.aside} 
+
+ Student representative for departmental seminar committee, Dept. of Ecology, Evolution, and Behavior, University of Minnesota
+
+[1999-2001]{.aside} 
+
+ Student representative for Mechanisms of Behavior faculty search, Dept. of Ecology, Evolution, and Behavior, University of Minnesota
+
+[2012]{.aside} 
+
+ Member of Institutional Animal Care and Use Committee, University of Nebraska-Lincoln
+
+[2012-2014]{.aside} 
+
+ Alternate member of Institutional Animal Care and Use Committee, University of Nebraska-
+Lincoln
+
+[2013-2014]{.aside} 
+
+ Member of Social Neuroscience faculty search committee, University of Nebraska-Lincoln
+
+[2015-2016]{.aside} 
+
+ Member of Department of Psychology Executive Committee, University of Nebraska-Lincoln
+
+ Member of university graduate student fellowship committee, University of Nebraska-Lincoln
+
+[2016]{.aside} 
+
+ Member of National Security Decision Making faculty search committee, University of Nebraska-Lincoln
+
+[2018]{.aside} 
+
+ Chair of search committee for Biomarkers faculty search committee, University of Nebraska-Lincoln
+
+[2018-2021]{.aside}
+
+Department of Psychology Executive Committee, University of Nebraska-Lincoln
+
+[2019-2022]{.aside} 
+
+ Information Technology Systems Committee, University of Nebraska-Lincoln
+
+[2022]{.aside} 
+
+ Chair of search committee for applied cognitive psychologist, University of Nebraska-Lincoln
+ 
+[2024-]{.aside} 
+
+ Member of College of Arts \& Sciences Committee on Student Academic Distinction, Awards and Appeals
+ 
+ Program committee member of [Big Team Science Conference](teamscienceconference.github.io/)
+
+
+## Workshop/Seminar/Panel/Working Group Organization and Participation
+
+[2000]{.aside} 
+
+ Organizer of the Biological Basis of Behavior Seminar, EEB 8360---Ecology, Evolution, and Behavior, University of Minnesota
+
+[2004]{.aside}
+
+ Workshop leader for the Mind, Brain, and Behavior Senior Thesis Workshops, Harvard University
+
+[2007]{.aside}
+
+ Organizer for MPI Workshop on Inferences and Preferences in Humans and Other Animals, MPI for Evolutionary Anthropology, Leipzig, Germany
+
+ Co-organizer of Workshop on Lifespan Development of Heuristics and Evolutionary Perspectives, International Max Planck Research School: LIFE
+
+[2008-2011]{.aside}
+
+ Faculty for Summer Institute on Bounded Rationality in Psychology and Economics, Berlin, Germany
+
+[2010]{.aside} 
+
+ Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
+
+[2011]{.aside} 
+
+ Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
+
+Participant in NESCent working group on How Does Cognition Evolve?
+
+[2012]{.aside} 
+
+ Co-organizer (with Michel Regenwetter) of Workshop on Testing Theories of Choice Behavior, Berlin, Germany
+
+[2013]{.aside} 
+
+ Co-organizer (with Friederike Range) of CompCog Workshop on Concepts and Methodologies in the Field of Intertemporal Choices, Vienna, Austria
+
+[2013-2014]{.aside} 
+
+ Participant in NESCent working group on Evolution of Decision Making
+
+[2016]{.aside} 
+
+ Organizer of Nebraska Symposium on Motivation on [Impulsivity: How Time and Risk Influence Decision Making](https://psychology.unl.edu/symposium/recent-symposia/#sym2016), University of Nebraska-Lincoln
+
+[2019]{.aside} 
+
+ Co-organizer of Nebraska Symposium on Motivation on [Nature and Psychology: How the Natural World Shapes Our Cognition](https://psychology.unl.edu/symposium/recent-symposia/#sym2019), University of Nebraska-Lincoln
+
+ Invited speaker for Nebraska Academy for Early Childhood Research Knowledge Seminar, University of Nebraska-Lincoln
+
+[2022]{.aside} 
+
+ Organizer of Nebraska Symposium on Motivation on [Canine Cognition and the Human Bond](https://dogcog.unl.edu/canine-cognition-and-human-bond/), University of Nebraska-Lincoln
+
+
+## Ad-hoc Referee
+
+*Animal Behavior and Cognition*, *Animal Behaviour*, *Animal Cognition*, *Behavioral and Brain Sciences*, *Behavioral Ecology*, *Behavioral Ecology and Sociobiology*, *Behaviour*, *Behavioural Processes*, *Biology Letters*, *Cognition*, Cognitive Science Society, *Current Biology*, *Current Directions in Psychological Science*, *Ethology*, *Etología*, *Evolutionary Psychology*, *Experimental Psychology*, *iScience*, *Journal of Behavioral Decision Making*, *Journal of Comparative Psychology*, *Journal of Economic Psychology*,  *Journal of Experimental Psychology: General*, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *Learning & Behavior*, *Nature Reviews Neuroscience*, *Naturwissenschaften*, *Personality and Social Psychology Review*, *PLoS Biology*, *PLoS ONE*, *Proceedings of the National Academy of Sciences USA*, *Proceedings of the Royal Society of London: Series B*, *Psychonomic Bulletin & Review*, *Review of General Psychology*, *Royal Society Open Science*, *Science*, *Science Advances*, *Scientific Reports*, *Trends in Cognitive Sciences*
+
+
+## Grant Reviews
+
+### Panels
+
+[2015]{.aside} 
+
+ National Science Foundation, Animal Behavior Doctoral Dissertation
+Improvement Grant panel
+
+[2015-2016]{.aside} 
+
+ University of Nebraska-Lincoln Graduate Fellowship panel
+
+[2018-2020]{.aside} 
+
+ Buffett Early Childhood Institute Graduate Scholars panel
+
+[2021-2022]{.aside} 
+
+ National Institutes of Health, Human-Animal Interaction panel
+
+### Ad-hoc Reviews
+
+Austrian Academy of Sciences, Economic and Social Research Council (UK), Institute for Advanced Study Berlin, Konrad Lorenz Institute, Leakey Foundation, L'Oreal Foundation, National Science Foundation, Vienna Science and Technology Fund, Wellcome Trust
+
+
+## Professional Societies
+
+Canine Science Society, Comparative Cognition Society
+
+<!-- Animal Behavior Society, Comparative Cognition Society, International Society for Behavioral Ecology, Psychonomic Society, Society for Judgment and Decision Making -->
+
+
+## Software Development
+
+### excluder
+
+Developer of R package [excluder](https://docs.ropensci.org/excluder/), which facilitates excluding data from Qualtrics data sets.
+
+### flashr
+
+Developer of R package [flashr](https://jeffreyrstevens.github.io/flashr/), which creates flashcards for learning terms and descriptions.
+
+### cocoon
+
+Developer of R package [cocoon](https://jeffreyrstevens.github.io/cocoon/), which format statistical output in a way that can be inserted into R Markdown documents.
+
+### prereg
+Minor contributor to R package [prereg](https://github.com/crsh/prereg), which provides R Markdown templates that facilitate authoring preregistrations of scientific studies in PDF format.
+
+### see
+Minor contributor to R package [see](https://easystats.github.io/see/), which provides plotting functions using ggplot2.
+
+
+## Public Outreach
+
+[2001-2002]{.aside} 
+
+ Docent at Como Zoo, St. Paul, MN
+ 
+[2010]{.aside} 
+
+ Presenter at Zoological Society of London’s Communicating Science series, London, UK
 
 [2014]{.aside} 
 
@@ -834,10 +1128,6 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
  
  Invited speaker at Edgerton Explorit Veterinary Camp
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2021-2022]{.aside} 
  
  Host for Future Huskers visit
@@ -858,231 +1148,7 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
  
  Lead host/discussant for "Sips at Sheldon" event at [Sheldon Museum of Art](https://sheldon.unl.edu)
  
+[2025]{.aside} 
 
-## Professional Service and Development
-
-[1999]{.aside} 
-
- Participant in TA Web Certification, TAWEB 103---Academic and Distributed Computing Services, Center for Teaching and Learning Services, University of Minnesota
-
-[1999-2000]{.aside} 
-
- Student representative for departmental seminar committee, Dept. of Ecology, Evolution, and Behavior, University of Minnesota
-
-[1999-2001]{.aside} 
-
- Student representative for Mechanisms of Behavior faculty search, Dept. of Ecology, Evolution, and Behavior, University of Minnesota
-
-[2000]{.aside} 
-
- Organizer of the Biological Basis of Behavior Seminar, EEB 8360---Ecology, Evolution, and Behavior, University of Minnesota
-
- Co-author curriculum for Introduction to Animal Behavior Laboratory, EEB 3411---Ecology, Evolution, and Behavior, University of Minnesota
-
-[2002]{.aside}
-
- Participant in Preparing Future Faculty Retreat---Preparing Future Faculty, Center for Teaching and Learning Services, University of Minnesota
-
-[2003]{.aside}
-
- Participant in Fall Teaching Conference---Derek Bok Center for Teaching and Learning, Harvard University
-
-[2004]{.aside}
-
- Workshop leader for the Mind, Brain, and Behavior Senior Thesis Workshops, Harvard University
-
-[2007]{.aside}
-
- Organizer for MPI Workshop on Inferences and Preferences in Humans and Other Animals, MPI for Evolutionary Anthropology, Leipzig, Germany
-
- Co-organizer of Workshop on Lifespan Development of Heuristics and Evolutionary Perspectives, International Max Planck Research School: LIFE
-
-[2008-2011]{.aside}
-
- Faculty for Summer Institute on Bounded Rationality in Psychology and Economics, Berlin, Germany
-
-[2010]{.aside} 
-
- Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
-
-[2010-2011]{.aside} 
-
- Associate researcher in Center for Integrative Life Sciences, Humboldt-Universität, Berlin, Germany
-
-[2010-2017]{.aside} 
-
- Editor-in-chief of *Frontiers in Comparative Psychology*
-
- Associate editor of *Frontiers in Psychology*
-
-[2011]{.aside} 
-
- Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
-
-Participant in NESCent working group on How Does Cognition Evolve?
-
-[2011-2012]{.aside} 
-
- Participant in Research Development Fellows Program, University of Nebraska-Lincoln
-
-[2012]{.aside} 
-
- Co-organizer (with Michel Regenwetter) of Workshop on Testing Theories of Choice Behavior, Berlin, Germany
-
-[2013]{.aside} 
-
- Co-organizer (with Friederike Range) of CompCog Workshop on Concepts and Methodologies in the Field of Intertemporal Choices, Vienna, Austria
-
-[2013-2014]{.aside} 
-
- Participant in NESCent working group on Evolution of Decision Making
-
-[2016]{.aside} 
-
- Organizer of Nebraska Symposium on Motivation on [Impulsivity: How Time and Risk Influence Decision Making](https://psychology.unl.edu/symposium/recent-symposia/#sym2016), University of Nebraska-Lincoln
-
-[2018-]{.aside}
-
- Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
-
-[2018-2021]{.aside}
-
-Department of Psychology Executive Committee, University of Nebraska-Lincoln
-
-[2019]{.aside} 
-
- Co-organizer of Nebraska Symposium on Motivation on [Nature and Psychology: How the Natural World Shapes Our Cognition](https://psychology.unl.edu/symposium/recent-symposia/#sym2019), University of Nebraska-Lincoln
-
- Invited speaker for Nebraska Academy for Early Childhood Research Knowledge Seminar, University of Nebraska-Lincoln
-
-[2019-2022]{.aside} 
-
- Information Technology Systems Committee, University of Nebraska-Lincoln
-
-[2020-]{.aside} 
-
- Editorial board of [*Animal Behavior and Cognition*](https://animalbehaviorandcognition.org/)
-
-
-[2022]{.aside} 
-
- Organizer of Nebraska Symposium on Motivation on [Canine Cognition and the Human Bond](https://dogcog.unl.edu/canine-cognition-and-human-bond/), University of Nebraska-Lincoln
-
- Chair of search committee for applied cognitive psychologist, University of Nebraska-Lincoln
- 
-[2022-2023]{.aside} 
-
- Participant in [Research Leaders Program](https://research.unl.edu/researchleaders/), University of Nebraska-Lincoln
-
-[2022-]{.aside} 
-
- Co-director of [ManyDogs Project](http://manydogs.org)
-
-[2023-]{.aside} 
-
- Editorial board of [_Journal of Comparative Psychology_](https://www.apa.org/pubs/journals/com/)
-
-[2024-]{.aside} 
-
- Co-organizer of [Nebraska R User Group](https://nebraskarusergroup.github.io/)
- 
- Member of College of Arts \& Sciences Committee on Student Academic Distinction, Awards and Appeals
- 
- Program committee member of [Big Team Science Conference](teamscienceconference.github.io/)
-
-
-## Honors and Awards
-
-[1996]{.aside} 
-
- Phi Beta Kappa National Honor Society, Baylor University
-
- Outstanding Senior in Biology, Baylor University
-
- Outstanding Senior Thesis in Environmental Studies, Baylor University
-
-[1997]{.aside} 
-
- School of Biological Sciences Research Assistantship Award, University of Nebraska-Lincoln
-
-[2001]{.aside} 
-
- College of Biological Sciences Outstanding Teaching Assistant Award, University of Minnesota
-
-[2003]{.aside} 
-
- Derek Bok Center for Teaching and Learning Certificate of Distinction in Teaching, Harvard University
-
-[2016]{.aside} 
-
- College of Arts and Sciences Distinguished Teaching Award, University of Nebraska-Lincoln
-
-[2017]{.aside} 
-
- UNL Parents Association Certificate of Recognition for Contributions to Students, University of Nebraska-Lincoln
-
-[2020]{.aside} 
-
- Susan J. Rosowski Associate Professorship, University of Nebraska-Lincoln
-
-[2024]{.aside} 
-
- Barela et al. (2024) selected as [APA Editor's Choice](https://www.apa.org/news/editors-choice)
-
-
-## Software Development
-
-### excluder
-
-Developer of R package [excluder](https://docs.ropensci.org/excluder/), which facilitates excluding data from Qualtrics data sets.
-
-### flashr
-
-Developer of R package [flashr](https://jeffreyrstevens.github.io/flashr/), which creates flashcards for learning terms and descriptions.
-
-### cocoon
-
-Developer of R package [cocoon](https://jeffreyrstevens.github.io/cocoon/), which format statistical output in a way that can be inserted into R Markdown documents.
-
-### prereg
-Minor contributor to R package [prereg](https://github.com/crsh/prereg), which provides R Markdown templates that facilitate authoring preregistrations of scientific studies in PDF format.
-
-### see
-Minor contributor to R package [see](https://easystats.github.io/see/), which provides plotting functions using ggplot2.
-
-
-## Ad-hoc Referee
-
-*Animal Behavior and Cognition*, *Animal Behaviour*, *Animal Cognition*, *Behavioral and Brain Sciences*, *Behavioral Ecology*, *Behavioral Ecology and Sociobiology*, *Behaviour*, *Behavioural Processes*, *Biology Letters*, *Cognition*, Cognitive Science Society, *Current Biology*, *Current Directions in Psychological Science*, *Ethology*, *Etología*, *Evolutionary Psychology*, *Experimental Psychology*, *iScience*, *Journal of Behavioral Decision Making*, *Journal of Comparative Psychology*, *Journal of Economic Psychology*,  *Journal of Experimental Psychology: General*, *Journal of Experimental Psychology: Learning, Memory, and Cognition*, *Learning & Behavior*, *Nature Reviews Neuroscience*, *Naturwissenschaften*, *Personality and Social Psychology Review*, *PLoS Biology*, *PLoS ONE*, *Proceedings of the National Academy of Sciences USA*, *Proceedings of the Royal Society of London: Series B*, *Psychonomic Bulletin & Review*, *Review of General Psychology*, *Royal Society Open Science*, *Science*, *Science Advances*, *Scientific Reports*, *Trends in Cognitive Sciences*
-
-
-## Grant Reviews
-
-### Panels
-
-[2015]{.aside} 
-
- National Science Foundation, Animal Behavior Doctoral Dissertation
-Improvement Grant panel
-
-[2015-2016]{.aside} 
-
- University of Nebraska-Lincoln Graduate Fellowship panel
-
-[2018-2020]{.aside} 
-
- Buffett Early Childhood Institute Graduate Scholars panel
-
-[2021-2022]{.aside} 
-
- National Institutes of Health, Human-Animal Interaction panel
-
-### Ad-hoc Reviews
-
-Economic and Social Research Council (UK), Institute for Advanced Study Berlin, Konrad Lorenz Institute, Leakey Foundation, L'Oreal Foundation, National Science Foundation, Vienna Science and Technology Fund, Wellcome Trust
-
-
-<!-- ## Professional Societies -->
-
-<!-- Animal Behavior Society, Comparative Cognition Society, International Society for Behavioral Ecology, Psychonomic Society, Society for Judgment and Decision Making -->
+ Invited speaker at UNL Emeriti and Retirees Association
 
