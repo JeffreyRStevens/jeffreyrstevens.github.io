@@ -19,7 +19,7 @@ format:
 
  | 
 -- | --
-{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@gmail.com](mailto:jeffrey.r.stevens@gmail.com) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
+{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
 {{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens@fediscience.org](https://fediscience.org/@JeffreyRStevens) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
 {{< iconify simple-icons bluesky title="BlueSky logo">}} [@jeffreyrstevens.com](https://bsky.app/profile/jeffreyrstevens.com) | {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai researchgate>}} [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
@@ -397,6 +397,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "Framing patience: how the representation of reward amounts and time delays shapes intertemporal choice", **Stevens, J.R.**, Cully, T., Goh, F., Society for Judgment and Decision Making, New Orleans, LA
 (poster).
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2019]{.aside}
 
  "Social network structure buffers forgetting in cooperative games", **Stevens, J.R.**, Woike, J., Schooler, L.J., Lindner, S., and Pachur, T., Fly Over State Scientists Integrating Evolution (FOSSIL) conference, Stillwater, OK.
@@ -495,10 +499,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  L.S.B. Leakey Foundation General Grant, "The effects of harassment on food sharing in primates\" (\$10,000)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2001]{.aside} 
 
  Alexander P. and Lydia Anderson Fellowship (University of Minnesota), "The behavioral ecology of food sharing\" (\$5,970)
@@ -519,6 +519,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
 
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2009]{.aside} 
 
@@ -786,6 +790,10 @@ Psychology Faculty Award, Harvard University (Sarah Heilbronner)
 
 National Science Foundation Graduate Research Fellowship (Juan Duque)
 
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2016]{.aside}
 
