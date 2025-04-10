@@ -265,7 +265,9 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  
  "[Impulsivity and quantity preference in dogs](https://jeffreyrstevens.quarto.pub/elte_2024)", Department of Ethology, Eötvös Loránd University, Budapest, Hungary
  
- "[Replicability in canine behavioral science: Lessons for conducting reliable research](https://jeffreyrstevens.quarto.pub/mit_2024), Lincoln Laboratory, MIT, Cambridge, MA
+ "[Replicability in canine behavioral science: Lessons for conducting reliable research](https://jeffreyrstevens.quarto.pub/mit_2024)", Lincoln Laboratory, MIT, Cambridge, MA
+ 
+ "[Canine research and the ManyDogs Project](https://jeffreyrstevens.quarto.pub/unl_era_2025)", University of Nebraska-Lincoln
  
 
 ### Conference
