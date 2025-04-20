@@ -326,7 +326,7 @@
     "href": "blog.html",
     "title": "Jeff Stevens’ blog",
     "section": "",
-    "text": "flashr: Create Flashcards of Terms and Definitions\n\n\n\ncoding\n\nR package\n\n\n\nMake flashcards for learning R functions or other terms.\n\n\n\nJeffrey Stevens\n\n\nDec 18, 2024\n\n\n\n\n\n\n\n\n\n\n\nManyDogs: Big Team Canine Science\n\n\n\ndogs\n\nbig team science\n\ncanine cognition\n\nopen science\n\n\n\nManyDogs is an international consortium of canine science researchers.\n\n\n\nJeffrey Stevens\n\n\nApr 29, 2024\n\n\n\n\n\n\n\n\n\n\n\nImpulsivity as a behavioral trait in dogs\n\n\n\ndogs\n\nimpulsivity\n\nmeta-analysis\n\n\n\nWe published a paper analyzing previous research on impulsivity as a trait in dogs.\n\n\n\nJeffrey Stevens\n\n\nApr 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorking with Qualtrics Data - Part 2: Excluding Data\n\n\n\ncoding\n\nR package\n\n\n\nUse the excluder package to exclude survey data.\n\n\n\nJeffrey Stevens\n\n\nAug 9, 2022\n\n\n\n\n\n\n\n\n\n\n\nWorking with Qualtrics Data - Part 1: Importing Data\n\n\n\ncoding\n\nR package\n\n\n\nUse the qualtRics package to import Qualtrics data.\n\n\n\nJeffrey Stevens\n\n\nAug 2, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "How do dogs quantify things?\n\n\n\ndogs\n\nnumber\n\nWeber's law\n\n\n\nWe published a paper exploring how dogs quantify the number of treats in front of them.\n\n\n\nJeffrey Stevens\n\n\nApr 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nflashr: Create Flashcards of Terms and Definitions\n\n\n\ncoding\n\nR package\n\n\n\nMake flashcards for learning R functions or other terms.\n\n\n\nJeffrey Stevens\n\n\nDec 18, 2024\n\n\n\n\n\n\n\n\n\n\n\nManyDogs: Big Team Canine Science\n\n\n\ndogs\n\nbig team science\n\ncanine cognition\n\nopen science\n\n\n\nManyDogs is an international consortium of canine science researchers.\n\n\n\nJeffrey Stevens\n\n\nApr 29, 2024\n\n\n\n\n\n\n\n\n\n\n\nImpulsivity as a behavioral trait in dogs\n\n\n\ndogs\n\nimpulsivity\n\nmeta-analysis\n\n\n\nWe published a paper analyzing previous research on impulsivity as a trait in dogs.\n\n\n\nJeffrey Stevens\n\n\nApr 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorking with Qualtrics Data - Part 2: Excluding Data\n\n\n\ncoding\n\nR package\n\n\n\nUse the excluder package to exclude survey data.\n\n\n\nJeffrey Stevens\n\n\nAug 9, 2022\n\n\n\n\n\n\n\n\n\n\n\nWorking with Qualtrics Data - Part 1: Importing Data\n\n\n\ncoding\n\nR package\n\n\n\nUse the qualtRics package to import Qualtrics data.\n\n\n\nJeffrey Stevens\n\n\nAug 2, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -334,6 +334,69 @@
     "title": "Jeffrey R. Stevens",
     "section": "",
     "text": "I am a Susan J. Rosowski Professor in the Department of Psychology and the Center for Brain, Biology & Behavior at the University of Nebraska-Lincoln, where I direct the Canine Cognition and Human Interaction Lab. I am also a Data Science Mentor at Posit Academy (formerly RStudio).\nMy research program uses data science to understand decision making in humans and other animals. My research integrates perspectives from biology, psychology, computer science, neuroscience, and economics. I employ open science practices to ensure that my work is transparent, accessible, and reproducible.\nI train the next generation of data scientists. As a professor, I have trained hundreds of undergraduates, graduate students, and even faculty in how to think about, analyze, visualize, and report their data. As a data science mentor at Posit, I do the same for corporate employees.\n\nResume\n\n\n."
+  },
+  {
+    "objectID": "posts/dog_number/index.html",
+    "href": "posts/dog_number/index.html",
+    "title": "How do dogs quantify things?",
+    "section": "",
+    "text": "Source: UNL CCHIL\nWe recently published a paper in Psychological Topics that described our most recent study conducted at the Canine Cognition and Human Interaction Lab (CCHIL). Undergraduates Hunter DeBoer and Hannah Fitzpatrick led this project under the supervision of graduate students Anwyn Gatesy-Davis and London Wolff. This work was conducted in collaboration with Uplifting Paws."
+  },
+  {
+    "objectID": "posts/dog_number/index.html#what-is-quantification",
+    "href": "posts/dog_number/index.html#what-is-quantification",
+    "title": "How do dogs quantify things?",
+    "section": "What is quantification?",
+    "text": "What is quantification?\nQuantification is the ability to track quantities of objects in your environment. As humans, we can count individual objects that we perceive such as eggs in an Easter basket or chimes from a clock. But other species likely do not have words or symbols to represent the number of objects. Instead, they likely compare overall quantities of things that they observe in their environments.\n\n\n\nSource: Mathew Coulton\n\n\nAnimal researchers have investigated how lots of different species quantify lots of different things in their environments. And an important question that they’ve asked is how animals compare quantities.\nOne of the classic explanations of how animals compare quantities is Weber’s Law, which says that the ability to distinguish between two quantities depends on the numerical ratio between the two numbers. For example, the ratio between the numbers 1 and 2 is 1/2 or 0.5. This shares the same ratio as other number pairs like 2 and 4 or 10 and 20.\nWeber’s Law states that you will be able to distinguish quantities at the same level if they have the same ratio. So, for instance, in the top panel of the following image, one of the sides (a or b) has 24 dots and the other has 25 dots. In the bottom panel, one side has 48 dots and the other has 50 dots. Can you tell which has more (without counting them)? In both cases, the ratio between the quantities is 0.96 (both 24/25 and 48/50 = 0.96). Therefore, your probability of correctly guessing which group (a or b) has more dots on the top panel should be about the same as the dots on the bottom because they share the same ratio. This is Weber’s Law.\n\n\n\nCan you tell which side (a or b) has more dots in both the top and bottom panels? Answer at the bottom."
+  },
+  {
+    "objectID": "posts/dog_number/index.html#why-is-it-important",
+    "href": "posts/dog_number/index.html#why-is-it-important",
+    "title": "How do dogs quantify things?",
+    "section": "Why is it important?",
+    "text": "Why is it important?\nQuantification is important to animals because they often need to decide whether to hunt a larger or smaller group of prey. Or they need to decide whether to fight or flee a rival group depending on whether the other group has fewer or more members than their own.\nAt CCHIL, we study dogs, and quantification is important for them, too. For example, herding dogs need to keep their livestock together. If the stock break into two groups, the herding dogs need to decide which group is smaller because it will be easier to herd a smaller group into the larger than vice versa.\nWe studied dog quantification in the context of food. We expect that in general dogs prefer more over less food. Over the course of their domestication in the last 15,000 or more years, we expect that dogs who could accurately pick more over less food would be more likely to survive and reproduce than the less accurate dogs. So dogs should have a strong preference for more food when they can tell the difference between quantities. Now we just had to see if the ratio between quantities determined their preferences, as predicted by Weber’s Law.\nOther studies have already shown that numerical ratio predicts quantity preferences in dogs. However, those studies did not test whether other factors, such as the numerical difference between quantities could also predict preference. Numerical difference is simply subtracting the quantities instead of dividing them. So the numerical difference between 1 and 2 is 1 (2 - 1 = 1). Numerical difference is important is human judgments about quantities1, but, prior to this study, we didn’t know if difference is also important in dog quantity preferences."
+  },
+  {
+    "objectID": "posts/dog_number/index.html#what-did-we-do",
+    "href": "posts/dog_number/index.html#what-did-we-do",
+    "title": "How do dogs quantify things?",
+    "section": "What did we do?",
+    "text": "What did we do?\nWe were interested in whether ratio, difference, or both influenced dog’s ability to quantify objects. To test this, we conducted a quantity preference task where we presented subjects with two quantities of treats and let them pick and eat one of the two quantities.\n\n\n\nWe offered dogs plates with different quantities of treats on them. Dogs could only eat the first quantity that they picked.\n\n\nWe created 9 different numerical pairs of treats that varied in their ratio and difference. Subjects experienced 10 experimental sessions where they chose between each of the 9 numerical pairs. Seven dogs completed all of these sessions. With this, we could test our research question of whether ratio, difference, or both predicted dog quantity preferences."
+  },
+  {
+    "objectID": "posts/dog_number/index.html#what-did-we-find",
+    "href": "posts/dog_number/index.html#what-did-we-find",
+    "title": "How do dogs quantify things?",
+    "section": "What did we find?",
+    "text": "What did we find?\nWe found that both ratio and difference were associated with quantity preference. Dogs preferred the larger quantity more when the ratio was small and the difference was large.\n\n\n\nDogs chose the larger quantities more as difference increased and ratio decreased.\n\n\nHowever, ratio and difference are confounded, which means that they are not completely independent. As you change one, you will also change the other. This suggests that we need to do some additional analyses to disentangle whether ratio affects quantity preference independent of difference and whether difference affects quantity preference independent of ratio. After running this analysis, we found that only difference predicted quantity preferences when ratio was held constant.\n\n\n\nWithin ratios, we still see difference influencing quantity preferences. But within differences, we do not see ratios influencing quantity preferences."
+  },
+  {
+    "objectID": "posts/dog_number/index.html#what-does-this-mean",
+    "href": "posts/dog_number/index.html#what-does-this-mean",
+    "title": "How do dogs quantify things?",
+    "section": "What does this mean?",
+    "text": "What does this mean?\nWhen we hold difference constant, ratio does not predict quantity preference. However, when we hold ratio constant, difference does predict quantity preference. So, we found that difference does a better job than ratio of accounting for quantification in dogs.\nThis was a surprising finding since other studies show ratio effects on quanitification. But those studies did not properly account for difference as a factor influencing quantification. To check whether our results applied to other studies, we ran our same analyses on data sets from two other studies. In both cases, difference accounted for quantification, and ratio did not2.\nSo across three data sets, we see that difference drives dog quantity preferences. While this doesn’t completely undermine Weber’s Law, it does suggest that we need to investigate Weber’s Law more carefully to figure out when it does and doesn’t work.\nFor dog owners, this means that cutting up those treats into smaller pieces may actually trick your dog into thinking they’re getting more!"
+  },
+  {
+    "objectID": "posts/dog_number/index.html#answer",
+    "href": "posts/dog_number/index.html#answer",
+    "title": "How do dogs quantify things?",
+    "section": "Answer",
+    "text": "Answer\nThe left side (a) has more in both the top panel (25 vs. 24) and the bottom panel (50 vs. 48)."
+  },
+  {
+    "objectID": "posts/dog_number/index.html#reference",
+    "href": "posts/dog_number/index.html#reference",
+    "title": "How do dogs quantify things?",
+    "section": "Reference",
+    "text": "Reference\nDeBoer, H., Fitzpatrick, H., Wolff, L.M., Gatesy-Davis, A., & Stevens, J.R. (2025). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. Psychological Topics, 34(1), 117-137. doi:/10.31820/pt.34.1.6"
+  },
+  {
+    "objectID": "posts/dog_number/index.html#footnotes",
+    "href": "posts/dog_number/index.html#footnotes",
+    "title": "How do dogs quantify things?",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nStevens, J.R. & Soh, L.-K. (2018). Predicting similarity judgments in intertemporal choice with machine learning. Psychonomic Bulletin & Review, 25(2), 627–635. doi:10.3758/s13423-017-1398-1↩︎\nThis result holds at small magnitudes (10 or fewer objects). At larger magnitudes, ratio does better than difference.↩︎"
   },
   {
     "objectID": "posts/impulsivity_meta-analysis/index.html",

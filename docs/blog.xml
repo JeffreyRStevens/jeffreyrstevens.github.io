@@ -10,7 +10,268 @@
 <atom:link href="https://jeffreyrstevens.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Jeff Stevens&#39; blog</description>
 <generator>quarto-1.7.22</generator>
-<lastBuildDate>Wed, 18 Dec 2024 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 21 Apr 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>How do dogs quantify things?</title>
+  <dc:creator>Jeffrey Stevens</dc:creator>
+  <link>https://jeffreyrstevens.github.io/posts/dog_number/</link>
+  <description><![CDATA[ 
+<script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    window.setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        disableStylesheet(primaryStylesheets)
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      window.setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    window.hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(darkModeDefault) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const darkModeDefault = true;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !window.hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+    };
+    // Switch to dark mode if need be
+    if (window.hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/dog_number/images/dog_number_study_wide.jpg" class="img-fluid figure-img"></p>
+<figcaption>Source: UNL CCHIL</figcaption>
+</figure>
+</div>
+<p>We recently published a <a href="https://doi.org//10.31820/pt.34.1.6">paper</a> in <em>Psychological Topics</em> that described our most recent study conducted at the Canine Cognition and Human Interaction Lab (CCHIL). Undergraduates Hunter DeBoer and Hannah Fitzpatrick led this project under the supervision of graduate students Anwyn Gatesy-Davis and London Wolff. This work was conducted in collaboration with <a href="https://www.upliftingpaws.org/">Uplifting Paws</a>.</p>
+<section id="what-is-quantification" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-quantification">What is quantification?</h2>
+<p><em>Quantification</em> is the ability to track quantities of objects in your environment. As humans, we can count individual objects that we perceive such as eggs in an Easter basket or chimes from a clock. But other species likely do not have words or symbols to represent the number of objects. Instead, they likely compare overall quantities of things that they observe in their environments.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/dog_number/images/mathew-coulton-zxqaAkkayP8-unsplash.jpg" class="img-fluid figure-img"></p>
+<figcaption>Source: <a href="https://unsplash.com/photos/brown-peanuts-in-blue-plastic-bowl-zxqaAkkayP8">Mathew Coulton</a></figcaption>
+</figure>
+</div>
+<p>Animal researchers have investigated how lots of different species quantify lots of different things in their environments. And an important question that they’ve asked is <em>how</em> animals compare quantities.</p>
+<p>One of the classic explanations of how animals compare quantities is <a href="https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law">Weber’s Law</a>, which says that the ability to distinguish between two quantities depends on the <strong>numerical ratio</strong> between the two numbers. For example, the ratio between the numbers 1 and 2 is 1/2 or 0.5. This shares the same ratio as other number pairs like 2 and 4 or 10 and 20.</p>
+<p>Weber’s Law states that you will be able to distinguish quantities at the same level if they have the same ratio. So, for instance, in the top panel of the following image, one of the sides (a or b) has 24 dots and the other has 25 dots. In the bottom panel, one side has 48 dots and the other has 50 dots. Can you tell which has more (without counting them)? In both cases, the ratio between the quantities is 0.96 (both 24/25 and 48/50 = 0.96). Therefore, your probability of correctly guessing which group (a or b) has more dots on the top panel should be about the same as the dots on the bottom because they share the same ratio. This is Weber’s Law.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/dog_number/images/weber.png" class="img-fluid figure-img"></p>
+<figcaption>Can you tell which side (a or b) has more dots in both the top and bottom panels? Answer at the bottom.</figcaption>
+</figure>
+</div>
+</section>
+<section id="why-is-it-important" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-it-important">Why is it important?</h2>
+<p>Quantification is important to animals because they often need to decide whether to hunt a larger or smaller group of prey. Or they need to decide whether to fight or flee a rival group depending on whether the other group has fewer or more members than their own.</p>
+<p>At CCHIL, we study dogs, and quantification is important for them, too. For example, herding dogs need to keep their livestock together. If the stock break into two groups, the herding dogs need to decide which group is smaller because it will be easier to herd a smaller group into the larger than vice versa.</p>
+<p>We studied dog quantification in the context of food. We expect that in general dogs prefer more over less food. Over the course of their domestication in the last 15,000 or more years, we expect that dogs who could accurately pick more over less food would be more likely to survive and reproduce than the less accurate dogs. So dogs should have a strong <em>preference</em> for more food when they can tell the difference between quantities. Now we just had to see if the ratio between quantities determined their preferences, as predicted by Weber’s Law.</p>
+<p>Other studies have already shown that numerical ratio predicts quantity preferences in dogs. However, those studies did not test whether other factors, such as the <strong>numerical difference</strong> between quantities could also predict preference. Numerical difference is simply subtracting the quantities instead of dividing them. So the numerical difference between 1 and 2 is 1 (2 - 1 = 1). Numerical difference is important is human judgments about quantities<sup>1</sup>, but, prior to this study, we didn’t know if difference is also important in dog quantity preferences.</p>
+</section>
+<section id="what-did-we-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-did-we-do">What did we do?</h2>
+<p>We were interested in whether ratio, difference, or both influenced dog’s ability to quantify objects. To test this, we conducted a <em>quantity preference task</em> where we presented subjects with two quantities of treats and let them pick and eat one of the two quantities.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/dog_number/images/preference_stim.jpg" class="img-fluid figure-img"></p>
+<figcaption>We offered dogs plates with different quantities of treats on them. Dogs could only eat the first quantity that they picked.</figcaption>
+</figure>
+</div>
+<p>We created 9 different <em>numerical pairs</em> of treats that varied in their ratio and difference. Subjects experienced 10 experimental sessions where they chose between each of the 9 numerical pairs. Seven dogs completed all of these sessions. With this, we could test our research question of whether ratio, difference, or both predicted dog quantity preferences.</p>
+</section>
+<section id="what-did-we-find" class="level2">
+<h2 class="anchored" data-anchor-id="what-did-we-find">What did we find?</h2>
+<p>We found that both ratio and difference were associated with quantity preference. Dogs preferred the larger quantity more when the ratio was small and the difference was large.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/dog_number/images/hypothesis1.1.png" class="img-fluid figure-img"></p>
+<figcaption>Dogs chose the larger quantities more as difference increased and ratio decreased.</figcaption>
+</figure>
+</div>
+<p>However, ratio and difference are <em>confounded</em>, which means that they are not completely independent. As you change one, you will also change the other. This suggests that we need to do some additional analyses to disentangle whether ratio affects quantity preference <em>independent of difference</em> and whether difference affects quantity preference <em>independent of ratio</em>. After running this analysis, we found that <strong>only difference predicted quantity preferences</strong> when ratio was held constant.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jeffreyrstevens.github.io/posts/dog_number/images/ratio_diff.png" class="img-fluid figure-img"></p>
+<figcaption>Within ratios, we still see difference influencing quantity preferences. But within differences, we do not see ratios influencing quantity preferences.</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-does-this-mean" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-this-mean">What does this mean?</h2>
+<p>When we hold difference constant, ratio does not predict quantity preference. However, when we hold ratio constant, difference <em>does</em> predict quantity preference. So, we found that <strong>difference does a better job than ratio of accounting for quantification in dogs</strong>.</p>
+<p>This was a surprising finding since other studies show ratio effects on quanitification. But those studies did not properly account for difference as a factor influencing quantification. To check whether our results applied to other studies, we ran our same analyses on data sets from two other studies. In both cases, difference accounted for quantification, and ratio did not<sup>2</sup>.</p>
+<p>So across three data sets, we see that difference drives dog quantity preferences. While this doesn’t completely undermine Weber’s Law, it does suggest that we need to investigate Weber’s Law more carefully to figure out when it does and doesn’t work.</p>
+<p><strong>For dog owners, this means that cutting up those treats into smaller pieces may actually trick your dog into thinking they’re getting more!</strong></p>
+</section>
+<section id="answer" class="level2">
+<h2 class="anchored" data-anchor-id="answer">Answer</h2>
+<p>The left side (a) has more in both the top panel (25 vs.&nbsp;24) and the bottom panel (50 vs.&nbsp;48).</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>DeBoer, H., Fitzpatrick, H., Wolff, L.M., Gatesy-Davis, A., &amp; Stevens, J.R. (2025). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. <em>Psychological Topics</em>, 34(1), 117-137. <a href="https://doi.org//10.31820/pt.34.1.6">doi:/10.31820/pt.34.1.6</a></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Stevens, J.R. &amp; Soh, L.-K. (2018). Predicting similarity judgments in intertemporal choice with machine learning. <em>Psychonomic Bulletin &amp; Review</em>, 25(2), 627–635. <a href="https://doi.org/10.3758/s13423-017-1398-1">doi:10.3758/s13423-017-1398-1</a>↩︎</p></li>
+<li id="fn2"><p>This result holds at small magnitudes (10 or fewer objects). At larger magnitudes, ratio does better than difference.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>dogs</category>
+  <category>number</category>
+  <category>Weber&#39;s law</category>
+  <guid>https://jeffreyrstevens.github.io/posts/dog_number/</guid>
+  <pubDate>Mon, 21 Apr 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>flashr: Create Flashcards of Terms and Definitions</title>
   <dc:creator>Jeffrey Stevens</dc:creator>
