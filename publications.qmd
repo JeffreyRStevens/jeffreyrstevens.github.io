@@ -675,6 +675,16 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 :::
 
 
+[2025]{.aside}
+
+100. \*DeBoer, H., \*Fitzpatrick, H., \*Wolff, L. M., \*Gatesy-Davis, A., & **Stevens, J. R.** (2025). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. _Psychological Topics_, 34(1), 117-137. [doi:/10.31820/pt.34.1.6](https://doi.org//10.31820/pt.34.1.6)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/deboer_etal_2025.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/tp8ah/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/dognumber" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.31234/osf.io/rn8gq" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
 
 
 ::: {.content-visible when-format="html"}
@@ -682,16 +692,6 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 :::
 
 [In press]{.aside}
-
-\*DeBoer, H., \*Fitzpatrick, H., \*Wolff, L. M., \*Gatesy-Davis, A., & **Stevens, J. R.** (in press). Do dogs follow Weber’s Law? The role of ratio and difference in quantity preference. _Psychological Topics_.
-
-::: {.content-visible when-format="html"}
-<a href="pubs/deboer_etal_2024_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://osf.io/tp8ah/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://github.com/unl-cchil/dognumber" title="GitHub" class="cv-pub-links">GitHub</a>
-<a href="https://doi.org/10.31234/osf.io/rn8gq" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
 
 \*Goh, F. & **Stevens, J.R.** (in press). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
 

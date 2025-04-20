@@ -399,10 +399,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
  "Framing patience: how the representation of reward amounts and time delays shapes intertemporal choice", **Stevens, J.R.**, Cully, T., Goh, F., Society for Judgment and Decision Making, New Orleans, LA
 (poster).
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2019]{.aside}
 
  "Social network structure buffers forgetting in cooperative games", **Stevens, J.R.**, Woike, J., Schooler, L.J., Lindner, S., and Pachur, T., Fly Over State Scientists Integrating Evolution (FOSSIL) conference, Stillwater, OK.
@@ -521,10 +517,6 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
 
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2009]{.aside} 
 
@@ -791,11 +783,6 @@ Psychology Faculty Award, Harvard University (Sarah Heilbronner)
 [2013-2016]{.aside}
 
 National Science Foundation Graduate Research Fellowship (Juan Duque)
-
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2016]{.aside}
 
