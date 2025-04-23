@@ -16,15 +16,15 @@ draft: false
 
 ![Source: UNL CCHIL](images/dog_number_study_wide.jpg){fig-align="center"}
 
-We recently published a [paper](https://doi.org//10.31820/pt.34.1.6) in _Psychological Topics_ that described our most recent study conducted at the Canine Cognition and Human Interaction Lab (CCHIL). Undergraduates Hunter DeBoer and Hannah Fitzpatrick led this project under the supervision of graduate students Anwyn Gatesy-Davis and London Wolff. This work was conducted in collaboration with [Uplifting Paws](https://www.upliftingpaws.org/).
+We recently published a [paper](https://doi.org//10.31820/pt.34.1.6) in _Psychological Topics_ that describes our most recent study conducted at the Canine Cognition and Human Interaction Lab (CCHIL). Undergraduates Hunter DeBoer and Hannah Fitzpatrick led this project under the supervision of graduate students Anwyn Gatesy-Davis and London Wolff. This work was conducted in collaboration with [Uplifting Paws](https://www.upliftingpaws.org/).
 
 ## What is quantification?
 
-_Quantification_ is the ability to track quantities of objects in your environment. As humans, we can count individual objects that we perceive such as eggs in an Easter basket or chimes from a clock. But other species likely do not have words or symbols to represent the number of objects. Instead, they likely compare overall quantities of things that they observe in their environments.
+_Quantification_ is the ability to track quantities of objects in your environment. As humans, we can count individual objects that we perceive, such as eggs in an Easter basket or chimes from a clock. But other species likely do not have words or symbols to represent the number of objects. Instead, they likely compare overall quantities of things that they observe in their environments.
 
 ![Source: [Mathew Coulton](https://unsplash.com/photos/brown-peanuts-in-blue-plastic-bowl-zxqaAkkayP8)](images//mathew-coulton-zxqaAkkayP8-unsplash.jpg){fig-align="center"}
 
-Animal researchers have investigated how lots of different species quantify lots of different things in their environments. And an important question that they've asked is _how_ animals compare quantities. 
+Animal researchers have investigated how many different species quantify lots of different things in their environments. An important question that they've asked is _how_ animals compare quantities. 
 
 One of the classic explanations of how animals compare quantities is [Weber's Law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law), which says that the ability to distinguish between two quantities depends on the **numerical ratio** between the two numbers. For example, the ratio between the numbers 1 and 2 is 1/2 or 0.5. This shares the same ratio as other number pairs like 2 and 4 or 10 and 20. 
 
@@ -34,7 +34,7 @@ Weber's Law states that you will be able to distinguish quantities at the same l
 
 ## Why is it important?
 
-Quantification is important to animals because they often need to decide whether to hunt a larger or smaller group of prey. Or they need to decide whether to fight or flee a rival group depending on whether the other group has fewer or more members than their own.
+Quantification is important to animals because they often need to decide whether to hunt a larger or smaller group of prey. They also might need to decide whether to fight or flee a rival group depending on whether the other group has fewer or more members than their own.
 
 At CCHIL, we study dogs, and quantification is important for them, too. For example, herding dogs need to keep their livestock together. If the stock break into two groups, the herding dogs need to decide which group is smaller because it will be easier to herd a smaller group into the larger than vice versa.
 
