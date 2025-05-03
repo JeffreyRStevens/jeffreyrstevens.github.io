@@ -4,6 +4,8 @@ date: last-modified
 date-format: iso
 geometry:
   - right=1in
+  - bottom=1in
+  - top=1in
 format:
   pdf: default
   html:
@@ -19,10 +21,10 @@ format:
 
  | 
 -- | --
-{{< fa envelope title="An envelope" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
-{{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens@fediscience.org](https://fediscience.org/@JeffreyRStevens) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
-{{< iconify simple-icons bluesky title="BlueSky logo">}} [@jeffreyrstevens.com](https://bsky.app/profile/jeffreyrstevens.com) | {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
-{{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai researchgate>}} [ResearchGate](https://www.researchgate.net/profile/Jeffrey_Stevens)
+{{< fa envelope title="Email" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) | {{< fa home title="Website" >}} [jeffreyrstevens.github.io](https://jeffreyrstevens.github.io/)
+{{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens@fediscience.org](https://fediscience.org/@JeffreyRStevens) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
+{{< iconify simple-icons bluesky title="BlueSky logo">}} [@jeffreyrstevens.com](https://bsky.app/profile/jeffreyrstevens.com) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
+{{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai researchgate>}} {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | {{<ai impactstory>}} [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
 
 
@@ -59,13 +61,9 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  Associate professor, Department of Psychology, University of Nebraska-Lincoln
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2020-]{.aside}
  
- Susan J. Rosowski associate professor, Department of Psychology, University of Nebraska-Lincoln
+ Susan J. Rosowski professorship, Department of Psychology, University of Nebraska-Lincoln
 
 [2022-]{.aside}
 
@@ -118,7 +116,7 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
 [2020]{.aside} 
 
- Susan J. Rosowski Associate Professorship, University of Nebraska-Lincoln
+ Susan J. Rosowski Professorship, University of Nebraska-Lincoln
 
 [2024]{.aside} 
 
@@ -239,6 +237,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  "Mesotocin as a hormonal mechanism of social behavior in pinyon jays", Messerli Research Institute, University of Veterinary Medicine Vienna, Austria
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2018]{.aside}
 
  "The role of opportunity costs in intertemporal choice", Workshop on Economic Behavior of Non-Human Primates, Florence, Italy
@@ -293,6 +295,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 [2005]{.aside}
 
  "The value of time and space in two New World monkeys", **Stevens, J.R.**, Rosati, A.G., and Hauser, M.D., Comparative Cognition Conference, Melbourne, FL.
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2007]{.aside}
 
@@ -379,6 +385,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 [2016]{.aside}
 
  "Naturally nice and controlled: effects of exposure to nature on stress and decision making", **Stevens, J.R.**, Society for Neuroeconomics Meeting, Berlin (poster).
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2017]{.aside}
 
@@ -570,6 +580,10 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  University of Nebraska-Lincoln, College of Arts & Sciences International Research Collaboration Award, "Oxytocin as a hormonal mechanism of prosociality in dogs and wolves" (\$9,964)
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2017-2019]{.aside} 
 
  University of Nebraska Food for Health Collaboration Initiative Seed Grant, "Understanding the effect of exercise on future food intake: The role of behavioral, physiological, and neural mechanisms" Co-PI with Karsten Koehler (PI), Matthew Bice, Ronald Bulbulian, Jeffrey French, Christopher Gustafson, Maital Neta, Scott Stoltenberg (\$150,000)
@@ -647,7 +661,7 @@ Instructor, *Perspectives in Psychology, PSYC 440/840*---University of Nebraska 
 
 Instructor, *Animal Learning & Cognition, PSYC 461/861*---University of Nebraska (2019)
 
-Instructor, *Data Science and Visualization in R*, PSYC 492/971*---University of Nebraska (2021, 2023, 2025)
+Instructor, [*Data Science and Visualization in R*](http://dpavir.org), PSYC 492/971*---University of Nebraska (2021, 2023, 2025)
 
 Instructor, *Controversial Issues in Psychology*, PSYC 440/840*---University of Nebraska (2022-2023)
 
@@ -806,6 +820,10 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 [2010-2011]{.aside}
 
  Tim Winke---"The role of costly errors in cooperative memory", (Bachelors thesis, Universität Bayreuth)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2014-2015]{.aside}
 
