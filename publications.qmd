@@ -25,6 +25,10 @@ format:
 
 3. Morgan, T.L., **Stevens, J.R.**, & Holmes, W.C. (1996). [First report of *Wolffiella lingulata* (Lemnaceae) in western Mexico.](http://www.biodiversitylibrary.org/item/34588) *SIDA*, *17*, 289-290.
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 
 ::: {.content-visible when-format="html"}
 ### 2000s
@@ -72,6 +76,10 @@ format:
 
 
 15. **Stevens, J.R.**, \*Rosati, A.G., \*Ross, K.R., and Hauser, M.D. (2005). Will travel for food: Spatial discounting and reward magnitude in two New World monkeys. *Current Biology*, *15*, 1855-1860. [doi:10.1016/j.cub.2005.09.016](http://dx.doi.org/10.1016/j.cub.2005.09.016)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2006]{.aside}
 
@@ -153,6 +161,10 @@ format:
 
 
 38. \*Volstorf, J., Rieskamp, J. & **Stevens, J.R.** (2011). The good, the bad, and the rare: Memory for partners in social interactions. *PLoS ONE*, *6*, e18945. [doi:10.1371/journal.pone.0018945](http://doi.org/10.1371/journal.pone.0018945)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2012]{.aside}
 
