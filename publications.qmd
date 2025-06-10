@@ -698,14 +698,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 <a href="https://doi.org/10.31234/osf.io/rn8gq" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-
-::: {.content-visible when-format="html"}
-### In press
-:::
-
-[In press]{.aside}
-
-\*Goh, F. & **Stevens, J.R.** (in press). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
+101. \*Goh, F. & **Stevens, J.R.** (2025). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_, 128(4), 2678–2709. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
 
 ::: {.content-visible when-format="html"}
 <a href="https://doi.org/10.31234/osf.io/xz68b" title="PDF" class="cv-pub-links">PDF</a>
@@ -714,6 +707,14 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 <a href="https://github.com/adaptive-decision-making-lab/socialinfluences" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
+
+
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### In press -->
+<!-- ::: -->
+
+<!-- [In press]{.aside} -->
+
 
 
 ::: {.content-visible when-format="html"}
