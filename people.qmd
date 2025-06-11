@@ -46,12 +46,6 @@ London graduated with honors in Biology and Animal Behavior, Ecology and Conserv
 Undergraduate Students
 ----------------------
 
-### Savannah Clites
-
-![](images/savannah_clites.jpeg){fig-alt="Savannah Clites" width="200" fig-align="left"}
-
-Susannah is pursuing a bachelor's degree in psychology. She would love to pursue research further in graduate school and see where that can take her in the field of psychology. She got involved with CCHIL by working as an RA on London's original stress test procedure and is excited to get to explore that further as we begin working with the dogs!
-
 ### Susannah Couture
 
 ![](images/susannah_couture.jpg){fig-alt="Susannah Couture" width="200" fig-align="left"}
@@ -147,6 +141,7 @@ Former Lab Members
 * [Rachel Bruner](https://www.linkedin.com/in/rachelbruner0/)
 * Katie Carey
 * [Denise Chin](https://www.linkedin.com/in/denise-chin/)
+* Savannah Clites
 * Allie Cruikshank
 * Victoria Contreras
 * [Tyler Cully](https://www.linkedin.com/in/tylercully/)
