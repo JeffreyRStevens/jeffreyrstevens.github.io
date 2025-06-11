@@ -1,0 +1,27 @@
+---
+title: "SQL Reading Group"
+subtitle: "4-5pm Thursdays<br>B60 CB3"
+toc: false
+---
+
+## Book
+
+[SQL for Data Scientists](https://sqlfordatascientists.com/) by Renee Teate
+
+* [PDF](https://onlinelibrary-wiley-com.libproxy.unl.edu/doi/book/10.1002/9781119669388)
+* [HTML](https://learning.oreilly.com/library/view/sql-for-data/9781119669364/?sso_link=yes&sso_link_from=unl-edu)
+
+## Schedule
+
+| Meeting | Chapters |
+|:--------|:---------|
+| June 19 | 1: Data sources<br>2: SELECT |
+| June 26 | 3: WHERE |
+| July 3 | **NO MEETING**  |
+| July 10 | 4: CASE |
+| July 17 | 5: JOINS |
+| July 24 | 6: Aggregating |
+| July 31 | 7: Window functions |
+| August 7 | 8: Exploratory data analysis  |
+| August 14 | 10: Building datasets |
+| August 21 | 11: Advanced query structures |
