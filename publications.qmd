@@ -709,11 +709,13 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 :::
 
 
-<!-- ::: {.content-visible when-format="html"} -->
-<!-- ### In press -->
-<!-- ::: -->
+::: {.content-visible when-format="html"}
+### In press
+:::
 
-<!-- [In press]{.aside} -->
+[In press]{.aside}
+
+Höchsmann, C., Heselton, J., Beckford, S.E., French, J.A., **Stevens, J.R.**, Boron, J.B., & Koehler, K. (forthcoming). Age-related differences in the appetite-regulating hormone response to exercise. _Current Developments in Nutrition_.
 
 
 
@@ -725,7 +727,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 [Preprints]{.aside}
 :::
 
-\*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2024). Effects of human-animal interaction on positive youth development: A replication study _PsyArXiv_. [doi:10.31234/osf.io/ge7bf](https://doi.org/10.31234/osf.io/ge7bf)
+\*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2024). Effects of human-animal interaction on positive youth development: A replication study. _PsyArXiv_. [doi:10.31234/osf.io/ge7bf](https://doi.org/10.31234/osf.io/ge7bf)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/pachunka_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
