@@ -18,10 +18,10 @@ toc: false
 | June 19 | 1: Data sources<br>2: SELECT |
 | June 26 | 3: WHERE |
 | July 3 | **NO MEETING**  |
-| July 10 | 4: CASE |
-| July 17 | 5: JOINS |
-| July 24 | 6: Aggregating |
-| July 31 | 7: Window functions |
-| August 7 | 8: Exploratory data analysis  |
+| July 10 | 4: CASE<br>5: JOINS |
+| July 17 | 6: Aggregating |
+| July 24 | 7: Window functions |
+| July 31 | 8: Date and time |
+| August 7 |  9: Exploratory data analysis |
 | August 14 | 10: Building datasets |
 | August 21 | 11: Advanced query structures |
