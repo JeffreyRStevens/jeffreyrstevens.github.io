@@ -350,11 +350,25 @@
     "text": "SQL for Data Scientists by Renee Teate\n\nPDF\nHTML"
   },
   {
+    "objectID": "misc/sql_reading_group.html#mysql-installation-and-farmers-market-database",
+    "href": "misc/sql_reading_group.html#mysql-installation-and-farmers-market-database",
+    "title": "SQL Reading Group",
+    "section": "MySQL Installation and Farmer’s Market Database",
+    "text": "MySQL Installation and Farmer’s Market Database\n\nMySQL Documentation\nWindows\n\nMySQL Community Installer\n\nMacOS\n\nMySQL Server (install version 8.0.42)\nMySQL Community Workbench\n\nFarmer’s Market Database"
+  },
+  {
     "objectID": "misc/sql_reading_group.html#schedule",
     "href": "misc/sql_reading_group.html#schedule",
     "title": "SQL Reading Group",
     "section": "Schedule",
     "text": "Schedule\n\n\n\nMeeting\nChapters\n\n\n\n\nJune 19\n1: Data sources2: SELECT\n\n\nJune 26\n3: WHERE\n\n\nJuly 3\nNO MEETING\n\n\nJuly 10\n4: CASE5: JOINS\n\n\nJuly 17\n6: Aggregating\n\n\nJuly 24\n7: Window functions\n\n\nJuly 31\n8: Date and time\n\n\nAugust 7\n9: Exploratory data analysis\n\n\nAugust 14\n10: Building datasets\n\n\nAugust 21\n11: Advanced query structures"
+  },
+  {
+    "objectID": "misc/sql_reading_group.html#thought-questionsexercises",
+    "href": "misc/sql_reading_group.html#thought-questionsexercises",
+    "title": "SQL Reading Group",
+    "section": "Thought Questions/Exercises",
+    "text": "Thought Questions/Exercises\n\n\nChapter 1: Data sources\n\n\nHow is a relational database different from a spreadsheet? How are they similar?\nWhen would you want to store data in a relational database rather than a spreadsheet?\nWhat is the difference between a database and a schema?\nWhat is a primary key? What is a foreign key?\nWhat is the primary key for the customer table? What about the market_date_info table? What about the customer_purchases table?\nWhat are three foreign keys in the customer_purchases table?\n\n\n\n\nChapter 2: The SELECT Statement\n\n\nWhat are the two functions/statements required for all SQL queries?\nAre SQL functions/statements case sensitive? Try a query using SELECT, select, Select, and sElEcT. Do they all work?\nWhat is the role of spaces, line breaks, and tabs in SQL queries?\nWhat two pieces of information do you need to use the FROM statement?\nWhat is the default sorting order for ORDER BY?\nWhich statement returns only first N rows, where the user can specify the number N?\nWhen you use ROUND to round a column of numbers, does that change the values in the original table?\nWhat happens if you concatenate two columns without specifying a delimiter?\nWrite a query that combines the three columns of vendor_booth_assignments separated by underscores to create a column that is a primary key. Name that column key.\n\n\n\n\nChapter 3: The WHERE Clause\n\n\n\n\nChapter 4: CASE Statements\n\n\n\n\nChapter 5: SQL JOINs\n\n\n\n\nChapter 6: Aggregating Results for Analysis\n\n\n\n\nChapter 7: Window Functions and Subqueries\n\n\n\n\nChapter 8: Date and Time Functions\n\n\n\n\nChapter 9: Exploratory Data Analysis with SQL\n\n\n\n\nChapter 10: Building SQL Datasets for Analytical Reporting\n\n\n\n\nChapter 11: More Advanced Query Structures\n\n\n\n\nChapter 12: Creating Machine Learning Datasets Using SQL\n\n\n\n\nChapter 13: Analytical Dataset Development Examples\n\n\n\n\nChapter 14: Storing and Modifying Data"
   },
   {
     "objectID": "posts/dog_number/index.html",

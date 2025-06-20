@@ -11,6 +11,18 @@ toc: false
 * [PDF](https://onlinelibrary-wiley-com.libproxy.unl.edu/doi/book/10.1002/9781119669388)
 * [HTML](https://learning.oreilly.com/library/view/sql-for-data/9781119669364/?sso_link=yes&sso_link_from=unl-edu)
 
+## MySQL Installation and Farmer's Market Database
+
+* [MySQL Documentation](https://dev.mysql.com/doc/refman/8.0/en/)
+* Windows
+  - [MySQL Community Installer](https://dev.mysql.com/downloads/installer/)
+* MacOS
+  - [MySQL Server](https://dev.mysql.com/downloads/mysql/) (install version 8.0.42)
+  - [MySQL Community Workbench](https://dev.mysql.com/downloads/workbench/)
+* [Farmer's Market Database](https://media.wiley.com/product_ancillary/67/11196693/DOWNLOAD/SQL%20for%20Data%20Scientists%20support%20files.zip)
+
+
+
 ## Schedule
 
 | Meeting | Chapters |
@@ -25,3 +37,132 @@ toc: false
 | August 7 |  9: Exploratory data analysis |
 | August 14 | 10: Building datasets |
 | August 21 | 11: Advanced query structures |
+
+## Thought Questions/Exercises
+
+<details>
+
+<summary> Chapter 1: Data sources </summary>
+
+1. How is a relational database different from a spreadsheet? How are they similar?
+1. When would you want to store data in a relational database rather than a spreadsheet?
+1. What is the difference between a database and a schema?
+1. What is a primary key? What is a foreign key?
+1. What is the primary key for the `customer` table? What about the `market_date_info` table? What about the `customer_purchases` table?
+1. What are three foreign keys in the `customer_purchases` table?
+
+</details>
+
+
+<details>
+
+<summary> Chapter 2: The SELECT Statement </summary>
+
+1. What are the two functions/statements required for all SQL queries?
+1. Are SQL functions/statements case sensitive? Try a query using `SELECT`, `select`, `Select`, and `sElEcT`. Do they all work?
+1. What is the role of spaces, line breaks, and tabs in SQL queries?
+1. What two pieces of information do you need to use the `FROM` statement?
+1. What is the default sorting order for `ORDER BY`?
+1. Which statement returns only first N rows, where the user can specify the number N?
+1. When you use `ROUND` to round a column of numbers, does that change the values in the original table?
+1. What happens if you concatenate two columns without specifying a delimiter?
+1. Write a query that combines the three columns of `vendor_booth_assignments` separated by underscores to create a column that is a primary key. Name that column `key`.
+</details>
+
+
+<details>
+
+<summary> Chapter 3: The WHERE Clause </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 4: CASE Statements </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 5: SQL JOINs </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 6: Aggregating Results for Analysis </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 7: Window Functions and Subqueries </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 8: Date and Time Functions </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 9: Exploratory Data Analysis with SQL </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 10: Building SQL Datasets for Analytical Reporting </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 11: More Advanced Query Structures </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 12: Creating Machine Learning Datasets Using SQL </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 13: Analytical Dataset Development Examples </summary>
+
+
+</details>
+
+
+<details>
+
+<summary> Chapter 14: Storing and Modifying Data </summary>
+
+
+</details>
+
+
