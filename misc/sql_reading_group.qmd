@@ -74,7 +74,14 @@ toc: false
 
 <summary> Chapter 3: The WHERE Clause </summary>
 
-
+1. Under what circumstances would you put quotes around a number?
+1. Let's say your `WHERE` statement has three conditional statements. How many conditional statements have to be TRUE to keep a row when using `AND`? What about when using `OR`?
+1. If you want to use a `WHERE` statement to subset rows for _customer_ids_ 3 and 4, which logical operator should you use?
+1. How do we specify the order of operations for evaluating conditional statements?
+1. Return a subset of the _customer_purchases_ table for transactions involving more than 15 items purchased.
+1. Return a subset of the _customer_purchases_ for customer ids 2-5 using three different techniques.
+1. Why does this statement not work? `WHERE customer_id = NULL`
+1. What is a subquery?
 </details>
 
 
