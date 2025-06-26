@@ -715,7 +715,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [In press]{.aside}
 
-Höchsmann, C., Heselton, J., Beckford, S.E., French, J.A., **Stevens, J.R.**, Boron, J.B., & Koehler, K. (forthcoming). Age-related differences in the appetite-regulating hormone response to exercise. _Current Developments in Nutrition_.
+Höchsmann, C., Heselton, J., Beckford, S.E., French, J.A., **Stevens, J.R.**, Boron, J.B., & Koehler, K. (forthcoming). Age-related differences in the appetite-regulating hormone response to exercise. _Current Developments in Nutrition_. [doi:10.1016/j.cdnut.2025.107491](https://doi.org/10.1016/j.cdnut.2025.107491)
 
 
 
