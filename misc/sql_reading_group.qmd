@@ -70,7 +70,7 @@ toc: false
 </details>
 
 
-<details>
+<details open>
 
 <summary> Chapter 3: The WHERE Clause </summary>
 
