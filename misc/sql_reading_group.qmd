@@ -70,7 +70,7 @@ toc: false
 </details>
 
 
-<details open>
+<details>
 
 <summary> Chapter 3: The WHERE Clause </summary>
 
@@ -85,18 +85,31 @@ toc: false
 </details>
 
 
-<details>
+<details open>
 
 <summary> Chapter 4: CASE Statements </summary>
 
+1. What is feature engineering and why is it called that?
+1. How do you return values that include specific character strings?
+1. What happens to values that don't meet the conditions specified in `WHEN` statements if there is no `ELSE` provided?
+1. What happens if a value in a column meets multiple `WHEN` conditional statements?
+1. What column name is assigned if you don't assign a new column name with `AS`?
+1. How can you create dummy variables with `CASE`?
 
 </details>
 
 
-<details>
+<details open>
 
 <summary> Chapter 5: SQL JOINs </summary>
 
+1. What does one-to-many mean in joins?
+1. What does `LEFT` refer to in a `LEFT JOIN`?
+1. How could we use `SELECT` to remove one of the duplicate column names for _product_category_id_ in Figure 5.5?
+1. When using a `LEFT JOIN`, what happens if a key value in the left table does not have a corresponding key value in the right table?
+1. What is table aliasing, and how do you use it?
+1. How is an `INNER JOIN` different from a `LEFT JOIN` and `RIGHT JOIN`?
+1. How many joins can you do at a time?
 
 </details>
 
