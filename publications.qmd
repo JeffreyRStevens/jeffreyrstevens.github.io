@@ -696,6 +696,8 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 <a href="https://osf.io/tp8ah/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/unl-cchil/dognumber" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://doi.org/10.31234/osf.io/rn8gq" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org//10.31820/pt.34.1.6" title="Open Access" class="cv-pub-links">
+{{<ai open-access>}}</a>
 :::
 
 101. \*Goh, F. & **Stevens, J.R.** (2025). 	Social influences on similarity judgments and intertemporal choice. _Psychological Reports_, 128(4), 2678–2709. [doi:10.1177/00332941231195540](https://doi.org/10.1177/00332941231195540)
@@ -708,15 +710,20 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 <a href="https://psyarxiv.com/xz68b" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+102. Höchsmann, C., Heselton, J., Beckford, S.E., French, J.A., **Stevens, J.R.**, Boron, J.B., & Koehler, K. (2025). Age-related differences in the appetite-regulating hormone response to exercise. _Current Developments in Nutrition_, 9(7), 107491. [doi:10.1016/j.cdnut.2025.107491](https://doi.org/10.1016/j.cdnut.2025.107491)
 
 ::: {.content-visible when-format="html"}
-### In press
+<a href="pubs/hoechsmann_etal_2025.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://doi.org/10.1016/j.cdnut.2025.107491" title="Open Access" class="cv-pub-links">
+{{<ai open-access>}}</a>
 :::
 
-[In press]{.aside}
 
-Höchsmann, C., Heselton, J., Beckford, S.E., French, J.A., **Stevens, J.R.**, Boron, J.B., & Koehler, K. (forthcoming). Age-related differences in the appetite-regulating hormone response to exercise. _Current Developments in Nutrition_. [doi:10.1016/j.cdnut.2025.107491](https://doi.org/10.1016/j.cdnut.2025.107491)
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- ### In press -->
+<!-- ::: -->
 
+<!-- [In press]{.aside} -->
 
 
 ::: {.content-visible when-format="html"}
