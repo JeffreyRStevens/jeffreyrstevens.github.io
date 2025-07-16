@@ -85,7 +85,7 @@ toc: false
 </details>
 
 
-<details open>
+<details>
 
 <summary> Chapter 4: CASE Statements </summary>
 
@@ -99,7 +99,7 @@ toc: false
 </details>
 
 
-<details open>
+<details>
 
 <summary> Chapter 5: SQL JOINs </summary>
 
@@ -114,11 +114,16 @@ toc: false
 </details>
 
 
-<details>
+<details open>
 
 <summary> Chapter 6: Aggregating Results for Analysis </summary>
 
-
+1. Why was _vendor_id_ not included in the query generating Figure 6.6?
+1. What is the difference between `COUNT` and `COUNT DISTINCT`?
+1. Write a query that returns the earliest and latests transactions (using _transaction_time_) in the customer_purchases table.
+1. Write a query that returns the earliest and latests transactions (using _transaction_time_) for each vendor in the customer_purchases table.
+1. Write a query that returns the total number of different products for each vendor, along with the average quantity of items sold per vendor using the customer_purchases table.
+1. What is the difference between `WHERE` and `HAVING`?
 </details>
 
 
