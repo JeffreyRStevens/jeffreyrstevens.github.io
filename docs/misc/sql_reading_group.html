@@ -42,8 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-fec91a77e2441071f2d8354ef1a641b3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-683274d0155fb981bc297096ec2875aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-90aabafc1ac7d0dffc09a83187f88ad7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d4e25cda8c1e4398075f677b77b923a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -504,23 +504,31 @@ Chapter 5: SQL JOINs
 <li>How many joins can you do at a time?</li>
 </ol>
 </details>
-<details open="">
+<details>
 <summary>
 Chapter 6: Aggregating Results for Analysis
 </summary>
 <ol type="1">
 <li>Why was <em>vendor_id</em> not included in the query generating Figure 6.6?</li>
 <li>What is the difference between <code>COUNT</code> and <code>COUNT DISTINCT</code>?</li>
-<li>Write a query that returns the earliest and latests transactions (using <em>transaction_time</em>) in the customer_purchases table.</li>
-<li>Write a query that returns the earliest and latests transactions (using <em>transaction_time</em>) for each vendor in the customer_purchases table.</li>
+<li>Write a query that returns the earliest and latest transactions (using <em>transaction_time</em>) in the customer_purchases table.</li>
+<li>Write a query that returns the earliest and latest transactions (using <em>transaction_time</em>) for each vendor in the customer_purchases table.</li>
 <li>Write a query that returns the total number of different products for each vendor, along with the average quantity of items sold per vendor using the customer_purchases table.</li>
 <li>What is the difference between <code>WHERE</code> and <code>HAVING</code>?</li>
 </ol>
 </details>
-<details>
+<details open="">
 <summary>
 Chapter 7: Window Functions and Subqueries
 </summary>
+<ol type="1">
+<li>How is a window function different from <code>GROUP BY</code>?</li>
+<li>Write a query that creates a column called <em>daily_number</em> that numbers all of the purchases in a day from customer_purchases in order from earliest to latest purchase.</li>
+<li>Write a query that uses the <em>daily_number</em> column to find the product information for the first purchase of every day.</li>
+<li>When there are subqueries, are the inner or outer queries processed first?</li>
+<li>How can you execute just a subquery part of a query?</li>
+<li>What is the difference between <code>ROW_NUMBER</code> and <code>RANK</code>?</li>
+</ol>
 </details>
 <details>
 <summary>

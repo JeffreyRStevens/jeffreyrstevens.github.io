@@ -114,23 +114,29 @@ toc: false
 </details>
 
 
-<details open>
+<details>
 
 <summary> Chapter 6: Aggregating Results for Analysis </summary>
 
 1. Why was _vendor_id_ not included in the query generating Figure 6.6?
 1. What is the difference between `COUNT` and `COUNT DISTINCT`?
-1. Write a query that returns the earliest and latests transactions (using _transaction_time_) in the customer_purchases table.
-1. Write a query that returns the earliest and latests transactions (using _transaction_time_) for each vendor in the customer_purchases table.
+1. Write a query that returns the earliest and latest transactions (using _transaction_time_) in the customer_purchases table.
+1. Write a query that returns the earliest and latest transactions (using _transaction_time_) for each vendor in the customer_purchases table.
 1. Write a query that returns the total number of different products for each vendor, along with the average quantity of items sold per vendor using the customer_purchases table.
 1. What is the difference between `WHERE` and `HAVING`?
 </details>
 
 
-<details>
+<details open>
 
 <summary> Chapter 7: Window Functions and Subqueries </summary>
 
+1. How is a window function different from `GROUP BY`?
+1. Write a query that creates a column called _daily_number_ that numbers all of the purchases in a day from customer_purchases in order from earliest to latest purchase.
+1. Write a query that uses the _daily_number_ column to find the product information for the first purchase of every day.
+1. When there are subqueries, are the inner or outer queries processed first?
+1. How can you execute just a subquery part of a query?
+1. What is the difference between `ROW_NUMBER` and `RANK`?
 
 </details>
 
