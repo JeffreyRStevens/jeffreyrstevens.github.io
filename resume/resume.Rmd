@@ -1,0 +1,291 @@
+---
+title: "Jeffrey R. Stevens' resume"
+author: Jeffrey R. Stevens
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+    css: 
+      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume               # DEFAULT FILE# uncomment this line to produce HTML and PDF in RStudio:
+      - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
+# knit: pagedown::chrome_print
+--sidebar-width: 12rem;
+---
+
+Aside
+================================================================================
+
+
+<!-- ![Jeffrey R. Stevens](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%} -->
+
+
+ {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> jeffrey.r.stevens@protonmail.com
+- <i class="fa fa-home"></i> <https://jeffreyrstevens.github.io>
+- <i class="fa fa-github"></i> [github.com/JeffreyRStevens](https://github.com/JeffreyRStevens)
+- <i class="fa fa-linkedin"></i> [linkedin.com/in/JeffreyRStevens](https://linkedin.com/in/JeffreyRStevens)
+<!-- - <i class="ai ai-google-scholar"></i> [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ) -->
+<!-- - For more information, please contact me via email. -->
+
+
+<i class="fa fa-code"></i> Programming {#skills}
+--------------------------------------------------------------------------------
+
+- R / tidyverse
+- R Markdown / Quarto
+- Git / GitHub
+- LaTeX
+- Linux
+- [Google Data Analytics Certificate](https://coursera.org/share/a509447b518daac4c0b921f41d0d2cd1)
+
+
+<!-- <i class="fa fa-chart-line"></i> Data analysis {#skills} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- - Data visualization (ggplot2, lattice) -->
+<!-- - Linear models (GLM, GLMM) -->
+<!-- - Machine learning (decision trees) -->
+
+
+<i class="fa fa-cube"></i> R packages {#rpackages}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-link"></i> [{excluder}](https://docs.ropensci.org/excluder/)
+Facilitates checking for, marking, and excluding rows of data frames in online data surveys
+
+- <i class="fa fa-link"></i> [{flashr}](https://jeffreyrstevens.github.io/flashr/)
+Creates flashcards for learning terms and descriptions to help learns remember R functions
+
+- <i class="fa fa-link"></i> [{cocoon}](https://github.com/JeffreyRStevens/cocoon)
+Flexibly formats statistical output to insert into R Markdown/Quarto documents
+
+- <i class="fa fa-link"></i> [{ncaavolleyballr}](https://github.com/JeffreyRStevens/ncaavolleyballr)
+Extracts data from NCAA volleyball website
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Jeffrey R. Stevens {#title}
+--------------------------------------------------------------------------------
+
+I am a researcher who uses and teaches about data science. My research investigates decision making
+in humans and other animals. My scientific workflow incorporates R and other tools
+to generate reproducible research.
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Minnesota
+
+Ph.D. in Ecology, Evolution, and Behavior
+
+St. Paul, Minnesota
+
+2002
+
+
+Employment {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Data Science Mentor
+
+[Posit Academy](https://www.posit.co/academy)
+
+Lincoln, Nebraska
+
+2022-present
+
+::: concise
+- Facilitate learning R
+- Have led 3 cohorts
+:::
+
+### Professor
+
+University of Nebraska-Lincoln (UNL)
+
+Lincoln, Nebraska
+
+2011-present
+
+::: concise
+<!-- - Teach R language to beginners.  -->
+- Train students in reproducible research
+- Use machine learning to analyze data
+:::
+
+<!-- ### Assistant Professor -->
+
+<!-- University of Nebraska-Lincoln (UNL) -->
+
+<!-- Lincoln, Nebraska -->
+
+<!-- 2011-2017 -->
+
+<!-- ### Research Scientist -->
+
+<!-- Max Planck Institute for Human Development -->
+
+<!-- Berlin, Germany -->
+
+<!-- 2006 - 2011 -->
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Data Processing and Visualization in R
+
+[Website](https://jeffreyrstevens.github.io/dpavir2023/)
+
+UNL
+
+2023-2025
+
+<!-- ### Posit Academy -->
+
+<!-- 3 cohorts -->
+
+<!-- N/A -->
+
+<!-- 2022-present -->
+
+<!-- ### Data Science and Visualization in R -->
+
+<!-- [GitHub repository](https://github.com/JeffreyRStevens/dsvr2021) -->
+
+<!-- Lincoln, Nebraska -->
+
+<!-- 2021 -->
+
+
+Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Improving measurements of similarity judgments with machine-learning algorithms.
+
+[Journal of Computational Social Science, 4(2), 613-629](https://doi.org/10.1007/s42001-020-00098-1)
+
+N/A
+
+2021
+
+**Stevens, J.R.**, Saltzman, A., Rasumussen, T., & Soh, L.-K.
+
+<!-- ### Predicting similarity judgments in intertemporal choice with machine learning. -->
+
+<!-- [Psychonomic Bulletin & Review, 25(2), 627–635](https://doi.org/10.3758/s13423-017-1398-1) -->
+
+<!-- N/A -->
+
+<!-- 2018 -->
+
+<!-- **Stevens, J.R.** & Soh, L.-K.  -->
+
+### Replicability and reproducibility in comparative psychology.
+
+[Frontiers in Psychology, 8, 862](http://doi.org/10.3389/fpsyg.2017.00862)
+
+N/A
+
+2017
+
+**Stevens, J.R.**
+
+### [>100 scientific papers/books](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ), ~5500 citations, h-index: 35
+
+N/A
+
+N/A
+
+
+
+Communication {data-icon=bullhorn}
+--------------------------------------------------------------------------------
+
+### flashr: Create Flashcards of Terms and Definitions
+
+[Blogpost](https://jeffreyrstevens.github.io/posts/flashr/)
+
+N/A
+
+2024
+
+
+### Working with Qualtrics Data - rOpenSci blogposts 
+
+[Part 1: Importing Data](https://ropensci.org/blog/2022/08/02/working-with-qualtrics-data-importing/) | [Part 2: Excluding Data](https://ropensci.org/blog/2022/08/02/working-with-qualtrics-data-importing/)
+
+N/A
+
+2022
+
+
+<!-- ### Working with Qualtrics Data - Part 2: Excluding Data  -->
+
+<!-- [rOpenSci blogpost](https://ropensci.org/blog/2022/08/09/working-with-qualtrics-data-excluding/) -->
+
+<!-- N/A -->
+
+<!-- 2022 -->
+
+<!-- ### Project management and workflows -->
+
+<!-- N/A -->
+
+<!-- N/A -->
+
+<!-- 2020 -->
+
+<!-- ### Project management and workflows -->
+
+<!-- N/A -->
+
+<!-- N/A -->
+
+<!-- 2022 -->
+
+
+<!-- ### Towards robust, transparent, and reproducible science -->
+
+<!-- N/A -->
+
+<!-- N/A -->
+
+<!-- 2019 -->
+
+Leadership {data-icon=people-group}
+--------------------------------------------------------------------------------
+
+### Co-organizer [Nebraska R User Group](https://nebraskarusergroup.github.io/)
+
+N/A
+
+N/A
+
+2024-present
+
+
+### Co-director [ManyDogs Project](https://manydogsproject.github.io/)
+
+N/A
+
+N/A
+
+2022-present
+
+

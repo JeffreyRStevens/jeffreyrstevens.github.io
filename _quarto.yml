@@ -6,6 +6,7 @@ project:
     - "!cv_old.qmd"
     - "!pubs.qmd"
     - "!test.qmd"
+    - "!resume/resume.Rmd"
 
 website:
   title: "Jeffrey R. Stevens"
