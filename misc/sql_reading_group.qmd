@@ -127,7 +127,7 @@ toc: false
 </details>
 
 
-<details open>
+<details>
 
 <summary> Chapter 7: Window Functions and Subqueries </summary>
 
@@ -141,10 +141,17 @@ toc: false
 </details>
 
 
-<details>
+<details open>
 
 <summary> Chapter 8: Date and Time Functions </summary>
 
+1. How would you return only a year from a datetime column?
+1. How are datetimes stored in MySQL?
+1. What is the difference between `DATEDIFF` and `TIMESTAMPDIFF`?
+1. What does `CURDATE` do?
+1. Write a query that finds the average duration of a market.
+1. Write a query that finds the average duration of a market for each market start time.
+1. Write a query that finds the time between first and last daily purchase for customers with more than one purchase in a day.
 
 </details>
 
