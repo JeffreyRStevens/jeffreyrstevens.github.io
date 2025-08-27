@@ -71,11 +71,11 @@ Daniela is pursuing a degree in Animal Science with a minor in Food Technology f
 
 <!-- Hannah is a senior at UNL majoring in Veterinary Biomedical Sciences. She plans on applying to veterinary school in the summer of 2022 to hopefully get accepted into Iowa State’s vet program for the fall of 2023. She is excited to observe and participate in research involving dogs and the psychology behind their behavior—topics she’s passionate about and hopes to include in her future career. -->
 
-### Maya Lashley
+<!-- ### Maya Lashley -->
 
-![](images/maya_lashley.jpeg){fig-alt="Maya Lashley" width="200" fig-align="left"}
+<!-- ![](images/maya_lashley.jpeg){fig-alt="Maya Lashley" width="200" fig-align="left"} -->
 
-Maya is studying Animal Science in the companion animal area. She is on the pre-vet track and is hoping to attend veterinary school after finishing her undergraduate degree. Maya is an active member in the Alpha Phi sorority on campus and currently serves as the Finance director for her chapter. She loves all animals, especially her two dogs and three cats. She is excited to learn more and participate in this research!
+<!-- Maya is studying Animal Science in the companion animal area. She is on the pre-vet track and is hoping to attend veterinary school after finishing her undergraduate degree. Maya is an active member in the Alpha Phi sorority on campus and currently serves as the Finance director for her chapter. She loves all animals, especially her two dogs and three cats. She is excited to learn more and participate in this research! -->
 
 ### Giselle Lawson
 
@@ -114,12 +114,6 @@ Nathan is currently studying as pre-vet and is particularly drawn to surgery and
 <!-- ![](images/lauren_rivale.jpeg){fig-alt="Lauryn Rivale" width="200" fig-align="left"} -->
 
 <!-- Between working in a doggy daycare for two years and studying pre-vet, Lauren has been working with dogs her whole life. She's always been fascinated by canine behavior and their interactions with other dogs and humans and how it affects them. Dogs have always had a big impact on her life and she's interested to see how they affect those around her. -->
-
-### Michelle Trujillo
-
-![](images/michelle_trujillo.jpg){fig-alt="Michelle Trujillo" width="200" fig-align="left"}
-
-Michelle is pursuing a bachelor’s degree in Veterinary Science with plans to attend veterinary school and specialize in companion animals. She currently serves as President of the UNL Pre-Vet Club and has spent five years as a veterinary assistant, where she has adored working with pets and their owners. She is excited to participate in the research at CCHIL!
 
 
 ### Yasmin Worth
@@ -175,6 +169,7 @@ Former Lab Members
 * Haley Kizer
 * Emma Klein
 * Laura Klein
+* [Maya Lashley](https://www.linkedin.com/in/maya-lashley-073494223/)
 * Kristina Lech
 * Nik Leger
 * Whitney Leichner
