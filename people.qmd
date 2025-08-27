@@ -58,25 +58,6 @@ Susannah is pursuing a dual major in Biological Sciences and Psychology at UNL. 
 
 Daniela is pursuing a degree in Animal Science with a minor in Food Technology for Companion Animals, with plans to specialize in companion animal nutrition following the completion of her undergraduate studies. She is an active member of Delta Delta Delta, S.E.E.C.A, and the Animal Behavior and Welfare Club. Passionate about animal welfare, Daniela has also established a small business focused on creating enrichment toys for companion animals. She is excited to gain hands-on experience and further expand her knowledge through this research opportunity.
 
-
-<!-- ### Hunter DeBoer -->
-
-<!-- ![](images/hunter_deboer.jpg){fig-alt="Hunter DeBoer" width="200" fig-align="left"} -->
-
-<!-- Hunter is a junior majoring in Psychology, Mathematics, and Physics. He plans on continuing to graduate school and become a college professor. Hunter loves dogs and is excited to work with them. -->
-
-<!-- ### Hannah Fitzpatrick -->
-
-<!-- ![](images/hannah_fitzpatrick.jpg){fig-alt="Hannah Fitzpatrick" width="200" fig-align="left"} -->
-
-<!-- Hannah is a senior at UNL majoring in Veterinary Biomedical Sciences. She plans on applying to veterinary school in the summer of 2022 to hopefully get accepted into Iowa State’s vet program for the fall of 2023. She is excited to observe and participate in research involving dogs and the psychology behind their behavior—topics she’s passionate about and hopes to include in her future career. -->
-
-<!-- ### Maya Lashley -->
-
-<!-- ![](images/maya_lashley.jpeg){fig-alt="Maya Lashley" width="200" fig-align="left"} -->
-
-<!-- Maya is studying Animal Science in the companion animal area. She is on the pre-vet track and is hoping to attend veterinary school after finishing her undergraduate degree. Maya is an active member in the Alpha Phi sorority on campus and currently serves as the Finance director for her chapter. She loves all animals, especially her two dogs and three cats. She is excited to learn more and participate in this research! -->
-
 ### Giselle Lawson
 
 ![](images/giselle_lawson.jpg){fig-alt="Giselle Lawson" width="200" fig-align="left"}
@@ -95,26 +76,11 @@ Kaleah is on the pre-vet track pursuing a degree in Veterinary Science with mino
 
 Ashley is an Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
 
-
-<!-- ### Lily Mook -->
-
-<!-- ![](images/lily_mook.jpg){fig-alt="Lily Mook" width="200" fig-align="left"} -->
-
-<!-- Lily is an Animal Science major with a focus in veterinary medicine. Her current plan is to pursue a career in companion animal veterinary medicine, but she loves learning more about animal behavior and psychology. She's excited to learn more through her experience in the lab, and she looks forward to working with the dogs! -->
-
 ### Nathan Nienaber
 
 ![](images/nathan_nienaber.jpg){fig-alt="Nathan Nienaber" width="200" fig-align="left"}
 
 Nathan is currently studying as pre-vet and is particularly drawn to surgery and lab work. Guinea pigs hold a special place in his heart, and he enjoys crochet and needle arts in his free time.
-
-
-<!-- ### Lauryn Rivale -->
-
-<!-- ![](images/lauren_rivale.jpeg){fig-alt="Lauryn Rivale" width="200" fig-align="left"} -->
-
-<!-- Between working in a doggy daycare for two years and studying pre-vet, Lauren has been working with dogs her whole life. She's always been fascinated by canine behavior and their interactions with other dogs and humans and how it affects them. Dogs have always had a big impact on her life and she's interested to see how they affect those around her. -->
-
 
 ### Yasmin Worth
 
