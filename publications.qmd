@@ -734,6 +734,16 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 [Preprints]{.aside}
 :::
 
+\*Gatesy-Davis, A., & **Stevens, J.R.** (2025). The ideal herding dog: personality and behavioral traits predict herding ability. _PsyArXiv_. [doi:10.31234/osf.io/4x9nj_v1](https://doi.org/10.31234/osf.io/4x9nj_v1)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/gatesy-davis_stevens_2025_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/phq3a/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/herdingratings" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.31234/osf.io/4x9nj_v1" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
 \*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2024). Effects of human-animal interaction on positive youth development: A replication study. _PsyArXiv_. [doi:10.31234/osf.io/ge7bf](https://doi.org/10.31234/osf.io/ge7bf)
 
 ::: {.content-visible when-format="html"}
