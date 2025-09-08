@@ -9,7 +9,7 @@
 <link>https://jeffreyrstevens.github.io/blog.html</link>
 <atom:link href="https://jeffreyrstevens.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Jeff Stevens&#39; blog</description>
-<generator>quarto-1.7.33</generator>
+<generator>quarto-1.8.23</generator>
 <lastBuildDate>Thu, 24 Apr 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>How do dogs quantify things?</title>
@@ -133,14 +133,14 @@
 <p>Let’s say you or your students are learning R by reading <a href="https://r4ds.hadley.nz/"><em>R for Data Science</em></a> (R4DS)<sup>1</sup>. In chapter 1 on data visualization, there are 14 functions referenced. Once you move on to chapter 3 on data transformation, there are 31 functions, 25 of which are new. By chapter 5, there are about 60 functions to know. That’s a lot! And some of them sound quite similar. Does <code>dplyr::select()</code> subset rows or columns? What about <code>dplyr::filter()</code>?</p>
 <p>Keeping track of all of the new functions can be tricky. But flashcards can help. And if you’re using R4DS, you’re in luck because we’ve already created flashcards for each chapter in the book. And they’re baked into <code>{flashr}</code>. All you have to do is find the tag that references the chapter of interest and pass it to the <code>flashcard()</code> function. So if you want to build a flashcard deck of the functions referenced in the first chapter of R4DS, just type:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(flashr)</span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">flashcard</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"r4ds-2e01"</span>)</span></code></pre></div>
+font-style: inherit;">"r4ds-2e01"</span>)</span></code></pre></div></div>
 </div>
 <p><img src="https://jeffreyrstevens.github.io/posts/flashr/images/flashcard.gif" alt="GIF of flashcard slide deck from R for Data Science Chapter 1 showing terms and descriptions for geom_point(), ggplot(), and library()." class="center"></p>
 </section>
@@ -148,13 +148,13 @@ font-style: inherit;">"r4ds-2e01"</span>)</span></code></pre></div>
 <h2 class="anchored" data-anchor-id="finding-decks">Finding decks</h2>
 <p>Where did <code>"r4ds-2e01"</code> come from? It’s a tag that represents the first chapter of the second edition of R4DS. To find it, you just have to list available flashcard decks with the <code>list_decks()</code> function. There are a lot of decks, so it helps to narrow down the list by using some pattern matching. For instance, if you’re interested in using chapters from the second edition of R4DS, you might try matching <code>"2e"</code> to focus only on that edition of the book.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list_decks</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">pattern =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"2e"</span>)</span></code></pre></div>
+font-style: inherit;">"2e"</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Available flashcard decks</code></pre>
 </div>
@@ -249,7 +249,7 @@ font-style: inherit;">"2e"</span>)</span></code></pre></div>
 <h2 class="anchored" data-anchor-id="customizing-decks">Customizing decks</h2>
 <p>One of the great things about flashcards is that you can either view terms and guess descriptions or view descriptions and guess terms. By default, <code>flashcard()</code> builds decks where you have to guess the descriptions from the terms. But you can easily switch that around with the <code>termsfirst = FALSE</code> argument.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">flashcard</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -257,11 +257,11 @@ font-style: inherit;">"r4ds-2e01"</span>, <span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">termsfirst =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">FALSE</span>)</span></code></pre></div>
+font-style: inherit;">FALSE</span>)</span></code></pre></div></div>
 </div>
 <p>Or maybe you don’t want the package names cluttering up your decks. Just remove them with <code>package = FALSE</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">flashcard</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -269,11 +269,11 @@ font-style: inherit;">"r4ds-2e01"</span>, <span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">package =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">FALSE</span>)</span></code></pre></div>
+font-style: inherit;">FALSE</span>)</span></code></pre></div></div>
 </div>
 <p>What if you don’t like the default colors and fonts? You can change the slide theme with the <code>theme</code> argument, choosing from one of the available <a href="https://revealjs.com/themes/">reveal.js</a> themes. You can also override the font size and color with <code>fontsize</code> and <code>fontcolor</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">flashcard</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -281,7 +281,7 @@ font-style: inherit;">"r4ds-2e01"</span>, <span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">theme =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"sky"</span>)</span></code></pre></div>
+font-style: inherit;">"sky"</span>)</span></code></pre></div></div>
 </div>
 <p><img src="https://jeffreyrstevens.github.io/posts/flashr/images/theme_sky.png" alt="Title slide of deck for R4DS-2E Ch. 1 using sky theme with white/light blue background and black font." class="center" width="80%"></p>
 </section>
@@ -290,7 +290,7 @@ font-style: inherit;">"sky"</span>)</span></code></pre></div>
 <p>The <code>{flashr}</code> package was first published on CRAN in 2023. But version 0.2.0 includes functions that can help you build your own decks. What if there are other books besides R4DS or the PsyTeachR series that you want to build decks from? Do you have to go through and find all of the individual functions and write out all of the descriptions for those other books? Ugh…that sounds awful!</p>
 <p>Well, maybe we can help. The <code>extract_code()</code> function lets you extract the contents of code blocks from R Markdown and Quarto documents. That can then be passed to <code>extract_functions()</code> to pull out all of the functions in that code. Once you have a vector of functions, they can be passed to <code>build_functions_df()</code> which makes a flashr-friendly data frame and even pulls descriptions from functions that are included in the <a href="https://jeffreyrstevens.github.io/flashr_decks/functions.html">flashr decks list of functions</a>. Let’s try that with chapter 3 of <a href="https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Names-values.Rmd">Advanced R</a>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1">advr3_text <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1">advr3_text <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -325,7 +325,7 @@ font-style: inherit;">head</span>(advr3_df, <span class="at" style="color: #6574
 background-color: null;
 font-style: inherit;">n =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">5</span>)</span></code></pre></div>
+font-style: inherit;">5</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>          term                               description package
 2  as_tibble()                 coerce object into tibble  tibble
@@ -343,7 +343,7 @@ font-style: inherit;">5</span>)</span></code></pre></div>
 </div>
 <p>You can also very easily create your own data frame by passing a vector of function names to <code>build_functions_df()</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">build_functions_df</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -362,7 +362,7 @@ font-style: inherit;">"extract_code"</span>), </span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Custom deck"</span>)</span></code></pre></div>
+font-style: inherit;">"Custom deck"</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      term                                     description package       title
 1        +                                        addition    base Custom deck
@@ -372,7 +372,7 @@ font-style: inherit;">"Custom deck"</span>)</span></code></pre></div>
 </div>
 <p>Notice that, though “extract_code” is in our vector of functions, it does not show up in the data frame. That is because the <code>extract_code()</code> function is not in the <a href="https://jeffreyrstevens.github.io/flashr_decks/functions.html">flashr decks list of functions</a>, so it does not have a description or package associated with it. If I want to include it in the data frame anyways (along with any other functions not on the list), I can just set <code>omit = FALSE</code> to include terms with missing descriptions. This could be useful if you want to export your data frame and fill in your own descriptions.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb39" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">build_functions_df</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -396,7 +396,7 @@ font-style: inherit;">"Custom deck"</span>,</span>
 background-color: null;
 font-style: inherit;">omit =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">FALSE</span>)</span></code></pre></div>
+font-style: inherit;">FALSE</span>)</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            term                                     description package
 1              +                                        addition    base
@@ -412,9 +412,9 @@ font-style: inherit;">FALSE</span>)</span></code></pre></div>
 </div>
 <p>Once you have a data frame, you can pass it to <code>flashcard()</code> to build the deck.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb41" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">flashcard</span>(advr3_df)</span></code></pre></div>
+font-style: inherit;">flashcard</span>(advr3_df)</span></code></pre></div></div>
 </div>
 <p><img src="https://jeffreyrstevens.github.io/posts/flashr/images/advr3.png" alt="Title slide of deck for Advanced R Ch. 3." class="center" width="80%"></p>
 </section>
@@ -713,7 +713,7 @@ font-style: inherit;">flashcard</span>(advr3_df)</span></code></pre></div>
 <p>OK, now that we know what kind of metadata we can work with, what do we do with them? The excluder package can do three actions on the metadata: mark, check, or exclude. The mark functions are the backbone of the package. Mark functions make new columns with the metadata criteria output appended to the existing data frame. So you pass a data frame to the mark functions to see which rows meet the metadata criteria. Mark function names simple prepend <code>mark_</code> to the metadata tag. So, for example, the function that marks preview metadata (<code>preview</code>) is <code>mark_preview()</code>.</p>
 <p>Before we start marking, let’s look at an example data set that we can work with. The <code>qualtrics_text</code> data set includes both non-anonymous and computer metadata. We’ll just look at the first six rows by piping to <code>head()</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(excluder)</span>
 <span id="cb1-2">qualtrics_text <span class="sc" style="color: #5E5E5E;
@@ -721,7 +721,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb1-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            StartDate             EndDate         Status    IPAddress Progress
 1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview         &lt;NA&gt;      100
@@ -755,14 +755,14 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 </div>
 <p>By looking at the <code>Status</code> column, we can already see that the first two rows are previews. Let’s see what <code>mark_preview()</code> does by applying it to the <code>qualtrics_text</code> data.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">mark_preview</span>(qualtrics_text) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span> </span>
 <span id="cb3-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
 </div>
@@ -800,7 +800,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 <p>There are two important outputs. First, we have an informational message telling us that <em>2 rows were collected as previews</em>. Each mark function will output this kind of message letting us know how many rows meet each metadata criterion. Second, we now have a new column called <code>exclusion_preview</code> appended to the data frame. Notice that the first two rows of that column have <code>preview</code> values while the rest of the rows are blank. We have now marked which rows meet this metadata criterion. ☑️</p>
 <p>Of course, you may want to mark your data for multiple metadata criteria. To do this, you simply have to connect multiple mark functions with a pipe (either <a href="https://rdrr.io/r/base/pipeOp.html">base R’s <code>|&gt;</code></a> or <a href="https://magrittr.tidyverse.org/reference/pipe.html">magrittr’s %&gt;%</a>). So if we want to mark preview data and all rows where the completion duration is less than 200 seconds or more than 600 seconds, we just chain these together. In fact, we can also pull the data frame out of functions as well. Note that for clarity, I use the <a href="https://dplyr.tidyverse.org/reference/select.html"><code>select()</code></a> function from <a href="https://dplyr.tidyverse.org/reference/select.html">dplyr</a> to show just a subset of columns and rows.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb6-2">  <span class="fu" style="color: #4758AB;
@@ -836,7 +836,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb6-5">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
 </div>
@@ -859,7 +859,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 <p>Now we have three messages regarding rows that meet the criteria: one for previews, one for short completion times, and one for long completion times. We also now have a new <code>exclusion_duration</code> column added that marks rows that are too quick or too slow.</p>
 <p>You can pipe together as many mark functions as you would like to get a feel for which data rows meet your different criteria. But adding a new column for each criterion can make it difficult to visualize everything together. If you want to combine all of your criteria into a single column, add the <code>unite_exclusions()</code> function at the end of the chain. Rows meeting multiple criteria will separate those criteria with commas.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb11-2">  <span class="fu" style="color: #4758AB;
@@ -900,7 +900,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb11-6">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>ℹ 2 rows were collected as previews. It is highly recommended to exclude these rows before further processing.</code></pre>
 </div>
@@ -925,7 +925,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="checking-rows">Checking rows</h3>
 <p>The mark functions are nice to view rows that meet all of your different criteria, but it can be unwieldy to use this if you have large data sets or sparse cases that meet criteria. The <code>check</code> functions help with this by extracting only the rows that meet the criterion. So you can view just the problematic data. Here we use <code>check_progress()</code> to extract the rows with progress percentages less than 100.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb16-2">  <span class="fu" style="color: #4758AB;
@@ -935,7 +935,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb16-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>ℹ 6 out of 100 rows did not complete the study.</code></pre>
 </div>
@@ -982,7 +982,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="excluding-rows">Excluding rows</h3>
 <p>After marking and/or checking our data, we may have decided which rows we want to remove. For this, we use the <code>exclude</code> functions. For instance to exclude all rows that come from the same IP address, we use the <code>exclude_duplicates()</code> function.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb19-2">  <span class="fu" style="color: #4758AB;
@@ -992,7 +992,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb19-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>ℹ 10 out of 100 duplicate rows were excluded, leaving 90 rows.</code></pre>
 </div>
@@ -1029,7 +1029,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 </div>
 <p>This leaves all rows except the ones that meet the criterion, in this case, the 10 rows out of 100 that have duplicate IP addresses. The exclude functions are like the opposite of the check functions. Therefore, we can pipe multiple exclude functions together to remove data based on multiple metadata criteria.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1">qualtrics_text <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb22-2">  <span class="fu" style="color: #4758AB;
@@ -1073,7 +1073,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb22-9">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>ℹ 2 out of 100 preview rows were excluded, leaving 98 rows.</code></pre>
 </div>
@@ -1133,14 +1133,14 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 <h2 class="anchored" data-anchor-id="deidentifying-data">Deidentifying data</h2>
 <p>Congratulations—we have now removed all of our problematic data! 🎉 However, those data frames may still have identifying information included in them (e.g., IP addresses and geolocation). Before we pass on the data set to others or post it publicly, we probably want to remove those identifying columns. excluder has a <code>deidentify()</code> function that quickly removes all metadata columns. 🥸</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">deidentify</span>(qualtrics_text) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb31-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            StartDate             EndDate         Status Progress
 1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview      100
@@ -1160,7 +1160,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 </div>
 <p>You can also use the <code>strict = FALSE</code> argument to only remove the non-anonymous columns, leaving the computer metadata.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">deidentify</span>(qualtrics_text, <span class="at" style="color: #657422;
 background-color: null;
@@ -1171,7 +1171,7 @@ background-color: null;
 font-style: inherit;">%&gt;%</span></span>
 <span id="cb33-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">head</span>()</span></code></pre></div>
+font-style: inherit;">head</span>()</span></code></pre></div></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            StartDate             EndDate         Status Progress
 1 2020-12-11 12:06:52 2020-12-11 12:10:30 Survey Preview      100
@@ -1274,7 +1274,7 @@ font-style: inherit;">head</span>()</span></code></pre></div>
 <p>Source: <a href="https://api.qualtrics.com/ZG9jOjg3NjYzMw-base-url-and-datacenter-i-ds">Qualtrics API Documentation</a></p>
 <p>Your datacenter ID can now be appended before <code>qualtrics.com</code> to generate your base URL: <code>yourdatacenterid.qualtrics.com</code> (don’t include <code>https://</code>). You can use the qualtRics function <code>qualtrics_api_credentials()</code> to connect your R session to the Qualtrics API.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(qualtRics)</span>
 <span id="cb1-2"></span>
@@ -1289,12 +1289,12 @@ font-style: inherit;">"&lt;YOUR-QUALTRICS_API_TOKEN&gt;"</span>, </span>
 background-color: null;
 font-style: inherit;">base_url =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>)</span></code></pre></div>
+font-style: inherit;">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>)</span></code></pre></div></div>
 </div>
 <p>Now your R session should have access to your Qualtrics account. But if you start a new R session, you’ll have to rerun this command. And it is not recommended to save this command in an R script because, if you send the script to someone else or post it publicly in a repository, you are granting access to your Qualtrics account to other people. 😬</p>
 <p>To avoid having to rerun the command, you can store your API token and base URL on your local computer by using <code>install = TRUE</code>. Including this argument will save the API token and base URL information in your <code>.Renviron</code> file, which is read when starting every new R session.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">qualtrics_api_credentials</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -1310,7 +1310,7 @@ font-style: inherit;">"&lt;YOUR-QUALTRICS_BASE_URL&gt;"</span>,</span>
 background-color: null;
 font-style: inherit;">install =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">TRUE</span>)</span></code></pre></div>
+font-style: inherit;">TRUE</span>)</span></code></pre></div></div>
 </div>
 <p>Now you’ll either need to restart your R session or reload your environment with <code>readRenviron("~/.Renviron")</code> to make the credentials accessible in the current R session.</p>
 <p>If you use <code>install = TRUE</code>, this means that your credentials are stored in a plain text file on your computer. So this may not be something that you want to do on a shared computer account. You must decide between the security of not storing credentials on your computer and the convenience of not having to enter your credentials for every new R session. ⚖️</p>
@@ -1326,17 +1326,17 @@ font-style: inherit;">TRUE</span>)</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="listing-your-surveys">Listing your surveys</h3>
 <p>Now that you’ve connected to your Qualtrics account, one of the first things you may want to do is list the surveys that you have in your account. While you can do this by hand through the Qualtrics website, you can also download a list of all surveys as a data frame with <a href="https://docs.ropensci.org/qualtRics/reference/all_surveys.html"><code>all_surveys()</code></a>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">surveys <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">surveys <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">all_surveys</span>() </span></code></pre></div>
+font-style: inherit;">all_surveys</span>() </span></code></pre></div></div>
 </div>
 <p>You can then view data frame to find the survey that you want.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">View</span>(surveys)</span></code></pre></div>
+font-style: inherit;">View</span>(surveys)</span></code></pre></div></div>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1350,7 +1350,7 @@ font-style: inherit;">View</span>(surveys)</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="importing-surveys">Importing surveys</h3>
 <p>Now that we know which survey we want, we can import it using <a href="https://docs.ropensci.org/qualtRics/reference/fetch_survey.html"><code>fetch_survey()</code></a> and the survey ID.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">mysurvey <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">mysurvey <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1358,7 +1358,7 @@ font-style: inherit;">fetch_survey</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">surveyID =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"SV_XXXXXXXXXX"</span>)</span></code></pre></div>
+font-style: inherit;">"SV_XXXXXXXXXX"</span>)</span></code></pre></div></div>
 </div>
 <p>This imports the survey as a data frame. The <code>fetch_survey()</code> function has many arguments that are helpful in importing your data. Here are just a few:</p>
 <ul>

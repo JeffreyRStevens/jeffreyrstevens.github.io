@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.23">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,16 +72,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-6f6599830d51be977da3b6af758f8eff.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3288d22cb407c925054f503715dce30c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-c4471992b9156207881506638828a6a0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-eb12103405667a15e07d957f8d278a53.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-6079761b35f00fc26c8c0098c1ed5625.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -309,6 +310,8 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jeffrey R. Stevens</span>
     </a>
@@ -433,8 +436,8 @@ cookieconsent.run({
 <p>Let’s say you or your students are learning R by reading <a href="https://r4ds.hadley.nz/"><em>R for Data Science</em></a> (R4DS)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In chapter 1 on data visualization, there are 14 functions referenced. Once you move on to chapter 3 on data transformation, there are 31 functions, 25 of which are new. By chapter 5, there are about 60 functions to know. That’s a lot! And some of them sound quite similar. Does <code>dplyr::select()</code> subset rows or columns? What about <code>dplyr::filter()</code>?</p>
 <p>Keeping track of all of the new functions can be tricky. But flashcards can help. And if you’re using R4DS, you’re in luck because we’ve already created flashcards for each chapter in the book. And they’re baked into <code>{flashr}</code>. All you have to do is find the tag that references the chapter of interest and pass it to the <code>flashcard()</code> function. So if you want to build a flashcard deck of the functions referenced in the first chapter of R4DS, just type:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flashr)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flashr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><img src="images/flashcard.gif" alt="GIF of flashcard slide deck from R for Data Science Chapter 1 showing terms and descriptions for geom_point(), ggplot(), and library()." class="center"></p>
 </section>
@@ -442,7 +445,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="finding-decks">Finding decks</h2>
 <p>Where did <code>"r4ds-2e01"</code> come from? It’s a tag that represents the first chapter of the second edition of R4DS. To find it, you just have to list available flashcard decks with the <code>list_decks()</code> function. There are a lot of decks, so it helps to narrow down the list by using some pattern matching. For instance, if you’re interested in using chapters from the second edition of R4DS, you might try matching <code>"2e"</code> to focus only on that edition of the book.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">list_decks</span>(<span class="at">pattern =</span> <span class="st">"2e"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">list_decks</span>(<span class="at">pattern =</span> <span class="st">"2e"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Available flashcard decks</code></pre>
 </div>
@@ -537,15 +540,15 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="customizing-decks">Customizing decks</h2>
 <p>One of the great things about flashcards is that you can either view terms and guess descriptions or view descriptions and guess terms. By default, <code>flashcard()</code> builds decks where you have to guess the descriptions from the terms. But you can easily switch that around with the <code>termsfirst = FALSE</code> argument.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">termsfirst =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">termsfirst =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Or maybe you don’t want the package names cluttering up your decks. Just remove them with <code>package = FALSE</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">package =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">package =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>What if you don’t like the default colors and fonts? You can change the slide theme with the <code>theme</code> argument, choosing from one of the available <a href="https://revealjs.com/themes/">reveal.js</a> themes. You can also override the font size and color with <code>fontsize</code> and <code>fontcolor</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">theme =</span> <span class="st">"sky"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(<span class="st">"r4ds-2e01"</span>, <span class="at">theme =</span> <span class="st">"sky"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><img src="images/theme_sky.png" alt="Title slide of deck for R4DS-2E Ch. 1 using sky theme with white/light blue background and black font." class="center" width="80%"></p>
 </section>
@@ -554,12 +557,12 @@ cookieconsent.run({
 <p>The <code>{flashr}</code> package was first published on CRAN in 2023. But version 0.2.0 includes functions that can help you build your own decks. What if there are other books besides R4DS or the PsyTeachR series that you want to build decks from? Do you have to go through and find all of the individual functions and write out all of the descriptions for those other books? Ugh…that sounds awful!</p>
 <p>Well, maybe we can help. The <code>extract_code()</code> function lets you extract the contents of code blocks from R Markdown and Quarto documents. That can then be passed to <code>extract_functions()</code> to pull out all of the functions in that code. Once you have a vector of functions, they can be passed to <code>build_functions_df()</code> which makes a flashr-friendly data frame and even pulls descriptions from functions that are included in the <a href="https://jeffreyrstevens.github.io/flashr_decks/functions.html">flashr decks list of functions</a>. Let’s try that with chapter 3 of <a href="https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Names-values.Rmd">Advanced R</a>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>advr3_text <span class="ot">&lt;-</span> <span class="st">"https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Vectors.Rmd"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>advr3_text <span class="ot">&lt;-</span> <span class="st">"https://raw.githubusercontent.com/hadley/adv-r/refs/heads/master/Vectors.Rmd"</span></span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>advr3_df <span class="ot">&lt;-</span> advr3_text <span class="sc">|&gt;</span>  </span>
 <span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">extract_code</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">extract_functions</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">build_functions_df</span>(<span class="at">fs =</span> _, <span class="at">title =</span> <span class="st">"Advanced R Ch. 3"</span>)</span>
-<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(advr3_df, <span class="at">n =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(advr3_df, <span class="at">n =</span> <span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>          term                               description package
 2  as_tibble()                 coerce object into tibble  tibble
@@ -577,8 +580,8 @@ cookieconsent.run({
 </div>
 <p>You can also very easily create your own data frame by passing a vector of function names to <code>build_functions_df()</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_functions_df</span>(<span class="at">fs =</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"filter"</span>, <span class="st">"aes"</span>, <span class="st">"extract_code"</span>), </span>
-<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">title =</span> <span class="st">"Custom deck"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_functions_df</span>(<span class="at">fs =</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"filter"</span>, <span class="st">"aes"</span>, <span class="st">"extract_code"</span>), </span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">title =</span> <span class="st">"Custom deck"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      term                                     description package       title
 1        +                                        addition    base Custom deck
@@ -588,9 +591,9 @@ cookieconsent.run({
 </div>
 <p>Notice that, though “extract_code” is in our vector of functions, it does not show up in the data frame. That is because the <code>extract_code()</code> function is not in the <a href="https://jeffreyrstevens.github.io/flashr_decks/functions.html">flashr decks list of functions</a>, so it does not have a description or package associated with it. If I want to include it in the data frame anyways (along with any other functions not on the list), I can just set <code>omit = FALSE</code> to include terms with missing descriptions. This could be useful if you want to export your data frame and fill in your own descriptions.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_functions_df</span>(<span class="at">fs =</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"filter"</span>, <span class="st">"aes"</span>, <span class="st">"extract_code"</span>), </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_functions_df</span>(<span class="at">fs =</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"filter"</span>, <span class="st">"aes"</span>, <span class="st">"extract_code"</span>), </span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">title =</span> <span class="st">"Custom deck"</span>,</span>
-<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">omit =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">omit =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>            term                                     description package
 1              +                                        addition    base
@@ -606,7 +609,7 @@ cookieconsent.run({
 </div>
 <p>Once you have a data frame, you can pass it to <code>flashcard()</code> to build the deck.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(advr3_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">flashcard</span>(advr3_df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><img src="images/advr3.png" alt="Title slide of deck for Advanced R Ch. 3." class="center" width="80%"></p>
 </section>
@@ -689,13 +692,14 @@ cookieconsent.run({
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

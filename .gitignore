@@ -6,3 +6,5 @@
 /.quarto/
 /_site/
 /ignore/
+
+**/*.quarto_ipynb
