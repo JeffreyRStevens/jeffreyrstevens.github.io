@@ -878,7 +878,7 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 
  Participant in Research Development Fellows Program, University of Nebraska-Lincoln
 
-[2018-2025]{.aside}
+[2018-]{.aside}
 
  Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
 
@@ -902,7 +902,6 @@ Completed [Google Data Analytics certificate](https://coursera.org/share/a509447
 
  Advisory board member of [ManyManys Project](https://manymanys.github.io)
 
-Associate chair, Department of Psychology, University of Nebraska-Lincoln
 
 ## Editorships
 
