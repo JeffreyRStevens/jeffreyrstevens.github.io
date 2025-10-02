@@ -28,7 +28,7 @@ format:
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | {{<ai impactstory>}} [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
 
 
-I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psychology.unl.edu) and a resident member of the [Center for Brain, Biology & Behavior](https://cb3.unl.edu/) at the [University of Nebraska-Lincoln](http://www.unl.edu/), where I direct the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu){target="_blank"}. I am also a Data Science Mentor at [Posit Academy](https://posit.co/academy){target="_blank"} (formerly RStudio).
+I am a Professor in the [Department of Psychology](https://psychology.unl.edu) and a resident member of the [Center for Brain, Biology & Behavior](https://cb3.unl.edu/) at the [University of Nebraska-Lincoln](http://www.unl.edu/), where I direct the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu){target="_blank"}. I am also a Data Science Mentor at [Posit Academy](https://posit.co/academy){target="_blank"} (formerly RStudio).
 
 
 ## Professional Positions
@@ -61,7 +61,7 @@ I am a Susan J. Rosowski Professor in the [Department of Psychology](https://psy
 
  Associate professor, Department of Psychology, University of Nebraska-Lincoln
 
-[2020-]{.aside}
+[2020-2025]{.aside}
  
  Susan J. Rosowski professorship, Department of Psychology, University of Nebraska-Lincoln
 
@@ -878,7 +878,7 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 
  Participant in Research Development Fellows Program, University of Nebraska-Lincoln
 
-[2018-]{.aside}
+[2018-2025]{.aside}
 
  Program coordinator of [Neuroscience and Behavior](https://psychology.unl.edu/neuroscience-and-behavior) graduate program, Department of Psychology, University of Nebraska-Lincoln
 
@@ -900,8 +900,9 @@ Completed [Google Data Analytics certificate](https://coursera.org/share/a509447
  
 [2025-]{.aside} 
 
- Advisory board member of [ManyManys Project](https://manymanys.github.io)
+Advisory board member of [ManyManys Project](https://manymanys.github.io)
 
+Associate chair, Department of Psychology, University of Nebraska-Lincoln
 
 ## Editorships
 
@@ -1141,6 +1142,10 @@ Minor contributor to R package [see](https://easystats.github.io/see/), which pr
 [2019-2025]{.aside} 
 
  Invited speaker at Edgerton Explorit Dog Science Camp
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2021-2023]{.aside} 
  
