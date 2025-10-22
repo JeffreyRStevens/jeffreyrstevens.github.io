@@ -24,7 +24,7 @@ format:
 {{< fa envelope title="Email" >}} [jeffrey.r.stevens@protonmail.com](mailto:jeffrey.r.stevens@protonmail.com) | {{< fa home title="Website" >}} [jeffreyrstevens.github.io](https://jeffreyrstevens.github.io/)
 {{< fa brands mastodon title="Mastodon logo" >}} [@JeffreyRStevens@fediscience.org](https://fediscience.org/@JeffreyRStevens) | {{<ai osf>}} [Open Science Framework](https://osf.io/4nx8b/)
 {{< iconify simple-icons bluesky title="BlueSky logo">}} [@jeffreyrstevens.com](https://bsky.app/profile/jeffreyrstevens.com) | {{<ai orcid>}} [ORCiD](https://orcid.org/0000-0003-2375-1360)
-{{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai researchgate>}} {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
+{{< fa brands github title="GitHub logo" >}} [GitHub](http://github.com/jeffreyrstevens) | {{<ai google-scholar>}} [Google Scholar](http://scholar.google.com/citations?hl=en&user=3KRfbWUAAAAJ)
 {{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/JeffreyRStevens/) | {{<ai impactstory>}} [ImpactStory](https://profiles.impactstory.org/u/0000-0003-2375-1360)
 
 
