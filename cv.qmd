@@ -229,6 +229,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "The bounded rationality of reciprocity", Program in Behavior, Economics, and Evolution, University of Lausanne, Switzerland
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2017]{.aside}
 
  "The bounded rationality of cooperation", Symposium on The Neural Basis of Social Evaluation, Heinrich-Heine-Universität, Düsseldorf, Germany
@@ -267,6 +271,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  
  "[Canine research and the ManyDogs Project](https://jeffreyrstevens.quarto.pub/unl_era_2025)", University of Nebraska-Lincoln
  
+[2025]{.aside}
+ 
+ "[Canine color preferences](https://jeffreyrstevens.quarto.pub/seeca2025)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
+
 
 ### Conference
 
@@ -280,6 +288,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2004]{.aside}
 
  "The selfish nature of generosity: harassment and food sharing in primates", International Society for Behavioral Ecology, Jyväskylä, Finland.
@@ -287,10 +299,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  "The ecology and evolution of patience in two New World primates", **Stevens, J.R.**, Hallinan, E.V., and Hauser, M.D., Society for the Quantitative Analyses of Behavior, Boston, MA (poster).
 
  "Quantity discrimination in two callitrichid primate species", **Stevens, J.R.** and Hauser, M.D. Comparative Cognition Conference, Melbourne, FL.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2005]{.aside}
 
@@ -372,6 +380,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "The domain specificity of self-control", **Stevens, J.R.**, Kennedy, B.A., Morales, D. and Burks, M., Comparative Cognition Conference, Melbourne, FL.
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2015]{.aside}
 
  "Similarity judgments of time delay and reward amount in intertemporal choice", **Stevens, J.R.** & Soh, L.-K., Psychonomic Society Meeting, Chicago (poster).
@@ -382,9 +394,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "Naturally nice and controlled: effects of exposure to nature on stress and decision making", **Stevens, J.R.**, Society for Neuroeconomics Meeting, Berlin (poster).
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2017]{.aside}
 
@@ -576,10 +585,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  University of Nebraska-Lincoln, College of Arts & Sciences International Research Collaboration Award, "Oxytocin as a hormonal mechanism of prosociality in dogs and wolves" (\$9,964)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2017-2019]{.aside} 
 
  University of Nebraska Food for Health Collaboration Initiative Seed Grant, "Understanding the effect of exercise on future food intake: The role of behavioral, physiological, and neural mechanisms" Co-PI with Karsten Koehler (PI), Matthew Bice, Ronald Bulbulian, Jeffrey French, Christopher Gustafson, Maital Neta, Scott Stoltenberg (\$150,000)
@@ -738,6 +743,10 @@ Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior
 
  "Using machine learning to study decision making", University of Nebraska-Lincoln---Introduction to Informatics: Computer Science and Computer Engineering 100
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2020]{.aside} 
 
  "Canine-human interaction", University of Nebraska-Lincoln---Fundamentals of Animal Biology and Industry: Animal Science 100
@@ -816,10 +825,6 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 
  Tim Winke---"The role of costly errors in cooperative memory", (Bachelors thesis, Universität Bayreuth)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2014-2015]{.aside}
 
  Whitney Leichner---"Hormonal mechanisms of non-kin cooperation: A study of the effects of mesotocin on prosocial behavior in pinyon jays (*Gymnorhinus cyanocephalus*)", (honor's thesis in Psychology, University of Nebraska-Lincoln)
@@ -857,6 +862,10 @@ Wolfe Award for Best All-Around Psychology Senior, University of Nebraska-Lincol
 [2017-2019]{.aside}
 
  Francine Goh--"Social influences on similarity judgments and intertemporal choice", (Master's thesis, Dept. of Psychology, University of Nebraska-Lincoln)
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2018-2020]{.aside}
 
@@ -1005,6 +1014,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2011]{.aside} 
 
  Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
@@ -1059,6 +1072,10 @@ Improvement Grant panel
 [2018-2020]{.aside} 
 
  Buffett Early Childhood Institute Graduate Scholars panel
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2021-2022]{.aside} 
 
@@ -1142,10 +1159,6 @@ Minor contributor to R package [see](https://easystats.github.io/see/), which pr
 [2019-2025]{.aside} 
 
  Invited speaker at Edgerton Explorit Dog Science Camp
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2021-2023]{.aside} 
  
