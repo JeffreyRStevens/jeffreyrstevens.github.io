@@ -275,6 +275,8 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  
  "[Canine color preferences](https://jeffreyrstevens.quarto.pub/seeca2025)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
 
+ "[Is psychology going to the dogs? What canine science can tell us about reliable research](https://jeffreyrstevens.quarto.pub/nps2025)", Nebraska Psychological Society (keynote address), Hastings College, Hastings, NE
+
 
 ### Conference
 
@@ -287,10 +289,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 [2003]{.aside}
 
  "The selfish nature of generosity: harassment and food sharing in primates", 4. Göttinger Freilandtage: Cooperation in Primates and Humans, Göttingen, Germany.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2004]{.aside}
 
@@ -379,10 +377,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  "The domain specificity of self-control: Caching and intertemporal choice in pinyon jays", **Stevens, J.R.**, Kennedy, B.A., Morales, D. and Burks, M., Psychonomic Society Meeting, Long Beach, CA.
 
  "The domain specificity of self-control", **Stevens, J.R.**, Kennedy, B.A., Morales, D. and Burks, M., Comparative Cognition Conference, Melbourne, FL.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2015]{.aside}
 
