@@ -21,11 +21,9 @@ about:
       href: mailto:jeffrey.r.stevens@protonmail.com
 ---
 
-I am a Susan J. Rosowski Professor in the Department of Psychology and the Center for Brain, Biology & Behavior at the University of Nebraska-Lincoln, where I direct the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu){target="_blank"}. I am also a Data Science Mentor at [Posit Academy](https://posit.co/academy){target="_blank"} (formerly RStudio).
+I am a Professor in the [Department of Psychology](https://psychology.unl.edu) and the [Center for Brain, Biology & Behavior](https://cb3.unl.edu) at the University of Nebraska-Lincoln, where I direct the [Canine Cognition and Human Interaction Lab](https://dogcog.unl.edu){target="_blank"}. My research team plays games with dogs to understand their behavior with the aim of improving how owners and handlers train, work with, and live with dogs. This work integrates perspectives from biology, psychology, computer science, neuroscience, and economics to understanding canine cognition and the dog-human bond.
 
-My research program uses data science to understand decision making in humans and other animals. My research integrates perspectives from biology, psychology, computer science, neuroscience, and economics. I employ open science practices to ensure that my work is transparent, accessible, and reproducible.
-
-I train the next generation of data scientists. As a professor, I have trained hundreds of undergraduates, graduate students, and even faculty in how to think about, analyze, visualize, and report their data. As a data science mentor at Posit, I do the same for corporate employees.
+My research team employs data science and open science practices to ensure that our work is rigorous, transparent, accessible, and reproducible. As a professor, I have trained hundreds of undergraduates, graduate students, and even faculty in how to think about, analyze, visualize, and report their data. I am also a data science mentor at [Posit](https://posit.co){target="_blank"}, where I do the same for corporate and non-profit learners.
 
 <p align="center"><a href="cv.pdf" class="btn btn-primary">CV</a> 
 <a href="/images/resume.pdf" class="btn btn-primary">Resume</a></p>
