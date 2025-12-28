@@ -205,10 +205,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "The bounded rationality of cooperation", Faculty of Biology, University of Lausanne, Switzerland
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2012]{.aside}
 
  "Cognition and the evolution of cooperation", Social Structure Summer School, Göttingen, Germany
@@ -258,6 +254,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 [2022]{.aside}
  
  "[Mechanisms of impulsivity in humans and other animals](https://jeffreyrstevens.quarto.pub/az2022/)", Cognitive Science Program, University of Arizona, Tucson, AZ
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2024]{.aside}
  
@@ -313,10 +313,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  "The evolutionary origins of human patience", Rosati, A.G, **Stevens, J.R.**, Hare, B., and Hauser, M.D., Comparative Cognition Conference, Melbourne, FL.
 
  "Evolving the psychological mechanisms for cooperation", Social Organization and Cognitive Tools Conference, Konrad Lorenz Research Station, Grünau, Austria.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2008]{.aside}
 
@@ -404,10 +400,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  "Order matters: Alphabetizing in-text citations biases citation decisions", **Stevens, J.R.** & Duque, J.F., Psychonomic Society Meeting, Vancouver, Canada.
 
  "Complex social dynamics and cognition shape cooperation", **Stevens, J.R.**, Göttinger Freilandtage: Social Complexity, Göttingen, Germany.
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2018]{.aside}
 

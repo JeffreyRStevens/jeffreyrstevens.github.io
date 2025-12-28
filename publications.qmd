@@ -18,12 +18,25 @@ format:
 
 1. Do, L.H., Gooch, R.D., **Stevens, J.R.**, & Holmes, W.C. (1996). New county records of *Botrychium lunarioides* in Texas. *American Fern Journal*, *86*, 28-31. [doi:10.2307/1547608](https://doi.org/10.2307/1547608)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/do_etal_1996.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 2. Holmes, W.C., Morgan, T.L., **Stevens, J.R.**, Gooch, R.D., & Singhurst, J.R. (1996). [Comments on the distribution of *Botrychium lunarioides* (Ophioglossaceae) in Texas.](http://www.biodiversitylibrary.org/item/47108)
 *Phytologia*, *80*, 280-283.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/holmes_etal_1996.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 3. Morgan, T.L., **Stevens, J.R.**, & Holmes, W.C. (1996). [First report of *Wolffiella lingulata* (Lemnaceae) in western Mexico.](http://www.biodiversitylibrary.org/item/34588) *SIDA*, *17*, 289-290.
+
+::: {.content-visible when-format="html"}
+<a href="pubs/morgan_etal_1996.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 ::: {.content-visible when-format="pdf"}
 \newpage
@@ -38,44 +51,106 @@ format:
 
 4. Stephens, D.W. and **Stevens, J.R.** (2001). A simple spatially-explicit ideal-free distribution: A model and an experiment. *Behavioral Ecology and Sociobiology*, *49*, 220-234. [doi:10.1007/s002650000276](http://dx.doi.org/10.1007/s002650000276)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_stephens_2001.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 [2002]{.aside}
 
 5. Stephens, D.W., McLinn, C.M., & **Stevens, J.R.** (2002). Discounting and reciprocity in an Iterated Prisoner's Dilemma. *Science*, *298*, 2216-2218. [doi:10.1126/science.1078498](http://dx.doi.org/10.1126/science.1078498)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stephens_etal_2002.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stephens_etal_2002_SOM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="data/stephens_etal_2002_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://news.nationalgeographic.com/news/2002/12/1212_021212_birdpals.html" title="Press" class="cv-pub-links">Press</a>
+:::
+
 
 6. **Stevens, J.R.** and Stephens, D.W. (2002). Food sharing: A model of manipulation by harassment. *Behavioral Ecology*, *13*, 393-400. [doi:10.1093/beheco/13.3.393](http://dx.doi.org/10.1093/beheco/13.3.393)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_stephens_2002.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 [2004]{.aside}
 
 7. **Stevens, J.R.** (2004). The selfish nature of generosity: Harassment and food sharing. *Proceedings of the Royal Society of London, Series B*, *271*, 451-456. [doi:10.1098/rspb.2003.2625](http://dx.doi.org/10.1098/rspb.2003.2625)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2004.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stevens_2004_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://www.nature.com/news/2004/040112/full/news040112-4.html" title="Press" class="cv-pub-links">Press</a>
+:::
+
 
 8. **Stevens, J.R.** and \*Cushman, F.A. (2004). Cognitive constraints on reciprocity and tolerated scrounging. *Behavioral and Brain Sciences*, *27*, 569-570. [doi:10.1017/S0140525X04320121](http://dx.doi.org/10.1017/S0140525X04320121)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_cushman_2004.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 9. **Stevens, J.R.** and Gilby, I.C. (2004). A conceptual framework for non-kin food sharing: Timing and currency of benefits. *Animal Behaviour*, *67*, 603-614. [doi:10.1016/j.anbehav.2003.04.012](http://dx.doi.org/10.1016/j.anbehav.2003.04.012)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_gilby_2004.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 10. **Stevens, J.R.** and Hauser, M.D. (2004). Why be nice? Psychological constraints on the evolution of cooperation. *Trends in Cognitive Sciences*, *8*, 60-65. [doi:10.1016/j.tics.2003.12.003](http://dx.doi.org/10.1016/j.tics.2003.12.003)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_hauser_2004.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 11. **Stevens, J.R.** and Stephens, D.W. (2004). The economic basis of cooperation: trade-offs between selfishness and generosity. *Behavioral Ecology*, *15*, 255-261. [doi:10.1093/beheco/arh006](http://dx.doi.org/10.1093/beheco/arh006)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_stephens_2004.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stevens_stephens_2004_data.zip" title="Data" class="cv-pub-links">Data</a>
+:::
+
 
 [2005]{.aside}
 
 12. **Stevens, J.R.**, \*Cushman, F.A., and Hauser, M.D. (2005). Evolving the psychological mechanisms for cooperation. *Annual Review of Ecology, Evolution, and Systematics*, *36*, 499-518. [doi:10.1146/annurev.ecolsys.36.113004.083814](http://dx.doi.org/10.1146/annurev.ecolsys.36.113004.083814)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2005b.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 13. **Stevens, J.R.**, \*Hallinan, E.V., and Hauser, M.D. (2005). The ecology and evolution of patience in two New World primates. *Biology Letters*, *1*, 223-226. [doi:10.1098/rsbl.2004.0285](http://dx.doi.org/10.1098/rsbl.2004.0285)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2005.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stevens_etal_2005_SOM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="data/stevens_etal_2005_BiolLett_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://news.sciencemag.org/sciencenow/2005/10/25-01.html" title="Press" class="cv-pub-links">Press</a>
+:::
 
 
 14. **Stevens, J.R.** and Hauser, M.D. (2005). Cooperative brains: Psychological constraints on the evolution of altruism. In S. Dehaene, J.-R. Duhamel, M.D. Hauser, & L.G. Rizolatti (Eds.), [*From monkey brain to human brain*](http://cognet.mit.edu/book/monkey-brain-to-human-brain)
 (pp. 159-187). Cambridge, MA: MIT Press.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_hauser_2005.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 15. **Stevens, J.R.**, \*Rosati, A.G., \*Ross, K.R., and Hauser, M.D. (2005). Will travel for food: Spatial discounting and reward magnitude in two New World monkeys. *Current Biology*, *15*, 1855-1860. [doi:10.1016/j.cub.2005.09.016](http://dx.doi.org/10.1016/j.cub.2005.09.016)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2005c.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/stevens_etal_2005c_SOM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="data/stevens_etal_2005_CurrBiol_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://www.sciencedaily.com/releases/2005/10/051025080057.htm" title="Press" class="cv-pub-links">Press</a>
+:::
+
 
 ::: {.content-visible when-format="pdf"}
 \newpage
@@ -85,42 +160,102 @@ format:
 
 16. \*Rosati, A.G., **Stevens, J.R.**, and Hauser, M.D. (2006). The effect of handling time on temporal discounting in two New World primates. *Animal Behaviour*, *71*, 1379-1387. [doi:10.1016/j.anbehav.2005.11.012](http://dx.doi.org/10.1016/j.anbehav.2005.11.012)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/rosati_etal_2006.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/rosati_etal_2006_data.zip" title="Data" class="cv-pub-links">Data</a>
+:::
+
 
 17. Stephens, D.W, McLinn, C.M., and **Stevens, J.R.** (2006). Effects of temporal clumping and payoff accumulation on impulsiveness and cooperation. *Behavioural Processes*, *71*, 29-40. [doi:10.1016/j.beproc.2005.09.003](http://dx.doi.org/10.1016/j.beproc.2005.09.003)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stephens_etal_2006.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stephens_etal_2006_data.zip" title="Data" class="cv-pub-links">Data</a>
+:::
+
 
 [2007]{.aside}
 
 18. \*Barton, A., Mousavi, S., and **Stevens, J.R.** (2007). A statistical taxonomy and another "chance" for natural frequencies. *Behavioral and Brain Sciences*, *30*, 255-256. [doi:10.1017/S0140525X07001665](http://doi.org/10.1017/S0140525X07001665)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/barton_etal_2007.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 19. \*Rosati, A.G., **Stevens, J.R.**, Hare, B., and Hauser, M.D. (2007). The evolutionary origins of human patience: Temporal preferences in chimpanzees, bonobos, and human adults. *Current Biology*, *17*, 1663-1668. [doi:10.1016/j.cub.2007.08.033](http://doi.org/10.1016/j.cub.2007.08.033)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/rosati_etal_2007.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/rosati_etal_2007_SOM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="data/rosati_etal_2007_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://www.economist.com/node/9898270?story_id=9898270" title="Press" class="cv-pub-links">Press</a>
+:::
+
 
 20. **Stevens, J.R.**, \*Wood, J.N., and Hauser, M.D. (2007). Quantity trumps number: Discrimination experiments in cotton-top tamarins (*Saguinus oedipus*) and common marmosets (*Callithrix jacchus*). *Animal Cognition*, *10*, 429-437. [doi:10.1007/s10071-007-0081-8](http://doi.org/10.1007/s10071-007-0081-8)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2007.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stevens_etal_2007_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="pubs/stevens_etal_2007_rcode.R" title="R code" class="cv-pub-links">Code</a>
+:::
+
 
 [2008]{.aside}
 
 21. \*Heilbronner, S.R., \*Rosati, A.G., **Stevens, J.R.**, Hare, B., and Hauser, M.D. (2008). A fruit in the hand or two in the bush? Ecological pressures select for divergent risk preferences in chimpanzees and bonobos. *Biology Letters*, *4*, 246-249. [doi:10.1098/rsbl.2008.0081](http://doi.org/10.1098/rsbl.2008.0081)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/heilbronner_etal_2008.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="pubs/heilbronner_etal_2008_SOM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
+<a href="data/heilbronner_etal_2008_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://www.telegraph.co.uk/science/science-news/3337322/Humans-learnt-to-gamble-from-chimps.html" title="Press" class="cv-pub-links">Press</a>
+:::
+
 
 22. McElreath, R., Boyd, R., Gigerenzer, G., Glöckner, A., Hammerstein, P., Kurzban, R., Magen, S., Richerson, P., Robson, A., & **Stevens, J.R.** (2008). Individual decision making and the evolutionary roots of institutions. In C. Engel & W. Singer (Eds.), [*Better than conscious? Decision making, the human mind, and implications for institutions*](https://mitpress.mit.edu/books/better-conscious). Ernst Strüngmann Report 1. (pp. 325-342). Cambridge, MA: MIT Press.
+
+::: {.content-visible when-format="html"}
+<a href="pubs/mcelreath_etal_2008.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 23. **Stevens, J.R.** (2008). The evolutionary biology of decision making. In C. Engel & W. Singer (Eds.), [*Better than conscious? Decision making, the human mind, and implications for institutions*](https://mitpress.mit.edu/books/better-conscious). Ernst Strüngmann Report 1. (pp. 285-304). Cambridge, MA: MIT Press.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2008.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 24. **Stevens, J.R.** & Stephens, D.W. (2008). Patience. *Current Biology*, *18*, R11-12. [doi:10.1016/j.cub.2007.11.021](http://doi.org/10.1016/j.cub.2007.11.021)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_stephens_2008.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 [2009]{.aside}
 
 25. \*Rosati, A.G. & **Stevens, J.R.** (2009). Rational decisions: The adaptive nature of context-dependence choice. In S. Watanabe, A.P. Blaisdell, L. Huber, & A. Young (Eds.), [*Rational animals, irrational humans*](https://www.keio-up.co.jp/kup/eng/bio/16150.html) (pp. 101-117). Tokyo: Keio University Press.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/rosati_stevens_2009.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 26. **Stevens, J.R.** and Hauser, M.D. (2009). Social interaction effects on reward and cognitive abilities in monkeys. In L. Squire (Ed.), [*Encyclopedia of neuroscience*](https://booksite.elsevier.com/brochures/ens/) (pp. 45-58). Oxford: Academic Press.
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_hauser_2009.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 27. \*Straubinger, N. Cokely, E.T., and **Stevens, J.R.** (2009). The dynamics of development: Challenges for Bayesian rationality. Commentary in *Behavioral and Brain Sciences*, *32*, 103-104. [doi:10.1017/S0140525X09000491](http://doi.org/10.1017/S0140525X09000491)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/straubinger_etal_2009.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 ::: {.content-visible when-format="html"}
 ### 2010s
@@ -130,48 +265,107 @@ format:
 
 28. **Stevens, J.R.** (2010). The challenges of understanding animal minds. *Frontiers in Psychology*, *1*, 203. [doi:10.3389/fpsyg.2010.00203](https://doi.org/10.3389/fpsyg.2010.00203)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2010_FiCP.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="http://doi.org/10.3389/fpsyg.2010.00203" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
 
 29. **Stevens, J.R.** (2010). Donor payoffs and other-regarding preferences in cotton-top tamarins (*Saguinus oedipus*). *Animal Cognition*, *13*, 663-670. [doi:10.1007/s10071-010-0309-x](https://doi.org/10.1007/s10071-010-0309-x)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2010_AnimCog.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/stevens_2010_data.zip" title="Data" class="cv-pub-links">Data</a>
+:::
 
 
 30. **Stevens, J.R.** (2010). Intertemporal choice. In M. Breed & J. Moore (Eds.), [*Encyclopedia of animal behavior*](https://www.elsevier.com/books/encyclopedia-of-animal-behavior/breed/978-0-08-045333-0) (Vol. 2, pp. 203-208). Oxford: Academic Press.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2010_EoAB.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 31. **Stevens, J.R.** (2010). Rational decision making in primates: The bounded and the ecological. In M.L. Platt & A.A. Ghazanfar (Eds.), *Primate neuroethology* (pp. 98-116). Oxford: Oxford University Press. [doi:10.1093/acprof:oso/9780195326598.003.0006](https://doi.org/10.1093/acprof:oso/9780195326598.003.0006)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2010_PrimNeuro.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 32. **Stevens, J.R.** & Stephens, D.W. (2010). The adaptive nature of impulsivity. In G.J. Madden & W.K. Bickel (Eds.), *Impulsivity: The behavioral and neurological science of discounting* (pp. 361-387). Washington, D.C.: APA Press. [doi:10.1037/12069-013](https://doi.org/10.1037/12069-013)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_stephens_2009.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 [2011]{.aside}
 
 33. \*Mühlhoff, N., **Stevens, J.R.** & Reader, S.M. (2011). Spatial discounting of food and social rewards in guppies (*Poecilia reticulata*). *Frontiers in Psychology*, *2*, 68. [doi:10.3389/fpsyg.2011.00068](http://doi.org/10.3389/fpsyg.2011.00068)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/muehlhoff_etal_2011.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="http://datadryad.org/resource/doi:10.5061/dryad.023g3" title="Data & code" class="cv-pub-links">Data & code</a>
+<a href="http://doi.org/10.3389/fpsyg.2011.00068" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
 
 34. Seed, A., Clayton, N., Carruthers, P., Dickinson, A., Glimcher, P.W., Güntürkün, O., Hampton, R.R., Kacelnik, A., Shanahan, M., **Stevens, J.R.** & Tebbich, S. (2011). Planning, memory, and decision making. In R. Menzel & J. Fischer (Eds.), [*Animal thinking: Contemporary issues in comparative cognition*](https://mitpress.mit.edu/books/animal-thinking). Ernst Strüngmann Forum Report (vol. 8, pp. 121-147). Cambridge, MA: MIT Press.
+
+::: {.content-visible when-format="html"}
+<a href="pubs/seed_etal_2011.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 35. **Stevens, J.R.** (2011). Mechanisms for decisions about the future. In R. Menzel & J. Fischer (Eds.), [*Animal thinking: Contemporary issues in comparative cognition*](https://mitpress.mit.edu/books/animal-thinking). Ernst Strüngmann Forum Report (vol. 8, pp. 93-104). Cambridge, MA: MIT Press.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2011.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 36. \#**Stevens, J.R.**, \*Rosati, A.G., \*Heilbronner, S.R., & \*Mühlhoff, N. (2011). Waiting for grapes: Expectancy and delayed gratification in bonobos. *International Journal of Comparative Psychology*. *24*, 99-111. [https://escholarship.org/uc/item/4km2r37j](https://escholarship.org/uc/item/4km2r37j)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2011_IJCP.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://doi.org/10.17605/OSF.IO/AW49F" title="Data & code" class="cv-pub-links">Data & code</a>
+<a href="http://escholarship.org/uc/item/4km2r37j" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
 
 
 37. **Stevens, J.R.**, \*Volstorf, J., Schooler, L.J., & Rieskamp, J. (2011). Forgetting constrains the evolution of cooperative decision strategies. *Frontiers in Psychology*, *1*, 235. [doi:10.3389/fpsyg.2010.00235](http://doi.org/10.3389/fpsyg.2010.00235)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2011_FiCS.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://doi.org/10.17605/OSF.IO/KT3SU" title="Data & code" class="cv-pub-links">Data & code</a>
+<a href="http://doi.org/10.3389/fpsyg.2010.00235" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
 
 38. \*Volstorf, J., Rieskamp, J. & **Stevens, J.R.** (2011). The good, the bad, and the rare: Memory for partners in social interactions. *PLoS ONE*, *6*, e18945. [doi:10.1371/journal.pone.0018945](http://doi.org/10.1371/journal.pone.0018945)
 
-::: {.content-visible when-format="pdf"}
-\newpage
+::: {.content-visible when-format="html"}
+<a href="pubs/volstorf_etal_2011.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="data/volstorf_etal_2011_data.zip" title="Data" class="cv-pub-links">Data</a>
+<a href="http://doi.org/10.1371/journal.pone.0018945" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
 
 [2012]{.aside}
 
 39. \*Artinger, F., \*Fleischhut, N., Levanti, V., & **Stevens, J.R.** (2012). [Cooperation in risky environments: decisions from experience in a stochastic social dilemma](https://cogsci.mindmodeling.org/2012/papers/0028/paper0028.pdf). *Proceedings of the 34th Conference of the Cognitive Science Society* (pp. 84-89). Austin, TX: Cognitive Science Society.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/artinger_etal_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="ttp://mindmodeling.org/cogsci2012" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
 
 40. Gluck, K.A., McNamara, J.M., Brighton, H., Dayan, P., Kareev, Y., Krause, J., Kurzban, R., Selten, R., **Stevens, J.R.**, Voelkl, B., & Wimsatt, W.C. (2012). Robustness in a variable environment. In P. Hammerstein & J.R. Stevens (Eds.), [*Evolution and the mechanisms of decision making*](https://mitpress.mit.edu/books/evolution-and-mechanisms-decision-making). Ernst Strüngmann Forum Report (vol. 11, pp. 195-214). Cambridge, MA: MIT Press.
+
+::: {.content-visible when-format="html"}
+<a href="pubs/gluck_etal_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 41. Hammerstein, P., & **Stevens, J.R.** (2012). [*Evolution and the mechanisms of decision making*](https://mitpress.mit.edu/books/evolution-and-mechanisms-decision-making). Ernst Strüngmann Forum Report (vol. 11). Cambridge, MA: MIT Press.
@@ -179,32 +373,64 @@ format:
 
 42. Hammerstein, P., & **Stevens, J.R.** (2012). Six reasons to evoke evolution in decision theory. In P. Hammerstein & J.R. Stevens (Eds.), [*Evolution and the mechanisms of decision making*](https://mitpress.mit.edu/books/evolution-and-mechanisms-decision-making). Ernst Strüngmann Forum Report (vol. 11, pp. 1-17). Cambridge, MA: MIT Press.
 
+::: {.content-visible when-format="html"}
+<a href="pubs/hammerstein_stevens_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 43. Stevens, A.N.P. & **Stevens, J.R.** (2012). [Animal cognition](http://www.nature.com/scitable/knowledge/library/animal-cognition-96639212). *Nature Education Knowledge*, *3*, 1.
 
+::: {.content-visible when-format="html"}
+<a href="http://www.nature.com/scitable/knowledge/library/animal-cognition-96639212" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
 
 44. \#**Stevens, J.R.** & \*Mühlhoff, N. (2012). Intertemporal choice in lemurs. *Behavioural Processes*, *89*, 121-127. [doi:10.1016/j.beproc.2011.10.002](http://doi.org/10.1016/j.beproc.2011.10.002)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_muehlhoff_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="http://datadryad.org/resource/doi:10.5061/dryad.fb778jf2" title="Data & code" class="cv-pub-links">Data & code</a>
+:::
 
 
 [2013]{.aside}
 
 45. \#Kaighobadi, F. & **Stevens, J.R.** (2013). Does fertility status influence impulsivity and risk taking in human females? Adaptive influences on intertemporal choice and risky decision making. *Evolutionary Psychology*, *11*, 700-717. [doi:10.1177/147470491301100314](http://doi.org/10.1177/147470491301100314)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/kaighobadi_stevens_2013.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="http://datadryad.org/resource/doi:10.5061/dryad.490r9" title="Data & code" class="cv-pub-links">Data & code</a>
+<a href="http://doi.org/10.1177/147470491301100314" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
+:::
+
 
 46. Pachur, T., Schooler, L.J., & **Stevens, J.R.** (2013). When will we meet again? Regularities of social connectivity and their reflections in memory and decision making. In: R. Hertwig, U. Hoffrage, & the ABC Research Group (Eds.), *Simple heuristics in a social world* (pp. 199-224). Oxford: Oxford University Press. [10.1093/acprof:oso/9780195388435.003.0007](https://doi.org/10.1093/acprof:oso/9780195388435.003.0007)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/pachur_etal_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 47. \#**Stevens, J.R.** (2013). The bounds of rationality and cognitive building blocks. *Behavioral Ecology*, *24*, 13-14. [doi:10.1093/beheco/ars089](http://doi.org/10.1093/beheco/ars089)
 
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
+
 
 48. **Stevens, J.R.** & King, A.J. (2013). The lives of others: Social rationality in animals. In: R. Hertwig, U. Hoffrage, & the ABC Research Group (Eds.), *Simple heuristics in a social world* (pp. 409-431). Oxford: Oxford University Press. [10.1093/acprof:oso/9780195388435.003.0015](https://doi.org/10.1093/acprof:oso/9780195388435.003.0015)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_king_2012.pdf" title="PDF" class="cv-pub-links">PDF</a>
+:::
 
 
 49. \#**Stevens, J.R.**, Pachur, T., & Schooler, L. J. (2013). Rational analysis of the adaptive and predictive nature of memory. *Journal of Applied Research in Memory and Cognition*, *2*, 251-253. [doi:10.1016/j.jarmac.2013.10.006](http://doi.org/10.1016/j.jarmac.2013.10.006)
 
-::: {.content-visible when-format="pdf"}
-\newpage
+::: {.content-visible when-format="html"}
+<a href="pubs/stevens_etal_2013.pdf" title="PDF" class="cv-pub-links">PDF</a>
 :::
+
 
 [2014]{.aside}
 
@@ -212,7 +438,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_2014.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_2014_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_2014_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="http://doi.org/10.5061/dryad.0k37t" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="http://news.unl.edu/newsrooms/unltoday/article/study-probes-evolutionary-roots-of-patience-in-primates/" title="Press" class="cv-pub-links">Press</a>
 :::
@@ -222,7 +448,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/pachur_etal_2014.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/pachur_etal_2014_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/pachur_etal_2014_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="http://datadryad.org/resource/doi:10.5061/dryad.pc54g" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="http://doi.org/10.1371/journal.pone.0086081" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
@@ -234,7 +460,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/barron_etal_2015.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/barron_etal_2015_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/barron_etal_2015_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 :::
 
 
@@ -244,7 +470,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/duque_stevens_2016.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/duque_stevens_2016_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/duque_stevens_2016_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="http://doi.org/10.5061/dryad.g977f" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
@@ -260,7 +486,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_2016.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_2016_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_2016_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="http://doi.org/10.5061/dryad.qv0sk" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="http://netnebraska.org/article/news/1020016/new-research-addresses-how-we-make-decisions" title="Press" class="cv-pub-links">Press</a>
 :::
@@ -277,7 +503,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_etal_2016.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_etal_2016_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2016_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="http://doi.org/10.5061/dryad.4t420" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
@@ -286,7 +512,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_etal_2016.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_etal_2016_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2016_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="http://doi.org/10.5061/dryad.bh330" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="http://news.unl.edu/newsrooms/today/article/study-humans-chimps-share-cognitive-connection/" title="Press" class="cv-pub-links">Press</a>
 <a href="http://doi.org/10.1098/rsos.160293" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
@@ -333,7 +559,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/winke_stevens_2017.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/winke_stevens_2017_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/winke_stevens_2017_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/zcv4m/" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="http://doi.org/10.3389/frobt.2017.00052" title="Open Access" class="cv-pub-links">{{<ai open-access>}}</a>
 :::
@@ -345,7 +571,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/duque_etal_2028.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/duque_etal_2028_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/duque_etal_2028_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/358hs/" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="https://www.nature.com/articles/d41586-018-04436-2" title="Press" class="cv-pub-links">Press</a>
 :::
@@ -355,7 +581,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/regenwetter_etal_2028.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/regenwetter_etal_2028_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/regenwetter_etal_2028_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="data/regenwetter_etal_2017_data.csv" title="Data" class="cv-pub-links">Data</a>
 :::
 
@@ -365,7 +591,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_soh_2028.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_soh_2028_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_soh_2028_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/ew8dc/" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
@@ -374,7 +600,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_etal_2018.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_etal_2018_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2018_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/a7d3b/" title="Data & code" class="cv-pub-links">Data & code</a>
 :::
 
@@ -392,7 +618,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_duque_2019.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_duque_2019_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_duque_2019_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="https://osf.io/q5xk9/" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="https://www.insidehighered.com/news/2018/10/22/study-takes-aim-psychologys-practice-ordering-reference-lists-alphabetically" title="Press" class="cv-pub-links">Press</a>
 <a href="https://featuredcontent.psychonomic.org/the-revolution-will-not-be-alphabetized-alphabetizing-in-text-citations-biases-citation-rates/" title="GitHub" class="cv-pub-links">Commentary</a>
@@ -498,7 +724,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_etal_2020_obed_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="pubs/stevens_etal_2020_obed_SM.pdf" title="SM" class="cv-pub-links">SM</a>
+<a href="pubs/stevens_etal_2020_obed_SM.pdf" title="Supplementary Materials" class="cv-pub-links">SM</a>
 <a href="" title="Data & code" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/unl-cchil/dogobedience2021" title="GitHub" class="cv-pub-links">GitHub</a>
 <a href="https://psyarxiv.com/p4dc7" title="Preprint" class="cv-pub-links">Preprint</a>
