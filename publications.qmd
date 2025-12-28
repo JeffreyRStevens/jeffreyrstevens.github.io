@@ -743,6 +743,17 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [Preprints]{.aside}
 
+Arce, W., & **Stevens, J.R.** (2025). CLACIR: Dataset for cognitive load and canine intervention recognition from physiological signals. _TechRxiv_. 
+
+::: {.content-visible when-format="html"}
+<a href="pubs/arce_stevens_2025_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://github.com/unl-cchil/clacir_dataset" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://www.techrxiv.org/users/1012504/articles/1372633-clacir-dataset-for-cognitive-load-and-canine-intervention-recognition-from-physiological-signals" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+
+
 \*Gatesy-Davis, A., & **Stevens, J.R.** (2025). The ideal herding dog: personality and behavioral traits predict herding ability. _PsyArXiv_. [doi:10.31234/osf.io/4x9nj_v1](https://doi.org/10.31234/osf.io/4x9nj_v1)
 
 ::: {.content-visible when-format="html"}
