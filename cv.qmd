@@ -255,10 +255,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  
  "[Mechanisms of impulsivity in humans and other animals](https://jeffreyrstevens.quarto.pub/az2022/)", Cognitive Science Program, University of Arizona, Tucson, AZ
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2024]{.aside}
  
  "[Canine Cognition and Human Interaction Lab](https://jeffreyrstevens.quarto.pub/seeca2024)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
@@ -538,10 +534,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  Deutscher Akademischer Austausch Dienst International Conference Trips "Memory interference constrains the evolution of cooperation" (680 euro or \$815)
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2010-2011]{.aside} 
 
  Science of Virtue Grant, "The heuristics of virtue: integrating virtue ethics and the science of heuristics" Co-PI with E.T. Cokely, A. Feltz, J.N. Marewski, F. Artinger, N. Fleischhut, M. Keller, and G. Gigerenzer (\$200,000)
@@ -718,10 +710,6 @@ Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior
 
  "The evolution of sex", University of Minnesota---Behavioral Ecology: EEB 5327
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2003]{.aside} 
 
  "Games people play: human psychology and economics", Mount Ida College---Global Scientific Issues: Natural Sciences 303
@@ -751,6 +739,10 @@ Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior
  "Dog cognition", University of Nebraska-Lincoln---Introduction to Companion Animals: Animal Science 251
 
  "Using machine learning to study decision making", University of Nebraska-Lincoln---Introduction to Informatics: Computer Science and Computer Engineering 100
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2020]{.aside} 
 
@@ -1021,6 +1013,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2011]{.aside} 
 
  Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
@@ -1075,6 +1071,10 @@ Improvement Grant panel
 [2018-2020]{.aside} 
 
  Buffett Early Childhood Institute Graduate Scholars panel
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2021-2022]{.aside} 
 
