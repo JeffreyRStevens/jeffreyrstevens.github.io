@@ -265,9 +265,9 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  
  "[Replicability in canine behavioral science: Lessons for conducting reliable research](https://jeffreyrstevens.quarto.pub/mit_2024)", Lincoln Laboratory, MIT, Cambridge, MA
  
- "[Canine research and the ManyDogs Project](https://jeffreyrstevens.quarto.pub/unl_era_2025)", University of Nebraska-Lincoln
- 
 [2025]{.aside}
+ 
+ "[Canine research and the ManyDogs Project](https://jeffreyrstevens.quarto.pub/unl_era_2025)", UNL Emeriti and Retirees Association, University of Nebraska-Lincoln
  
  "[Canine color preferences](https://jeffreyrstevens.quarto.pub/seeca2025)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
 
@@ -526,6 +526,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
 
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2009]{.aside} 
 
  Deutscher Akademischer Austausch Dienst International Conference Trips "Reflections of the social environment in the primate mind?" (775 euro or \$1100)
@@ -739,10 +743,6 @@ Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior
  "Dog cognition", University of Nebraska-Lincoln---Introduction to Companion Animals: Animal Science 251
 
  "Using machine learning to study decision making", University of Nebraska-Lincoln---Introduction to Informatics: Computer Science and Computer Engineering 100
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2020]{.aside} 
 
@@ -1013,10 +1013,6 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2011]{.aside} 
 
  Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
@@ -1071,10 +1067,6 @@ Improvement Grant panel
 [2018-2020]{.aside} 
 
  Buffett Early Childhood Institute Graduate Scholars panel
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2021-2022]{.aside} 
 

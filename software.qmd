@@ -19,7 +19,7 @@ I am also a Data Science Mentor for [Posit Academy](https://posit.co/academy){ta
 
 ## Software development
 
-I'm fairly new to the R development world, but I have developed two packages, one for data analysis, one for learning R.
+I have developed a number of R packages.
 
 ### excluder
 
