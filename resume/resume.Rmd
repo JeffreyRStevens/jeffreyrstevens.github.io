@@ -66,6 +66,9 @@ Flexibly formats statistical output to insert into R Markdown/Quarto documents
 - <i class="fa fa-link"></i> [{ncaavolleyballr}](https://github.com/JeffreyRStevens/ncaavolleyballr)
 Extracts data from NCAA volleyball website
 
+- <i class="fa fa-link"></i> [{provolleyballr}](https://github.com/JeffreyRStevens/provolleyballr)
+Extracts data from US professional women's volleyball websites
+
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -125,7 +128,7 @@ Lincoln, Nebraska
 ::: concise
 <!-- - Teach R language to beginners.  -->
 - Train students in reproducible research
-- Use machine learning to analyze data
+- Use machine learning gain insights into data
 :::
 
 <!-- ### Assistant Professor -->
@@ -150,7 +153,7 @@ Teaching Experience {data-icon=chalkboard-teacher}
 
 ### Data Processing and Visualization in R
 
-[Website](https://jeffreyrstevens.github.io/dpavir2023/)
+[Website](https://jeffreyrstevens.github.io/dpavir2025/)
 
 UNL
 
@@ -271,7 +274,7 @@ N/A
 Leadership {data-icon=people-group}
 --------------------------------------------------------------------------------
 
-### Co-organizer [Nebraska R User Group](https://nebraskarusergroup.github.io/)
+### Founder and co-organizer [Nebraska R User Group](https://nebraskarusergroup.github.io/)
 
 N/A
 
