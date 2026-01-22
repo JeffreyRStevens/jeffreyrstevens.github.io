@@ -273,6 +273,11 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "[Is psychology going to the dogs? What canine science can tell us about reliable research](https://jeffreyrstevens.quarto.pub/nps2025)", Nebraska Psychological Society (keynote address), Hastings College, Hastings, NE
 
+[2026]{.aside}
+ 
+ "[Canine research and dog color preference](https://jeffreyrstevens.quarto.pub/nkc2026)", Nebraska Kennel Club
+ 
+
 
 ### Conference
 
@@ -525,11 +530,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
 
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2009]{.aside} 
 
  Deutscher Akademischer Austausch Dienst International Conference Trips "Reflections of the social environment in the primate mind?" (775 euro or \$1100)
@@ -554,6 +554,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  University of Nebraska-Lincoln, College of Arts & Science Interdisciplinary Seed Grant, "Environmental decisions in an uncertain world", Co-PI with Leilani Arthurs (\$6,579)
 
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2013]{.aside} 
 
@@ -611,6 +615,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  University of Nebraska Collaboration Initiative Grant, "Enhancing well-being and animal bonds in rural populations", PI with Lisa Karr, Michelle Howell Smith, and Rosemary Strasser (\$7,500)
  
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2023-2024]{.aside} 
  
  University of Nebraska-Lincoln Maude Hammond Fling Faculty Research Fellowship (Interdisciplinary Research Grant), "Integrating psychology and genetics to identify markers predicting training outcomes in pet dogs", co-PI with Jessica Petersen (PI) ($20,587)
@@ -1013,6 +1021,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2011]{.aside} 
 
  Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
@@ -1067,6 +1079,10 @@ Improvement Grant panel
 [2018-2020]{.aside} 
 
  Buffett Early Childhood Institute Graduate Scholars panel
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2021-2022]{.aside} 
 
@@ -1178,4 +1194,8 @@ Minor contributor to R package [see](https://easystats.github.io/see/), which pr
 [2025]{.aside} 
 
  Invited speaker at UNL Emeriti and Retirees Association
+
+[2026]{.aside} 
+
+ Invited speaker at Nebraska Kennel Club
 
