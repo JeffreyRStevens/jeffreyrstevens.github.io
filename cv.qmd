@@ -7,7 +7,8 @@ geometry:
   - bottom=1in
   - top=1in
 format:
-  pdf: default
+  pdf:
+    papersize: letter
   html:
     css: flipmargin.css
     toc: true
