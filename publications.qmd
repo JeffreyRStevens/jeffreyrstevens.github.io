@@ -978,7 +978,7 @@ Arce, W., & **Stevens, J.R.** (2025). CLACIR: Dataset for cognitive load and can
 :::
 
 
-Espinosa, J., Cavalli, C., Bentosela, M., Bhadra, A., & **Stevens, J.R.** (2026). Beyond WEIRD humans and STRANGE dogs: Using big team science to improve generalizability and reproducibility in comparative psychology. _PsyArXiv_. [doi:10.31234/osf.io/e5wua_v1](https://doi.org/10.31234/osf.io/e5wua_v1)
+Espinosa, J., Cavalli, C., Bentosela, M., Bhadra, A., & **Stevens, J.R.** (2026). Beyond WEIRD humans and STRANGE dogs: Using big team science to improve generalizability and reproducibility in comparative psychology. _PsyArXiv_. [doi:10.31234/osf.io/e5wua_v2](https://doi.org/10.31234/osf.io/e5wua_v2)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/espinosa_etal_2026_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
