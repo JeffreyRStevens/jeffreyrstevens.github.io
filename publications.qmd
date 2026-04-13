@@ -951,13 +951,13 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [In press]{.aside}
 
-\*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (forthcoming). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals_. [doi:10.31234/osf.io/ge7bf](https://doi.org/10.31234/osf.io/ge7bf)
+\*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (forthcoming). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals_. [doi:10.31234/osf.io/ge7bf_v2](https://doi.org/10.31234/osf.io/ge7bf_v2)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/pachunka_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://osf.io/8tkhp/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
 <a href="https://github.com/unl-cchil/haipyd" title="GitHub" class="cv-pub-links">GitHub</a>
-<a href="https://doi.org/10.31234/osf.io/ge7bf" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://doi.org/10.31234/osf.io/ge7bf_v2" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
 
