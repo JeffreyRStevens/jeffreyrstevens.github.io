@@ -951,7 +951,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [In press]{.aside}
 
-Espinosa, J., Cavalli, C., Bentosela, M., Bhadra, A., & **Stevens, J.R.** (2026). Beyond WEIRD humans and STRANGE dogs: Using big team science to improve generalizability and reproducibility in comparative psychology. _Current Direction in Psychological Science_. [doi:10.31234/osf.io/e5wua_v2](https://doi.org/10.31234/osf.io/e5wua_v2)
+Espinosa, J., Cavalli, C., Bentosela, M., Bhadra, A., & **Stevens, J.R.** (2026). Beyond WEIRD humans and STRANGE dogs: Using big team science to improve generalizability and reproducibility in comparative psychology. _Current Directions in Psychological Science_. [doi:10.31234/osf.io/e5wua_v2](https://doi.org/10.31234/osf.io/e5wua_v2)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/espinosa_etal_2026_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
