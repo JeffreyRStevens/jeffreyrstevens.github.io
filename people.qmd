@@ -35,16 +35,30 @@ Anwyn is a Ph.D. student who earned their B.A. in Psychology and Animal Behavior
 
 <!-- Francine graduated with a B.S. in Psychology from Fontbonne University in 2015. As an undergraduate, she explored the effects of stress on decision making in social dilemmas for her senior thesis. Francine is interested in decision making behavior in social contexts, particularly in when individuals decide to engage in prosocial behavior and cooperate with others. -->
 
-### London Wolff
+<!-- ### London Wolff
 
 ![](images/london_wolff.jpg){fig-alt="London Wolff" width="200" fig-align="left"}
 
-London graduated with honors in Biology and Animal Behavior, Ecology and Conservation from Canisius College in 2016. She completed her senior thesis on the affects of the domestication process on dogs’ social cognitive skills. Subsequently she researched decision making with orangutans and dolphins as well as long-tailed macaque social structure at the Indianapolis Zoo. London is interested in exploring how social structure and developmental differences of individuals across and within species impact their decision making processes, specifically looking at impulsivity and risk taking.
+London graduated with honors in Biology and Animal Behavior, Ecology and Conservation from Canisius College in 2016. She completed her senior thesis on the affects of the domestication process on dogs’ social cognitive skills. Subsequently she researched decision making with orangutans and dolphins as well as long-tailed macaque social structure at the Indianapolis Zoo. London is interested in exploring how social structure and developmental differences of individuals across and within species impact their decision making processes, specifically looking at impulsivity and risk taking. -->
 
   
 
 Undergraduate Students
 ----------------------
+
+### Makenna Bell
+
+![](images/makenna_bell.jpg){fig-alt="Makenna Bell" width="200" fig-align="left"}
+
+Makenna is pursuing a degree in Veterinary and Biomedical Science on the Pre-Vet track with a passion for small and exotic animals. She hopes to continue her education and attend veterinary school in the future. She has previous experience working in a vet clinic, volunteering at the animal shelter, and working with kids. She is particularly drawn to the connection between humans and animals and is excited to contribute to the amazing studies done at CCHIL!
+
+
+### Kmila Benitez
+
+![](images/kmila_benitez.jpeg){fig-alt="Kmila Benitez" width="200" fig-align="left"}
+
+Kmila is an Animal Science major on the Pre-Vet track. She is passionate about animals, but also the people that come with them. She has dreamed of working with animals her entire life and believes that veterinary medicine is just as much about helping people as it is about helping their animals. She frequently volunteers at the shelter and has deep love and respect for animals, especially dogs. She is excited to be part of the CCHIL lab and to contribute to ongoing studies.
+
 
 ### Susannah Couture
 
@@ -52,13 +66,22 @@ Undergraduate Students
 
 Susannah is pursuing a dual major in Biological Sciences and Psychology at UNL. She aspires to go to graduate school to become a researcher and hopes to add to the scientific world with her interest in animal behavior. She learned about the lab after her dog, Bean, was a participant, and after looking through previous research, was interested in what the lab was doing. She is now excited to contribute to the amazing studies.
 
-<!-- ### Daniela Currie -->
 
-<!-- ![](images/daniela_currie.jpeg){fig-alt="Daniela Currie" width="200" fig-align="left"} -->
+### Oliver Johnson
 
-<!-- Daniela is pursuing a degree in Animal Science with a minor in Food Technology for Companion Animals, with plans to specialize in companion animal nutrition following the completion of her undergraduate studies. She is an active member of Delta Delta Delta, S.E.E.C.A, and the Animal Behavior and Welfare Club. Passionate about animal welfare, Daniela has also established a small business focused on creating enrichment toys for companion animals. She is excited to gain hands-on experience and further expand her knowledge through this research opportunity. -->
+![](images/oliver_johnson.jpeg){fig-alt="Oliver Johnson" width="200" fig-align="left"}
 
-### Giselle Lawson
+Oliver is from La Vista, Nebraska and is currently studying Animal Science while balancing work and volunteering. He is passionate about animals and has experience volunteering at humane societies and working with dogs, but he also has a strong interest in the automotive field. He enjoys hands on work, learning new skills, and finding ways to grow.
+
+
+### Claire Kolbet
+
+![](images/claire_kolbet.jpeg){fig-alt="Claire Kolbet" width="200" fig-align="left"}
+
+Claire is an animal science major on a pre-vet track with hopes of becoming a mixed animal veterinarian. She loves working with all kinds of animals, from cattle to pigs to dogs. She is very excited to continue to learn more about canine companions, and she is grateful to be involved in research that has such an impact on both dogs and their owners. Maybe she'll even start to understand how her dog Percy always knows to smile for pictures!
+
+
+<!-- ### Giselle Lawson
 
 ![](images/giselle_lawson.jpg){fig-alt="Giselle Lawson" width="200" fig-align="left"}
 
@@ -68,13 +91,13 @@ Giselle is pursuing a degree in Animal Science with a focus on companion animals
 
 ![](images/kaleah_lieske.jpg){fig-alt="Kaleah Lieske" width="200" fig-align="left"}
 
-Kaleah is on the pre-vet track pursuing a degree in Veterinary Science with minors in Animal Science and in Companion Animal & Equine Science. Dedicated to a career in animal care, she hopes to follow her passions into vet school where she can continue to apply her education and help the community. She has previous animal care experience working at the Lincoln Children's Zoo as a keeper associate, working at a vet clinic, and caring for her dog Bella. She is excited to be able to help and be a part of the team.
+Kaleah is on the pre-vet track pursuing a degree in Veterinary Science with minors in Animal Science and in Companion Animal & Equine Science. Dedicated to a career in animal care, she hopes to follow her passions into vet school where she can continue to apply her education and help the community. She has previous animal care experience working at the Lincoln Children's Zoo as a keeper associate, working at a vet clinic, and caring for her dog Bella. She is excited to be able to help and be a part of the team. -->
 
-### Ashley Llewellyn
+<!-- ### Ashley Llewellyn
 
 ![](images/ashley_llewellyn.jpg){fig-alt="Ashley Llewellyn" width="200" fig-align="left"}
 
-Ashley is an Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about!
+Ashley is an Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about! -->
 
 ### Nathan Nienaber
 
@@ -82,11 +105,11 @@ Ashley is an Animal Science major with the animal biology and biotechnology opti
 
 Nathan is currently studying as pre-vet and is particularly drawn to surgery and lab work. Guinea pigs hold a special place in his heart, and he enjoys crochet and needle arts in his free time.
 
-### Yasmin Worth
+<!-- ### Yasmin Worth
 
 ![](images/yasmin_worth.png){fig-alt="Yasmin Worth" width="200" fig-align="left"}
 
-Yasmin is a junior at UNL studying Biochemistry in a Pre-Veterinary focus and minoring in Animal Science. She loves being around animals, especially her cuddly cat. She is excited to participate in this research.
+Yasmin is a junior at UNL studying Biochemistry in a Pre-Veterinary focus and minoring in Animal Science. She loves being around animals, especially her cuddly cat. She is excited to participate in this research. -->
 
 Former Lab Members
 ------------------
@@ -136,11 +159,14 @@ Former Lab Members
 * Emma Klein
 * Laura Klein
 * [Maya Lashley](https://www.linkedin.com/in/maya-lashley-073494223/)
+* [Giselle Lawson](https://www.linkedin.com/in/giselle-lawson-b1077838a/)
 * Kristina Lech
 * Nik Leger
 * Whitney Leichner
+* [Kaleah Lieske](https://www.linkedin.com/in/kaleah-lieske-02168b2b7/)
 * Billy Lim
 * [Alexis Lindner](https://www.linkedin.com/in/alexis-lindner-6b101270/)
+* [Ashley Llewellyn](https://www.linkedin.com/in/ashley-llewellyn-42a212271/)
 * [Gretchen Lusso](https://www.linkedin.com/in/gretchen-lusso)
 * Athena Manning
 * [Stephanie Marsh](https://www.linkedin.com/in/stephanie-marsh-862a8a257/)
@@ -182,6 +208,8 @@ Former Lab Members
 * Sam Wenzel
 * Bailey Wilson
 * Haley Wilson
+* [London Wolff](https://www.linkedin.com/in/london-wolff-6478792b4/)
+* [Yasmin Worth](https://www.linkedin.com/in/yasmin-worth-6b721420b/)
 * Aotian Yang
 * Chelsea Yang
 * McKenna Yohe
