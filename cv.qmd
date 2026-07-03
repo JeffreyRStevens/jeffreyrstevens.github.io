@@ -1068,6 +1068,10 @@ Participant in NESCent working group on How Does Cognition Evolve?
 
  Organizer of Nebraska Symposium on Motivation on [Canine Cognition and the Human Bond](https://dogcog.unl.edu/canine-cognition-and-human-bond/), University of Nebraska-Lincoln
 
+[2026]{.aside}
+
+ Participant in [UC-Davis/SDSU ERP Boot Camp](https://www.erpinfo.org/the-erp-boot-camp), University of California-Davis
+
 
 ## Ad-hoc Referee
 
@@ -1087,13 +1091,13 @@ Improvement Grant panel
 
  University of Nebraska-Lincoln Graduate Fellowship panel
 
-[2018-2020]{.aside} 
-
- Buffett Early Childhood Institute Graduate Scholars panel
-
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
+
+[2018-2020]{.aside} 
+
+ Buffett Early Childhood Institute Graduate Scholars panel
 
 [2021-2022]{.aside} 
 
