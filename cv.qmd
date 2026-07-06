@@ -160,6 +160,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "Evolving the psychological mechanisms for cooperation", Dept. of Behavioral Ecology, University of Bern, Switzerland
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2007]{.aside}
 
  "The evolution of patience: temporal preferences in humans and other animals", Max Planck Society PhDNet Conference, Berlin, Germany
