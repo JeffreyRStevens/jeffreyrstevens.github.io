@@ -953,15 +953,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 :::
 
 
-[2026]{.aside}
-
-103. Espinosa, J., Cavalli, C., Bentosela, M., Bhadra, A., & **Stevens, J.R.** (2026). Beyond WEIRD humans and STRANGE dogs: Using big team science to improve generalizability and reproducibility in comparative psychology. _Current Directions in Psychological Science_. [doi:10.1177/0963721426145005](https://doi.org/10.1177/0963721426145005)
-
-::: {.content-visible when-format="html"}
-<a href="pubs/espinosa_etal_2026_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://doi.org/10.31234/osf.io/e5wua_v2" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
+<!-- [2026]{.aside} -->
 
 ::: {.content-visible when-format="html"}
 ### In press
@@ -969,7 +961,15 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [In press]{.aside}
 
-\*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (forthcoming). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals_. [doi:10.31234/osf.io/ge7bf_v2](https://doi.org/10.31234/osf.io/ge7bf_v2)
+103. Espinosa, J., Cavalli, C., Bentosela, M., Bhadra, A., & **Stevens, J.R.** (2026). Beyond WEIRD humans and STRANGE dogs: Using big team science to improve generalizability and reproducibility in comparative psychology. _Current Directions in Psychological Science_. [doi:10.1177/09637214261450055](https://doi.org/10.1177/09637214261450055)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/espinosa_etal_2026_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://doi.org/10.31234/osf.io/e5wua_v2" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+104. \*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (forthcoming). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals_. [doi:10.31234/osf.io/ge7bf_v2](https://doi.org/10.31234/osf.io/ge7bf_v2)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/pachunka_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
