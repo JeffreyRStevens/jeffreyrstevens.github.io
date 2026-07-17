@@ -1042,7 +1042,7 @@ Hartmann, H., Azevedo, F., Röseler, L., Wallrich, L., Aldoh, A., Elsherif, M.M.
 <a href="https://psyarxiv.com/csnqv" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
-**Stevens, J.R.**, Gatesy-Davis, A., Couture, S., & Worth, Y. (2026). Color preferences in dogs: A replication study. _PsyArXiv_. [doi:10.31234/osf.io/v8phx_v1](https://doi.org/10.31234/osf.io/v8phx_v1)
+**Stevens, J.R.**, Gatesy-Davis, A., Couture, S., & Worth, Y. (2026). Color preferences in dogs: A replication study. _PsyArXiv_. [doi:10.31234/osf.io/v8phx_v2](https://doi.org/10.31234/osf.io/v8phx_v2)
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/stevens_etal_2026_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
