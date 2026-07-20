@@ -966,6 +966,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 ::: {.content-visible when-format="html"}
 <a href="pubs/espinosa_etal_2026_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
 <a href="https://doi.org/10.31234/osf.io/e5wua_v2" title="Preprint" class="cv-pub-links">Preprint</a>
+<a href="https://www.psychologicalscience.org/news/2026-jul-canine-science.html" title="Press" class="cv-pub-links">Press</a>
 :::
 
 
