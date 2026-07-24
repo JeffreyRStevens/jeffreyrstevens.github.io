@@ -276,17 +276,17 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  
 [2025]{.aside}
  
- "[Canine research and the ManyDogs Project](https://jeffreyrstevens.quarto.pub/unl_era_2025)", UNL Emeriti and Retirees Association, University of Nebraska-Lincoln
+ "[Canine research and the ManyDogs Project](https://jeffreyrstevens.github.io/era_2025)", UNL Emeriti and Retirees Association, University of Nebraska-Lincoln
  
- "[Canine color preferences](https://jeffreyrstevens.quarto.pub/seeca2025)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
+ "[Canine color preferences](https://jeffreyrstevens.github.io/seeca_2025)", Students for Education in Exotic and Companion Animals, University of Nebraska-Lincoln
 
- "[Is psychology going to the dogs? What canine science can tell us about reliable research](https://jeffreyrstevens.quarto.pub/nps2025)", Nebraska Psychological Society (keynote address), Hastings College, Hastings, NE
+ "[Is psychology going to the dogs? What canine science can tell us about reliable research](https://jeffreyrstevens.github.io/nps_2025)", Nebraska Psychological Society (keynote address), Hastings College, Hastings, NE
 
 [2026]{.aside}
  
- "[Canine research and dog color preference](https://jeffreyrstevens.quarto.pub/nkc2026)", Nebraska Kennel Club
+ "[Canine research and dog color preference](https://jeffreyrstevens.github.io/nkc_2026)", Nebraska Kennel Club
  
- "[Canine cognition and the ManyDogs Project](https://jeffreyrstevens.quarto.pub/olli_2026)", Osher Lifelong Learning Institute Nebraska
+ "[Canine cognition and the ManyDogs Project](https://jeffreyrstevens.github.io/olli_2026)", Osher Lifelong Learning Institute Nebraska
 
 
 ### Conference
