@@ -955,7 +955,7 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [2026]{.aside}
 
-103. \*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2026). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals: The International Journal of Research and Practice_. <https://docs.lib.purdue.edu/paij/vol9/iss1/5>
+103. \*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2026). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals: The International Journal of Research and Practice_. 9(1), 5. <https://docs.lib.purdue.edu/paij/vol9/iss1/5>
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/pachunka_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
