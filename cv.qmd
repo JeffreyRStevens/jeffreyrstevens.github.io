@@ -148,10 +148,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
  "Selfish minds: psychological constraints on the evolution of cooperation", Cognition, Brain, and Behavior Group, Dept. of Psychology, Harvard University
 
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
-
 [2005]{.aside}
 
  "Rational minds: the psychology and ecology of animal decision making", Center for Ecology and Conservation Biology, Boston University
@@ -259,10 +255,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 [2022]{.aside}
  
  "[Mechanisms of impulsivity in humans and other animals](https://jeffreyrstevens.quarto.pub/az2022/)", Cognitive Science Program, University of Arizona, Tucson, AZ
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2024]{.aside}
  
@@ -544,10 +536,6 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 [2008]{.aside} 
 
  Deutsche Forschungsgemeinschaft International Conference and Lecture Trips, "The ecological rationality of patience and risk sensitivity in *Pan*" (1300 euro or \$2000)
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2009]{.aside} 
 
@@ -1187,10 +1175,6 @@ Minor contributor to R package [see](https://easystats.github.io/see/), which pr
 [2019-2026]{.aside} 
 
  Invited speaker at Edgerton Explorit Dog Science Camp
-
-::: {.content-visible when-format="pdf"}
-\newpage
-:::
 
 [2021-2023]{.aside} 
  
