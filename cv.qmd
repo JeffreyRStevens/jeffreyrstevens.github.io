@@ -131,6 +131,9 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 {{< include publications.qmd >}}
 
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 ## Presentations
 
