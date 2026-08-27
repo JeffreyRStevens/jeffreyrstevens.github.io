@@ -99,11 +99,17 @@ Kaleah is on the pre-vet track pursuing a degree in Veterinary Science with mino
 
 Ashley is an Animal Science major with the animal biology and biotechnology option. She hopes to pursue future graduate studies in animal genetics, biology, or cognitive-based research. She has previous dog experience working at her hometown boarding facility and personal care of her own loveable rescue. She is looking forward to participating in research she is passionate about! -->
 
-### Nathan Nienaber
+<!-- ### Nathan Nienaber -->
 
-![](images/nathan_nienaber.jpg){fig-alt="Nathan Nienaber" width="200" fig-align="left"}
+<!-- ![](images/nathan_nienaber.jpg){fig-alt="Nathan Nienaber" width="200" fig-align="left"} -->
 
-Nathan is currently studying as pre-vet and is particularly drawn to surgery and lab work. Guinea pigs hold a special place in his heart, and he enjoys crochet and needle arts in his free time.
+<!-- Nathan is currently studying as pre-vet and is particularly drawn to surgery and lab work. Guinea pigs hold a special place in his heart, and he enjoys crochet and needle arts in his free time. -->
+
+### Isabel Reichert
+
+![](images/isabel_reichert.jpg){fig-alt="Nathan Nienaber" width="200" fig-align="left"}
+
+Isabel is majoring in Biological Sciences and is currently on the pre-med track. She has a passion for neurology and hopes to further her career in that specialty. She has experience volunteering at the Ark of the Ozarks’ Neurodevelopmental Center and with kids and adults. We are so excited to have her in the lab and can’t wait to see what she contributes to CCHIL!
 
 <!-- ### Yasmin Worth
 
@@ -181,6 +187,7 @@ Former Lab Members
 * Brianna Moser
 * Duy Nguyen
 * Dina Morales
+* Nathan Nienaber
 * Vitor Hugo Oliveira
 * [Christa Ostdiek](https://www.linkedin.com/in/christa-ostdiek-50921531/)
 * Alexandria PytlikZillig
