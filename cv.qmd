@@ -1215,4 +1215,6 @@ Minor contributor to R package [see](https://easystats.github.io/see/), which pr
 
  Participated in [UNL Discovery Days](https://discoverydays.unl.edu)
  
+ Developed video on dog color vision for Lincoln Public Schools
+ 
  
