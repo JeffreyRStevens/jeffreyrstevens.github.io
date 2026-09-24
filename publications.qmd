@@ -955,7 +955,17 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 
 [2026]{.aside}
 
-103. \*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2026). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals: The International Journal of Research and Practice_. 9(1), 5. <https://docs.lib.purdue.edu/paij/vol9/iss1/5>
+103. \*Gatesy-Davis, A., & **Stevens, J.R.** (2026). The ideal herding dog: personality and behavioral traits predict herding ability. _Applied Animal Behaviour Science_. 305, 107204. [doi:10.1016/j.applanim.2026.107204](https://doi.org/10.1016/j.applanim.2026.107204)
+
+::: {.content-visible when-format="html"}
+<a href="pubs/gatesy-davis_stevens_2025_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
+<a href="https://osf.io/phq3a/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
+<a href="https://github.com/unl-cchil/herdingratings" title="GitHub" class="cv-pub-links">GitHub</a>
+<a href="https://doi.org/10.31234/osf.io/4x9nj_v1" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
+
+104. \*Pachunka, A., \*Jeffries, J.B., Karr, L., Luck, L., Reiling, B.A., Schultz, D., & **Stevens, J.R.** (2026). Effects of human-animal interaction on positive youth development: A replication study. _People and Animals: The International Journal of Research and Practice_. 9(1), 5. <https://docs.lib.purdue.edu/paij/vol9/iss1/5>
 
 ::: {.content-visible when-format="html"}
 <a href="pubs/pachunka_etal_2024.pdf" title="PDF" class="cv-pub-links">PDF</a>
@@ -968,16 +978,6 @@ Reprinted as: Thayer, E.R., & Stevens, J.R. (2024). Effects of human-animal inte
 ::: {.content-visible when-format="pdf"}
 \newpage
 :::
-
-104. \*Gatesy-Davis, A., & **Stevens, J.R.** (2026). The ideal herding dog: personality and behavioral traits predict herding ability. _Applied Animal Behaviour Science_. 305, 107204. [doi:10.1016/j.applanim.2026.107204](https://doi.org/10.1016/j.applanim.2026.107204)
-
-::: {.content-visible when-format="html"}
-<a href="pubs/gatesy-davis_stevens_2025_preprint.pdf" title="PDF" class="cv-pub-links">PDF</a>
-<a href="https://osf.io/phq3a/" title="Data, code, reproducible materials" class="cv-pub-links">Data & code</a>
-<a href="https://github.com/unl-cchil/herdingratings" title="GitHub" class="cv-pub-links">GitHub</a>
-<a href="https://doi.org/10.31234/osf.io/4x9nj_v1" title="Preprint" class="cv-pub-links">Preprint</a>
-:::
-
 
 ::: {.content-visible when-format="html"}
 ### In press
