@@ -282,6 +282,8 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  "[Canine research and dog color preference](https://jeffreyrstevens.github.io/nkc_2026)", Nebraska Kennel Club
  
  "[Canine cognition and the ManyDogs Project](https://jeffreyrstevens.github.io/olli_2026)", Osher Lifelong Learning Institute Nebraska
+ 
+"[A dog is a dog is a dog? Comparing populations in canine behavioral science](https://jeffreyrstevens.github.io/eeb_2026/#/title-slide)", Ecology, Evolution, and Behavior Program, University of Nebraska-Lincoln
 
 
 ### Conference
