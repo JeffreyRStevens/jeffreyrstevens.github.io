@@ -440,6 +440,10 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
  
  "[ManyX Projects: Joining forces to address challenges in comparative research with big team science](https://jeffreyrstevens.quarto.pub/co3-2023/#/title-slide)", **Stevens, J.R.**, Comparative Cognition Conference, Melbourne, FL.
  
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2024]{.aside}
  
 "[Do dogs follow Weber's Law? The role of ratio and difference in quantity preference](https://jeffreyrstevens.quarto.pub/csc_2024/#/title-slide)", **Stevens, J.R.**, DeBoer, H., Fitzpatrick, H., Gatesy-Davis, A., & Wolf, L.M., Canine Science Conference, Seattle, WA.
@@ -448,6 +452,7 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
 "[Color preferences in dogs: A replication study](https://jeffreyrstevens.quarto.pub/csc_2026)", **Stevens, J.R.**, Gatesy-Davis, A., Couture, S., and Worth, Y.,  Canine Science Conference, Vancouver, CA.
 
+"[Variability in demographics across research sites: Lessons from the ManyDogs Project](https://jeffreyrstevens.quarto.pub/bts_2026)", **Stevens, J.R.**, Espinosa, J., and the ManyDogs Project, [Big Team Science Conference](https://bigteamscienceconference.github.io/) (virtual conference talk).
 
 ### Tutorials
 
@@ -756,6 +761,10 @@ Instructor, *Professionalism, Ethics, and Diversity in Neuroscience and Behavior
 
  "Using machine learning to study decision making", University of Nebraska-Lincoln---Introduction to Informatics: Computer Science and Computer Engineering 100
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2020]{.aside} 
 
  "Canine-human interaction", University of Nebraska-Lincoln---Fundamentals of Animal Biology and Industry: Animal Science 100
@@ -1035,6 +1044,10 @@ Department of Psychology Executive Committee, University of Nebraska-Lincoln
 
  Co-organizer (with Christian Agrillo) of symposium on Space, Time, and Number Representation in Animals for European Conference on Behavioural Biology, Ferrara, Italy
 
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
+
 [2011]{.aside} 
 
  Co-organizer (with Peter Hammerstein) of Ernst Strüngmann Forum on Evolving the Mechanisms of Decision Making, Frankfurt, Germany
@@ -1089,6 +1102,10 @@ Improvement Grant panel
 [2015-2016]{.aside} 
 
  University of Nebraska-Lincoln Graduate Fellowship panel
+
+::: {.content-visible when-format="pdf"}
+\newpage
+:::
 
 [2018-2020]{.aside} 
 
