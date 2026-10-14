@@ -1016,6 +1016,12 @@ Hartmann, H., Azevedo, F., Röseler, L., Wallrich, L., Aldoh, A., Elsherif, M.M.
 <a href="https://doi.org/10.31222/osf.io/ad2w6_v1" title="Preprint" class="cv-pub-links">Preprint</a>
 :::
 
+Lonardo, L., Pelgrim, M.H., & **Stevens, J.R.** (2026). Practical considerations for conducting canine behavioral science. _UNL Digital Commons_. <https://digitalcommons.unl.edu/psychstevens/31/>
+
+::: {.content-visible when-format="html"}
+<a href="https://digitalcommons.unl.edu/psychstevens/31/" title="Preprint" class="cv-pub-links">Preprint</a>
+:::
+
 
 **Stevens, J.R.** (2022). flashr: An R package that creates flashcards. _OSF Preprints_. [doi:10.31219/osf.io/w7dks](https://doi.org/10.31219/osf.io/w7dks)
  
