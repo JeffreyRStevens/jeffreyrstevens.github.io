@@ -452,7 +452,7 @@ I am a Professor in the [Department of Psychology](https://psychology.unl.edu) a
 
 "[Color preferences in dogs: A replication study](https://jeffreyrstevens.quarto.pub/csc_2026)", **Stevens, J.R.**, Gatesy-Davis, A., Couture, S., and Worth, Y.,  Canine Science Conference, Vancouver, CA.
 
-"[Variability in demographics across research sites: Lessons from the ManyDogs Project](https://jeffreyrstevens.quarto.pub/bts_2026)", **Stevens, J.R.**, Espinosa, J., and the ManyDogs Project, [Big Team Science Conference](https://bigteamscienceconference.github.io/) (virtual conference talk).
+"[Variability in demographics across research sites: Lessons from the ManyDogs Project](https://jeffreyrstevens.quarto.pub/bts_2026)", **Stevens, J.R.**, Espinosa, J., and the ManyDogs Project, [Big Team Science Conference](https://bigteamscienceconference.github.io/) (virtual conference talk). ([Recording](https://www.youtube.com/watch?v=fJevbRdVXdY&list=PLNpp0bcXCuwg))
 
 ### Tutorials
 
